@@ -12,15 +12,17 @@ public class Settings : MonoBehaviour
     [SerializeField] private Slider writingSpeedSlider;
     [SerializeField] private TextMeshProUGUI successText;
     private Tween successTextColorTween = null;
+    private Writer currentWriter = null;
 
     private void Start()
     {
         // DOTween.Init();
+        currentWriter = FindAnyObjectByType<Writer>();
+        if (currentWriter != null) currentWriter.ChangeWritingSpeed(writingSpeedSlider.value > 60 ? 0 : writingSpeedSlider.value);
+        else Debug.LogWarning("No dialogue box/writer found in scene: " + SceneManager.GetActiveScene().name);
         writingSpeedSlider.onValueChanged.AddListener(val =>
         {
-            Writer w = FindAnyObjectByType<Writer>();
-            if (w != null) w.ChangeWritingSpeed(val > 60 ? 0 : val);
-            else Debug.LogError("Writer not found");
+            if (currentWriter != null) currentWriter.ChangeWritingSpeed(val > 60 ? 0 : val);
             PlayerPrefs.SetFloat(Globals.WRITING_SPEED, val);
         });
     }
