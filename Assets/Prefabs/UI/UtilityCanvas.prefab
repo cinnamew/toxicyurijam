@@ -788,6 +788,7 @@ GameObject:
   - component: {fileID: 8922976994682372231}
   - component: {fileID: 7326092667973407913}
   - component: {fileID: 571149053641923531}
+  - component: {fileID: 162526791137692960}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -853,6 +854,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &162526791137692960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883372097805754579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ffe7b0d130d9241a41c0de42a443ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DisableClickOnButtonHover
+  showLogs: 0
 --- !u!1 &972682345890097742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,6 +1973,7 @@ GameObject:
   - component: {fileID: 3106681927785195778}
   - component: {fileID: 7647160287979148946}
   - component: {fileID: 4256328651321909506}
+  - component: {fileID: 2134176422257130626}
   m_Layer: 5
   m_Name: Book
   m_TagString: Untagged
@@ -2103,6 +2118,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &2134176422257130626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2405813656465586193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ffe7b0d130d9241a41c0de42a443ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DisableClickOnButtonHover
+  showLogs: 0
 --- !u!1 &2954416843830062388
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,7 +3581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UtilityMenuHandler
   UnparentOnAwake: 1
-  buttonContainer: {fileID: 0}
+  buttonContainer: {fileID: 9005408588259203255}
   settingsMenu: {fileID: 1084070705993090358}
   settingsPanel: {fileID: 3668776492996040132}
   chapterPanel: {fileID: 4137178312332522520}
@@ -4586,6 +4614,7 @@ GameObject:
   - component: {fileID: 5749174507889661372}
   - component: {fileID: 8141804371359483820}
   - component: {fileID: 5731809628544222533}
+  - component: {fileID: 4910838568742038908}
   m_Layer: 5
   m_Name: Cog
   m_TagString: Untagged
@@ -4718,6 +4747,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &4910838568742038908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434052770890584445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ffe7b0d130d9241a41c0de42a443ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DisableClickOnButtonHover
+  showLogs: 0
 --- !u!1 &8855188026009876319
 GameObject:
   m_ObjectHideFlags: 0
@@ -4914,6 +4956,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1429929748823296099}
+  - component: {fileID: 7381796525923871840}
+  - component: {fileID: 8936645850515086183}
   - component: {fileID: 6913570305031833437}
   - component: {fileID: 9057644854891721632}
   m_Layer: 5
@@ -4944,6 +4988,44 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 245, y: 150}
   m_Pivot: {x: 0, y: 1}
+--- !u!222 &7381796525923871840
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9005408588259203255}
+  m_CullTransparentMesh: 1
+--- !u!114 &8936645850515086183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9005408588259203255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &6913570305031833437
 MonoBehaviour:
   m_ObjectHideFlags: 0

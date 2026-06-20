@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>
+public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHoverClickState
 {
     public enum UtilityTab
     {
@@ -53,6 +53,7 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>
         settingsMenu.alpha = 1;
         settingsMenu.interactable = true;
         settingsMenu.blocksRaycasts = true;
+        if (DialogueClickStateManager.instance != null) DialogueClickStateManager.instance.AddToList(this);
     }
 
     public void CloseSettings()
@@ -60,6 +61,17 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>
         settingsMenu.alpha = 0;
         settingsMenu.interactable = false;
         settingsMenu.blocksRaycasts = false;
+        if (DialogueClickStateManager.instance != null) DialogueClickStateManager.instance.RemoveFromList(this);
+    }
+
+    public void HideButtons()
+    {
+        buttonContainer.SetActive(false);
+    }
+
+    public void ShowButtons()
+    {
+        buttonContainer.SetActive(true);
     }
 
 
