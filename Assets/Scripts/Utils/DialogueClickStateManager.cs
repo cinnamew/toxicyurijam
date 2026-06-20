@@ -37,7 +37,7 @@ public class DialogueClickStateManager : PersistentSingleton<DialogueClickStateM
 
     public void RemoveFromList(IHoverClickState objectToRemove)
     {
-        disabledList.Remove(objectToRemove);
+        if(disabledList.Contains(objectToRemove)) disabledList.Remove(objectToRemove);
         if (disabledList.Count < 1)
         {
             dialogInput.clickMode = ClickMode.ClickAnywhere;

@@ -20,6 +20,8 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
     [SerializeField] private CanvasGroup settingsPanel;
     [SerializeField] private CanvasGroup chapterPanel;
     [SerializeField] private CanvasGroup historyPanel;
+    [SerializeField] private GameObject blocker;
+    [SerializeField] private CanvasGroup narrativeLog;
     private CanvasGroup[] tabs;
     private UtilityTab currentTab;
 
@@ -53,11 +55,13 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
         settingsMenu.alpha = 1;
         settingsMenu.interactable = true;
         settingsMenu.blocksRaycasts = true;
+        blocker.SetActive(true);
+        narrativeLog.alpha = 1;
         if (DialogueClickStateManager.instance != null) DialogueClickStateManager.instance.AddToList(this);
     }
 
     public void OpenToTab(UtilityTab tab) => OpenToTab((int)tab);
-    
+
     public void CloseSettings()
     {
         settingsMenu.alpha = 0;

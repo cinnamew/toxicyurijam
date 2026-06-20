@@ -3586,6 +3586,8 @@ MonoBehaviour:
   settingsPanel: {fileID: 3668776492996040132}
   chapterPanel: {fileID: 4137178312332522520}
   historyPanel: {fileID: 992226800221295373}
+  blocker: {fileID: 1367967067902404930}
+  narrativeLog: {fileID: 3614345868928610815}
 --- !u!1 &6122229080200087600
 GameObject:
   m_ObjectHideFlags: 0
