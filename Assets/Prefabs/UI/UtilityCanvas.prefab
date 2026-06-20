@@ -121,7 +121,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6052084278539781608}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1296,7 +1296,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6191153032113835493}
   m_HandleRect: {fileID: 3167550906174423779}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3391,6 +3391,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6602442451047266189}
+  - {fileID: 4554905479586767974}
   - {fileID: 7684763187142717697}
   - {fileID: 3883214354477833468}
   - {fileID: 2195460188501486783}
@@ -3401,7 +3402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000018597, y: 0.00037873292}
+  m_AnchoredPosition: {x: -0.000018597, y: 613.55194}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6315806210915864263
@@ -4091,8 +4092,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8024063543998354539}
   m_HandleRect: {fileID: 5020484857560724061}
   m_Direction: 2
-  m_Value: 0.9999991
-  m_Size: 0.46862438
+  m_Value: -0.0000003481745
+  m_Size: 0.41002893
   m_NumberOfSteps: 1
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5418,7 +5419,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: I'm the programmer, I can write whatever I want here
+      value: "In which Hazel picks flowers for Mary\u2019s pleasure"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
@@ -5530,6 +5535,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5178746059242891226}
     m_Modifications:
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_text
+      value: In which things come to a head
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
       value: ChapterButton (6)
@@ -5782,13 +5795,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5178746059242891226}
     m_Modifications:
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_text
+      value: In which Hazel resolves to die and Mary intervenes
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
-      value: ChapterButton
+      value: ChapterButton (Prologue)
       objectReference: {fileID: 0}
     - target: {fileID: 4178992812943300743, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: Chapter 1
+      value: Prologue
       objectReference: {fileID: 0}
     - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Pivot.x
@@ -5888,6 +5909,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5178746059242891226}
     m_Modifications:
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_text
+      value: In which Hazel gets eaten, gets lavender, and gets stared at by strangers
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
       value: ChapterButton (5)
@@ -5986,6 +6015,121 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
   m_PrefabInstance: {fileID: 4573088428724298382}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5772439110178469814
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5178746059242891226}
+    m_Modifications:
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_text
+      value: In which Hazel stays the night and learns a thing or two about outward
+        appearances
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_Name
+      value: ChapterButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178992812943300743, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_text
+      value: Chapter 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+--- !u!224 &4554905479586767974 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8011222795293660112, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+  m_PrefabInstance: {fileID: 5772439110178469814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6543279795833458476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5996,7 +6140,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: Oh mai gah
+      value: In which Hazel visits town, makes a new friend, and hears a horror story
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
@@ -6258,6 +6406,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5178746059242891226}
     m_Modifications:
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_text
+      value: In which Mary gets naked and Hazel remains clothed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
       value: ChapterButton (4)
@@ -6512,6 +6668,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1012998721635606702, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_text
+      value: In which Hazel gets a haircut and checks herself out in the mirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_overflowMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
