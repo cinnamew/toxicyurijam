@@ -146,7 +146,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
@@ -203,6 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29505e9eb06465941a3a5ed11f33ab82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverImageFill
+  timeToFill: 0.2
   fillImages:
   - {fileID: 234394774566621775}
   - {fileID: 48116794414980268}
@@ -220,7 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 4312445281796942787}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
-  timeToFill: 0.75
+  timeToFill: 0.35
 --- !u!1 &399240093837066122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,7 +1126,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
@@ -1182,6 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29505e9eb06465941a3a5ed11f33ab82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverImageFill
+  timeToFill: 0.2
   fillImages:
   - {fileID: 6256065055396363582}
   - {fileID: 1423426755018084751}
@@ -1199,7 +1201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 3392076250171570109}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
-  timeToFill: 0.75
+  timeToFill: 0.35
 --- !u!1 &3103891107867982102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,7 +1786,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
@@ -1841,6 +1843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29505e9eb06465941a3a5ed11f33ab82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverImageFill
+  timeToFill: 0.2
   fillImages:
   - {fileID: 8084052329164865501}
   - {fileID: 5557382309982377485}
@@ -1858,7 +1861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 1667324095866733845}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
-  timeToFill: 0.75
+  timeToFill: 0.35
 --- !u!1 &5551822043637842755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2711,7 +2714,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
@@ -2768,6 +2771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29505e9eb06465941a3a5ed11f33ab82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverImageFill
+  timeToFill: 0.2
   fillImages:
   - {fileID: 696579047850416268}
   - {fileID: 5007521577012932180}
@@ -2785,7 +2789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 2078048661509372450}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
-  timeToFill: 0.75
+  timeToFill: 0.35
 --- !u!1 &8193801811137617687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,7 +3047,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
@@ -3100,6 +3104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29505e9eb06465941a3a5ed11f33ab82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverImageFill
+  timeToFill: 0.2
   fillImages:
   - {fileID: 4687788752363102740}
   - {fileID: 5589483773879307300}
@@ -3117,7 +3122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 6174491925218365723}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
-  timeToFill: 0.75
+  timeToFill: 0.35
 --- !u!1 &9137874940847680362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,7 +3194,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
@@ -3246,6 +3251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29505e9eb06465941a3a5ed11f33ab82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverImageFill
+  timeToFill: 0.2
   fillImages:
   - {fileID: 4700749004382417711}
   - {fileID: 7572260895283034239}
@@ -3263,4 +3269,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 7427299092790541232}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
-  timeToFill: 0.75
+  timeToFill: 0.35

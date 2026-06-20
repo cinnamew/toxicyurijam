@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29505e9eb06465941a3a5ed11f33ab82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverImageFill
+  timeToFill: 0.5
   fillImages:
   - {fileID: 4397111432358847669}
 --- !u!114 &3211996941052595210
