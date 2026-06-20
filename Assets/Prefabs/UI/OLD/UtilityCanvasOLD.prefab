@@ -389,8 +389,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e4844ba4e98cb64489a7ce97b87ebfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnparentOnAwake: 1
   buttonContainer: {fileID: 6897199994094486374}
+  settingsMenu: {fileID: 0}
   settingsPanel: {fileID: 2212194714624864673}
+  chapterPanel: {fileID: 0}
+  historyPanel: {fileID: 0}
 --- !u!1 &1807189833966724132
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,8 +955,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1451456529984356369}
   m_HandleRect: {fileID: 3546492453148397970}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.49325407
+  m_Value: 1.0000002
+  m_Size: 0.49325404
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1608,7 +1612,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4606350660996082882}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0

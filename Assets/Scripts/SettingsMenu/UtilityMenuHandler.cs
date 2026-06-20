@@ -33,19 +33,23 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>
     {
         if (tab > tabs.Length) tab = tabs.Length - 1;
 
-        tabs[tab].alpha = 0;
-        tabs[tab].interactable = false;
-        tabs[tab].blocksRaycasts = false;
+        if (tab != (int)currentTab)
+        {
+            tabs[(int)currentTab].alpha = 0;
+            tabs[(int)currentTab].interactable = false;
+            tabs[(int)currentTab].blocksRaycasts = false;
+        }
 
-        tabs[(int)currentTab].alpha = 1;
-        tabs[(int)currentTab].interactable = true;
-        tabs[(int)currentTab].blocksRaycasts = true;
+        tabs[tab].alpha = 1;
+        tabs[tab].interactable = true;
+        tabs[tab].blocksRaycasts = true;
 
         currentTab = (UtilityTab)tab;
     }
 
-    public void OpenSettings()
+    public void OpenToTab(int tab)
     {
+        ChangeTab(tab);
         settingsMenu.alpha = 1;
         settingsMenu.interactable = true;
         settingsMenu.blocksRaycasts = true;
@@ -70,28 +74,28 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>
 
 
 
-    void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
+    // void OnEnable()
+    // {
+    //     SceneManager.sceneLoaded += OnSceneLoaded;
+    // }
 
-    void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
+    // void OnDisable()
+    // {
+    //     SceneManager.sceneLoaded -= OnSceneLoaded;
+    // }
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (scene.buildIndex == MAINMENU_SCENEID || scene.buildIndex == MUSICON_SCENEID)
-        {
-            buttonContainer.SetActive(false);
-            CloseSettingsPanel();
-        }
-        else
-        {
-            buttonContainer.SetActive(true);
-        }
-    }
+    // private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    // {
+    //     if (scene.buildIndex == MAINMENU_SCENEID || scene.buildIndex == MUSICON_SCENEID)
+    //     {
+    //         buttonContainer.SetActive(false);
+    //         CloseSettingsPanel();
+    //     }
+    //     else
+    //     {
+    //         buttonContainer.SetActive(true);
+    //     }
+    // }
 
     public void OpenSettingsPanel()
     {
