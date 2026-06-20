@@ -42,14 +42,12 @@ public class DialogueClickStateManager : PersistentSingleton<DialogueClickStateM
         {
             dialogInput.clickMode = ClickMode.ClickAnywhere;
         }
-        Debug.Log("Removing");
     }
 
     public void AddToList(IHoverClickState objectToAdd)
     {
         disabledList.Add(objectToAdd);
         dialogInput.clickMode = ClickMode.Disabled;
-        Debug.Log("Adding");
     }
 }
 

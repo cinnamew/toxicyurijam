@@ -56,6 +56,8 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
         if (DialogueClickStateManager.instance != null) DialogueClickStateManager.instance.AddToList(this);
     }
 
+    public void OpenToTab(UtilityTab tab) => OpenToTab((int)tab);
+    
     public void CloseSettings()
     {
         settingsMenu.alpha = 0;

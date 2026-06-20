@@ -9,6 +9,7 @@ public class TextHoverColorTween : MonoBehaviour, IPointerEnterHandler, IPointer
     private const float TEXT_FILL_DURATION_SECONDS = 0.75f;
     [SerializeField] private Graphic originalText;
     [SerializeField] private Color targetColor;
+    [SerializeField] private float timeToFill;
     private Color originalColor;
 
     private void Start()
@@ -34,7 +35,7 @@ public class TextHoverColorTween : MonoBehaviour, IPointerEnterHandler, IPointer
         // {
         //     (originalText as Text).DOColor(targetColor, TEXT_FILL_DURATION_SECONDS);
         // }
-        originalText.DOColor(targetColor, TEXT_FILL_DURATION_SECONDS);
+        originalText.DOColor(targetColor, timeToFill);
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -47,6 +48,6 @@ public class TextHoverColorTween : MonoBehaviour, IPointerEnterHandler, IPointer
         // {
         //     (originalText as Text).DOColor(originalColor, TEXT_FILL_DURATION_SECONDS);
         // }
-        originalText.DOColor(originalColor, TEXT_FILL_DURATION_SECONDS);
+        originalText.DOColor(originalColor, timeToFill);
     }
 }

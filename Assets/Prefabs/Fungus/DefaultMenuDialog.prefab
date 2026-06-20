@@ -220,6 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 4312445281796942787}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
+  timeToFill: 0.75
 --- !u!1 &399240093837066122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,6 +1199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 3392076250171570109}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
+  timeToFill: 0.75
 --- !u!1 &3103891107867982102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,6 +1858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 1667324095866733845}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
+  timeToFill: 0.75
 --- !u!1 &5551822043637842755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2782,6 +2785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 2078048661509372450}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
+  timeToFill: 0.75
 --- !u!1 &8193801811137617687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,6 +3117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 6174491925218365723}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
+  timeToFill: 0.75
 --- !u!1 &9137874940847680362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3258,3 +3263,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
   originalText: {fileID: 7427299092790541232}
   targetColor: {r: 0.22352943, g: 0.054901965, b: 0.10196079, a: 1}
+  timeToFill: 0.75
