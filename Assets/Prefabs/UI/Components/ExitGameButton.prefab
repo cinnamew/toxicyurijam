@@ -84,7 +84,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6188620775037769901}
-  - component: {fileID: 4835378775807871381}
+  - component: {fileID: 8007644264055042253}
+  - component: {fileID: 3211996941052595210}
   m_Layer: 5
   m_Name: ExitGameButton
   m_TagString: Untagged
@@ -114,7 +115,7 @@ RectTransform:
   m_AnchoredPosition: {x: 70, y: 158.43}
   m_SizeDelta: {x: 291.9312, y: 53.1714}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &4835378775807871381
+--- !u!114 &8007644264055042253
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,11 +124,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2559535168507970396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d3588dd8a9771c4584c7b74e369dda7, type: 3}
+  m_Script: {fileID: 11500000, guid: 29505e9eb06465941a3a5ed11f33ab82, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonHover
-  fillImage: {fileID: 4397111432358847669}
-  exitText: {fileID: 3530598228583955357}
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverImageFill
+  fillImages:
+  - {fileID: 4397111432358847669}
+--- !u!114 &3211996941052595210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2559535168507970396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef48dbe395667b459da4ed80ae2ff5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
+  originalText: {fileID: 3530598228583955357}
+  targetColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &5923647565928630699
 GameObject:
   m_ObjectHideFlags: 0
