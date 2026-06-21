@@ -120,7 +120,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2844702132894896326}
   m_HandleRect: {fileID: 6052084278539781608}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1172,9 +1172,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421477554432078063}
   m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1459960330000619169
 GameObject:
@@ -1296,7 +1296,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6191153032113835493}
   m_HandleRect: {fileID: 3167550906174423779}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3028,7 +3028,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6538511830075769662}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.40765437
+  m_Size: 0.40765432
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3073,11 +3073,11 @@ RectTransform:
   - {fileID: 195748148210886477}
   m_Father: {fileID: 1466467452945987671}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 100}
   m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!225 &1084070705993090358
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3402,7 +3402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000018597, y: 613.55194}
+  m_AnchoredPosition: {x: -0.000018597, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6315806210915864263
@@ -3457,6 +3457,7 @@ GameObject:
   - component: {fileID: 6618278849148109582}
   - component: {fileID: 645531936871674985}
   - component: {fileID: 4714796916170524096}
+  - component: {fileID: 5615704114250058548}
   - component: {fileID: 7597204991145805715}
   - component: {fileID: 7211578629875820197}
   m_Layer: 5
@@ -3551,6 +3552,28 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!95 &5615704114250058548
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5985266196063897052}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4343afc6a866349469e7d83e4b5299f3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &7597204991145805715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3582,6 +3605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UtilityMenuHandler
   UnparentOnAwake: 1
+  animator: {fileID: 5615704114250058548}
   buttonContainer: {fileID: 9005408588259203255}
   settingsMenu: {fileID: 1084070705993090358}
   settingsPanel: {fileID: 3668776492996040132}
@@ -4092,8 +4116,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8024063543998354539}
   m_HandleRect: {fileID: 5020484857560724061}
   m_Direction: 2
-  m_Value: -0.0000003481745
-  m_Size: 0.41002893
+  m_Value: 1
+  m_Size: 0.41004637
   m_NumberOfSteps: 1
   m_OnValueChanged:
     m_PersistentCalls:

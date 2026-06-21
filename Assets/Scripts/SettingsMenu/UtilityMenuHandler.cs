@@ -15,6 +15,9 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
     private const int MAINMENU_SCENEID = 0;
     private const int MUSICON_SCENEID = 1;
 
+    [SerializeField] private Animator animator;
+    private int isOpenHash;
+
     [SerializeField] private GameObject buttonContainer;
     [SerializeField] private CanvasGroup settingsMenu;
     [SerializeField] private CanvasGroup settingsPanel;
@@ -29,6 +32,7 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
     private void Start()
     {
         tabs = new CanvasGroup[3]{settingsPanel, chapterPanel, historyPanel};
+        isOpenHash = Animator.StringToHash("IsOpen");
     }
 
     public void ChangeTab(int tab)
@@ -52,10 +56,7 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
     public void OpenToTab(int tab)
     {
         ChangeTab(tab);
-        settingsMenu.alpha = 1;
-        settingsMenu.interactable = true;
-        settingsMenu.blocksRaycasts = true;
-        blocker.SetActive(true);
+        animator.SetBool(isOpenHash, true);
         narrativeLog.alpha = 1;
         if (DialogueClickStateManager.instance != null) DialogueClickStateManager.instance.AddToList(this);
     }
@@ -64,9 +65,7 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
 
     public void CloseSettings()
     {
-        settingsMenu.alpha = 0;
-        settingsMenu.interactable = false;
-        settingsMenu.blocksRaycasts = false;
+        animator.SetBool(isOpenHash, false);
         if (DialogueClickStateManager.instance != null) DialogueClickStateManager.instance.RemoveFromList(this);
     }
 
