@@ -3,6 +3,15 @@ using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
+    [SerializeField] private HorizontalLayoutGroup hotbar;
+    private InventorySlotButton[] hotbarImages;
+
+
+    private void Start()
+    {
+        hotbarImages = hotbar.GetComponentsInChildren<InventorySlotButton>();
+    }
+
     void OnEnable()
     {
         Inventory.OnInventoryChanged += UpdateInventoryDisplay;
@@ -17,22 +26,14 @@ public class InventoryUI : MonoBehaviour
     {
         for (int i = 0; i < inventory.Length; i++)
         {
-            Debug.Log(inventory[i].Id);
             if (inventory[i].Id != "nullobj")
             {
-                SetSprite(transform.GetChild(i).GetChild(0).GetComponent<Image>(), inventory[i].ItemObject.Icon);
+                hotbarImages[i].SetSprite(inventory[i].ItemObject.Icon);
             }
             else
             {
-                SetSprite(transform.GetChild(i).GetChild(0).GetComponent<Image>(), null);
+                hotbarImages[i].SetSprite(null);
             }
         }
-    }
-
-    private void SetSprite(Image imgToSet, Sprite sprToSet)
-    {
-        imgToSet.sprite = sprToSet;
-        imgToSet.color = sprToSet == null ? Color.clear : Color.white;
-        imgToSet.preserveAspect = true;
     }
 }
