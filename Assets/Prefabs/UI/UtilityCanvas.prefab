@@ -3451,7 +3451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000018597, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6315806210915864263
@@ -5487,17 +5487,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5178746059242891226}
     m_Modifications:
-    - target: {fileID: 1012998721635606702, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: "In which Hazel picks flowers for Mary\u2019s pleasure"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_overflowMode
-      value: 1
+      value: "Hazel picks flowers, to Mary\u2019s delight."
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
@@ -5611,11 +5603,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: In which things come to a head
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_overflowMode
-      value: 1
+      value: A visitor comes to call.
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
@@ -5871,16 +5859,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: In which Hazel resolves to die and Mary intervenes
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_overflowMode
-      value: 1
+      value: Hazel resolves to die, and Mary intervenes.
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
       value: ChapterButton (Prologue)
       objectReference: {fileID: 0}
+    - target: {fileID: 2423075176667605040, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 12a14cd152abdbd4eb3fb3be277fddc5, type: 3}
     - target: {fileID: 4178992812943300743, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
       value: Prologue
@@ -5983,14 +5971,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5178746059242891226}
     m_Modifications:
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_text
-      value: In which Hazel gets eaten, gets lavender, and gets stared at by strangers
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_overflowMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
       value: ChapterButton (5)
@@ -6099,17 +6079,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: In which Hazel stays the night and learns a thing or two about outward
-        appearances
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_overflowMode
-      value: 1
+      value: Hazel learns a thing or two about outward appearances.
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
       value: ChapterButton
       objectReference: {fileID: 0}
+    - target: {fileID: 2423075176667605040, guid: 44f94fbff912e934caf6173652a47057, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 12a14cd152abdbd4eb3fb3be277fddc5, type: 3}
     - target: {fileID: 4178992812943300743, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
       value: Chapter 1
@@ -6214,11 +6193,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: In which Hazel visits town, makes a new friend, and hears a horror story
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_overflowMode
-      value: 1
+      value: Hazel visits town, makes a new friend and hears a horror story.
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
@@ -6482,11 +6457,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: In which Mary gets naked and Hazel remains clothed
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_overflowMode
-      value: 1
+      value: "Hazel takes a bath and admires Mary\u2019s form."
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
@@ -6740,17 +6711,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5178746059242891226}
     m_Modifications:
-    - target: {fileID: 1012998721635606702, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: In which Hazel gets a haircut and checks herself out in the mirror
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
-      propertyPath: m_overflowMode
-      value: 1
+      value: Hazel gets a haircut and finds an old scar.
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name

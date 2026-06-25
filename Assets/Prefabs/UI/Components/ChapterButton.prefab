@@ -416,7 +416,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -45, y: 70}
-  m_SizeDelta: {x: 230, y: 48.0666}
+  m_SizeDelta: {x: 230, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &7684677895775059047
 CanvasRenderer:
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mary and Ellie meet and do Yuri stuff idk
+  m_text: Hazel gets eaten, gets lavender, and gets stared at by strangers.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e130a4da2a2060441921fe8392bbfa34, type: 2}
   m_sharedMaterial: {fileID: 8389699411215311513, guid: e130a4da2a2060441921fe8392bbfa34, type: 2}
@@ -473,8 +473,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
