@@ -1,0 +1,36 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Adrianne.moc3",
+		"Textures": [
+			"Adrianne.2048/texture_00.png"
+		],
+		"Physics": "Adrianne.physics3.json",
+		"DisplayInfo": "Adrianne.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "default",
+				"File": "default.exp3.json"
+			},
+			{
+				"Name": "closed smile",
+				"File": "closed smile.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
