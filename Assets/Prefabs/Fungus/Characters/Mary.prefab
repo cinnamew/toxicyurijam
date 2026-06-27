@@ -3296,6 +3296,7 @@ GameObject:
   - component: {fileID: 5031690642515215617}
   - component: {fileID: 8306222601144165732}
   - component: {fileID: 2436461936030133898}
+  - component: {fileID: 4999948628316040920}
   m_Layer: 0
   m_Name: mary live2d
   m_TagString: Untagged
@@ -3825,6 +3826,21 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &4999948628316040920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890426866861192498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbd698ca80cbc34680b794c138c681e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LiveSpriteController
+  cubismRenderController: {fileID: 7934522432891858353}
+  cubismExpressionController: {fileID: 53800550738496410}
+  animator: {fileID: 2856483205128136344}
 --- !u!1 &1974070798310632354
 GameObject:
   m_ObjectHideFlags: 0

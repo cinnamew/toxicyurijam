@@ -3061,6 +3061,7 @@ GameObject:
   - component: {fileID: 7308630200616191295}
   - component: {fileID: 8221521084144379621}
   - component: {fileID: 2262184337017240067}
+  - component: {fileID: 2151233695991135012}
   m_Layer: 0
   m_Name: Adrianne
   m_TagString: Untagged
@@ -3436,6 +3437,21 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &2151233695991135012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7400308909086592606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbd698ca80cbc34680b794c138c681e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LiveSpriteController
+  cubismRenderController: {fileID: 1180342789876505849}
+  cubismExpressionController: {fileID: 3177252473963572279}
+  animator: {fileID: 5421750467021114694}
 --- !u!1 &7484096195669056375
 GameObject:
   m_ObjectHideFlags: 0

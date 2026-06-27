@@ -4597,13 +4597,14 @@ GameObject:
   - component: {fileID: 4697914722499274813}
   - component: {fileID: 9073439505577815335}
   - component: {fileID: 8058034904554888586}
-  - component: {fileID: 5680173283937780841}
   - component: {fileID: 3694609278300824959}
+  - component: {fileID: 5680173283937780841}
   - component: {fileID: 4538864187739174548}
   - component: {fileID: 6136793696579343069}
   - component: {fileID: 907856877980800980}
   - component: {fileID: 4140855096402544908}
   - component: {fileID: 699575228951351094}
+  - component: {fileID: 8555195002203762741}
   m_Layer: 0
   m_Name: Priest
   m_TagString: Untagged
@@ -4749,18 +4750,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 702f05e81266375468e2b47006338cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Live2D.Cubism::Live2D.Cubism.Framework.CubismUpdateController
---- !u!114 &5680173283937780841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8921327946908130762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e23066d7f6cfa354d91d0033239622a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Live2D.Cubism::Live2D.Cubism.Framework.CubismParameterStore
 --- !u!114 &3694609278300824959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4774,6 +4763,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Live2D.Cubism::Live2D.Cubism.Framework.Pose.CubismPoseController
   defaultPoseIndex: 0
+--- !u!114 &5680173283937780841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921327946908130762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e23066d7f6cfa354d91d0033239622a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Live2D.Cubism::Live2D.Cubism.Framework.CubismParameterStore
 --- !u!114 &4538864187739174548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4987,6 +4988,21 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &8555195002203762741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921327946908130762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbd698ca80cbc34680b794c138c681e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LiveSpriteController
+  cubismRenderController: {fileID: 4697914722499274813}
+  cubismExpressionController: {fileID: 4538864187739174548}
+  animator: {fileID: 6136793696579343069}
 --- !u!1 &9162765535648811023
 GameObject:
   m_ObjectHideFlags: 0

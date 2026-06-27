@@ -1988,6 +1988,7 @@ GameObject:
   - component: {fileID: 6709814690389866814}
   - component: {fileID: 2891431551833203464}
   - component: {fileID: 7482528388032905470}
+  - component: {fileID: 1117321531064252827}
   m_Layer: 0
   m_Name: Hazel_Split
   m_TagString: Untagged
@@ -2463,6 +2464,21 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &1117321531064252827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721233652218946984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbd698ca80cbc34680b794c138c681e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LiveSpriteController
+  cubismRenderController: {fileID: 2110886480636077914}
+  cubismExpressionController: {fileID: 8546748065036023378}
+  animator: {fileID: 1626637487858591542}
 --- !u!1 &2214365762665530126
 GameObject:
   m_ObjectHideFlags: 0
