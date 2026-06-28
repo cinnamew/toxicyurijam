@@ -66,5 +66,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3927fd6f4d7d83045b64b4cc46dcc3d7, type: 3}
   m_Name: CubismRenderPassFeature
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   m_Active: 1
+  _injectionPoint: 500

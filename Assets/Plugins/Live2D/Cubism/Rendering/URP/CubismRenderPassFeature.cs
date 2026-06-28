@@ -840,6 +840,18 @@ namespace Live2D.Cubism.Rendering.URP
         private CubismRenderPass _mScriptablePass;
 
         /// <summary>
+        /// Where the Cubism pass is injected relative to URP's stages.
+        /// </summary>
+        /// <remarks>
+        /// Cubism models render only in this pass (their BlendMode shaders have no UniversalForward
+        /// pass), so this single event decides whether the whole model draws before or after the
+        /// transparent (SpriteRenderer) queue. Default is after transparents so models draw over
+        /// world sprites instead of being locked behind them.
+        /// </remarks>
+        [SerializeField]
+        private RenderPassEvent _injectionPoint = RenderPassEvent.AfterRenderingTransparents;
+
+        /// <summary>
         /// Creates the scriptable render pass and configures its injection point.
         /// </summary>
         public override void Create()
@@ -847,7 +859,8 @@ namespace Live2D.Cubism.Rendering.URP
             _mScriptablePass = new CubismRenderPass
             {
                 // Configures where the render pass should be injected.
-                renderPassEvent = RenderPassEvent.BeforeRenderingTransparents
+                // renderPassEvent = RenderPassEvent.BeforeRenderingTransparents    <- this should not be used
+                renderPassEvent = _injectionPoint
             };
         }
 
