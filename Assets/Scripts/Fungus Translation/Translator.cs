@@ -15,13 +15,14 @@ public class Translator : MonoBehaviour
 
     public Block MakeNewBlock(string name="block")
     {
-        flowchart.CreateBlock(new Vector2(0,0));
+        currBlock = flowchart.CreateBlock(new Vector2(0,0));
         currBlock.BlockName = name;
+        return currBlock;
     }
 
-    public Command AddCommand<Command>(Block block)
+    public T AddCommand<T>(Block block) where T : Command
     {
-        Command cmd = flowchart.gameObject.AddComponent<Command>();
+        T cmd = flowchart.gameObject.AddComponent<T>();
         cmd.ItemId = flowchart.NextItemId();
         cmd.ParentBlock = currBlock;
         currBlock.CommandList.Add(cmd);
@@ -48,8 +49,9 @@ public class Translator : MonoBehaviour
                 return;
             case "pause":   // need to test
                 Wait w = AddCommand<Wait>(currBlock);
-                w._duration = line.Split(" ")[1];
-            case default:
+                w.SetDuration((float)line.Split(" ")[1]);
+                break;
+            default:
                 break;
         }
 
@@ -57,12 +59,6 @@ public class Translator : MonoBehaviour
 
         //else, add as a comment
 
-    }
-
-    public void MakeNewBlock(string name)
-    {
-        currBlock = flowchart.CreateBlock(new Vector2(0, 0));
-        currBlock.BlockName = name;
     }
 
 }
