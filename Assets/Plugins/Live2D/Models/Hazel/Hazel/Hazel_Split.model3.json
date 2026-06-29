@@ -1,0 +1,44 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Hazel_Split.moc3",
+		"Textures": [
+			"Hazel_Split.2048/texture_00.png"
+		],
+		"Physics": "Hazel_Split.physics3.json",
+		"DisplayInfo": "Hazel_Split.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "Smile",
+				"File": "Smile.exp3.json"
+			},
+			{
+				"Name": "Worried",
+				"File": "Worried.exp3.json"
+			},
+			{
+				"Name": "Angry",
+				"File": "Angry.exp3.json"
+			},
+			{
+				"Name": "default",
+				"File": "default.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

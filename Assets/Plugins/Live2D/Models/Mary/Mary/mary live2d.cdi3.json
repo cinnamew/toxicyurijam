@@ -1,0 +1,252 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamBodyAngleX2",
+			"GroupId": "ParamGroup2",
+			"Name": "Eye Physic"
+		},
+		{
+			"Id": "ParamBodyAngleX3",
+			"GroupId": "ParamGroup2",
+			"Name": "Eye Physic"
+		},
+		{
+			"Id": "ParamBodyAngleX4",
+			"GroupId": "ParamGroup2",
+			"Name": "eyelash physic"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "ParamGroup4",
+			"Name": "Closed Smile"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "ParamGroup4",
+			"Name": "happy"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "ParamGroup4",
+			"Name": "angry"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup4",
+			"Name": "Black eye"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "ParamGroup4",
+			"Name": "left eye disappear"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup4",
+			"Name": "Shadow"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup4",
+			"Name": "Cracked"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "ParamGroup4",
+			"Name": "Eyepatch"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "ParamGroup4",
+			"Name": "Main Horror"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "ParamGroup",
+			"Name": "Hair Move Side"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamGroup",
+			"Name": "Side Bang Sway"
+		},
+		{
+			"Id": "ParamHairBack2",
+			"GroupId": "ParamGroup",
+			"Name": "Side Bang Edge"
+		},
+		{
+			"Id": "ParamHairBack3",
+			"GroupId": "ParamGroup",
+			"Name": "left side sway"
+		},
+		{
+			"Id": "ParamHairBack4",
+			"GroupId": "ParamGroup",
+			"Name": "left side edge"
+		},
+		{
+			"Id": "ParamHairSide2",
+			"GroupId": "ParamGroup",
+			"Name": "Hair Move Edge"
+		},
+		{
+			"Id": "ParamHairFront2",
+			"GroupId": "ParamGroup",
+			"Name": "Middle hair edges"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroup",
+			"Name": "Middle hair sway"
+		},
+		{
+			"Id": "ParamHairSide3",
+			"GroupId": "",
+			"Name": "Hat Lace"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup3",
+			"Name": "sparkle1"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup3",
+			"Name": "sparkle2"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup3",
+			"Name": "sparkle3"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup3",
+			"Name": "sparkle4"
+		},
+		{
+			"Id": "ParamHairFront3",
+			"GroupId": "",
+			"Name": "Middle hair sway"
+		},
+		{
+			"Id": "ParamHairFront4",
+			"GroupId": "",
+			"Name": "Middle hair sway"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "Blink"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "expressions"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Top Hair"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "sparkles"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part10",
+			"Name": "Horror 3 No Eyepatch"
+		},
+		{
+			"Id": "Part9",
+			"Name": "Horror 2 (eyepatch)"
+		},
+		{
+			"Id": "Part8",
+			"Name": "Horror 1 (Broken Chipped)"
+		},
+		{
+			"Id": "Part7",
+			"Name": "Shadow"
+		},
+		{
+			"Id": "Part6",
+			"Name": "Untitled_Artwork(3).psd"
+		},
+		{
+			"Id": "Part",
+			"Name": "New group"
+		},
+		{
+			"Id": "Hat",
+			"Name": "Hat"
+		},
+		{
+			"Id": "Part2",
+			"Name": "Right Eye"
+		},
+		{
+			"Id": "Part5",
+			"Name": "Back Hir"
+		},
+		{
+			"Id": "Part3",
+			"Name": "Left Eye"
+		},
+		{
+			"Id": "Part4",
+			"Name": "New group"
+		},
+		{
+			"Id": "Bow",
+			"Name": "Bow"
+		}
+	]
+}
