@@ -14,6 +14,12 @@ public class Translator : MonoBehaviour
     [SerializeField] LiveSpriteController adrianne;
     [SerializeField] LiveSpriteController oldMan;
 
+    [SerializeField] Character maryChar;
+    [SerializeField] Character hazelChar;
+    [SerializeField] Character dukeChar;
+    [SerializeField] Character adrianneChar;
+    [SerializeField] Character oldManChar;
+
     [SerializeField] TextAsset dialogue;
 
     void Start()
@@ -104,16 +110,27 @@ public class Translator : MonoBehaviour
                     AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.ChangeExpression(expIndex));
                 }
                 break;
-
-
+            case "block":
+                string blockName = line.Split(' ')[1];
+                currBlock = MakeNewBlock(blockName);
+                break;
             default:
+                int firstQuote = line.IndexOf('"');
+                Character speaker = firstQuote > 0 ? GetCharacter(firstWord) : null;
+                if (firstQuote == 0 || speaker != null)
+                {
+                    // crop leading and trailing "
+                    string dialogue = line.Substring(firstQuote + 1, line.Length - firstQuote - 2);
+                    Say s = AddCommand<Say>(currBlock);
+                    s._Character = speaker;
+                    s.SetStandardText(dialogue);
+                }
+                else
+                {
+                    AddCommand<Comment>(currBlock).CommentText = line;
+                }
                 break;
         }
-
-        //check for say command
-
-        //else, add as a comment
-
     }
 
     public LiveSpriteController GetModel(string modelName)
@@ -131,8 +148,27 @@ public class Translator : MonoBehaviour
             case "o":
                 return oldMan;
             default:
-                // silhouette
-                return hazel;
+                // silhouettes: m1, m2, f1
+                return null;
+        }
+    }
+
+    public Character GetCharacter(string key)
+    {
+        switch(key.ToLower())
+        {
+            case "m":
+                return maryChar;
+            case "h":
+                return hazelChar;
+            case "d":
+                return dukeChar;
+            case "a":
+                return adrianneChar;
+            case "o":
+                return oldManChar;
+            default:
+                return null;
         }
     }
 
