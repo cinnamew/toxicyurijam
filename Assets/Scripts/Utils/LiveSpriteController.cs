@@ -35,9 +35,14 @@ public class LiveSpriteController : MonoBehaviour
         else cubismExpressionController.CurrentExpressionIndex = expressionIndex;
     }
 
-    public void SlideModelInX(int distance) => transform.DOMoveX(originalLocation.x + distance, DEFAULT_SLIDE_DURATION);
+    public void SetModelPosition(Transform newPos) => transform.position = newPos.position;
 
-    public void SlideModelOutX() => transform.DOMoveX(originalLocation.x, DEFAULT_SLIDE_DURATION);
+    public void FlipModelX() => transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+
+    // might change this to SlideModelX for sliding in both directions rather than relying on original position - ex. Mary is originally on left, moves right, then calls SlideModelOutX. Where is original position?
+    public void SlideModelInX(int distance) => transform.DOMoveX(originalLocation.x + distance, DEFAULT_SLIDE_DURATION);  
+
+    public void SlideModelOutX() => transform.DOMoveX(originalLocation.x, DEFAULT_SLIDE_DURATION);  // <-- might delete this method
 
     public void HideModel() => ChangeModelVisibility(false, DEFAULT_FADE_DURATION);
 
