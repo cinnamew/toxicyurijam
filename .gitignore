@@ -102,7 +102,7 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
-# Ignore Unity's dyanmic fonts for TextMeshPro
+# Ignore Unity's dynamic fonts for TextMeshPro
 /[Aa]ssets/[Ff]onts/*.asset
 /[Aa]ssets/[Ff]onts/*.asset.meta
 /[Aa]ssets/Plugins/Fungus/Thirdparty/TextMeshPro/Resources/Fonts & Materials/*.asset

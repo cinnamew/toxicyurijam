@@ -97,6 +97,12 @@ namespace Fungus
 
         #region Public members
 
+        /// <summary>
+        /// Exposes the parameterless UnityEvent so listeners can be added at runtime.
+        /// invokeType defaults to Static, so DoInvoke() calls this event.
+        /// </summary>
+        public UnityEvent StaticEvent { get { return staticEvent; } }
+
         [Serializable] public class BooleanEvent : UnityEvent<bool> {}
         [Serializable] public class IntegerEvent : UnityEvent<int> {}
         [Serializable] public class FloatEvent : UnityEvent<float> {}
@@ -115,6 +121,8 @@ namespace Fungus
 
             Continue();
         }
+
+        public UnityEvent StaticEvent { get { return staticEvent; } }
 
         public override string GetSummary()
         {
