@@ -122,8 +122,6 @@ namespace Fungus
             Continue();
         }
 
-        public UnityEvent StaticEvent { get { return staticEvent; } }
-
         public override string GetSummary()
         {
             if (!string.IsNullOrEmpty(description))

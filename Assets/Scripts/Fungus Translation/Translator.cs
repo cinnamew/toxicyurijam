@@ -65,34 +65,47 @@ public class Translator : MonoBehaviour
                 ev.StaticEvent.AddListener(model.ShowModel);
                 break;
             case "timeshow":
-                lineSplit = line.Split(' ');
-                LiveSpriteController m = GetModel(lineSplit[1]);
-                float seconds = float.Parse(lineSplit(' ')[2]);
-                AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.ShowModelTimed(seconds));
+                {
+                    LiveSpriteController m = GetModel(line.Split(' ')[1]);
+                    float seconds = float.Parse(line.Split(' ')[2]);
+                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.ShowModelTimed(seconds));
+                }
                 break;
             case "hide":
-                LiveSpriteController m = GetModel(line.Split(' ')[1]);
-                AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(m.HideModel);
+                {
+                    LiveSpriteController m = GetModel(line.Split(' ')[1]);
+                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(m.HideModel);
+                }
                 break;
             case "timehide":
-                LiveSpriteController m = GetModel(line.Split(' ')[1]);
-                float seconds = float.Parse(line.Split(' ')[2]);
-                AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.HideModelTimed(seconds));
+                {
+                    LiveSpriteController m = GetModel(line.Split(' ')[1]);
+                    float seconds = float.Parse(line.Split(' ')[2]);
+                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.HideModelTimed(seconds));
+                }
                 break;
-            case "slidein": 
-                LiveSpriteController m = GetModel(line.Split(' ')[1]);
-                int distance = int.Parse(line.Split(' ')[2]);
-                AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.SlideModelInX(distance));
+            case "slidein":
+                {
+                    LiveSpriteController m = GetModel(line.Split(' ')[1]);
+                    int distance = int.Parse(line.Split(' ')[2]);
+                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.SlideModelInX(distance));
+                }
                 break;
             case "slideout":
-                LiveSpriteController m = GetModel(line.Split(' ')[1]);
-                AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(m.SlideModelOutX);
+                {
+                    LiveSpriteController m = GetModel(line.Split(' ')[1]);
+                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(m.SlideModelOutX);
+                }
                 break;
             case "exp":
-                LiveSpriteController m = GetModel(line.Split(' ')[1]);
-                int expIndex = int.Parse(line.Split(' ')[2]);
-                AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.ChangeExpression(expIndex));
+                {
+                    LiveSpriteController m = GetModel(line.Split(' ')[1]);
+                    int expIndex = int.Parse(line.Split(' ')[2]);
+                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.ChangeExpression(expIndex));
+                }
                 break;
+
+
             default:
                 break;
         }
