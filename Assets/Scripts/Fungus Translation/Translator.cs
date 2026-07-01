@@ -7,6 +7,11 @@ public class Translator : MonoBehaviour
     
     [SerializeField] Flowchart flowchart;
     private Fungus.Block currBlock;
+
+    [SerializeField] LiveSpriteController mary;
+    [SerializeField] LiveSpriteController hazel;
+    [SerializeField] LiveSpriteController duke;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,7 +36,7 @@ public class Translator : MonoBehaviour
 
     public void ReadFile(string fileName)
     {
-        string[] lines = File.ReadAllLines(fileName + ".txt");
+        string[] lines; //File.ReadAllLines(fileName + ".txt");
 
         for(int i = 0; i < lines.Length; i++)
         {
@@ -43,7 +48,7 @@ public class Translator : MonoBehaviour
     {
         int spaceIndex = line.IndexOf(' ');
         string firstWord = spaceIndex >= 0 ? line.Substring(0, spaceIndex) : line;
-        switch(line)
+        switch(line.ToLower())
         {
             case "":    //gotta test if this actually catches empty lines tho
                 return;
@@ -51,6 +56,10 @@ public class Translator : MonoBehaviour
                 Wait w = AddCommand<Wait>(currBlock);
                 w.SetDuration((float)line.Split(" ")[1]);
                 break;
+            case "show":
+                LiveSpriteController model = GetModel(line.Split(' ')[1]);
+                InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+
             default:
                 break;
         }
