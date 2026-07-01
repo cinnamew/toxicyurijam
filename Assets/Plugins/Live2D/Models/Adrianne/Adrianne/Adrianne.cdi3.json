@@ -1,0 +1,74 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "sparkle"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "sparkle"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "expression"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeROpen2",
+			"GroupId": "",
+			"Name": "Pupil"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "Hair Move edge"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "Hair Move Side"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "New group"
+		},
+		{
+			"Id": "Part2",
+			"Name": "New group"
+		},
+		{
+			"Id": "Part3",
+			"Name": "New group"
+		},
+		{
+			"Id": "Part4",
+			"Name": "New group"
+		}
+	]
+}

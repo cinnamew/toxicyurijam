@@ -1,37 +1,118 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>
+public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHoverClickState
 {
+    public enum UtilityTab
+    {
+        SETTINGS = 0,
+        CHAPTER_SELECT,
+        HISTORY
+    };
+
+
     // Scenes to hide utility menu
     private const int MAINMENU_SCENEID = 0;
     private const int MUSICON_SCENEID = 1;
 
+    [SerializeField] private Animator animator;
+    private int isOpenHash;
+
     [SerializeField] private GameObject buttonContainer;
+    [SerializeField] private CanvasGroup settingsMenu;
     [SerializeField] private CanvasGroup settingsPanel;
+    [SerializeField] private CanvasGroup chapterPanel;
+    [SerializeField] private CanvasGroup historyPanel;
+    [SerializeField] private GameObject blocker;
+    [SerializeField] private CanvasGroup narrativeLog;
+    private CanvasGroup[] tabs;
+    private UtilityTab currentTab;
 
-    void OnEnable()
+
+    private void Start()
     {
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        tabs = new CanvasGroup[3]{settingsPanel, chapterPanel, historyPanel};
+        isOpenHash = Animator.StringToHash("IsOpen");
     }
 
-    void OnDisable()
+    public void ChangeTab(int tab)
     {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
+        if (tab > tabs.Length) tab = tabs.Length - 1;
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (scene.buildIndex == MAINMENU_SCENEID || scene.buildIndex == MUSICON_SCENEID)
+        if (tab != (int)currentTab)
         {
-            buttonContainer.SetActive(false);
-            CloseSettingsPanel();
+            tabs[(int)currentTab].alpha = 0;
+            tabs[(int)currentTab].interactable = false;
+            tabs[(int)currentTab].blocksRaycasts = false;
         }
-        else
-        {
-            buttonContainer.SetActive(true);
-        }
+
+        tabs[tab].alpha = 1;
+        tabs[tab].interactable = true;
+        tabs[tab].blocksRaycasts = true;
+
+        currentTab = (UtilityTab)tab;
     }
+
+    public void OpenToTab(int tab)
+    {
+        ChangeTab(tab);
+        animator.SetBool(isOpenHash, true);
+        narrativeLog.alpha = 1;
+        if (DialogueClickStateManager.instance != null) DialogueClickStateManager.instance.AddToList(this);
+    }
+
+    public void OpenToTab(UtilityTab tab) => OpenToTab((int)tab);
+
+    public void CloseSettings()
+    {
+        animator.SetBool(isOpenHash, false);
+        if (DialogueClickStateManager.instance != null) DialogueClickStateManager.instance.RemoveFromList(this);
+    }
+
+    public void HideButtons()
+    {
+        buttonContainer.SetActive(false);
+    }
+
+    public void ShowButtons()
+    {
+        buttonContainer.SetActive(true);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // void OnEnable()
+    // {
+    //     SceneManager.sceneLoaded += OnSceneLoaded;
+    // }
+
+    // void OnDisable()
+    // {
+    //     SceneManager.sceneLoaded -= OnSceneLoaded;
+    // }
+
+    // private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    // {
+    //     if (scene.buildIndex == MAINMENU_SCENEID || scene.buildIndex == MUSICON_SCENEID)
+    //     {
+    //         buttonContainer.SetActive(false);
+    //         CloseSettingsPanel();
+    //     }
+    //     else
+    //     {
+    //         buttonContainer.SetActive(true);
+    //     }
+    // }
 
     public void OpenSettingsPanel()
     {

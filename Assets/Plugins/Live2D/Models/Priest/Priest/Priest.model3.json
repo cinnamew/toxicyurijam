@@ -1,0 +1,36 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Priest.moc3",
+		"Textures": [
+			"Priest.2048/texture_00.png"
+		],
+		"Physics": "Priest.physics3.json",
+		"DisplayInfo": "Priest.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "Serious",
+				"File": "Serious.exp3.json"
+			},
+			{
+				"Name": "default",
+				"File": "default.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

@@ -1,0 +1,71 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamAngleZ2",
+			"GroupId": "",
+			"Name": "pupil size"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "Hair Move Front"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "Hair Move Side"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "Sparkle 1"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "Sparkle 1"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "Frown/Console/serious idk"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Eye",
+			"Name": "Eye"
+		},
+		{
+			"Id": "Part",
+			"Name": "To; Hir"
+		}
+	]
+}

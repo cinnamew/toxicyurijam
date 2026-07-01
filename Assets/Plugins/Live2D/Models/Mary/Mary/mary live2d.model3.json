@@ -1,0 +1,44 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "mary live2d.moc3",
+		"Textures": [
+			"mary live2d.4096/texture_00.png"
+		],
+		"Physics": "mary live2d.physics3.json",
+		"DisplayInfo": "mary live2d.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "Shadow",
+				"File": "Shadow.exp3.json"
+			},
+			{
+				"Name": "Cracked",
+				"File": "Cracked.exp3.json"
+			},
+			{
+				"Name": "Eyepatch",
+				"File": "Eyepatch.exp3.json"
+			},
+			{
+				"Name": "Horror FULL",
+				"File": "Horror FULL.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
