@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using Fungus;
-using UnityEngine;
 
 public class DialogueClickStateManager : PersistentSingleton<DialogueClickStateManager>
 {
@@ -37,6 +36,7 @@ public class DialogueClickStateManager : PersistentSingleton<DialogueClickStateM
 
     public void RemoveFromList(IHoverClickState objectToRemove)
     {
+        if (dialogInput == null) return;
         if(disabledList.Contains(objectToRemove)) disabledList.Remove(objectToRemove);
         if (disabledList.Count < 1)
         {
@@ -46,6 +46,7 @@ public class DialogueClickStateManager : PersistentSingleton<DialogueClickStateM
 
     public void AddToList(IHoverClickState objectToAdd)
     {
+        if (dialogInput == null) return;
         disabledList.Add(objectToAdd);
         dialogInput.clickMode = ClickMode.Disabled;
     }
