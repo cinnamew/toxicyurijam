@@ -9,7 +9,9 @@
 (fade background to a black screen)
 
 (Male Silhouette appears on right)
-
-??? "Hazel. Hazel!"
+slidein m -1
+m "yoooo! "what?""
+show h 
+h "hey there lil bro"
 
 (Hazel [default] appears on left)

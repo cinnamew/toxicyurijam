@@ -25,6 +25,7 @@ public class Translator : MonoBehaviour
     void Start()
     {
         currBlock = MakeNewBlock();
+        ReadFile();
     }
 
     public Block MakeNewBlock(string name="block")
@@ -167,7 +168,7 @@ public class Translator : MonoBehaviour
                 return adrianneChar;
             case "o":
                 return oldManChar;
-            default:
+            default:    // TODO: ??? character
                 return null;
         }
     }
