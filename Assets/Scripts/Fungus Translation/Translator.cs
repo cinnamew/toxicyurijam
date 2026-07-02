@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using Fungus;
 using System.IO;
 
@@ -22,11 +23,17 @@ public class Translator : MonoBehaviour
 
     [SerializeField] TextAsset dialogue;
 
-    void Start()
+#if UNITY_EDITOR
+    [ContextMenu("Generate Flowchart")]
+    public void GenerateFlowchart()
     {
         currBlock = MakeNewBlock();
         ReadFile();
+
+        UnityEditor.EditorUtility.SetDirty(flowchart);
+        UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(gameObject.scene);
     }
+#endif
 
     public Block MakeNewBlock(string name="block")
     {
@@ -44,6 +51,7 @@ public class Translator : MonoBehaviour
         return cmd;
     }
 
+#if UNITY_EDITOR
     public void ReadFile()
     {
         string[] lines = dialogue.text.Split('\n');
@@ -67,48 +75,49 @@ public class Translator : MonoBehaviour
                 w.SetDuration(float.Parse(line.Split(" ")[1]));
                 break;
             case "show":
-                LiveSpriteController model = GetModel(line.Split(' ')[1]);
-                InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
-                ev.StaticEvent.AddListener(model.ShowModel);
+                {
+                    LiveSpriteController m = GetModel(line.Split(' ')[1]);
+                    WireVoid(AddCommand<InvokeEvent>(currBlock), m.ShowModel);
+                }
                 break;
             case "timeshow":
                 {
                     LiveSpriteController m = GetModel(line.Split(' ')[1]);
                     float seconds = float.Parse(line.Split(' ')[2]);
-                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.ShowModelTimed(seconds));
+                    WireFloat(AddCommand<InvokeEvent>(currBlock), m.ShowModelTimed, seconds);
                 }
                 break;
             case "hide":
                 {
                     LiveSpriteController m = GetModel(line.Split(' ')[1]);
-                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(m.HideModel);
+                    WireVoid(AddCommand<InvokeEvent>(currBlock), m.HideModel);
                 }
                 break;
             case "timehide":
                 {
                     LiveSpriteController m = GetModel(line.Split(' ')[1]);
                     float seconds = float.Parse(line.Split(' ')[2]);
-                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.HideModelTimed(seconds));
+                    WireFloat(AddCommand<InvokeEvent>(currBlock), m.HideModelTimed, seconds);
                 }
                 break;
             case "slidein":
                 {
                     LiveSpriteController m = GetModel(line.Split(' ')[1]);
                     int distance = int.Parse(line.Split(' ')[2]);
-                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.SlideModelInX(distance));
+                    WireInt(AddCommand<InvokeEvent>(currBlock), m.SlideModelInX, distance);
                 }
                 break;
             case "slideout":
                 {
                     LiveSpriteController m = GetModel(line.Split(' ')[1]);
-                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(m.SlideModelOutX);
+                    WireVoid(AddCommand<InvokeEvent>(currBlock), m.SlideModelOutX);
                 }
                 break;
             case "exp":
                 {
                     LiveSpriteController m = GetModel(line.Split(' ')[1]);
                     int expIndex = int.Parse(line.Split(' ')[2]);
-                    AddCommand<InvokeEvent>(currBlock).StaticEvent.AddListener(() => m.ChangeExpression(expIndex));
+                    WireInt(AddCommand<InvokeEvent>(currBlock), m.ChangeExpression, expIndex);
                 }
                 break;
             case "block":
@@ -133,6 +142,23 @@ public class Translator : MonoBehaviour
                 break;
         }
     }
+
+    // persistency
+    void WireVoid(InvokeEvent ev, UnityAction call)
+    {
+        UnityEditor.Events.UnityEventTools.AddPersistentListener(ev.StaticEvent, call);
+    }
+
+    void WireFloat(InvokeEvent ev, UnityAction<float> call, float arg)
+    {
+        UnityEditor.Events.UnityEventTools.AddFloatPersistentListener(ev.StaticEvent, call, arg);
+    }
+
+    void WireInt(InvokeEvent ev, UnityAction<int> call, int arg)
+    {
+        UnityEditor.Events.UnityEventTools.AddIntPersistentListener(ev.StaticEvent, call, arg);
+    }
+#endif
 
     public LiveSpriteController GetModel(string modelName)
     {
