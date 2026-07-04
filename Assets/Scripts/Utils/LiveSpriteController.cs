@@ -7,6 +7,9 @@ public class LiveSpriteController : MonoBehaviour
 {
     private const float DEFAULT_FADE_DURATION = 0.25f;
     private const float DEFAULT_SLIDE_DURATION = 0.75f;
+    private const float JUMP_FORCE = 0.35f;
+    private const int NUM_JUMPS = 1;
+    private const float JUMP_DURATION = 0.4f;
 
     [SerializeField] private CubismRenderController cubismRenderController;
     [SerializeField] private CubismExpressionController cubismExpressionController;
@@ -38,6 +41,8 @@ public class LiveSpriteController : MonoBehaviour
     public void SetModelPosition(Transform newPos) => transform.position = newPos.position;
 
     public void FlipModelX() => transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+
+    public void JumpModel() => transform.DOJump(transform.position, JUMP_FORCE, NUM_JUMPS, JUMP_DURATION);
 
     // might change this to SlideModelX for sliding in both directions rather than relying on original position - ex. Mary is originally on left, moves right, then calls SlideModelOutX. Where is original position?
     public void SlideModelInX(int distance) => transform.DOMoveX(originalLocation.x + distance, DEFAULT_SLIDE_DURATION);  
