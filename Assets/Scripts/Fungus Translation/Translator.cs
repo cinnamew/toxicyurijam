@@ -120,6 +120,13 @@ public class Translator : MonoBehaviour
                     WireInt(AddCommand<InvokeEvent>(currBlock), m.ChangeExpression, expIndex);
                 }
                 break;
+            case "rename":
+                {
+                    string[] parts = line.Split(new char[] { ' ' }, 3);
+                    Character c = GetCharacter(parts[1]);
+                    WireString(AddCommand<InvokeEvent>(currBlock), c.SetStandardText, parts[2]);
+                }
+                break;
             case "block":
                 string blockName = line.Split(' ')[1];
                 currBlock = MakeNewBlock(blockName);
@@ -157,6 +164,11 @@ public class Translator : MonoBehaviour
     void WireInt(InvokeEvent ev, UnityAction<int> call, int arg)
     {
         UnityEditor.Events.UnityEventTools.AddIntPersistentListener(ev.StaticEvent, call, arg);
+    }
+
+    void WireString(InvokeEvent ev, UnityAction<string> call, string arg)
+    {
+        UnityEditor.Events.UnityEventTools.AddStringPersistentListener(ev.StaticEvent, call, arg);
     }
 #endif
 
