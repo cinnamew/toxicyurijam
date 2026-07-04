@@ -1,9 +1,11 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ChapterSelect : MonoBehaviour
 {
     private const string NULLOBJ = "nullobj";
+    private const int INV_CAPACITY = 7;
 
     private void Awake()
     {
@@ -23,13 +25,15 @@ public class ChapterSelect : MonoBehaviour
 
     private void ResetInventory()
     {
-        string[] inventory = new string[6]{NULLOBJ, NULLOBJ, NULLOBJ, NULLOBJ, NULLOBJ, NULLOBJ};
+        string[] inventory = new string[INV_CAPACITY];
+        Array.Fill(inventory, NULLOBJ);
         PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, inventory));
     }
 
     public void SelectChapterInventory(int chapter)
     {
-        string[] inventory = new string[6]{NULLOBJ, NULLOBJ, NULLOBJ, NULLOBJ, NULLOBJ, NULLOBJ};
+        string[] inventory = new string[INV_CAPACITY];
+        Array.Fill(inventory, NULLOBJ);
 
         if (chapter == 0)
         {
@@ -57,7 +61,7 @@ public class ChapterSelect : MonoBehaviour
         }
         else if (chapter == 6)
         {
-            // add chapter 6 items
+            inventory[6] = "testing-item-star";
         }
         else if (chapter == 7)
         {

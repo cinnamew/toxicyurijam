@@ -31,6 +31,11 @@ namespace Fungus
             Invoke ("OnWaitComplete", _duration.Value);
         }
 
+        public void SetDuration(float n)
+        {
+            _duration = new FloatData(n);
+        }
+
         public override string GetSummary()
         {
             return _duration.Value.ToString() + " seconds";

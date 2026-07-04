@@ -23,6 +23,8 @@ namespace Fungus
 
         #region Public members
 
+        public string CommentText { get { return commentText; } set { commentText = value; } }
+
         public override void OnEnter()
         {
             Continue();
