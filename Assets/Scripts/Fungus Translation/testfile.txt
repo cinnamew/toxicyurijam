@@ -1,0 +1,13 @@
+(Titlecard “Prologue” appears, pause on it for a few seconds, then fade in to the forest bg)
+
+(fade background to a black screen)
+"womp"
+(Male Silhouette appears on right)
+slidein m -1
+m "yoooo! "what?""
+show h 
+h "hey there lil bro"
+rename h ???
+h "now you don't know what i'm named!"
+
+(Hazel [default] appears on left)
