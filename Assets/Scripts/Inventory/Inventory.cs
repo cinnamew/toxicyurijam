@@ -5,7 +5,7 @@ public class Inventory : MonoBehaviour
 {
     [field: SerializeField] public string Id { get; set; } = "someIdforinventory";
     [SerializeField] private Item[] _items;
-    private const int _capacity = 6;
+    private const int _capacity = 7;
     private string[] playerPrefsInventory;
 
     public static Action<Item[]> OnInventoryChanged;
@@ -24,14 +24,15 @@ public class Inventory : MonoBehaviour
         }
         else
         {
-            playerPrefsInventory = new string[_capacity]{"nullobj", "nullobj", "nullobj", "nullobj", "nullobj", "nullobj"};
+            // playerPrefsInventory = new string[]{"nullobj", "nullobj", "nullobj", "nullobj", "nullobj", "nullobj"};
+            Array.Fill(playerPrefsInventory, "nullobj");
             PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, playerPrefsInventory));
         }
 
         for (int i = 0; i < _capacity; i++)
         {
             _items[i] = new Item(ItemDatabase.GetItemById(playerPrefsInventory[i]));
-            _items[i].Id = _items[i].ItemObject.Id;
+            _items[i].Id = _items[i].ItemObject.Name;
         }
 
         OnInventoryChanged?.Invoke(_items);
