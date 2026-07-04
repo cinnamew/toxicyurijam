@@ -248,6 +248,20 @@ public class Translator : MonoBehaviour
                     WireString(AddCommand<InvokeEvent>(currBlock), c.SetStandardText, parts[2]);
                 }
                 break;
+            case "fade":
+                {
+                    FadeScreen f = AddCommand<FadeScreen>(currBlock);
+                    f.Duration = float.Parse(line.Split(' ')[1]);
+                    f.TargetAlpha = 1f;
+                }
+                break;
+            case "unfade":
+                {
+                    FadeScreen f = AddCommand<FadeScreen>(currBlock);
+                    f.Duration = float.Parse(line.Split(' ')[1]);
+                    f.TargetAlpha = 0f;
+                }
+                break;
             case "block":
                 string blockName = line.Split(' ')[1];
                 currBlock = MakeNewBlock(blockName);

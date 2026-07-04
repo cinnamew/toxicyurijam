@@ -35,6 +35,12 @@ namespace Fungus
 
         #region Public members
 
+        /// <summary> Time for the fade effect to complete. </summary>
+        public virtual float Duration { get { return duration; } set { duration = value; } }
+
+        /// <summary> Target alpha: 1 obscures the screen, 0 reveals it. </summary>
+        public virtual float TargetAlpha { get { return targetAlpha; } set { targetAlpha = value; } }
+
         public override void OnEnter()
         {
             var cameraManager = FungusManager.Instance.CameraManager;
