@@ -42,7 +42,7 @@ public class Translator : MonoBehaviour
 
     public Block MakeNewBlock(string name="block")
     {
-        Vector2 offset = new Vector2(Random.Range(-10f, 10f), Random.Range(-10f, 10f));
+        Vector2 offset = new Vector2(Random.Range(-30f, 30f), Random.Range(-20f, 20f));
         currBlock = flowchart.CreateBlock(offset);
         currBlock.BlockName = name;
         return currBlock;
@@ -284,6 +284,15 @@ public class Translator : MonoBehaviour
                 Character speaker = firstQuote > 0 ? GetCharacter(firstWord) : null;
                 if (firstQuote == 0 || speaker != null)
                 {
+                    // jump
+                    LiveSpriteController jumper = GetModel(firstWord);
+                    if (jumper != null)
+                    {
+                        InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                        ev.Description = "jump " + firstWord;
+                        WireVoid(ev, jumper.JumpModel);
+                    }
+
                     // crop leading and trailing "
                     string dialogue = line.Substring(firstQuote + 1, line.Length - firstQuote - 2);
                     Say s = AddCommand<Say>(currBlock);
