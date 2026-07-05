@@ -12,4 +12,6 @@ public static class Globals
 
         public const string INVENTORY = "Inventory";
         public const string INV_SEPARATER = ",";
+
+        public const int SCENE_SEEN = 0;
 }

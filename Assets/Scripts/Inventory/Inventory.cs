@@ -14,6 +14,7 @@ public class Inventory : MonoBehaviour
     private void Awake()
     {
         _items = new Item[_capacity];
+        playerPrefsInventory = new string[_capacity];
     }
 
     void Start()
@@ -24,7 +25,6 @@ public class Inventory : MonoBehaviour
         }
         else
         {
-            // playerPrefsInventory = new string[]{"nullobj", "nullobj", "nullobj", "nullobj", "nullobj", "nullobj"};
             Array.Fill(playerPrefsInventory, "nullobj");
             PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, playerPrefsInventory));
         }
