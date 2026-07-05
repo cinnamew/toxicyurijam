@@ -88,6 +88,7 @@ public class Translator : MonoBehaviour
                     if (m != null)   // Live2D
                     {
                         InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                        ev.Description = line;
                         WireInt(ev, m.ChangeExpression, expression);
                         WireVoid(ev, m.ShowModel);
                     }
@@ -113,6 +114,7 @@ public class Translator : MonoBehaviour
                     if (m != null)
                     {
                         InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                        ev.Description = line;
                         WireInt(ev, m.ChangeExpression, expression);
                         WireFloat(ev, m.ShowModelTimed, seconds);
                     }
@@ -137,7 +139,9 @@ public class Translator : MonoBehaviour
                     LiveSpriteController m = GetModel(t[1]);
                     if (m != null)
                     {
-                        WireVoid(AddCommand<InvokeEvent>(currBlock), m.HideModel);
+                        InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                        ev.Description = line;
+                        WireVoid(ev, m.HideModel);
                     }
                     else
                     {
@@ -156,7 +160,9 @@ public class Translator : MonoBehaviour
                     LiveSpriteController m = GetModel(t[1]);
                     if (m != null)
                     {
-                        WireFloat(AddCommand<InvokeEvent>(currBlock), m.HideModelTimed, seconds);
+                        InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                        ev.Description = line;
+                        WireFloat(ev, m.HideModelTimed, seconds);
                     }
                     else 
                     {
@@ -179,6 +185,7 @@ public class Translator : MonoBehaviour
                     if (m != null)
                     {
                         InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                        ev.Description = line;
                         WireInt(ev, m.ChangeExpression, expression);
                         WireVoid(ev, m.ShowModel);
                         WireInt(ev, m.SlideModelInX, distance);
@@ -204,7 +211,9 @@ public class Translator : MonoBehaviour
                     LiveSpriteController m = GetModel(t[1]);
                     if (m != null)
                     {
-                        WireVoid(AddCommand<InvokeEvent>(currBlock), m.SlideModelOutX);
+                        InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                        ev.Description = line;
+                        WireVoid(ev, m.SlideModelOutX);
                     }
                     else
                     {
@@ -226,7 +235,9 @@ public class Translator : MonoBehaviour
                     LiveSpriteController m = GetModel(t[1]);
                     if (m != null)
                     {
-                        WireInt(AddCommand<InvokeEvent>(currBlock), m.ChangeExpression, expIndex);
+                        InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                        ev.Description = line;
+                        WireInt(ev, m.ChangeExpression, expIndex);
                     }
                     else
                     {
@@ -245,7 +256,9 @@ public class Translator : MonoBehaviour
                 {
                     string[] parts = line.Split(new char[] { ' ' }, 3);
                     Character c = GetCharacter(parts[1]);
-                    WireString(AddCommand<InvokeEvent>(currBlock), c.SetStandardText, parts[2]);
+                    InvokeEvent ev = AddCommand<InvokeEvent>(currBlock);
+                    ev.Description = line;
+                    WireString(ev, c.SetStandardText, parts[2]);
                 }
                 break;
             case "fade":

@@ -103,6 +103,9 @@ namespace Fungus
         /// </summary>
         public UnityEvent StaticEvent { get { return staticEvent; } }
 
+        /// <summary> Description shown in the command summary. </summary>
+        public string Description { get { return description; } set { description = value; } }
+
         [Serializable] public class BooleanEvent : UnityEvent<bool> {}
         [Serializable] public class IntegerEvent : UnityEvent<int> {}
         [Serializable] public class FloatEvent : UnityEvent<float> {}
