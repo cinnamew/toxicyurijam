@@ -17,9 +17,11 @@ public class VolumeSettings : MonoBehaviour
 
         SetupVolumeSlider(musicSlider, Globals.MUSIC_VOLUME);
         SetupVolumeSlider(sfxSlider, Globals.SFX_VOLUME);
+
+        textSpeedSlider.value = PlayerPrefs.GetFloat(Globals.WRITING_SPEED, 60f);
         textSpeedSlider.onValueChanged.AddListener(val =>
         {
-            if (currentWriter != null) currentWriter.ChangeWritingSpeed(val > 60 ? 0 : val);
+            if (currentWriter != null) currentWriter.ChangeWritingSpeed(val >= 60 ? 0 : val);
             PlayerPrefs.SetFloat(Globals.WRITING_SPEED, val);
         });
     }
