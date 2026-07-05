@@ -19,7 +19,7 @@ namespace Fungus
 
         #region Public members
 
-        public virtual TDisplayEnum Display { get { return display; } }
+        public virtual TDisplayEnum Display { get { return display; } set { display = value; } }
 
         #endregion
     }

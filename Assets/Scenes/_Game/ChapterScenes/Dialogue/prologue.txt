@@ -1,0 +1,78 @@
+Block dialogue
+Rename m ???
+(BG: Prologue)
+pause 3.0
+(BG: Forest)
+(Music here:)
+"My hands clutch the grass. Early morning dew slides between my fingers as I curl up against the dirt, my vision swimming.{wc}Birds wheel far overhead, calling in the morning sun, as my leg burns in agony."
+"I can feel blood - thick, warm blood - dripping down my legs. I try to pull myself up, and my head almost splits in two.{wc}Gritting my teeth, I look down at my leg. The sight almost makes me faint on the spot."
+"The arrow's shaft sticks out of my thigh, blood pouring from the wound, which has already started to fester. The skin around it is turning grey.{wc}I collapse backwards and stare up at the bright blue sky, my head swirling with half-formed thoughts and painful memories."
+
+(BG: black screen)
+(Music here:)
+Slidein m1 0 -1
+m1 "Hazel. Hazel!"
+Show h 0
+h "Yes, sir."
+"I had been polishing the silverware in the dining room. It was almost evening, and my duty was to make sure that every last piece shone with a beauty that befitted the Duke of March.{wc}I had seen him many times, staring at his own face in the reflection of his spoon, tweaking his moustache or his hair."
+m1 "Make sure you finish early today. The, ah, Master wants to see you tonight."
+h "... Yes, sir."
+Slideout m1 -1
+"I continued to polish, almost oblivious to the world, when I overheard some gossip between two of the other maids."
+Slidein f1 0 -1
+f1 "Did you hear? There's a witch living in the nearby woods!"
+f1 "A witch? Really?"
+f1 "It's true. Last I went round to the village, they were all talking about her. Seems she's been up to some nasty business recently."
+f1 "Well, I never. A witch, in our neck of the woods?"
+f1 "They say that she gives you three impossible tasks - and if you fail even one, she curses you to live forever as a toad."
+f1 "And what if you succeed?"
+f1 "Well... and this is only a rumour, mind you, but they say she can grant you any wish your heart desires."
+"... I suppose that's how this all started."
+Slideout f1 -1
+Timehide h 1.0
+
+(BG: Forest)
+(Music here:)
+"I cough, and my whole body shudders. In the distance, I can hear the baying of hounds."
+Slidein d 0 1
+"Then, a rustling nearby, and a familiar silhouette appears in view. The man leans over me, flanked by two guards wielding crossbows."
+d "Hazel, dear, what did I tell you? You'll never get away from me."
+"I ignore him, trying to look past his head and at the bright blue sky. I can see sparrows, perched on the branches overhead, chirping restlessly."
+d "Now, if you just agree to come back quietly, I won't have to kill you. I can call for a doctor back at the castle. You might never walk again, but you'll live. What do you say?"
+h "{i}... Damn you.{/i}"
+(sfx here:)
+"The words are too much of an exertion, and I start to cough and sputter, my whole body shuddering in pain."
+d "Now, that's no way to treat your master, is it?"
+"I say nothing. I can almost feel my skin melting away, melding with the dirt, my bones sinking beneath it."
+"Today is a good day to die."
+d "You leave me no choice. Reginald?"
+Slidein m2 0 -1
+"One of the guards perks up, excitement clear on his face. Young, fresh-faced, decently muscled.{wc}I had fancied him once, when I first arrived at the castle. Now, that feels like a lifetime ago."
+m2 "Yes, sir?"
+d "Make it a clean shot through the neck, alright? I don't want her to suffer too much. She did me good service, after all."
+(sfx here:)
+"A branch snaps, somewhere in the distance, and he suddenly turns around."
+d "Halt! Who goes there?"
+m "Sir, I could ask the same of you. These are {i}my{/i} woods."
+m2 "Sir."
+d "I do apologise if we have intruded on your land. As you can see, I was hunting an escaped servant with my men. Now that we've caught her, we'll be on our way."
+m "An escaped servant? Not a prisoner? What right do you have to take her life?"
+m2 "Sir!"
+d "Not now, boy."
+d "As to you, who exactly do you think you are? This may be your land, but I am Duke of this province. Why should I have to-"
+m2 "SIR!"
+d "What?"
+m2 "That's- that's the {i}witch{/i}!"
+Slideout d 1
+Slideout m2 -1
+(sfx here:)
+"I can faintly hear screams, and running, but I pay it little mind. My vision starts to blur and my ears start to ring as the world fades away around me.{wc}I wonder idly if I will be reborn as a sparrow. Perhaps a worm would be more befitting of my station."
+"Then, a silhouette, an unfamiliar one, leans down before me."
+(Mary is at centre here:)
+Show m 0
+m "Oh, you poor, poor thing."
+(BG: Black Screen)
+"The last thing I hear as the world fades away is her voice."
+m "Don't worry. You're safe now."
+m "I won't let anyone hurt you again."
+Fade 2.0

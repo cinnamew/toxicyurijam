@@ -101,6 +101,11 @@ namespace Fungus
         public virtual bool UseDefaultSettings { get { return useDefaultSettings; } set { useDefaultSettings = value; } }
 
         /// <summary>
+        /// Fade Duration.
+        /// </summary>
+        public virtual float FadeDuration { get { return fadeDuration; } set { fadeDuration = value; } }
+
+        /// <summary>
         /// Move portrait into new position.
         /// </summary>
         public virtual bool Move { get { return move; } set { move = value; } }
