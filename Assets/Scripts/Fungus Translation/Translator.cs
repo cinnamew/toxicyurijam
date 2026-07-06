@@ -11,9 +11,9 @@ public class Translator : MonoBehaviour
 
     [SerializeField] LiveSpriteController mary;
     [SerializeField] LiveSpriteController hazel;
-    [SerializeField] LiveSpriteController duke;
+    // [SerializeField] LiveSpriteController duke;
     [SerializeField] LiveSpriteController adrianne;
-    [SerializeField] LiveSpriteController oldMan;
+    [SerializeField] LiveSpriteController priest;
 
     [SerializeField] Character maryChar;
     [SerializeField] Character hazelChar;
@@ -23,6 +23,7 @@ public class Translator : MonoBehaviour
     [SerializeField] Character m1Char;
     [SerializeField] Character m2Char;
     [SerializeField] Character f1Char;
+    [SerializeField] Character priestChar;
 
     [SerializeField] Stage stage;
 
@@ -356,6 +357,8 @@ public class Translator : MonoBehaviour
             //     return duke;
             case "a":
                 return adrianne;
+            case "p":
+                return priest;
             default:
                 // non-Live2D characters: "o", "m1", "m2", "f1", "d"
                 return null;
@@ -382,6 +385,8 @@ public class Translator : MonoBehaviour
                 return m2Char;
             case "f1":
                 return f1Char;
+            case "p":
+                return priestChar;
             default:
                 return null;
         }
