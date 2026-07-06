@@ -120,8 +120,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2844702132894896326}
   m_HandleRect: {fileID: 6052084278539781608}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2056,7 +2056,7 @@ RectTransform:
   m_GameObject: {fileID: 2405813656465586193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1429929748823296099}
@@ -3093,8 +3093,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2119788430419206712}
   m_HandleRect: {fileID: 6538511830075769662}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.40765437
+  m_Value: 1.0000004
+  m_Size: 0.40765432
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3468,8 +3468,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.0008932553}
+  m_SizeDelta: {x: 0, y: 1040}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6315806210915864263
 MonoBehaviour:
@@ -4183,8 +4183,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8024063543998354539}
   m_HandleRect: {fileID: 5020484857560724061}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.4100464
+  m_Value: 1.0000004
+  m_Size: 0.41004637
   m_NumberOfSteps: 1
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4738,7 +4738,7 @@ RectTransform:
   m_GameObject: {fileID: 8434052770890584445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.9574468}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1429929748823296099}
@@ -5093,7 +5093,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 245, y: 150}
+  m_SizeDelta: {x: 245, y: 101.4375}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &7381796525923871840
 CanvasRenderer:
@@ -5146,18 +5146,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.HorizontalLayoutGroup
   m_Padding:
-    m_Left: 40
+    m_Left: 47
     m_Right: 0
-    m_Top: 20
+    m_Top: 25
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 0
+  m_Spacing: -45
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+  m_ChildScaleWidth: 1
+  m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
 --- !u!225 &9057644854891721632
 CanvasGroup:
@@ -5206,7 +5206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.00000095367, y: 0}
+  m_AnchoredPosition: {x: -0.00000095367, y: -0.00014103082}
   m_SizeDelta: {x: 420.58, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &4044072852920720134
