@@ -1,0 +1,28 @@
+block dialogue
+(BG: Witch’s House Day)
+(sfx here:)
+Show m 0
+m "Enjoying yourself?"
+Show h 3
+h "I-  I'm sorry! I didn't mean to-"
+"I stammer out an apology, but she brushes it aside with a loose wave of her hand."
+Exp h 0
+m "No, it's fine. I just wasn't expecting you to be so interested in the alchemical arts."
+m "Tell you what, why don't I show you around properly sometime?"
+h "Well, I... don't want to be a bother."
+m "No, I'd be happy to do it. But, for now, I'd like to get some work done, if that's alright."
+"Mary strides across the room towards me. It's only now that I really notice how tall she is."
+h "I'm sorry. I should have asked for permission first."
+m "Please, don't be. I don't mind."
+(sfx here:)
+She reaches out and pushes the cupboard door shut.
+m "Now, do you need any help getting back to your room?"
+h "No, I can manage on my own."
+Exp m 1
+m "That's wonderful!"
+Hide m
+"I give her a hurried nod, and pace out of the room."
+"I move as carefully as I can, to make sure she doesn't see the small grey book I have held by my side."
+"For some reason, I just couldn't bring myself to let go of it."
+Hide h 1.0
+Fade 2.0
