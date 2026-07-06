@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MirrorGameManager : MonoBehaviour
 {
-    private const int PHASE_ONE_GOAL = 5;
+    private const int PHASE_ONE_GOAL = 4;
 
     [SerializeField] private GameObject[] phaseOneObjects;
     [SerializeField] private GameObject[] phaseTwoObjects;
@@ -10,9 +10,10 @@ public class MirrorGameManager : MonoBehaviour
     private int currentCrackStage = 0;
     private int phaseOneClicks = 0;
 
+
     public void CrackMirror()
     {
-        if (mirrorCrackStages.Length == 0 || currentCrackStage > mirrorCrackStages.Length) return;
+        if (mirrorCrackStages.Length == 0 || currentCrackStage >= mirrorCrackStages.Length) return;
         mirrorCrackStages[currentCrackStage].SetActive(true);
         currentCrackStage++;
     }
@@ -31,6 +32,19 @@ public class MirrorGameManager : MonoBehaviour
             {
                 g.SetActive(true);
             }
+        }
+    }
+    
+    public void StartPhaseTwo()
+    {
+        foreach (GameObject g in phaseOneObjects) 
+        {
+            g.SetActive(false);
+        }
+
+        foreach (GameObject g in phaseTwoObjects)
+        {
+            g.SetActive(true);
         }
     }
 }
