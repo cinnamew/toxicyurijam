@@ -4982,7 +4982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Fungus::Fungus.Character
   nameText: Priest
-  nameColor: {r: 0.7137255, g: 0.6431373, b: 0.5058824, a: 1}
+  nameColor: {r: 0.972549, g: 0.8745098, b: 0.7137255, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0

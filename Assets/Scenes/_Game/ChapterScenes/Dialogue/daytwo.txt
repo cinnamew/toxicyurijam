@@ -1,0 +1,54 @@
+Block dialogue
+(BG: Day 2)
+Unfade 1.0
+Pause 3.0
+(BG: Forest)
+(music here:)
+Show h 0
+"Not long after I woke up, Mary dragged me out on a walk through the forest, saying she needed "help gathering ingredients"."
+"My leg still feels weak, but beneath the shining sun, between the rustling trees...
+"The events of last night are starting to feel like nothing more than a bad dream."
+Show m 0
+m "Not much further now!"
+"A fly buzzes past my face and I flinch reflexively. It drifts lazily onto Mary's shoulder, where it perches. She pays it no mind."
+m "Sometimes traders do stop by the village, but I get most of my potion ingredients from this forest."
+m "Nature is amazing, isn’t it?"
+Exp m 6
+m "That being said, this area is home to more than a dozen lethally poisonous species of mushroom."
+M "Don't touch anything suspicious without checking with me first. Got it?"
+h "Yes, Ma’am."
+Exp m 0
+m "I thought I told you to stop with that."
+m "Ah, here we are!"
+"She steps forwards into a clearing, and I follow a step behind. "
+Patchwork beams of sunlight shine down, filtered through a thick layer of trees. The grass is bright, and soft.
+"Birds flutter overhead, hopping between branches."
+"A small brook snakes around the edge of the clearing, bubbling with clear, fresh water."
+h "It's beautiful."
+Exp m 6
+m "I'm glad to see you appreciate it. I... I wanted to apologise. For yesterday."
+m "I have a unique skin condition that can affect me very suddenly. I've been told that I look quite monstrous when it flares up."
+m "I didn't want you to think less of me, so I tried to hide myself from you."
+m "But, as you can see, I'm alright now! It's a very temporary thing."
+"I do look at her, properly. Her skin is clear and healthy, her eyes full of life."
+"If anything, she looks much healthier than she did yesterday."
+m "Anyway, none of that really matters. I shouldn't have shouted at you. I'm sorry."
+"I let myself collapse onto the grass, succumbing to the exhaustion in my legs, and look up at Mary."
+h "It's alright. I forgive you."
+m "You do? Really?"
+h "It's like you said, right?"
+h ""You don't have to be scared of being yourself around me.""
+h "It's not fair if I'm the only one who gets a free pass. I'm sure you have your own struggles."
+Exp m 1
+m "Oh, {i}Hazel{/i}..."
+"She kneels down beside me and suddenly wraps me in an embrace. I freeze at first, then settle into her touch."
+h "Don't do it again, okay?"
+m "I won't."
+"She untangles herself from me, and stands up, clapping her hands together."
+Exp m 0
+m "Now!"
+"She pulls a small pair of scissors and a pair of cloth gloves from her bag."
+m "Let's get to work, shall we?"
+(Next 2 simultaneous:)
+Hide h 1.0
+Hide m 1.0

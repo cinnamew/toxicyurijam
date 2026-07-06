@@ -681,7 +681,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00002
 --- !u!33 &534081794021044316
@@ -819,7 +819,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00013999999
 --- !u!33 &2228999658581900701
@@ -1020,7 +1020,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00016
 --- !u!33 &6507484339176707328
@@ -1221,7 +1221,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00009
 --- !u!33 &7407553271083791725
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00012
 --- !u!33 &6313697581611450043
@@ -1497,7 +1497,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00004
 --- !u!33 &5983279417100327482
@@ -1635,7 +1635,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00003
 --- !u!33 &7603050127276229733
@@ -1885,7 +1885,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: 0
 --- !u!33 &1563546834086881986
@@ -2023,7 +2023,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00008
 --- !u!33 &402685044527389978
@@ -2266,7 +2266,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00005
 --- !u!33 &5630712132184641519
@@ -2593,7 +2593,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.000069999995
 --- !u!33 &8364001178240950829
@@ -2731,7 +2731,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00014999999
 --- !u!33 &5652241354148121339
@@ -3028,7 +3028,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00013
 --- !u!33 &4368277295415390988
@@ -3431,7 +3431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Fungus::Fungus.Character
   nameText: Adrianne
-  nameColor: {r: 0.7137255, g: 0.6431373, b: 0.5058824, a: 1}
+  nameColor: {r: 0.972549, g: 0.8745098, b: 0.7137255, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -3891,7 +3891,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00017
 --- !u!33 &2755561771994074061
@@ -4029,7 +4029,7 @@ MonoBehaviour:
   ColorBlendType: 0
   AlphaBlendType: 0
   DrawObjectType: 0
-  _offsetScale: {x: 0, y: 0, z: 5, w: 5}
+  _offsetScale: {x: 4.3, y: 0, z: 8.8, w: 8.8}
   _quaternion: {x: 0, y: 0, z: 0, w: 1}
   _zOffset: -0.00001
 --- !u!33 &446538846726203392
