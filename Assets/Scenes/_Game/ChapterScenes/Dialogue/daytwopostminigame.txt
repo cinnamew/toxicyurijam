@@ -1,0 +1,14 @@
+Block dialogue
+(BG: Forest)
+(music here:)
+Show m 1
+m "That should be enough work for one day. Should we start heading home?"
+Show h 1
+h "Sure."
+"The rest of the day passes in peaceful tranquility. I eat lunch with Mary, and then supper."
+"We talk for a while, about the weather, about the forest, about the village."
+"I end the day with a cup of bitter tea and a calm, restful sleep, unplagued by nightmares."
+Slideout m -1
+"For a moment, I feel at peace. But only for a moment."
+Timehide h 1.0
+Fade 2.0
