@@ -1,0 +1,164 @@
+Block dialogue
+(BG: Witch's House Night)
+"When I come to, I'm lying on the floor in a puddle of my own vomit."
+"Slowly, I stand up, wipe the bile from my clothes, undress, and lie down in bed."
+"That night, I don't sleep."
+Fade 2.0
+
+Block dialogue
+(BG: Day 5)
+Unfade 1.0
+Pause 3.0
+(BG: Forest)
+(Next 2 simultaneous:)
+Slidein h 0 1
+Slidein m 0 -1
+h "Where are we going this time?"
+"I trail behind Mary as she makes her way through the forest, brushing aside branches and stepping over rocks."
+m "It's been a while since the last time you bathed, hasn't it?"
+
+(CHOICE:)
+(1. "Is it that obvious?")
+(2. "What do you mean?")
+
+Block choice 1-1
+h "Is it that obvious?"
+"Mary chuckles."
+m "Sorry, that was a rude question."
+
+Block choice 1-2
+Exp h 1
+h "What are you getting at?"
+m "Nothing, nothing.
+m "You smell fine."
+Exp h 0
+h "Fine, whatever."
+h "It has been a while."
+
+Block after choice 1
+m "I know a good stream nearby, and I thought I would show you the way."
+m "You're free to go back home after that, if you want."
+h "No, you were right."
+m "Ah, here we are."
+Slideout m -1
+(sfx here:)
+"A large basin lies before us, a shimmering pool of clear blue water fed by a flowing stream.{wc}I step forward and dip my hand beneath the water's surface, feeling it run through my fingers.{wc}When I turn back around, Mary is in the process of pulling her dress over her head."
+h "H-hey!"
+"I feel my cheeks burning with embarrassment."
+Slidein m 6 -1
+m "What?"
+h "You're getting... naked."
+"The moment the words come out of my mouth, I feel stupid and childish for saying them."
+m "Of course I am. I need a bath."
+h "But I'm still here."
+m "Oh, it's fine. It's just us girls here, after all."
+Slideout m -1
+(BG: Black Screen)
+"I screw my eyes shut."
+(BG: Forest)
+"When I open them again, Mary is drifting through the water, a look of sheer bliss on her face. She lets out a deep sigh."
+m "This is wonderful."
+m "Are you not coming in?"
+h "No, I..."
+"I kneel by the water's edge, overcome with frustration."
+Exp h 1
+h "This is why I didn't want you undressing!
+h "I knew you'd expect me to do the same. I can't do it, okay? I just can't."
+m "I don't mind."
+Exp h 0
+h "That's not what this is about."
+m "Oh."
+h "It's fine. I'll just wait until you're done, then you can go on ahead."
+m "Well..."
+"She kicks over to the water's edge, looking up into my eyes."
+m "You don't {i}have{/i} to undress to go swimming. It's not like those clothes don't also need a wash."
+m "The walk back to the house will be a pain, but it's not far, and you can undress once we're back home."
+h "I... I suppose."
+Slideout h
+"I kick off my shoes and lower myself into the pool feet first.{wc}The water is cold, but refreshing, and I soon find my tension wearing away as I float along."
+m "I'm sorry, you know? About what you've gone through."
+h "You don't have to be. It wasn't your fault."
+(CG: Mary in Pool)
+"Mary stands up and stretches, her back turned to me, and my breath is taken away. A web of scars adorns her back, carved into her skin."
+h "Your scars..."
+(CG: Hazel reaches out a hand)
+"I reach out one hand and brush it across her back, feeling its ridges, its contours."
+m "You like them?"
+h "What? No, it's horrible."
+h "You must have gone through so much..."
+m "Honey, you're looking at the proof of a life worth living."
+h "Really?"
+m "Well, it must have been. Just look at how many people have tried to take it away from me."
+"She laughs, but there's something hollow at the edge of her voice. I wrap my arms around her torso, feeling her cold, smooth skin."
+h "It's still not right. No-one should have to endure so much suffering."
+h "You, least of all."
+(Hide CG)
+(BG: Forest)
+(Next 2 simultaneous:)
+Slidein h 0 1
+Slidein m 6 -1
+"Mary suddenly spins around and pulls me into a tight hug. Then, she lets go and crouches down, cradling my face in her hands."
+m "Hazel. I love you so, so much."
+h "Oh."
+h "Okay."
+m "I'm sorry."
+m "It's probably an awful thing to say, after everything you've been through, but I couldn't hold it in any longer."
+m "I love you."
+"Unsure of what to say, I stare at her face, taking it all in. Her skin is cold and pale.{wc}She looks more unhealthy now than she did yesterday. Her breathing is faint, and her fingers feel stiff, almost lifeless.{wc}And yet, behind her eyes is a fire more intense than any I have seen."
+"She sighs and lets me go. I sink back into the water."
+m "I'm sorry about that."
+h "It's alright."
+"I pull myself to my feet, shaking the water out of my ears."
+h "Next time you want to randomly hug me, can you put some clothes on first?"
+m "Hey, you were the one who-"
+Exp m 1
+m "Next time? So I can keep hugging you?"
+Exp h 2
+h "If... If it'll make you happy, then fine."
+m "Oh, Hazel!"
+"She pulls me into another hug, and I fall back into the water under her weight."
+Exp h 1
+h "Hey!"
+Exp m 0
+m "Sorry."
+m "Should we start heading back, then?"
+Exp h 0
+h "Sure."
+(Next 2 simultaneous:)
+Slideout h 1
+Slideout m -1
+(BG: Witch's House Day)
+"A while passes without much of note happening - another meal, another conversation, some more reading.{wc}After lunch, Mary offers to show me around her workroom, and I oblige.{wc}The tour, and her eager explanations, are enjoyable - but there is one question I ask that provokes a strange response."
+(Next 2 simultaneous:)
+Slidein h 0 1
+Slidein m 0 -1
+m "... and this piece of glassware is incredibly handy."
+m "It allows me to evaporate liquids, and then recollect them through condensation, so nothing goes to waste."
+m "I'll show you how it works some time."
+h "Where did you get all of this?"
+m "Sorry?"
+h "Oh, um... I was just wondering, because a lot of this equipment seems really rare and expensive."
+h "And I've never heard of most of these ingredients before."
+"Mary opens her mouth, then pauses for a moment, as if she's thinking of what to say."
+Exp m 6
+m "I suppose there's no harm in telling you. I used to be an alchemist in the capital."
+m "In fact, I used to study at the Royal College of Alchemy."
+h "Really?"
+"Mary chuckles."
+Exp m 2
+m "A decent pedigree was the one gift my parents left me when they passed."
+Exp m 0
+"That and the money, of course."
+h "But then, what happened to make you leave the capital?"
+m "Well, I didn't leave by choice. The academy kicked me out."
+Exp m 6
+m "Those stuffy old men..."
+Exp m 0
+m "They didn't like how I changed, I suppose."
+m "Anyway, enough about me. Don't you want to see the garden?"
+"The rest of my tour passes without issue, and I start to think that what I saw on Mary's face might have been nothing more than my imagination."
+"When she mentioned her parents, I could have sworn I saw, for just the briefest of moments, a twisted grin forming on her lips."
+(Next 2 simultaneous:)
+Slideout h 1
+Slideout m -1
+Fade 2.0
