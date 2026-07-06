@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Game/ChapterScenes/6_Day 4 Post MInigame.unity
     guid: 422b412c396854f558095fb3f12c6ffa
+  - enabled: 1
+    path: Assets/Scenes/_Game/ChapterScenes/7_Day 6.unity
+    guid: d212f8cd232bc4205a5e1395b8d76d0d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

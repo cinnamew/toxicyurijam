@@ -1,0 +1,110 @@
+Block dialogue
+(BG: Day 6)
+Unfade 1.0
+(Pause 3.0)
+(BG: Witch's House Day)
+Timeshow h 0 1.0
+(music here:)
+"Come morning, I am awoken by the sound of knocking, and by a familiar voice."
+m "Hazel... can you open the door?"
+"I get out of bed, unlatch the door, and open it."
+Timeshow m 5 1.0
+m "Why did you lock the door? You never used to do that."
+h "Your eye..."
+m "Oh, this?"
+"She taps the bandage a few times, like the thought of it worrying me had never even crossed her mind."
+m "I just had a bit of a nasty fall, that's all. It'll be healed up in a few days, I'm sure."
+h "Are you sure? It looks bad."
+m "I told you, it's fine. More importantly..."
+m "I need something from you."
+h "What is it?"
+m "I need your blood."
+"I laugh, and I expect her to laugh along with me. She doesn't. The look in her eyes is serious - no, more than that."
+"I only now realise just how disturbed she looks. Her only unharmed eye has gone wide, its puil a tiny black dot in a sea of white.{wc}Her arms are shaking slightly, her hands curling and uncurling. Her eye keeps darting around the room.{wc}She looks nothing like she did yesterday.
+h "What's wrong?"
+m "No, no, no. I told you, nothing's wrong!"
+(sfx here:)
+"She slams her fist into the wall, and the wood buckles from the impact."
+m "Hazel. If you love me, you'll do this for me."
+h "O-okay."
+m "Great."
+"She opens her mouth wide to smile, and for the first time, I see how much she is salivating."
+Slideout h 1
+"She grabs me by the shoulder and drags me over to the bed, throwing me against it.{wc}I whimper in pain as my body hits the mattress, but I don't dare move."
+Slideout m -1
+"So I lie there, completely still, as she crawls up onto the bed, kneeling over me."
+"She leans forwards until her face is only a few inches from mine, her arms and legs against the bed, standing all fours like some savage beast.{wc}She opens her mouth wide, revealing an impossibly sharp pair of canines, and I brace myself. Then she stops."
+"Mary closes her mouth, and smiles at me."
+Slidein m 0 -1
+M: Sorry. This will hurt a bit. Just bear with it, okay?
+Hide m
+(CG: Hazel getting eaten)
+(sfx here:)
+(maybe having some different music for this bit would be nice:)
+"Then she leans forward and bites my neck."
+"The pain is unimaginable, like a red-hot brand being driven into my shoulder.
+"Worse is the feeling of my blood leaving my body, like my insides are spilling out."
+"But the worst are the sounds. Mary snarling, growling, my screams filling the room from wall to wall."
+"And the loudest, a hideous slurping, gulping sound."
+"I watch in disbelief as her body thrashes, and her skin almost starts to glow, its colour slowly returning.{wc}I see small hairline cracks across her body, ones that I had never noticed before, binding before my eyes."
+"Her hands find mine and our fingers lock together.{wc}She presses me down against the bed, and I can feel myself being almost crushed under her weight."
+"My vision is blurring. Sound is receding from the world. My breath is coming up short. And then..."
+"Then, Mary lets go of me. The pain fades somewhat."
+(Hide CG)
+(no music:)
+She sits up, and wipes my blood from her mouth with one hand.
+Show m 3
+m "Thanks, honey. You have no idea how much I needed that."
+Slideout m 1
+"Then she clambers off the bed, and leaves me there, my arms and chest sore, my clothes a mess, my shoulder still slowly bleeding."
+"As quietly as I can, I start to cry."
+"..."
+(peaceful music:)
+"Some time passes, and Mary returns. She applies a poultice to the wound on my shoulder, and bandages it up.{wc}She apologises profusely the entire time. I barely hear her words."
+"I only find the strength to leave my bed hours later, as noon approaches.{wc}When I step out into the hall, I find it empty.{wc}The door to the workroom is closed, and, from the sound of it, Mary is in there now, working away."
+(BG: Forest)
+"Suddenly struck by the desire to be anywhere but here, I find myself wandering out of the house and down that familiar dirt road.{wc}My legs almost move on their own.{wc}As I near the edge of the forest, I notice something in the distance, faintly visible between the trees."
+"As I get closer, I make out what remains of a house, burned almost to the ground.{wc}Support beams stick out of the dirt like the ribcage of some great beast, charred as black as coal.{wc}I walk towards it, overcome by curiosity, but as I near the ruin, I suddenly hear a voice."
+Slidein p 0 -1
+p "Are you lost, dear?"
+"An unfamiliar man in priestly garb is standing to my right. From his tranquil posture, he looks to have been standing there for a while."
+Slidein h 0 1
+h "No. I'm fine."
+"He is clearly unconvinced."
+P: "Are you alright, child? You look shaken."
+Exp h 1
+h "I said, I'm {i}fine{/i}. And I'm not a child."
+p "I apologise. I did not mean to demean you."
+p "It is simply that, before the majesty of God, we are all children, each and every one of us."
+p "Here, I have something for you."
+(Show item portrait: Lavender)
+"He reaches into his pocket and pulls out a sprig of lavender, pressing it into my palm."
+p "The smell should calm your nerves. And it does wonders when mixed into a tea."
+Exp h 0
+"I lift the lavender to my nose and inhale. It helps to distract me, at least."
+(Hide item portrait)
+(Add lavender to inventory)
+h "Thanks."
+h "What are you doing out here?"
+p "I could ask the same of you."
+h "I- I don't really know. There's just something about this house..."
+p "Yes, this place was once home to a grievous tragedy."
+p "I try to visit at least once a year to pay my respects."
+h "What tragedy?"
+Exp p 1
+p "The fear of witchcraft is an all-too-common malady in recent times."
+p "Even a decade ago, fear had these people in an iron grip."
+p "Two women used to live here, kind souls both of them. They were happy to provide food and shelter for travellers who needed it."
+p "I found myself enjoying their hospitality on several occasions."
+p "Of the two women, one of them... Eleanor, I think she was called."
+p "She worked in the nearby village, at her family's tailor shop."
+p "The other woman worked as a doctor, producing and developing cures and remedies."
+p "I suppose that was the problem."
+p "Eleanor told me once that her father could never get out of his mind the thought that she was being stolen away, every time she left the village."
+p "I heard several that even though the other woman was quite the talented doctor, many of the villagers didn't trust her skills."
+p "The idea that someone other than God could have such power over life and death, over {i}their{/i} life and death..., to them, it was terrifying."
+p "Hatred requires but a small seed to bloom."
+"I look back at the house and shiver. What happened here? And why does it sound so familiar?"
+(Next 2 simultaneous:)
+Timehide h 1.0
+Timehide p 1.0
