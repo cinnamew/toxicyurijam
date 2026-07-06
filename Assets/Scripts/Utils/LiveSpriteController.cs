@@ -7,9 +7,9 @@ public class LiveSpriteController : MonoBehaviour
 {
     private const float DEFAULT_FADE_DURATION = 0.25f;
     private const float DEFAULT_SLIDE_DURATION = 0.75f;
-    private const float JUMP_FORCE = 0.2f;
+    private const float JUMP_FORCE = 0.1f;
     private const int NUM_JUMPS = 1;
-    private const float JUMP_DURATION = 0.3f;
+    private const float JUMP_DURATION = 0.4f;
 
     [SerializeField] private CubismRenderController cubismRenderController;
     [SerializeField] private CubismExpressionController cubismExpressionController;
