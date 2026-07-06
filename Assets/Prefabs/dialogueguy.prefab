@@ -47,9 +47,8 @@ MonoBehaviour:
   flowchart: {fileID: 0}
   mary: {fileID: 0}
   hazel: {fileID: 0}
-  duke: {fileID: 0}
   adrianne: {fileID: 0}
-  oldMan: {fileID: 0}
+  priest: {fileID: 0}
   maryChar: {fileID: 0}
   hazelChar: {fileID: 0}
   dukeChar: {fileID: 0}
@@ -58,5 +57,6 @@ MonoBehaviour:
   m1Char: {fileID: 0}
   m2Char: {fileID: 0}
   f1Char: {fileID: 0}
+  priestChar: {fileID: 0}
   stage: {fileID: 0}
-  dialogue: {fileID: 4900000, guid: a18ea45ed80f24261b6e5aeede998b39, type: 3}
+  dialogue: {fileID: 4900000, guid: 815cd6037c3e445b5935294b583dc03b, type: 3}

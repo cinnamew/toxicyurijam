@@ -43,7 +43,7 @@ public class Translator : MonoBehaviour
 
     public Block MakeNewBlock(string name="block")
     {
-        Vector2 offset = new Vector2(Random.Range(-30f, 30f), Random.Range(-20f, 20f));
+        Vector2 offset = new Vector2(Random.Range(-80f, 80f), Random.Range(-100f, 100f));
         currBlock = flowchart.CreateBlock(offset);
         currBlock.BlockName = name;
         return currBlock;
@@ -277,7 +277,7 @@ public class Translator : MonoBehaviour
                 }
                 break;
             case "block":
-                string blockName = line.Split(' ')[1];
+                string blockName = line.Split(new char[] { ' ' }, 2)[1];
                 currBlock = MakeNewBlock(blockName);
                 break;
             default:
