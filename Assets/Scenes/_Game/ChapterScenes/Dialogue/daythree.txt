@@ -1,0 +1,257 @@
+Block dialogue
+Rename a ???
+(BG: Day 3)
+Unfade 1.0
+Pause 3.0
+(BG: Witch's House Day)
+Show h 1
+"When I wake, the sun is already high in the sky. When I finally gather the energy to leave my bedroom, I find the house completely empty."
+"A note has been left on the table - written in careful, elegant handwriting.
+Note "{i}Sorry, but I'll be gone for most of the day. I've left some bread and cheese out on the table if you get hungry.{/i}"
+Note "{i}I'll be back by the evening. - M{/i}"
+(BG: Forest)
+"I decide to take the opportunity to explore some of the area around Mary's house."
+"The house is surrounded by a thick forest, and seems to be hidden far from civilisation."
+"Despite that, it doesn't take long until I find a coarse dirt road, snaking through the trees."
+"I pick a direction on a whim, and start to walk."
+"After a while, I spot chimney smoke curling above the treetops, and soon after that I come to the edge of the forest."
+"Vast fields of yellow wheat stretch out before me, the road cutting right through them.{wc}And, along that road is the village, dozens of houses clustered around a large open town square.{wc}I continue on, passing by several farmers working away at the fields, until I reach it."
+
+(BG: Village)
+(music here:)
+(sfx here:)
+
+Slidein c 0 -1
+c "I'm telling you, danger has afflicted this region! A perverse wickedness that hides its fangs and claws!"
+c "A wickedness that whispers sweet promises in your ear! That threatens to tarnish this kingdom's very soul!"
+"A man stands at the edge of the town square, a lion coat-of-arms emblazoned on his armour, holding up a poster and occasionally gesturing to it."
+"A small crowd has gathered around him and is listening intently."
+c "Yes, this corruption's name is witchcraft!"
+c "Beware its sinful appeal, beware those who practice it, those who would see the natural order overtaken!"
+"I step closer to get a proper look at the poster in his hand, and freeze."
+Exp h 3
+"The drawing on it is sketchy, but it's clearly a depiction of Mary. I shudder and turn away."
+c "The venerable and magnanimous Duke of Hart is offering a reward of up to thirty silvers for this individual!"
+c "Any individual who can provide information leading to their capture will earn this prize. Yes, I repeat, up to thirty silvers!"
+Slideout c -1
+Exp h 0
+"I tune him out."
+"Various stalls have been set up throughout the square. I meander over to one selling pies, my stomach rumbling."
+Slidein v 0 -1
+v "What'll it be, dearie?"
+h "One of the small ones, please."
+v "Here you go."
+"I take the offered pie and take an eager bite out of it, savouring the sour meat filling. The lady attending the stall holds out on hand."
+v "That'll be ten coppers, miss."
+h "Oh, uh-"
+"I suddenly realise I don't have a single coin to my name.{wc}Should I have tried to find some in Mary's room? But if I had, it would have felt like stealing."
+v "Do you have something to barter, then?"
+h "Um, I-"
+Slideout v -1
+Slidein a 0 -1
+a "I'll pay for it! And one for me too, please."
+"An unfamiliar girl barges past, grabs the lady's hand, and shakes it vigorously."
+v "Are you sure?"
+a "I've got the money, don't I?"
+v "Go on, then."
+"Money changes hands, and the two of us walk away from the stall, pies in hand."
+h "Thank you. You didn't have to do that."
+Exp a 1
+a "I know."
+
+Block daffodil
+h "I don't even have any way to pay you back."
+"That's when I realise - it's still in my pocket."
+h "It's not much, but how about this?"
+I pull out the daffodil stalk, careful not to crush it. The girl visibly lights up.
+Exp a 0
+a "Oh, thank you!"
+"She holds the flower up to her nose, and breathes it in, then gives me a coy smile."
+Exp a 1
+a "This flower..."
+a "Should I take it to mean something?"
+
+(CHOICE:)
+(1. "Um...")
+(2. "What do you mean?")
+
+Block choice 1-1
+Exp h 2
+h "I just..."
+"The girl chuckles."
+Exp a 0
+a "It's alright, I'm only teasing. Let's find somewhere to eat."
+Exp h 0
+
+Block choice 1-2
+h "What do you mean?"
+"The girl looks disappointed."
+a "You're no fun."
+a "Come on, let's find somewhere to eat"
+
+Block after choice 1
+"We walk through the town for a while, looking for somewhere in the shade to sit and eat. Eventually, we find it, and sit down together."
+(Remove daffodil from inventory)
+(Set variable daffodil (or something))
+
+
+Block no daffodil
+"I almost expect her to run off again, but the strange girl follows me as I wander around, looking for somewhere in the shade to sit and eat.{wc}Eventually, I find it, and she sits down beside me."
+Block after daffodil
+h "What's your name?"
+Rename a Adrianne
+a "Adrianne."
+h "That's a lovely name."
+Exp a 1
+She makes a sour face.
+a "It's an awful name. It's so old-fashioned."
+a "Makes me sound like I should be locked up in a glass case, slowly gathering dust."
+a "What about you?"
+h "Hazel."
+a "Hazel, Hazel, Hazel..."
+"She repeats my name a few times, as if trying out how it feels, then shrugs."
+a "It'll do."
+a "You're new around here, aren't you, Hazel?"
+"She takes a large bite out of her pie."
+h "I suppose."
+Exp a 0
+a "I thought so! I haven't seen you around before, and I know I'd remember your face."
+h "You would?"
+a "So what, are you looking for work? Because I might be able to find something for you, if you're interested."
+h "... I moved in with a relative who lives here."
+a "Ah, right, right. Are you going to be here long-term?"
+h "Maybe."
+h "That man in the town square... what was he talking about?"
+Exp a 1
+a "Why? Do you want to join the witch hunt?"
+h "No, no! I was just wondering if you knew more about him."
+a "One of the Duke's men, shouting about witchcraft as always."
+a "The whole town's up in arms about it now"
+a "'Course, we've known about the witch for ages, but we always thought she was harmless."
+"Until the troubles began."
+h "What troubles?"
+a "There's been a blight on the crops this year, and billy, two doors down, got his leg taken off by a wild boar."
+a "Nancy lost her baby to a miscarriage, and ol' Ted lost two of his goats to a wolf attack. That's just the start of it, though."
+a "There's been so much bad luck in the air recently, people have been drowning in it."
+h "What?"
+a "I've seen it. People in good health, dying in their beds, choking to death on the very air. It's frightful."
+h "Oh."
+"A calm silence settles over us as we eat. As soon as she's done, Adrianne jumps up suddenly."
+Exp a 0
+a "It was nice to meet you, Hazel, but I do have to get going."
+h "Oh, okay."
+a "Will I see you again?"
+h "Sure."
+a "Great!"
+Slideout a -1
+"Adrianne runs off, leaving me to finish my pie in silence."
+"Eventually, I finish eating, and stand, wiping crumbs off my clothes. I try to retrace my steps to the village's entrance.{wc}I must have gotten turned around at some point, because I take a wrong turn into an alley, and then another, and end up completely lost."
+(sfx here:)
+"I keep walking, but the further I walk, the more alien my surroundings seem.{wc}The alleyways get thinner, and slowly darker, as the light is more constrained. The buildings become wood, then stone."
+"I leave behind the rows of clothing lines, and the alleyways instead become cold, emtpy places, no windows or doors looking down on them.{wc}The noise of the world drops away, leaving only a dense silence, the only sound my footsteps on the soft dirt."
+"Then, I reach a dead end. The point where all the paths converge, a small ring of old-looking, worn-down stone houses."
+"Standing at what must be the edge of the village, I am boxed in by stone walls, almost entirely deprived of sunlight."
+"The oldest and largest of the houses stands before me."
+"The house is two stories tall, and must at some point have been beautiful to behold, made of polished, luxuriously engraved oak.{wc}Now though, it is rotting.{wc}Even if I had a reason to, I would not dare step one foot into it, out of fear that the ceiling would collapse."
+"I spot an old man in a wooden rocking chair, sitting outside the door of one of the house, staring into the middle distance.{wc}His skin is so withered, his eyes so sullen, his fingernails so gnarled, that he looks almost made of wood himself."
+Slidein o 0 -1
+o "You there!"
+"His eyes suddenly blaze to life."
+o "What are you doing here?"
+h "Me?"
+o "Yes, you!"
+h "I was looking at..."
+
+(CHOICE:)
+(1. "... this house.")
+(2. "... the sky.")
+
+Block choice 2-1
+h "I was just... admiring this house. It's beautiful."
+o "I {i}suppose{/i} that's fine.
+o "Was worried you were coming to steal from me..."
+
+Block choice 2-2
+h "I was just... looking at the sky."
+o "The sky? Are you daft, girl?"
+o "There a thousand better places to see the sky..."
+
+Block after choice 2
+"He mumbles a few more words as he settles back into his chair, but they don't reach my ears."
+h "Do you know why no-one lives in this house any more?"
+h "It's a shame to see it rotting away."
+o "Eh?"
+h "I said, do you-"
+o "Well, why do you think!?"
+o "Do you really think anyone would want to live in this walled-off prison?"
+o "Me, I couldn't move. My family's been here, ten generations. This is our family home, and I wouldn't abandon it, come hell or high water."
+o "But even then, if'n I didn't have my niece, making deliveries every so often, even I would'a moved."
+o "Ain't nothing to be done about it, really. This part of town is long dead."
+h "But someone must have lived here once, right? What happened?"
+"A serious look suddenly settles over the old man's face."
+o "Are you sure you want to hear the story? Because if I'm starting, I ain't stopping 'till it's done."
+o "It's an important story, and I don't get many chances to tell it these days."
+h "Go on."
+o "Aye, this story is old, almost as old as I am. It happened in my youth, back when this area still breathed."
+"A strange expression comes over him, a look of distant reverence, as if he's staring at a painting I can't quite see."
+(music - i think having a different track for the story could be nice:)
+o "See, this village seems young, but its bones are old."
+o "There've been houses on these hills for centuries, getting built, getting abandoned, rotting away."
+o "Their timber sinks beneath the dirt and becomes foundation for the next. 'S why we've got such good ground for building on."
+o "Once, when the main road was long, and winding, the heart of the village was here, and everything flowed through this point."
+o "'Course, that couldn't last forever. Eventually, the road moved, and people built away, and this place became lost, and forgotten."
+o "I remember hearing of some town, far down the road, being destroyed in the war."
+o "I heard that over time, that changed the very shape of the road, and that changed where people built."
+o "But, you know, I never really believed that. The people changed 'afore the road did."
+o "That house you see there was built for a strange couple."
+o "Pale as ghosts, barely ever talked, but the money flowing outta' their pockets seemed to have no end."
+o "People said that they were half-royal, but no-one could ever agree on which half."
+o "And their son..."
+"He shuddered."
+o "It was like you could see the devil in his eyes."
+o "You would swear could see him communing with devils, staring off into space at nothing at all for minutes or hours at a time, or when he talked to his dolls."
+o "There was one he always dragged around with him, everywhere he went."
+o "It was a creepy little thing, too, with its empty little smile, covered in cracks and fractures from being dragged across the cobbles."
+o "One day I found one of the thing's black glass eyes in my morning porridge."
+He shudders.
+o "I don't even want to imagine how it got there."
+o "One day, I heard a strange noise in the middle of the night, and I looked out the window."
+o "I saw that boy, wandering aimlessly through the village, wailing. "{i}I killed them, I killed them...{/i}"."
+o "He was holding a bloody knife in his hands."
+o "That was the last anyone saw of the parents, too. They must be buried, out there, somewhere in the fields."
+h "What happened to the boy?"
+o "See, that's where things get messy. Nobody wanted to hang the kid, and nobody could bring themselves to let him starve, either."
+o "Nobody wanted to take him in, though. He must have gone through a dozen or more foster parents."
+o "And because he never stopped being trouble, I always saw him battered and bruised."
+o "I began to feel sorry for 'im, in all honesty. You can hardly blame a child for succumbing to devilment, can you?"
+o "There were a few more deaths too, always in suspicious circumstances, but never suspicious enough that the boy could take the blame."
+o "I suppose he'd gotten cleverer by then, because the town almost tore itself apart trying to find the killer."
+o "And then, one day, the boy was gone."
+o "He left a note behind, saying that he'd gone to study in the city."
+o ""{i}I've gone to change my fortune{/i}", he said. And that was the last I ever saw of him."
+o "You can tell, can't you? There's no windows looking down on these back streets."
+o "Even the houses have turned their back on this place, on its curse, on the blood that was spilled here."
+o "Of course no-one wanted to build here after that."
+o "But these are good fields, and good farming, so people just moved a bit down the road and called that "{i}good enough{/i}"."
+o "So? What did you think of my story?"
+h "Is it true?"
+(music - if you do use a different track for the story, it should end here:)
+"The old man laughs, settling back in his chair."
+o "Aye, it's as true as I remember it."
+o "'Course, it's hard to say how much that means these days..."
+Slideout o -1
+"His voice drifts off as his eyelids flicker, and he soon starts to snore.{wc}On my own again, and unsure what to think, I quickly pace back the way I came.{wc}Thankfully, it isn't long before I find myself in the village square, and from there I just follow the road."
+(BG: Witch's House Day)
+"It takes a few tries, but I eventually retrace my path through the forest, and find myself outside of Mary's hut again.{wc}However, when I push open the front door, I see her, sitting at the table."
+Slidein m 6 -1
+m "Hazel? Where were you?"
+h "Oh, I was just looking at the garden."
+h "It's really pretty! You've got some beautiful flowers growing in it."
+Exp m 0
+m "It is, isn't it? I can show you around in more detail if you'd like."
+h "Maybe another time. I'm pretty tired."
+Slideout m -1
+"Mary smiles at me, and I return to my room, shaking slightly."
+"That night, I have fitful dreams of fire, and gallows, and bloody hands."
+Timehide h 1.0
+Fade 2.0

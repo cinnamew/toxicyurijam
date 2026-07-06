@@ -58,5 +58,8 @@ MonoBehaviour:
   m2Char: {fileID: 0}
   f1Char: {fileID: 0}
   priestChar: {fileID: 0}
+  notebookChar: {fileID: 0}
+  crierChar: {fileID: 0}
+  vendorChar: {fileID: 0}
   stage: {fileID: 0}
-  dialogue: {fileID: 4900000, guid: 815cd6037c3e445b5935294b583dc03b, type: 3}
+  dialogue: {fileID: 4900000, guid: 517492f1107c94634a1b5979020f6a26, type: 3}
