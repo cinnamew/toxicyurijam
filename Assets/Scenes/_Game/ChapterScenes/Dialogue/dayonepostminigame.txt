@@ -26,3 +26,97 @@ Hide m
 "For some reason, I just couldn't bring myself to let go of it."
 Hide h 1.0
 Fade 2.0
+
+Block dialogue2
+(BG: That Night)
+Unfade 1.0
+(music here:)
+Pause 3.0
+(BG: Witch’s House Night)
+Show h 0
+"The small grey book I took from Mary's cupboard turns out to be far more engrossing than I had expected.
+"I stay up reading through it until the sky outside starts getting dark."
+"According to the signature on the first page, this book is a collection of Mary's own notes.
+"A lot of it is completely indecipherable to me - notes written in shorthand or in code, elaborate recipes with no mention as to what they create."
+"All the same, I find myself eagerly flicking through detailed diagrams of flowers, and descriptions of strange and fascinating ingredients."
+"Several of the passages are written in diary format, and one section that catches my attention in particular begins about halfway through the notebook."
+n "As Marquis Elerra once wrote, "despite the seemingly endless advance of alchemical principles, a strong heart invariably trumps best practices"."
+(sfx - page turn:)
+n "It is something I have observed several times during my work as a doctor."
+n "Patients who strongly wish to recover, and have a clear picture of what recovery will look like for them, will often recover twice as fast as those who don't."
+n "I have even seen people slip from this mortal coil with no cause other than emotional fatigue. The heart has power over the body's shell."
+(sfx - page turn:)
+n "All potions and rituals that I have discovered have a specific, targeted effect, usually based on the properties of the ingredients."
+n "What if I were to develop a concoction that could properly harness the potential of the mind's power over the body?"
+n "That could allow someone to reshape their form as they wished?"
+n "It would be akin to the discovery of an organic philosopher's stone!"
+n "It sounds absurd, I know. But I stand at the precipice of centuries of discovery in the alchemical arts!"
+(sfx - page turn)
+n "The sages in their gleaming towers have made their voices clear - biological alchemy is the realm of madmen."
+n "The practice is meant for "transmutation" and "industry", and nothing more."
+n "But they have no eyes on the ground. What they don't know won't hurt them."
+(sfx - page turn)
+"I turn the page, and see what looks like a recipe, a dozen ingredients measured to exact amounts."
+"Beneath them all, three words are written, in calm, forceful handwriting."
+n "Result -Nausea. Failure."
+(sfx - page turn)
+"I turn the page again, and find another recipe, even longer, and another result."
+n "Reddening of eyes. Failure."
+"I flip through the notebook, past dozens of recipes, each more complicated than the last."
+(sfx - page turn)
+n "Heartburn. Failure."
+(sfx - page turn)
+n "Temporary Paralyis. Failure."
+(sfx - page turn)
+n "Mental Degradation. Failure."
+(sfx - page turn)
+n "Loss of eyesight. Failure."
+(sfx - page turn) (am I spamming it too much lol) (You do what you want here)
+n "Loss of motor control. Failure."
+"As I continue, the recipes start to get shorter again, less precise, the handwriting shakier."
+"Entire pages have been dedicated to elaborate rants, or covered in ink, or ripped right out of the notebook."
+"Eventually, I find it. The last recipe."
+(sfx - page turn)
+n "All following procedure must be done during the night of a half-moon or the day directly following it. "
+n "Use a mortar and pestle to mix together a paste of Hemlock, Arum Lily, St John's Wort, and Lavender."
+n "The exact quantity doesn't matter, but the proportions should be roughly even. Apply that paste evenly to the surface of a bezoar."
+n "Allow the bezoar to soak for a few minutes in a bowl of warm water, then remove it."
+n "A small amount of sediment should have formed at the bottom of the bowl. This is your mixture, ready for consumption."
+n "Result - Success."
+"I close the book, my heart pounding. Could it really work? A potion that lets you change your body to whatever your heart desires?"
+"Could it change my face? Would it be permanent?"
+"For a while, my mind runs wild with the possibilities. I could change my face and my name."
+"I could move to another country, to the other side of the world. I could escape, from the Duke, and even from Mary."
+"She hasn't done anything to hurt me yet, but I know deep down that it's only a matter of time."
+"Even my parents abandoned me. She won't be any different."
+(sfx here:)
+"My thoughts are interrupted by what sounds like a crash coming from the other room."
+"Gingerly, I ease myself onto my wounded leg and pace over the door. I open it a crack and peer through."
+(music here:)
+h "Mary? Are you alright?"
+"The room is dark, the only illumination coming from a single log burning away in the fireplace."
+"I can see Mary's silhouette, huddled at the very edge of the darkness, completely still."
+h "Mary?"
+Show m 2
+m "I'm alright, dear. You should go back to bed."
+"Her voice sounds dry and raspy. I take a step forward."
+h "Are you sure? I thought I heard a crash."
+m "Please, don't worry about me."
+(sfx here:)
+"She moves backwards slightly, dragging herself along the floor, further into the shadows."
+"My eyes are starting to adjust to the darkness, though, and I can almost make out her face..."
+h "I actually had something I wanted to ask you. It was..."
+(sfx - I guess it could be a metaphorical crash or loud note? idk)
+m "GET OUT OF HERE!"
+Exp h 3
+"I jolt backwards."
+m "I- I'm sorry, dear, I've had a very tiring day. Can we talk about it in the morning?"
+Timehide m 1.0
+(sfx:)
+"I nod furtively, and hurry back to my bedroom, closing the door behind me as firmly as I can."
+"That night, I don't get much sleep. I can't stop thinking about what I saw in the darkness."
+"Mary's face hadn't moved an inch. She hadn't even looked like she was breathing."
+"Her skin, pale as marble, was covered in hairline cracks. Her lips were painted cherry-red, smooth as stone."
+"And her eyes were empty, gaping holes."
+Timehide h 1.0
+Fade 2.0

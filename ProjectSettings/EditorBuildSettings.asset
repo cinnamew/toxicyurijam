@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Game/Minigames/WitchWorkplace.unity
     guid: 9651de1000a451f459f87b874fd764e0
+  - enabled: 1
+    path: Assets/Scenes/_Game/ChapterScenes/2_Day 1 Post Minigame.unity
+    guid: 5fb1c26c6686f45d4bd6c124bc5012df
+  - enabled: 1
+    path: Assets/Scenes/_Game/ChapterScenes/3_Day 2.unity
+    guid: 2ce7dbc5a57cf440e9a652afb9b43ffd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

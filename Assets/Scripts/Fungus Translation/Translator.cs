@@ -24,6 +24,7 @@ public class Translator : MonoBehaviour
     [SerializeField] Character m2Char;
     [SerializeField] Character f1Char;
     [SerializeField] Character priestChar;
+    [SerializeField] Character notebookChar;
 
     [SerializeField] Stage stage;
 
@@ -387,6 +388,8 @@ public class Translator : MonoBehaviour
                 return f1Char;
             case "p":
                 return priestChar;
+            case "n":
+                return notebookChar;
             default:
                 return null;
         }
