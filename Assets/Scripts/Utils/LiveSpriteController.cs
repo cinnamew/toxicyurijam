@@ -16,12 +16,14 @@ public class LiveSpriteController : MonoBehaviour
     [SerializeField] private Animator animator;
     private int expressionListSize;
     private Vector2 originalLocation;
+    private Tween jumpTween;
 
 
     private void Start()
     {
         expressionListSize = cubismExpressionController.ExpressionsList.CubismExpressionObjects.Length;
         originalLocation = transform.position;
+        jumpTween = transform.DOJump(transform.position, JUMP_FORCE, NUM_JUMPS, JUMP_DURATION).SetAutoKill(false);
     }
 
     private void ChangeModelVisibility(bool show, float duration)
@@ -42,7 +44,10 @@ public class LiveSpriteController : MonoBehaviour
 
     public void FlipModelX() => transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
 
-    public void JumpModel() => transform.DOJump(transform.position, JUMP_FORCE, NUM_JUMPS, JUMP_DURATION);
+    public void JumpModel()
+    {
+        jumpTween.Restart();
+    }
 
     // might change this to SlideModelX for sliding in both directions rather than relying on original position - ex. Mary is originally on left, moves right, then calls SlideModelOutX. Where is original position?
     public void SlideModelInX(int distance) => transform.DOMoveX(originalLocation.x + distance, DEFAULT_SLIDE_DURATION);  
