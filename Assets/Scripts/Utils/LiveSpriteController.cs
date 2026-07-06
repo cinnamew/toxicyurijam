@@ -46,6 +46,7 @@ public class LiveSpriteController : MonoBehaviour
 
     public void JumpModel()
     {
+        jumpTween = transform.DOJump(transform.position, JUMP_FORCE, NUM_JUMPS, JUMP_DURATION).SetAutoKill(false);
         jumpTween.Restart();
     }
 
