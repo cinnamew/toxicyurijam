@@ -14,36 +14,17 @@ public class ChapterSelect : MonoBehaviour
     private void Start()
     {
         chaptersSeen = PlayerPrefs.GetInt(Globals.SCENE_SEEN, 0);
-        // chaptersSeen = 10;
-        for (int i = 0; i < chapterButtonContainer.childCount; i++)
-        {
-            Transform chapterButtonObject = chapterButtonContainer.GetChild(i);
-            Button chapterButton = chapterButtonObject.GetComponent<Button>();
-            GameObject lockedImage = chapterButtonObject.GetChild(1).gameObject;
-            GameObject unlockedImage = chapterButtonObject.GetChild(0).gameObject;
-            if (i <= chaptersSeen)
-            {
-                chapterButton.interactable = true;
-                unlockedImage.SetActive(true);
-                lockedImage.SetActive(false);
-            }
-            else
-            {
-                chapterButton.interactable = false;
-                unlockedImage.SetActive(false);
-                lockedImage.SetActive(true);
-            }
-        }
+        UpdateChapterLocks();
     }
 
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode load)
     {
-        // TODO: Change to MainMenu when it's ready
         if (scene.name == "MainMenu") ResetInventory();
 
         if (scene.name == "1_Day 1")
@@ -97,6 +78,7 @@ public class ChapterSelect : MonoBehaviour
         }
 
         PlayerPrefs.SetInt(Globals.SCENE_SEEN, chaptersSeen);
+        UpdateChapterLocks();
     }
 
     private void ResetInventory()
@@ -137,5 +119,28 @@ public class ChapterSelect : MonoBehaviour
     public void ChangeScene(int sceneNumber)
     {
         SceneManager.LoadScene(sceneNumber);
+    }
+
+    private void UpdateChapterLocks()
+    {
+        for (int i = 0; i < chapterButtonContainer.childCount; i++)
+        {
+            Transform chapterButtonObject = chapterButtonContainer.GetChild(i);
+            Button chapterButton = chapterButtonObject.GetComponent<Button>();
+            GameObject lockedImage = chapterButtonObject.GetChild(1).gameObject;
+            GameObject unlockedImage = chapterButtonObject.GetChild(0).gameObject;
+            if (i <= chaptersSeen)
+            {
+                chapterButton.interactable = true;
+                unlockedImage.SetActive(true);
+                lockedImage.SetActive(false);
+            }
+            else
+            {
+                chapterButton.interactable = false;
+                unlockedImage.SetActive(false);
+                lockedImage.SetActive(true);
+            }
+        }
     }
 }
