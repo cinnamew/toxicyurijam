@@ -1,0 +1,48 @@
+Block dialogue
+(BG: Forest)
+
+"At first, I intend to head back home immediately. Then, I remember what's waiting for me there, and I pause."
+
+"An image of Adrianne flashes through my mind. I need someone to talk to, someone who won't hurt me.{wc}I turn around, and head towards the village. I break out of the forest, and my pace quickens."
+
+(BG: Village)
+
+"When I finally reach the village, I'm almost running. I come to a halt in the town centre, and look around, when—"
+
+Slidein c 0 -1
+
+c "Hear ye! Hear ye!"
+
+c "Justice has been served. Another fallen soul has been purged from this world! Witness her fate, and repent your sins! Repent!"
+
+Timehide c 1.0
+
+"I don't hear a word he says."
+
+"In the centre of the town square is a makeshift gallows."
+
+"Hanging in that gallows, swinging slowly in the faint wind, is a lump of flesh; grey, rotten and lifeless..."
+
+(CG: Adrianne is dead)
+
+pause 2.0
+
+"My blood runs cold."
+
+"I collapse to my knees. What happened? What in god's name could have happened here?"
+
+"Just three days ago, Adrianne had been so full of life. Why..."
+
+"Why not Mary? She's the one they were hunting for, right? She's the damned witch! She's the one who... deserves... to..."
+
+"I bite my lip to fight back the tears. I'm already getting some stares from the crowd."
+
+"I can't afford any more attention, and I can't bear to stay here even a second longer, so I run."
+
+(sfx - running in forest)
+
+"Without any thought of where I'm running to, my feet pick up speed until the world around me seems to fade into the distance."
+
+"I only stop, and collapse onto the dirt, gasping for breath, when the village is no longer in sight."
+
+Fade 2.0

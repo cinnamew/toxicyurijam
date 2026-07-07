@@ -17,6 +17,7 @@ public class LiveSpriteController : MonoBehaviour
     private int expressionListSize;
     private Vector2 originalLocation;
     private Tween jumpTween;
+    private DialogueBoxUtilityHandler dialogueBoxUtilityHandler;
 
 
     private void Start()
@@ -24,6 +25,7 @@ public class LiveSpriteController : MonoBehaviour
         expressionListSize = cubismExpressionController.ExpressionsList.CubismExpressionObjects.Length;
         originalLocation = transform.position;
         jumpTween = transform.DOJump(transform.position, JUMP_FORCE, NUM_JUMPS, JUMP_DURATION).SetAutoKill(false);
+        dialogueBoxUtilityHandler = FindAnyObjectByType<DialogueBoxUtilityHandler>();
     }
 
     private void ChangeModelVisibility(bool show, float duration)
@@ -45,7 +47,10 @@ public class LiveSpriteController : MonoBehaviour
     public void FlipModelX() => transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
 
     public void JumpModel()
-    {
+    {   
+        // bandaid fix
+        if (dialogueBoxUtilityHandler != null && dialogueBoxUtilityHandler.IsSkipping) return;
+
         if (jumpTween.IsPlaying())
         {
             jumpTween.Pause();

@@ -7,8 +7,9 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
     [SerializeField] private DialogInput dialogInput;
     [SerializeField] private CanvasGroup dialogueBoxUtilityMenu;
     private UtilityMenuHandler settingsUtilityMenu;
-    private bool isSkipping = false;
-    
+
+    public bool isSkipping { get; set; }
+
     private void Start()
     {
         settingsUtilityMenu = FindAnyObjectByType<UtilityMenuHandler>();
