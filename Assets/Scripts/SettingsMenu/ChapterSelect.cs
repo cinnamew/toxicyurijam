@@ -77,8 +77,11 @@ public class ChapterSelect : MonoBehaviour
             }
         }
 
-        PlayerPrefs.SetInt(Globals.SCENE_SEEN, chaptersSeen);
-        UpdateChapterLocks();
+        if (scene.buildIndex > 0)
+        {
+            PlayerPrefs.SetInt(Globals.SCENE_SEEN, chaptersSeen);
+            UpdateChapterLocks();
+        }
     }
 
     private void ResetInventory()
