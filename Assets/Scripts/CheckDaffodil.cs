@@ -6,12 +6,15 @@ public class CheckDaffodil : MonoBehaviour
     [SerializeField] private Flowchart flowchart;
     private string[] playerPrefsInventory;
 
-
     private void Start()
     {
-        playerPrefsInventory = PlayerPrefs.GetString(Globals.INVENTORY).Split(Globals.INV_SEPARATER);
-        playerPrefsInventory[0] = "daffodil";
-        PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, playerPrefsInventory));
+        // uncomment below to force daffodil addition
+        // playerPrefsInventory = PlayerPrefs.GetString(Globals.INVENTORY).Split(Globals.INV_SEPARATER);
+        // playerPrefsInventory[0] = "daffodil";
+        // PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, playerPrefsInventory));
+
+        // uncomment below to force "had daffodil"
+        // PlayerPrefs.SetInt("HadDaffy", 1);
     }
 
     public void HasFunnyFlower()
@@ -23,11 +26,34 @@ public class CheckDaffodil : MonoBehaviour
         {
             if (playerPrefsInventory[i] == "daffodil")
             {
-                playerPrefsInventory[i] = "nullobj";
                 flowchart.SetBooleanVariable("HasDaffodil", true);
+                PlayerPrefs.SetInt("HadDaffy", 1);
+                RemoveFunnyFlower();
+                return;
+            }
+        }
+    }
+
+    public void HadFunnyFlower()
+    {
+        if (PlayerPrefs.GetInt("HadDaffy") == 1)
+        {
+            flowchart.SetBooleanVariable("HadDaffodil", true);
+            return;
+        }
+    }
+
+    public void RemoveFunnyFlower()
+    {
+        for (int i = 0; i < playerPrefsInventory.Length; i++)
+        {
+            if (playerPrefsInventory[i] == "daffodil")
+            {
+                playerPrefsInventory[i] = "nullobj";
                 PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, playerPrefsInventory));
                 return;
             }
         }
+        Debug.Log("you have no funny flower.. what're u removing chief");
     }
 }
