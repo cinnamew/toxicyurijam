@@ -1,0 +1,385 @@
+Block dialogue
+(BG: Day 7)
+Unfade 1.0
+Pause 3.0
+(BG: Witch's House Day)
+Rename d ???
+(sfx here:)
+(peaceful music:)
+
+"When I wake up, the sun is bright, the sky is blue, and the birds are singing. It's a beautiful day.{wc}I groggily pull myself out of bed and stumble into the hall. Once again, I find the house empty."
+
+"There is a note left on the table, in shaky, unconfident handwriting, next to a loaf of bread and a few apples."
+
+note: I don't think I should be around you any more. I don't know when I'll be back. I'm so sorry. —M
+
+"I take a bite out of one of the apples, savouring its bitter taste. Then I get to work."
+
+"Mary was in the workroom all of last night, so I couldn't use it, but last night was a half-moon.{wc}Today will be my only chance to prepare the potion for the next month."
+
+"I enter the workroom and retrieve the bezoar from its hiding place, then lay out all of my ingredients.{wc}Hemlock, Arum Lily, St John's Wort, and Lavender. Mixing the paste takes a while, as does preparing the water."
+
+"It takes some searching through the kitchen to find a bowl, and then I have to trace my path back to the stream.{wc}Then, I use a tinderbox to get the fireplace going, and hold the bowl at arm's length over it until it feels warm enough."
+
+"From there, I follow the instructions to the letter - apply the paste to the bezoar, let it soak in the water for a few minutes, and collect the sediment.{wc}I scrape it up into a small glass vial, no bigger than my pinky finger, cork the vial, and tuck it into my pocket."
+
+"I am suddenly overcome with hesitation. That's it, right?{wc}All I have to do now is drink the potion, and no-one from my past life - or my current one - will ever be able to find me again.{wc}I will be free at last."
+
+"Shaking slightly, I raise the potion to my lips and steel myself, when I suddenly hear a noise, outside the door.{wc}Panicking, I quickly cork the vial and stuff it back in my pocket, when the door bursts open."
+
+Slidein m 0 -1
+
+(CH: Mary enters, right)
+(Her sprite is back to its original, undamaged state)
+
+m "Hazel!"
+
+"I realise for the first time that she isn't wearing her eyepatch. In fact, her eye is completely healed.{wc}For a moment, my neck twinges with a dull pain."
+
+Slidein h 0 1
+
+h "Yes?"
+
+Exp m 6
+
+m "I'm sorry!"
+
+"She reaches out and takes my hand, but when I recoil from her touch, she shrinks back."
+
+m "... I mean it, I really do."
+
+m "I thought I needed some time to think, but I was just trying to avoid this conversation. I don't want you to hate me."
+
+m "But maybe you should. The things I've done, the people I've hurt, the people I've abandoned. I don't deserve forgiveness any more."
+
+m "And here I am, trying to run away again. Like I've done so many times before."
+
+m "If you give me a chance, just one more chance, then I'll do everything I can to make it up to you. I swear I'll never hurt you again."
+
+m "Can you do that? Give me one more chance?"
+
+(sfx here:)
+
+"I open my mouth to give her my answer, when I suddenly hear the distinctive sound of someone knocking the house's front door.{wc}We both freeze."
+
+Exp h 3
+
+h "Who is that?"
+
+m "I don't know!"
+
+(If this looks ass, use "Timehide h 1.0" instead)
+Slideout m -1
+Slideout h -1
+(sfx here:)
+(tense music:)
+
+"The knocking repeats, louder now. I move closer to the front door, my nerves on edge."
+
+d "Haaazel! I know you're in there! Come out now and we can settle this peacefully!"
+
+"My blood freezes. I know that voice."
+
+d "Alright, I didn't want to do this, but you leave me no choice. Reginald!"
+
+(sfx here:)
+
+"There is a crash, and a shower of splinters as an axe tears into the door, breaking through the latch. The door swings open."
+
+Slidein d 0 1
+Rename d Duke
+
+d "Good man, Reginald. Keep this up, and you'll earn that knighthood any day now."
+
+"The Duke of Hart barges his way into the room, flanked by two tough-looking guards, each armed with a crossbow. My blood curdles."
+
+Slidein m 7 -1
+
+"Mary steps in front of me, and rises to her full height, her hands clenched into fists, her eyes full of fire and brimstone."
+
+m "And just what the hell do you think you're doing?"
+
+d "Why, reclaiming my property, of course. As is my god-given right."
+
+d "Don't make too much of a fuss about it. This is my land, after all. I was bound to find her eventually."
+
+(The scene should play out like this:)
+(If daffodil has been given: if daffodil -> after daffodil -> if daffodil 2 -> after daffodil 2)
+(If daffodil has not been given: after daffodil -> if no daffodil -> after daffodil 2)
+Block if daffodil
+
+"He reaches into his pocket, and pulls out a daffodil, staring at it with some tenderness."
+
+d "That girl, Adrianne. She was quite the talker, once I put her under the knife."
+
+d "Not that it did her any good."
+
+m "You're sick."
+
+Block after daffodil1
+
+m "Get out of here now, if you want to keep your life!"
+
+Block if daffodil 2
+"The Duke sighs, carefully tucking the daffodil back into his pocket."
+
+Block if no daffodil
+"The Duke sighs."
+
+Block after daffodil 2
+
+d "Can we do this like adults, please? Without the namecalling and stupid threats."
+
+d "Your threats aren't going to work. I've taught my men a lesson or two about fearing anyone other than me."
+
+"I notice whip scars and bruises across the men's arms and faces. I shiver."
+
+Exp d 1
+
+d "Hand over my Hazel, or I will order my man Reginald here—"
+
+"He claps Reginald on the shoulder, who looks uncomfortable with the attention."
+
+d "—to shoot an arrow right through your head. Your death will be painful, and ugly, and then I'll take her anyway. It's your choice."
+
+m "Hazel isn't {i}yours{/i}. She never was."
+
+Exp d 0
+
+d "You just aren't getting it, are you?"
+
+d "I am the {i}Duke{/i} of this province!"
+
+d "I own the floorboards you're standing on, and the ground beneath it. I own this house, and I own this forest, and I own Hazel!"
+
+d "She is, in fact, one of my most treasured possessions, and I just cannot stand the thought of anyone else {i}touching{/i} her."
+
+"Mary bristles at his words, and the Duke's features light up in sadistic glee."
+
+Exp d 1
+
+d "Oh, yes. I've heard of you before. The way you take in poor, broken young girls, then leave them homeless when they reject your advances."
+
+d "Several of my current maids came to {i}me{/i} because they had nowhere left to go after you abandoned them."
+
+"He nods towards me, and I shrink back behind Mary."
+
+d "Does she know? Have you tried to touch her already? Oh, look at her eyes. Of course she knows!"
+
+d "And have you apologised yet? Have you begged her to give you another chance? To never leave you behind?"
+
+Exp d 0
+
+d "At least {i}I{/i} am honest in my intentions.
+
+Exp m 6
+
+"When Mary finally speaks, her voice is cold and quiet."
+
+m "Shut up."
+
+"She turns back to face me."
+
+m "It—it's not true, I—"
+
+"But she sees something in my eyes. Some hint of doubt, or fear."
+
+"Her expression barely shifts, but I see tears budding in her eyes before she wipes them away and turns back around to face the Duke."
+
+"She closes her eyes, takes a deep long breath, and for a moment she is the picture of calm."
+
+"Then her eyes snap open, and her fists unfurl, her fingers curved like claws."
+
+"She leans forwards, crouching almost like a tiger before its prey."
+
+"When she speaks, her voice betrays no emotion."
+
+m "{i}This is your last chance.{/i}"
+
+m "Leave now, or I will tear you limb from limb."
+
+d "Reginald. Ready your bow."
+
+m2 "Yes, sir."
+
+Exp m 7
+
+m "Hazel! Close your eyes!"
+
+Fade 1.0
+Hide m
+Hide d
+(BG: Black Screen)
+(no music:)
+(sfx here:)
+Unfade 1.0
+
+"I screw my eyes shut tight, and the world goes dark. I hear the twang of an arrow being loosed, and the dull thud of it hitting the wall."
+
+"I hear running, and growling, and then screaming, deep and guttural."
+
+"I only open my eyes again once the room is silent."
+
+(BG: Witch's House Day)
+(music - peaceful?)
+
+"I find the room completely empty, and completely still. Behind me, the workroom door creaks open and Mary pokes her head out."
+
+Slidein m 0 -1
+
+m "Are you okay?"
+
+Slidein h 0 1
+
+h "Y—yes."
+
+m "Great."
+
+(CHOICE:)
+(1. "What happened?")
+(2. "Are you okay?")
+
+Block choice 1-1
+h "What happened?"
+
+m "I dealt with them."
+
+h "But—"
+
+m "You don't really want to know any more than that, do you?
+
+Block choice 1-2
+h "Are you okay? Did they hurt you?"
+
+Exp m 6
+
+m "Hazel..."
+
+m "You've known me for a while now."
+
+m "Don't ask stupid questions."
+
+Exp m 0
+
+Block after choice 1
+
+m "You should get some sleep. We'll talk in the morning."
+
+h "But... it's only noon..."
+
+Exp m 6
+
+m "I'll be busy for some time."
+
+Slideout m -1
+
+(sfx here:)
+
+"With that, she leaves the doorway, and slams the door shut behind her. I watch it bounce off its hinges, then settle, slightly ajar.{wc}As I'm standing there, I suddenly hear a loud noise. A horrible tearing noise, and then a loud crack."
+
+"I inch closer to the door. I have to know."
+
+"I press my eye up against the opening, and I see it."
+
+(Next 3 simultaneous:)
+Exp h 3
+Timeshow m 3 1.0
+(tense music:)
+
+(sfx here:)
+
+"Mary, crouching over a pile of body parts."
+
+"It's almost hard to believe that so much flesh, and so much blood, could come from just three bodies."
+
+
+(sfx here:)
+
+"She reaches down and, with delicate force, tears a chunk out of one of the corpses."
+
+(sfx here:)
+
+"She raises the chunk of meat to her lips and takes a bite, and, just as she swallows it, the look on her face... it's sheer bliss."
+
+Timehide m 1.0
+
+"She must have heard me gasp in shock, because her eyes dart to the door and she jumps to her feet."
+
+(sfx here:)
+
+
+"I try to back away, but I only make it a few steps before the door crashes open and Mary steps out in front of me, knife still in her hand.""
+
+(Next 2 simultaneous:)
+Slidein m 7 -1
+(music escalates:)
+
+m "I knew it! I knew you were spying on me!"
+
+"I back away further, my hands shaking."
+
+Exp h 3
+
+h "Y-you-"
+
+"I can longer control myself. The words spill from my mouth, unbidden."
+
+h "The Duke was right! You're a monster!"
+
+(sfx here:)
+
+"Mary lets out a scream of frustration, and I wince and cover my ears.{wc}She grips the doorframe so tightly that she tears through the wood like it was butter."
+
+m "You have no idea—I have been {i}so{/i} hungry, for so long now! I've been starving myself all week, just for you!"
+
+Exp h 1
+
+h "Why? So you could build up an appetite? Am I next on your plate?"
+
+Exp m 6
+
+m "No."
+
+m "It was because I wanted to be someone you could love. I was trying to change."
+
+m "I—I just lost control for a second, that's all."
+
+Exp h 3
+
+"I shrink back further, and I see panic creep across her features."
+
+m "Please! You have to understand—everything the Duke said—it was all lies!"
+
+m "Well, there have been other girls, yes, before you, but they were the ones who left me. I've never hurt anyone, I swear!"
+
+"My neck twinges with dull pain. My hands find the front door behind me, and I grip the doorknob tight."
+
+m "Hazel, please. I still love you. Won't you give me one more chance?"
+
+"She holds out one hand towards me, in a gesture of reconciliation. Looking at her delicate fingers, her carefully trimmed nails, it's hard to think of her as a monster.{wc}"Then I remember the feeling of those nails digging into my back."
+
+"I pull the door open, and turn around."
+
+m "Hazel! Was everything we've done together meaningless? Was it all really worth nothing to you?"
+
+"I turn back, and stare into her eyes, full of genuine sorrow. Tears stream down her cheeks."
+
+m "Hazel, please. I can change."
+
+m "Just {i}take my hand{/i}."
+
+(CHOICE:)
+(1. Leave.)
+(Go to Ending A)
+
+(2. Take her hand.)
+(Go to Ending B)
+
+(3. Ask about the potion.)
+(Go to Ending C)
+
+(After each choice, hide mary and hazel)
+
+block ending a
+block ending b
+block ending c
