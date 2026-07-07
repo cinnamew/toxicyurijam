@@ -14,7 +14,7 @@ public class ChapterSelect : MonoBehaviour
     private void Start()
     {
         chaptersSeen = PlayerPrefs.GetInt(Globals.SCENE_SEEN, 0);
-        chaptersSeen = 10;
+        // chaptersSeen = 10;
         for (int i = 0; i < chapterButtonContainer.childCount; i++)
         {
             Transform chapterButtonObject = chapterButtonContainer.GetChild(i);

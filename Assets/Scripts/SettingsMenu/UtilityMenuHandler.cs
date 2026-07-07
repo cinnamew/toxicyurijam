@@ -35,6 +35,16 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
         isOpenHash = Animator.StringToHash("IsOpen");
     }
 
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
     public void ChangeTab(int tab)
     {
         if (tab > tabs.Length) tab = tabs.Length - 1;
@@ -79,52 +89,35 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
         buttonContainer.SetActive(true);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-    // void OnEnable()
-    // {
-    //     SceneManager.sceneLoaded += OnSceneLoaded;
-    // }
-
-    // void OnDisable()
-    // {
-    //     SceneManager.sceneLoaded -= OnSceneLoaded;
-    // }
-
-    // private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    // {
-    //     if (scene.buildIndex == MAINMENU_SCENEID || scene.buildIndex == MUSICON_SCENEID)
-    //     {
-    //         buttonContainer.SetActive(false);
-    //         CloseSettingsPanel();
-    //     }
-    //     else
-    //     {
-    //         buttonContainer.SetActive(true);
-    //     }
-    // }
-
-    public void OpenSettingsPanel()
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        settingsPanel.alpha = 1;
-        settingsPanel.interactable = true;
-        settingsPanel.blocksRaycasts = true;
+        if (scene.buildIndex == MAINMENU_SCENEID)
+        {
+            HideButtons();
+        }
+        else
+        {
+            ShowButtons();
+        }
     }
 
-    public void CloseSettingsPanel()
+    public void ReturnToMainMenu()
     {
-        settingsPanel.alpha = 0;
-        settingsPanel.interactable = false;
-        settingsPanel.blocksRaycasts = false;
+        CloseSettings();
+        SceneManager.LoadScene(MAINMENU_SCENEID);
     }
+
+    // public void OpenSettingsPanel()
+    // {
+    //     settingsPanel.alpha = 1;
+    //     settingsPanel.interactable = true;
+    //     settingsPanel.blocksRaycasts = true;
+    // }
+
+    // public void CloseSettingsPanel()
+    // {
+    //     settingsPanel.alpha = 0;
+    //     settingsPanel.interactable = false;
+    //     settingsPanel.blocksRaycasts = false;
+    // }
 }
