@@ -1,0 +1,93 @@
+Block dialogue
+
+(BG: Forest)
+(Music: hopeful)
+
+"I turn back and walk through the door, out into the forest beyond."
+
+m "Hazel, come back here!"
+
+"I ignore Mary. She has no power over me any more."
+
+"From here, my future is uncertain.{wc}I don't have anywhere to go, but with the Duke dead, I don't have anyone hunting me either.{wc}And, if I ever do need it, I'll have the perfect getaway tool hidden in my pocket."
+
+m "Hazel! {i}HAZEL!{/i}"
+
+"I suppose the first place to head is the village.{wc}No-one is waiting for me there, but there might be opportunities for work and lodging.{wc}I could even find that priest. I'm sure he would be willing to help.{wc}And from there... well, I could go anywhere."
+
+"I pick up my pace. Behind me, Mary's house is almost out of view."
+
+(music: tense)
+(sfx here:)
+
+"Then, something heavy crashes into my back. As I fall to the ground, I turn around. Mary kneels over me, her face twisted into a vicious snarl."
+
+Timeshow m 7 1.0
+
+m "You think you're so much better than me? You think you have the right to toy with me like this!?"
+
+m "You were planning to tell the villagers all about me, weren't you?"
+
+m "I'm not going to let you get me killed!"
+
+"I try to sit up."
+
+h "No, I—"
+
+m "Shut up. {i}Shut up!{/i}"
+
+(sfx here:)
+
+"She pushes me back down, and as her palm slams into my chest, the air leaves my lungs.{wc}As I crash onto the ground again, I hear a crack, and I think for a moment that one of my ribs has broken.{wc}Then I feel it, a cold liquid seeping through my clothes and into my skin. The vial."
+
+"My body starts to shake, racked by convulsions, as an unimaginable pain blooms in my chest like a bright red flower.{wc}I can't move, can't speak, can't think.{wc}I can feel my bones twisting, my skin tearing, my muscles coiling around themselves, then breaking apart."
+
+Exp m 6
+
+m "Oh no! I—I didn't mean to..."
+
+"I try to focus, to picture my body, intact and whole, but the convulsions continue."
+
+m "It's... it's alright. I'll put you out of your misery, okay?"
+
+"I try to open my mouth, to speak, to tell her that it'll be alright. but all that comes out of my mouth is a pathetic whine."
+
+(music: maybe calmer now?)
+Exp m 0
+
+m "{i}Shh.{/i} It's alright."
+
+m "I love you."
+
+"She plants a kiss on my forehead, then places one hand around my neck.{wc}I reach out one hand, trying to grab hers, to move it away, but my fingers only brush uselessly against her wrist."
+
+(sfx here:)
+
+"She clenches her grip, and with the sound of flesh tearing, my life comes to an end."
+
+Fade 1.0
+Hide m
+(CG: Mary eating "meat")
+(music: maybe something calm/sad, maybe no music?)
+Unfade 1.0
+
+m "Don't cry."
+
+m "You'll be part of me, now, see?"
+
+m "We'll be together forever."
+
+m "We'll never be apart."
+
+m "We'll…"
+
+m "…"
+
+m "I'm sorry."
+
+m "I'm sorry."
+
+(BG: Black Screen)
+
+m "I'm so, so sorry."
+(-END-)

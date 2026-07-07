@@ -1,0 +1,76 @@
+Block dialogue
+(BG: Witch's House Day)
+(music: calm/hopeful)
+Show h 0
+Show m 6
+
+h "A while ago, you said that you had "a unique skin condition". I'm guessing it's a bit more than that?"
+
+m "Well, yes, but—"
+
+h "And you got it from drinking that potion, didn't you?"
+
+m "You—how did you know?"
+
+h "I thought so."
+
+"I had suspected it for a while now. Would Mary really have devoted so much to creating this potion, if she had no interest in drinking it herself?{wc}And could such an incredible potion really come with no side-effects?"
+
+"I pull the small vial out of my pocket, and stare at it. It looks like a muddy-green liquid, nothing more.{wc}To think that so much power could be contained in something so unremarkable."
+
+m "Is that..."
+
+Exp m 7
+
+m "Hazel! Put that down! It's dangerous!"
+
+h "I know."
+
+h "It's all your body's fault, right? Your cursed body."
+
+h "That's what makes you hurt people."
+
+h "No one could ever really stay by your side. No one could ever understand your pain."
+
+h "Because no-one else has been through what you have."
+
+Exp m 6
+
+m "What are you doing?"
+
+Exp h 2
+
+h "Giving you a second chance."
+
+"I raise the vial to my lips, and drink deep of it, feeling its bitter tang fill my mouth, feeling its power fill my veins."
+
+"I am unmade in an instant, and I... I..."
+
+(BG: Black Screen)
+
+"I..."
+
+(CG: Mary lying in the grass)
+
+m "... You saved me, you know?"
+
+m "Giving me that chance."
+
+m "When nobody else ever would."
+
+m "When everybody else had abandoned me, you were the only one who stood by my side."
+
+m "Thank you."
+
+m "I just wish..."
+
+(CG: Pan out to reveal Hazel's corpse)
+
+m "I wish I could have saved you, too."
+
+Pause 1.0
+(BG: Black Screen)
+
+m "Thank you."
+
+(-END-)

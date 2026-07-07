@@ -1,0 +1,151 @@
+
+Block dialogue
+
+Show h 0
+Show m 0
+
+(BG: Witch's House Day)
+(music: calm/hopeful)
+
+"I take her hand, and feel her fingers grip mine with reassuring strength."
+
+h "I forgive you."
+
+Mary pulls me into an embrace, tears streaming down her face.
+
+Exp m 1
+
+m "Oh, thank you! You have no idea how much this means to me."
+
+h "It's alright."
+
+h "I never hated you. I was just so scared."
+
+m "Oh, Hazel. I love you so much."
+
+Exp h 2
+
+h "I—I love you too."
+
+"She squeals in joy, and clutches me tighter, so tight that it hurts for a moment. I let out a yelp of pain, and she lets go."
+
+Exp m 6
+
+m "Oh, I'm sorry. I need to be more careful with my strength."
+
+Exp h 0
+
+h "Don't worry. I'm fine."
+
+Exp m 0
+
+m "So... I should prepare lunch. How does meat sound?"
+
+h "Um..."
+
+"My eyes drift over to the workroom door, and Mary laughs uproariously."
+
+m "Oh, don't be silly!"
+
+m "I have some lamb left in the pantry. I'll go get it now."
+
+h "That sounds great."
+
+m "Wonderful!"
+
+"She smiles at me, and in that moment, the whole world seems to shine."
+
+"I..."
+
+Fade 2.0
+
+Hide h
+Hide m
+
+Block dialogue2
+(BG: Several Months Later)
+Unfade 1.0
+Pause 3.0
+(BG: Black Screen)
+(music: idk, you figure it out)
+
+"My small world is, for now, blissfully dark and silent. The cold stone floor numbs my skin, but its touch is familiar and comforting.[wc}Then, I hear the door creak open above me, and footsteps echo down the rough stone stairs."
+
+Slidein m 6 -1
+
+m "How are you doing, honey?"
+
+"I let out a low, dull whine, but Mary just chuckles."
+
+Exp m 0
+
+m "That doesn't tell me anything!"
+
+"My mouth tries to form the words, but my lips just flap uselessly."
+
+m "Come on, you should really be used to it by now."
+
+m "I'll keep teasing you until you get it through your head."
+
+Hide m
+(CG: Mary kneeling smugly over a pitiful-looking Hazel in the dark, both of them illuminated by the light from a single candle)
+
+m "You're never going to get to speak back to me again."
+
+"She pushes my lips aside and reaches one finger into my mouth. It brushes against the useless stump where my tongue used to be."
+
+m "Good, the cut's healing nicely."
+
+"I whine pitifully, but Mary just looks down at me with scorn."
+
+m "Come on, you shouldn't be so upset. It's not like you ever used that tongue for anything meaningful."
+
+m "This is what comes to those who speak only to pass judgement."
+
+m "Although, I have trained as a surgeon. So..."
+
+"She leans forwards and whispers into my ear."
+
+m "Once I'm sure you've learned your lesson, I might just let you have it back. Won't that be nice?"
+
+"I recoil from her, retreating back into the darkness, but she just follows me with her candle, its light burning my weakened eyes."
+
+m "Oh, are you hungry? Is that why you're so upset?"
+
+(sfx here:)
+
+"I try to back away further, but the chain wrapped around my legs catches against the wall."
+
+(CG: Mary embraces Hazel)
+
+"Mary sighs, and moves closer. One of her arms wraps around me, and the other brushes through my hair, trimmed down to almost nothing."
+
+m "I know, I know. It's sad, that I have to chain you up like this."
+
+m "But we both know the reason why, don't we? Every time I give you space to roam, you try to run away from me. When will you learn your lesson?"
+
+"I whine, and try to push her away. Mary looks down at me with a deep pity."
+
+m "Look, I don't hate you. I want you to be happy."
+
+m "If you keep playing along, and doing everything I say, for just a few more days, I'll let you up into the garden next time."
+
+m "You'd like that, wouldn't you?"
+
+h "..."
+
+m "Good girl."
+
+(sfx here:)
+
+"Her arms coil around my body like a python, squeezing me like a vise. I am breathless until she relents, and I gasp for air."
+
+"I try to pull away from her grip, but she just holds on tighter, and I go limp."
+
+"I stare up into her eyes, so full of desperate affection, as she leans in closer."
+
+(BG: Black Screen)
+
+m "{i}I love you.{/i}"
+
+(-END-)
