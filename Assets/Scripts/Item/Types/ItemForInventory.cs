@@ -40,7 +40,7 @@ public class ItemForInventory : MonoBehaviour, IPointerClickHandler
         }
         else
         {
-            GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
             GetComponent<SpriteRenderer>().DOColor(new(1, 1, 1, 0), 0.25f).onComplete += () => gameObject.SetActive(false);
         }
     }

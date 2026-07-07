@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99ba1f4f6db6abc4387f3179f2ba822b, type: 3}
-  m_Name: Book
+  m_Name: Bezoar
   m_EditorClassIdentifier: Assembly-CSharp::ItemScriptableObject
-  Id: book
-  Name: Book
-  Icon: {fileID: -1908766934, guid: 4fe08bd0374364692bf836d8f4f25b91, type: 3}
+  Id: bezoar
+  Name: Bezoar
+  Icon: {fileID: 0}
   Description: 
