@@ -49,14 +49,17 @@ public class LiveSpriteController : MonoBehaviour
     public void JumpModel()
     {   
         // bandaid fix
-        if (dialogueBoxUtilityHandler != null && dialogueBoxUtilityHandler.isSkipping) return;
+        // if (dialogueBoxUtilityHandler != null && dialogueBoxUtilityHandler.isSkipping) return;
 
-        if (jumpTween.IsPlaying())
-        {
-            jumpTween.Pause();
-            transform.position = new Vector3(transform.position.x, originalLocation.y, transform.position.z);
-        }
-        jumpTween.Restart();
+        // if (jumpTween.IsPlaying())
+        // {
+        //     jumpTween.Kill();
+        //     jumpTween = transform.DOJump(new Vector3(transform.position.x, originalLocation.y, transform.position.z), JUMP_FORCE, NUM_JUMPS, JUMP_DURATION).SetAutoKill(false);
+        //     // transform.position = new Vector3(transform.position.x, originalLocation.y, transform.position.z);
+        // }
+        // jumpTween = transform.DOJump(new Vector3(transform.position.x, originalLocation.y, transform.position.z), JUMP_FORCE, NUM_JUMPS, JUMP_DURATION).SetAutoKill(false);
+        // jumpTween.Restart();
+        transform.DOJump(new Vector3(transform.position.x, originalLocation.y, transform.position.z), JUMP_FORCE, NUM_JUMPS, JUMP_DURATION);
     }
 
     // might change this to SlideModelX for sliding in both directions rather than relying on original position - ex. Mary is originally on left, moves right, then calls SlideModelOutX. Where is original position?
