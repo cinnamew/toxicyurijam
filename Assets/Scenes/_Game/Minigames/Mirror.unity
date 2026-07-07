@@ -885,9 +885,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 414045174}
+  - {fileID: 414045172}
   selectedCommands:
-  - {fileID: 414045185}
+  - {fileID: 414045158}
   variables: []
   description: 
   stepPause: 0
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 13
   indentLevel: 0
-  storyText: '{i}Iis nails would dig into my skin, cutting bright red lines, until
+  storyText: '{i}His nails would dig into my skin, cutting bright red lines, until
     my whole back was peeled raw and slick with sweat and blood.{/i}'
   description: 
   character: {fileID: 0}
