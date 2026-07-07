@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemScriptableObject
   Id: bezoar
   Name: Bezoar
-  Icon: {fileID: 0}
+  Icon: {fileID: -1328295619, guid: 648fe39827c6ade42bdf46dab54d4ee7, type: 3}
   Description: 
