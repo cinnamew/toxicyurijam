@@ -68,9 +68,11 @@ m "I just wish..."
 
 m "I wish I could have saved you, too."
 
-Pause 1.0
+Pause 2.0
+fade 2
 (BG: Black Screen)
 
 m "Thank you."
 
 (-END-)
+fade 1
