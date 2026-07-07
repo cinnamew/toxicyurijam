@@ -49,7 +49,7 @@ public class LiveSpriteController : MonoBehaviour
     public void JumpModel()
     {   
         // bandaid fix
-        if (dialogueBoxUtilityHandler != null && dialogueBoxUtilityHandler.IsSkipping) return;
+        if (dialogueBoxUtilityHandler != null && dialogueBoxUtilityHandler.isSkipping) return;
 
         if (jumpTween.IsPlaying())
         {
