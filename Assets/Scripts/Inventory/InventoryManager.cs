@@ -17,6 +17,13 @@ public class InventoryManager : MonoBehaviour
         return _playerInventory.AddItem(itemToAdd);
     }
 
+    public void AddItemToInventoryById(string itemId)
+    {
+        ItemScriptableObject iso = ItemDatabase.GetItemById(itemId);
+        Item isoItem = new(iso);
+        AddItemToInventory(isoItem);
+    }
+
     public bool RemoveItemFromInventory(Item itemToRemove)
     {
         _selectedItem = null;
