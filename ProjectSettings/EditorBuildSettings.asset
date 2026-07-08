@@ -59,6 +59,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Game/ChapterScenes/Ending 2.unity
     guid: 989aea2a972304507ac901003e3ac5cb
+  - enabled: 1
+    path: Assets/Scenes/_Game/ChapterScenes/Ending 3.unity
+    guid: ded4331d07154483a8ac3b04a877ca20
+  - enabled: 1
+    path: Assets/Scenes/_Game/MenuScenes/Credits.unity
+    guid: bd99a9b4923764cec8cce3e5364458eb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
