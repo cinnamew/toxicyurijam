@@ -51,14 +51,6 @@ public class LiveSpriteController : MonoBehaviour
         // bandaid fix
         // if (dialogueBoxUtilityHandler != null && dialogueBoxUtilityHandler.isSkipping) return;
 
-        // if (jumpTween.IsPlaying())
-        // {
-        //     jumpTween.Kill();
-        //     
-        //     // transform.position = new Vector3(transform.position.x, originalLocation.y, transform.position.z);
-        // }
-        // jumpTween = transform.DOJump(new Vector3(transform.position.x, originalLocation.y, transform.position.z), JUMP_FORCE, NUM_JUMPS, JUMP_DURATION).SetAutoKill(false);
-        // jumpTween.Restart();
         jumpTween.Kill();
         transform.position = new Vector3(transform.position.x, originalLocation.y, transform.position.z);
         jumpTween = transform.DOJump(new Vector3(transform.position.x, originalLocation.y, transform.position.z), JUMP_FORCE, NUM_JUMPS, JUMP_DURATION).SetAutoKill(false);
