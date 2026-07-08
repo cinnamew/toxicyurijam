@@ -120,7 +120,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2844702132894896326}
   m_HandleRect: {fileID: 6052084278539781608}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6191153032113835493}
   m_HandleRect: {fileID: 3167550906174423779}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3094,7 +3094,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6538511830075769662}
   m_Direction: 2
   m_Value: 1.0000004
-  m_Size: 0.40765437
+  m_Size: 0.40765432
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3672,6 +3672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UtilityMenuHandler
   UnparentOnAwake: 1
+  chapterSelect: {fileID: 5156210678275812954}
   animator: {fileID: 5615704114250058548}
   buttonContainer: {fileID: 9005408588259203255}
   settingsMenu: {fileID: 1084070705993090358}
@@ -4183,7 +4184,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8024063543998354539}
   m_HandleRect: {fileID: 5020484857560724061}
   m_Direction: 2
-  m_Value: 1.0000014
+  m_Value: 1.0000015
   m_Size: 0.41004637
   m_NumberOfSteps: 1
   m_OnValueChanged:

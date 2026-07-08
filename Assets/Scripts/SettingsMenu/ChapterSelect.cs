@@ -80,7 +80,6 @@ public class ChapterSelect : MonoBehaviour
         if (scene.buildIndex > 0)
         {
             PlayerPrefs.SetInt(Globals.SCENE_SEEN, chaptersSeen);
-            UpdateChapterLocks();
         }
     }
 
@@ -124,7 +123,7 @@ public class ChapterSelect : MonoBehaviour
         SceneManager.LoadScene(sceneNumber);
     }
 
-    private void UpdateChapterLocks()
+    public void UpdateChapterLocks()
     {
         for (int i = 0; i < chapterButtonContainer.childCount; i++)
         {

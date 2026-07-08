@@ -13,7 +13,7 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
 
     // Scenes to hide utility menu
     private const int MAINMENU_SCENEID = 0;
-    private const int MUSICON_SCENEID = 1;
+    [SerializeField] private ChapterSelect chapterSelect;
 
     [SerializeField] private Animator animator;
     private int isOpenHash;
@@ -47,6 +47,7 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
 
     public void ChangeTab(int tab)
     {
+        if (tab == (int)UtilityTab.CHAPTER_SELECT) chapterSelect.UpdateChapterLocks();
         if (tab > tabs.Length) tab = tabs.Length - 1;
 
         if (tab != (int)currentTab)
