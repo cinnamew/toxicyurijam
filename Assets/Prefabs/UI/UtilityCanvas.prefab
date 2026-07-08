@@ -120,7 +120,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2844702132894896326}
   m_HandleRect: {fileID: 6052084278539781608}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6191153032113835493}
   m_HandleRect: {fileID: 3167550906174423779}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3094,7 +3094,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6538511830075769662}
   m_Direction: 2
   m_Value: 1.0000004
-  m_Size: 0.4076544
+  m_Size: 0.40765437
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4183,8 +4183,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8024063543998354539}
   m_HandleRect: {fileID: 5020484857560724061}
   m_Direction: 2
-  m_Value: 1.0000015
-  m_Size: 0.4100464
+  m_Value: 1.0000014
+  m_Size: 0.41004637
   m_NumberOfSteps: 1
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6152,11 +6152,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6597098590043407188, guid: 10bdb2df1e11cd242a9403845641a5fb, type: 3}
       propertyPath: m_Value
-      value: 35
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 6597098590043407188, guid: 10bdb2df1e11cd242a9403845641a5fb, type: 3}
       propertyPath: m_MaxValue
-      value: 60
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6597098590043407188, guid: 10bdb2df1e11cd242a9403845641a5fb, type: 3}
       propertyPath: m_MinValue

@@ -20,7 +20,7 @@ public class VolumeSettings : MonoBehaviour
         FindWriterInScene();
         textSpeedSlider.onValueChanged.AddListener(val =>
         {
-            if (currentWriter != null) currentWriter.ChangeWritingSpeed(val >= 60 ? 0 : val);
+            if (currentWriter != null) currentWriter.ChangeWritingSpeed(val);
             PlayerPrefs.SetFloat(Globals.WRITING_SPEED, val);
         });
     }
@@ -43,7 +43,7 @@ public class VolumeSettings : MonoBehaviour
     private void FindWriterInScene()
     {
         currentWriter = FindAnyObjectByType<Writer>();
-        if (currentWriter != null) currentWriter.ChangeWritingSpeed(textSpeedSlider.value >= 60 ? 0 : textSpeedSlider.value);
+        if (currentWriter != null) currentWriter.ChangeWritingSpeed(textSpeedSlider.value >= 80 ? 0 : textSpeedSlider.value);
         else Debug.LogWarning("[VolumeSettings]: No dialogue box/writer found in scene: " + SceneManager.GetActiveScene().name);
     }
 

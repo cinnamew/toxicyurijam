@@ -18,11 +18,11 @@ public class Settings : MonoBehaviour
     {
         // DOTween.Init();
         currentWriter = FindAnyObjectByType<Writer>();
-        if (currentWriter != null) currentWriter.ChangeWritingSpeed(writingSpeedSlider.value > 60 ? 0 : writingSpeedSlider.value);
+        if (currentWriter != null) currentWriter.ChangeWritingSpeed(writingSpeedSlider.value > 80 ? 0 : writingSpeedSlider.value);
         else Debug.LogWarning("No dialogue box/writer found in scene: " + SceneManager.GetActiveScene().name);
         writingSpeedSlider.onValueChanged.AddListener(val =>
         {
-            if (currentWriter != null) currentWriter.ChangeWritingSpeed(val > 60 ? 0 : val);
+            if (currentWriter != null) currentWriter.ChangeWritingSpeed(val > 80 ? 0 : val);
             PlayerPrefs.SetFloat(Globals.WRITING_SPEED, val);
         });
     }
