@@ -74,8 +74,8 @@ public class LiveSpriteController : MonoBehaviour
 
     public void SlideModelOutX()
     {
-        if (transform.position.x > 0) SlideModelInX(15);
-        if (transform.position.x < 0) SlideModelInX(-15);
+        if (transform.position.x > 0) SlideModelX(15);
+        if (transform.position.x < 0) SlideModelX(-15);
     }
 
     public void SlideModelX(int distance) => transform.DOMoveX(originalLocation.x + distance, DEFAULT_SLIDE_DURATION);
