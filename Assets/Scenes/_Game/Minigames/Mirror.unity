@@ -884,10 +884,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 414045172}
-  selectedCommands:
-  - {fileID: 414045158}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2250,7 +2248,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &414045185
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2268,7 +2266,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &414045186
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3151,7 +3149,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -7526398708962899003, guid: 9a7c7bcfaddac4993a208d905a4cd35a, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: bc30f6eadd69e4446b0281c5831599cd, type: 3}
+  m_Resource: {fileID: 8300000, guid: 1df2ad7f2bf064d1db9691f18671d83f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
