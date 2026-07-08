@@ -6940,7 +6940,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: Hazel visits town, makes a new friend and hears a horror story.
+      value: Hazel visits town, makes a new friend, and hears a horror story.
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
