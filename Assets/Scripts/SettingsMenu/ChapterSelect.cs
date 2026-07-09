@@ -55,7 +55,7 @@ public class ChapterSelect : MonoBehaviour
                 chaptersSeen = 4;
             }
         }
-        else if (scene.name == "1_Day 5")
+        else if (scene.name == "6_Day 4 Post Minigame")
         {
             if (chaptersSeen < 5)
             {
