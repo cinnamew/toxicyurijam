@@ -22,7 +22,7 @@ public class Credits : MonoBehaviour
 
     private void Update()
     {
-        if (finished || !Input.GetMouseButtonDown(0)) {
+        if (finished || !(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))) {
             return;
         }
 
