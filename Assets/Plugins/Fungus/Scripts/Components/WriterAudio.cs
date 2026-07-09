@@ -29,6 +29,9 @@ namespace Fungus
         [Tooltip("Loop the audio when in Sound Effect mode. Has no effect in Beeps mode.")]
         [SerializeField] protected bool loop = true;
 
+        [Tooltip("Start the Sound Effect from a random point in the clip instead of the beginning. Requires looping to sound continuous.")]
+        [SerializeField] protected bool randomStartPosition = false;
+
         // If none is specifed then we use any AudioSource on the gameobject, and if that doesn't exist we create one.
         [Tooltip("AudioSource to use for playing sound effects. If none is selected then one will be created.")]
         [SerializeField] protected AudioSource targetAudioSource;
@@ -118,6 +121,13 @@ namespace Fungus
                 targetAudioSource.clip = soundEffect;
                 targetAudioSource.loop = loop;
                 targetAudioSource.Play();
+
+                if (randomStartPosition && soundEffect.length > 0f)
+                {
+                    // Seek to a random point in the clip. Set time after Play() so it takes effect,
+                    // and stay just under length to avoid an out-of-range error at the exact end.
+                    targetAudioSource.time = Random.Range(0f, soundEffect.length * 0.99f);
+                }
             }
             else if (audioMode == AudioMode.Beeps)
             {

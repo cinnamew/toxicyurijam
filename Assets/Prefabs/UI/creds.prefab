@@ -996,7 +996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3909912837322521582, guid: ff72a021afd0540c28df9bc2812e9fa1, type: 3}
       propertyPath: m_text
-      value: bug fixing @ 2 AM
+      value: jonathan "the saint" and his 2 AM bug fixes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1445,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3909912837322521582, guid: ff72a021afd0540c28df9bc2812e9fa1, type: 3}
       propertyPath: m_text
-      value: story & script
+      value: chief of the violent women appreciation club
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -840,7 +840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1281724062
 SpriteRenderer:
   serializedVersion: 2
@@ -1337,6 +1337,26 @@ PrefabInstance:
     - target: {fileID: 2080829604228825265, guid: 1738c7a29205e9e4c95eb5cc2cadc21b, type: 3}
       propertyPath: m_Name
       value: MainMenuCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805476700253240875, guid: 1738c7a29205e9e4c95eb5cc2cadc21b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805476700253240875, guid: 1738c7a29205e9e4c95eb5cc2cadc21b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805476700253240875, guid: 1738c7a29205e9e4c95eb5cc2cadc21b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805476700253240875, guid: 1738c7a29205e9e4c95eb5cc2cadc21b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805476700253240875, guid: 1738c7a29205e9e4c95eb5cc2cadc21b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6044141555285667738, guid: 1738c7a29205e9e4c95eb5cc2cadc21b, type: 3}
       propertyPath: m_Pivot.x
