@@ -124,9 +124,7 @@ namespace Fungus
 
                 if (randomStartPosition && soundEffect.length > 0f)
                 {
-                    // Seek to a random point in the clip. Set time after Play() so it takes effect,
-                    // and stay just under length to avoid an out-of-range error at the exact end.
-                    targetAudioSource.time = Random.Range(0f, soundEffect.length * 0.99f);
+                    targetAudioSource.time = Random.Range(0f, soundEffect.length * 0.9f);
                 }
             }
             else if (audioMode == AudioMode.Beeps)
