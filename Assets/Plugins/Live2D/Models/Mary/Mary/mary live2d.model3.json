@@ -9,8 +9,12 @@
 		"DisplayInfo": "mary live2d.cdi3.json",
 		"Expressions": [
 			{
-				"Name": "Shadow",
-				"File": "Shadow.exp3.json"
+				"Name": "Angry",
+				"File": "Angry.exp3.json"
+			},
+			{
+				"Name": "Closed Smile",
+				"File": "Closed Smile.exp3.json"
 			},
 			{
 				"Name": "Cracked",
@@ -21,8 +25,64 @@
 				"File": "Eyepatch.exp3.json"
 			},
 			{
+				"Name": "Happy",
+				"File": "Happy.exp3.json"
+			},
+			{
 				"Name": "Horror FULL",
 				"File": "Horror FULL.exp3.json"
+			},
+			{
+				"Name": "default",
+				"File": "default.exp3.json"
+			},
+			{
+				"Name": "Scary Eye",
+				"File": "Scary Eye.exp3.json"
+			},
+			{
+				"Name": "Shadow - Default",
+				"File": "Shadow.exp3.json"
+			},
+			{
+				"Name": "worried",
+				"File": "worried.exp3.json"
+			},
+			{
+				"Name": "Shadow - Angry",
+				"File": "Shadow - Angry.exp3.json"
+			},
+			{
+				"Name": "Eyepatch - Closed Smile",
+				"File": "Eyepatch - Closed Smile.exp3.json"
+			},
+			{
+				"Name": "Eyepatch - Angry",
+				"File": "Eyepatch - Angry.exp3.json"
+			},
+			{
+				"Name": "Eyepatch - Worried",
+				"File": "Eyepatch - Worried.exp3.json"
+			},
+			{
+				"Name": "Eyepatch - Happy",
+				"File": "Eyepatch - Happy.exp3.json"
+			},
+			{
+				"Name": "Cracked - Closed Smile",
+				"File": "Cracked - Closed Smile.exp3.json"
+			},
+			{
+				"Name": "Cracked - Angry",
+				"File": "Cracked - Angry.exp3.json"
+			},
+			{
+				"Name": "Cracked - Worried",
+				"File": "Cracked - Worried.exp3.json"
+			},
+			{
+				"Name": "Cracked - Happy",
+				"File": "Cracked - Happy.exp3.json"
 			}
 		]
 	},
