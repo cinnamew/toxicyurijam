@@ -29,9 +29,6 @@ namespace Fungus
         [Tooltip("Loop the audio when in Sound Effect mode. Has no effect in Beeps mode.")]
         [SerializeField] protected bool loop = true;
 
-        [Tooltip("Start the Sound Effect from a random point in the clip instead of the beginning. Requires looping to sound continuous.")]
-        [SerializeField] protected bool randomStartPosition = false;
-
         // If none is specifed then we use any AudioSource on the gameobject, and if that doesn't exist we create one.
         [Tooltip("AudioSource to use for playing sound effects. If none is selected then one will be created.")]
         [SerializeField] protected AudioSource targetAudioSource;
@@ -118,13 +115,19 @@ namespace Fungus
                      soundEffect != null)
             {
                 // Use sound effects defined in WriterAudio
-                targetAudioSource.clip = soundEffect;
                 targetAudioSource.loop = loop;
-                targetAudioSource.Play();
 
-                if (randomStartPosition && soundEffect.length > 0f)
+                if (targetAudioSource.clip == soundEffect)
                 {
-                    targetAudioSource.time = Random.Range(0f, soundEffect.length * 0.9f);
+                    // The sound effect is already loaded - resume from where it was
+                    // paused rather than restarting from the beginning. Since it loops,
+                    // over time it plays from a variety of positions.
+                    targetAudioSource.UnPause();
+                }
+                else
+                {
+                    targetAudioSource.clip = soundEffect;
+                    targetAudioSource.Play();
                 }
             }
             else if (audioMode == AudioMode.Beeps)
@@ -143,8 +146,10 @@ namespace Fungus
                 return;
             }
 
-            // There's an audible click if you call audioSource.Pause() so instead just drop the volume to 0.
+            // Pause (rather than dropping volume or stopping) so the sound effect
+            // keeps its playback position and resumes from the same spot next time.
             targetVolume = 0f;
+            targetAudioSource.Pause();
         }
 
         protected virtual void Stop()
@@ -154,10 +159,17 @@ namespace Fungus
                 return;
             }
 
-            // There's an audible click if you call audioSource.Stop() so instead we just switch off
-            // looping and let the audio stop automatically at the end of the clip
             targetVolume = 0f;
-            targetAudioSource.loop = false;
+
+            if (playingVoiceover)
+            {
+                targetAudioSource.loop = false;
+            }
+            else
+            {
+                targetAudioSource.Pause();
+            }
+
             playBeeps = false;
             playingVoiceover = false;
         }
@@ -170,6 +182,7 @@ namespace Fungus
             }
 
             targetVolume = volume;
+            targetAudioSource.UnPause();
         }
 
         protected virtual void Update()
