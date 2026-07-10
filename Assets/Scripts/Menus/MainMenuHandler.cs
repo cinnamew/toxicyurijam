@@ -22,6 +22,12 @@ public class MainMenuHandler : MonoBehaviour
             UtilityMenuHandler.Instance.OpenToTab(0);
     }
 
+    public void SecretEnding()
+    {
+        if(AchivementManager.Instance.AllThreeEndings())
+            SceneManager.LoadScene("Secret Ending");
+    }
+
     public void ExitGameButtonPressed()
     {
 #if UNITY_EDITOR

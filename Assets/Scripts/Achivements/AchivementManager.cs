@@ -20,9 +20,19 @@ public class AchivementManager : Singleton<AchivementManager>
                 Debug.Log(achievement.ToString()+ " : " +PlayerPrefs.GetInt(achievement.ToString()));
         }
     }
+    [Button("SET ALL ACHIEVEMENTS")]
+    public void SetAllAchievements()
+    {
+        foreach (var achievement in Enum.GetValues(typeof(Achievement)))
+        {
+            PlayerPrefs.SetInt(achievement.ToString(),1);
+        }
+    }
     public void SetEndingAchievement(int ending) => PlayerPrefs.SetInt("Ending" + ending.ToString(), 1);
     
     public bool GetAchievement(Achievement achievement) => PlayerPrefs.GetInt(achievement.ToString(), 0) == 1;
+    
+    public bool AllThreeEndings() => GetAchievement(Achievement.Ending1) &&  GetAchievement(Achievement.Ending2) && GetAchievement(Achievement.Ending3);
 }
   public enum Achievement
     {

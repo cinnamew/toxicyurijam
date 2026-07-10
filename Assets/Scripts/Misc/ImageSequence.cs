@@ -9,10 +9,16 @@ public class ImageSequence : MonoBehaviour
     [SerializeField] private float _timeBetweenShots;
     [SerializeField] private float _shotFadeDuration;
     [SerializeField] private float _startDelay;
-    
-    private IEnumerator Start()
+
+    public void Play()
     {
-        var shots = transform.GetComponentsInChildren<Image>();
+        
+        StartCoroutine(SequenceCoroutine());
+    }
+
+    private IEnumerator SequenceCoroutine()
+    {
+        var shots = transform.GetComponentsInChildren<Image>(true);
 
         foreach (var shot in shots)
         {
@@ -20,11 +26,15 @@ public class ImageSequence : MonoBehaviour
             shot.gameObject.SetActive(false);
         }
         yield return new WaitForSeconds(_startDelay);
-        
-        foreach (var shot in shots)
+
+
+        for (var i = 0; i < shots.Length; i++)
         {
-            shot.gameObject.SetActive(true);
-            shot.DOFade(1, _shotFadeDuration);
+            var duration= i == 0 ? 0 : _shotFadeDuration;
+            
+            shots[i].gameObject.SetActive(true);
+            shots[i].DOFade(1, duration);
+            
             yield return new WaitForSeconds(_timeBetweenShots);
         }
     }
