@@ -1,21 +1,17 @@
 using System;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 public class AchivementManager : Singleton<AchivementManager>
 {
-    private void Start()
-    {
-        PrintAchievements();
-    }
-
-    //[Button("RESET ACHIEVEMENTS")]
+    [Button("RESET ACHIEVEMENTS")]
     public void ResetAchievements()
     {
         foreach (var achievement in Enum.GetValues(typeof(Achievement)))
             PlayerPrefs.DeleteKey(achievement.ToString());
     }
     
-    //[Button("PRINT ACHIEVEMENTS")]
+    [Button("PRINT ACHIEVEMENTS")]
     public void PrintAchievements()
     {
         foreach (var achievement in Enum.GetValues(typeof(Achievement)))
