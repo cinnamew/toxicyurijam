@@ -124,7 +124,13 @@ namespace Fungus
                     // over time it plays from a variety of positions.
                     targetAudioSource.UnPause();
                 }
-                else
+
+                // UnPause only resumes a source that was *paused*. If the source was
+                // stopped instead - e.g. the SayDialog faded out and deactivated its
+                // GameObject, or the scene changed, both of which stop (not pause)
+                // AudioSources - UnPause does nothing. So if it still isn't playing the
+                // sound effect, (re)start it from the beginning.
+                if (targetAudioSource.clip != soundEffect || !targetAudioSource.isPlaying)
                 {
                     targetAudioSource.clip = soundEffect;
                     targetAudioSource.Play();
