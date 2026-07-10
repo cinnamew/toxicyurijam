@@ -19,3 +19,6 @@ MonoBehaviour:
   - Id: Param12
     Value: 1
     Blend: 1
+  - Id: Param9
+    Value: 1
+    Blend: 1
