@@ -65,7 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Game/Easter Egg/Secret Ending.unity
     guid: dc2095b7ed262f843b53735d77352608
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/_Game/Easter Egg/Easter Egg.unity
     guid: d6707f6fcf689d545a1d2fb5196d519e
   m_configObjects:
