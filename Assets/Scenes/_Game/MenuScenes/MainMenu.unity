@@ -555,6 +555,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4714796916170524096, guid: 58248db84d4b42a4a8cd6531eaf9da79, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 4856617109332305104, guid: 58248db84d4b42a4a8cd6531eaf9da79, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -924,7 +928,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1717566959
 SpriteRenderer:
   serializedVersion: 2
@@ -951,7 +955,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  - {fileID: 2100000, guid: cf0a273332596d94891bbc2cfb99ff08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
