@@ -10,6 +10,7 @@ public class LockedClickableItem : MonoBehaviour, IPointerClickHandler
     [SerializeField] private ItemScriptableObject _keyToOpen;
     [SerializeField] private bool _disappearOnInteract;
     [SerializeField] private float _disappearTweenValue;
+    [SerializeField] private bool _consumeItem;
     [SerializeField] private GameObject[] _revealObjects;
     private bool _isOpen = false;
     private const int NULL_ITEM = -1;
@@ -41,7 +42,7 @@ public class LockedClickableItem : MonoBehaviour, IPointerClickHandler
         if (InventoryManager.Instance.GetSelectedItem().ItemObjectId == _keyToOpen.Id)
         {
             if (_logDebugMessages) Debug.Log(OPEN_DEBUG_MSG);
-            InventoryManager.Instance.RemoveItemFromInventory(InventoryManager.Instance.GetSelectedItem());
+            if (_consumeItem) InventoryManager.Instance.RemoveItemFromInventory(InventoryManager.Instance.GetSelectedItem());
             Open();
             if (TryGetBlock(_openedBlock)) _flowchart.ExecuteBlock(_openedBlock);
         }
