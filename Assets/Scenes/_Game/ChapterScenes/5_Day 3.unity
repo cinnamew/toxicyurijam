@@ -46253,7 +46253,6 @@ GameObject:
   - component: {fileID: 1623802417}
   - component: {fileID: 1623802416}
   - component: {fileID: 1623802415}
-  - component: {fileID: 1623802414}
   - component: {fileID: 1623802413}
   - component: {fileID: 1623802412}
   - component: {fileID: 1623802411}
@@ -46319,6 +46318,7 @@ GameObject:
   - component: {fileID: 1623802762}
   - component: {fileID: 1623802761}
   - component: {fileID: 1623802760}
+  - component: {fileID: 1623802764}
   m_Layer: 0
   m_Name: cinna flowchart
   m_TagString: Untagged
@@ -46339,7 +46339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 162.14569, y: 330.11948}
+  scrollPos: {x: 82.14569, y: 2.1194763}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -46351,9 +46351,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1623802710}
+  - {fileID: 1623802489}
   selectedCommands:
-  - {fileID: 1623802702}
+  - {fileID: 1623802413}
   variables:
   - {fileID: 1623802742}
   description: 
@@ -46982,62 +46982,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1623802414
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623801741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Fungus::Fungus.InvokeEvent
-  itemId: 950
-  indentLevel: 0
-  description: jump m
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 662494500}
-        m_TargetAssemblyTypeName: LiveSpriteController, Assembly-CSharp
-        m_MethodName: JumpModel
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1623802415
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -47446,7 +47390,7 @@ MonoBehaviour:
   itemId: 937
   indentLevel: 0
   storyText: But these are good fields, and good farming, so people just moved a
-    bit down the road and called that "{i}good enough{/i}".
+    bit down the road and called that "{i}good enough{/i}."
   description: 
   character: {fileID: 423956727}
   portrait: {fileID: 0}
@@ -47556,7 +47500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 933
   indentLevel: 0
-  storyText: '"{i}I''ve gone to change my fortune{/i}", he said. And that was the
+  storyText: '"{i}I''ve gone to change my fortune{/i}," he said. And that was the
     last I ever saw of him.'
   description: 
   character: {fileID: 423956727}
@@ -48109,7 +48053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 913
   indentLevel: 0
-  storyText: You would swear could see him communing with them, staring off into
+  storyText: You would swear you could see him communing with them, staring off into
     space at nothing at all for minutes or hours at a time, or when he talked to
     his dolls.
   description: 
@@ -48984,7 +48928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 883
   indentLevel: 0
-  storyText: I said, do you-
+  storyText: "I said, do you\u2014"
   description: 
   character: {fileID: 982931852}
   portrait: {fileID: 0}
@@ -49385,7 +49329,6 @@ MonoBehaviour:
   - {fileID: 1623802735}
   - {fileID: 1623802758}
   - {fileID: 1623802415}
-  - {fileID: 1623802414}
   - {fileID: 1623802413}
   - {fileID: 1623802412}
   - {fileID: 1623802411}
@@ -50077,7 +50020,7 @@ MonoBehaviour:
   itemId: 853
   indentLevel: 0
   display: 1
-  stage: {fileID: 176302596}
+  stage: {fileID: 0}
   character: {fileID: 423956727}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 497978526, guid: 1569d9ba8c22d40989c896ab28d71049, type: 3}
@@ -50250,7 +50193,7 @@ MonoBehaviour:
   itemId: 847
   indentLevel: 0
   storyText: I leave behind the rows of clothing lines, and the alleyways instead
-    become cold, emtpy places, no windows or doors looking down on them.{wc}The noise
+    become cold, empty places, no windows or doors looking down on them.{wc}The noise
     of the world drops away, leaving only a dense silence, the only sound my footsteps
     on the soft dirt.
   description: 
@@ -51632,7 +51575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 812
   indentLevel: 0
-  storyText: The whole town's up in arms about it now
+  storyText: The whole town's up in arms about it now.
   description: 
   character: {fileID: 813695426}
   portrait: {fileID: 0}
@@ -53838,6 +53781,7 @@ MonoBehaviour:
   - {fileID: 1623802752}
   - {fileID: 1623802519}
   - {fileID: 1623802730}
+  - {fileID: 1623802764}
   - {fileID: 1623802518}
   - {fileID: 1623802517}
   - {fileID: 1623802516}
@@ -55264,7 +55208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 722
   indentLevel: 0
-  storyText: That's when I realise - it's still in my pocket.
+  storyText: "That's when I realise \u2014 it's still in my pocket."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -56028,7 +55972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 703
   indentLevel: 0
-  storyText: Um, I-
+  storyText: "Um, I\u2014"
   description: 
   character: {fileID: 982931852}
   portrait: {fileID: 0}
@@ -56167,7 +56111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 699
   indentLevel: 0
-  storyText: Oh, uh-
+  storyText: "Oh, uh\u2014"
   description: 
   character: {fileID: 982931852}
   portrait: {fileID: 0}
@@ -58152,20 +58096,8 @@ MonoBehaviour:
         m_MethodName: set_clip
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 1df2ad7f2bf064d1db9691f18671d83f, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 599a453c9ebc74a9fb75ee4563875876, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1968369380}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -59318,6 +59250,29 @@ MonoBehaviour:
   - {fileID: 1623802760}
   - {fileID: 1623802761}
   suppressAllAutoSelections: 0
+--- !u!114 &1623802764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623801741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.ControlAudio
+  itemId: 1023
+  indentLevel: 0
+  control: 1
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 1968369380}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 1
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
 --- !u!43 &1629979992
 Mesh:
   m_ObjectHideFlags: 0
