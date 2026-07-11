@@ -13,6 +13,6 @@ public class FlowchartAchievementConditionSetter : MonoBehaviour
 
     private void Update()
     {
-        _flowchart.SetBooleanVariable("completed_all_endings",AchivementManager.Instance.AllThreeEndings());
+        _flowchart.SetIntegerVariable("endings",AchivementManager.Instance.EndingsCompleted());
     }
 }

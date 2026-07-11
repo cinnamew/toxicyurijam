@@ -33,6 +33,16 @@ public class AchivementManager : Singleton<AchivementManager>
     public bool GetAchievement(Achievement achievement) => PlayerPrefs.GetInt(achievement.ToString(), 0) == 1;
     
     public bool AllThreeEndings() => GetAchievement(Achievement.Ending1) &&  GetAchievement(Achievement.Ending2) && GetAchievement(Achievement.Ending3);
+
+    public int EndingsCompleted()
+    {
+        var n = 0;
+        foreach (var achievement in Enum.GetValues(typeof(Achievement)))
+        {
+            n += PlayerPrefs.GetInt(achievement.ToString()) == 1 ? 1 : 0;
+        }
+        return n;
+    }
 }
   public enum Achievement
     {

@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cff267f-8f9d-468f-afc8-898f3f630956" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fungus/Characters/Priest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fungus/Characters/Priest.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/2_Day 1 Post Minigame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/2_Day 1 Post Minigame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/5_Day 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/5_Day 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/6_Day 4 Post MInigame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/6_Day 4 Post MInigame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/6_Day 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/6_Day 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/7_Day 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/7_Day 6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/8_Day 6 Post Minigame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/8_Day 6 Post Minigame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/9_Day 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/9_Day 7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/Easter Egg/Secret Ending.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/Easter Egg/Secret Ending.unity" afterDir="false" />
-    </list>
+    <list default="true" id="6cff267f-8f9d-468f-afc8-898f3f630956" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783759323642</updated>
-      <workItem from="1783759325818" duration="5491000" />
+      <workItem from="1783759325818" duration="5888000" />
     </task>
     <servers />
   </component>
