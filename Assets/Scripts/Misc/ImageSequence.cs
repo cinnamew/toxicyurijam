@@ -1,26 +1,28 @@
 using System;
 using System.Collections;
 using DG.Tweening;
+using Fungus;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ImageSequence : MonoBehaviour
 {
+    [SerializeField] private Image[] _shots;
     [SerializeField] private float _timeBetweenShots;
     [SerializeField] private float _shotFadeDuration;
     [SerializeField] private float _startDelay;
-
+    [SerializeField] private float _endDelay;
+    [SerializeField] private CanvasGroup _menuButton;
+    
     public void Play()
     {
-        
         StartCoroutine(SequenceCoroutine());
     }
 
     private IEnumerator SequenceCoroutine()
     {
-        var shots = transform.GetComponentsInChildren<Image>(true);
 
-        foreach (var shot in shots)
+        foreach (var shot in _shots)
         {
             shot.color = new Color(shot.color.r, shot.color.g, shot.color.b, 0);
             shot.gameObject.SetActive(false);
@@ -28,14 +30,18 @@ public class ImageSequence : MonoBehaviour
         yield return new WaitForSeconds(_startDelay);
 
 
-        for (var i = 0; i < shots.Length; i++)
+        for (var i = 0; i < _shots.Length; i++)
         {
             var duration= i == 0 ? 0 : _shotFadeDuration;
             
-            shots[i].gameObject.SetActive(true);
-            shots[i].DOFade(1, duration);
+            _shots[i].gameObject.SetActive(true);
+            _shots[i].DOFade(1, duration);
             
             yield return new WaitForSeconds(_timeBetweenShots);
         }
+        yield return new WaitForSeconds(_endDelay);
+        _menuButton.interactable = true;
+        _menuButton.DOFade(1, 1);
+        
     }
 }
