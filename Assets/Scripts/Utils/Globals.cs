@@ -14,4 +14,5 @@ public static class Globals
         public const string INV_SEPARATER = ",";
 
         public const string SCENE_SEEN = "Chapter Progress";
+        public const string ENDING_SEEN = "Endings Progrss";
 }

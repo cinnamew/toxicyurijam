@@ -8,19 +8,26 @@ public class ChapterSelect : MonoBehaviour
     private const string NULLOBJ = "nullobj";
     private const int INV_CAPACITY = 7;
     [SerializeField] private Transform chapterButtonContainer;
+    private const int ENDINGS_COUNT = 3;
     private int chaptersSeen;
+    private int endingsSeen;  // Uses bitwise
 
+
+    private void Awake()
+    {
+        chaptersSeen = PlayerPrefs.GetInt(Globals.SCENE_SEEN, 0);
+        endingsSeen = PlayerPrefs.GetInt(Globals.ENDING_SEEN, 0);
+        chaptersSeen = 15;
+    }
 
     private void Start()
     {
-        chaptersSeen = PlayerPrefs.GetInt(Globals.SCENE_SEEN, 0);
         UpdateChapterLocks();
     }
 
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
-        
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode load)
@@ -76,11 +83,21 @@ public class ChapterSelect : MonoBehaviour
                 chaptersSeen = 7;
             }
         }
-
-        if (scene.buildIndex > 0)
+        else if (scene.name == "Ending 1")
         {
-            PlayerPrefs.SetInt(Globals.SCENE_SEEN, chaptersSeen);
+            endingsSeen |= 1 << 0;
         }
+        else if (scene.name == "Ending 2")
+        {
+            endingsSeen |= 1 << 1;
+        }
+        else if (scene.name == "Ending 3")
+        {
+            endingsSeen |= 1 << 2;
+        }
+
+        PlayerPrefs.SetInt(Globals.SCENE_SEEN, chaptersSeen);
+        PlayerPrefs.SetInt(Globals.ENDING_SEEN, endingsSeen);
     }
 
     private void ResetInventory()
@@ -126,13 +143,36 @@ public class ChapterSelect : MonoBehaviour
 
     public void UpdateChapterLocks()
     {
-        for (int i = 0; i < chapterButtonContainer.childCount; i++)
+        // Checks chapters
+        for (int i = 0; i < chapterButtonContainer.childCount - ENDINGS_COUNT; i++)
         {
             Transform chapterButtonObject = chapterButtonContainer.GetChild(i);
             Button chapterButton = chapterButtonObject.GetComponent<Button>();
             GameObject lockedImage = chapterButtonObject.GetChild(1).gameObject;
             GameObject unlockedImage = chapterButtonObject.GetChild(0).gameObject;
             if (i <= chaptersSeen)
+            {
+                chapterButton.interactable = true;
+                unlockedImage.SetActive(true);
+                lockedImage.SetActive(false);
+            }
+            else
+            {
+                chapterButton.interactable = false;
+                unlockedImage.SetActive(false);
+                lockedImage.SetActive(true);
+            }
+        }
+
+        // Checks endings
+        int offset = chapterButtonContainer.childCount - ENDINGS_COUNT;
+        for (int i = offset; i < chapterButtonContainer.childCount; i++)
+        {
+            Transform chapterButtonObject = chapterButtonContainer.GetChild(i);
+            Button chapterButton = chapterButtonObject.GetComponent<Button>();
+            GameObject lockedImage = chapterButtonObject.GetChild(1).gameObject;
+            GameObject unlockedImage = chapterButtonObject.GetChild(0).gameObject;
+            if ((endingsSeen & (1 << (i - offset))) != 0)
             {
                 chapterButton.interactable = true;
                 unlockedImage.SetActive(true);
