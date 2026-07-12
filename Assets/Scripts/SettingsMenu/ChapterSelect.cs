@@ -69,7 +69,7 @@ public class ChapterSelect : MonoBehaviour
                 chaptersSeen = 6;
             }
         }
-        else if (scene.name == "8_Day 7")
+        else if (scene.name == "9_Day 7")
         {
             if (chaptersSeen < 7)
             {
