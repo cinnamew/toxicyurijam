@@ -18,7 +18,8 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
 
     public void OpenLogs()
     {
-        settingsUtilityMenu.OpenToTab(UtilityMenuHandler.UtilityTab.HISTORY);
+        // settingsUtilityMenu.OpenToTab(UtilityMenuHandler.UtilityTab.HISTORY);
+        UtilityMenuHandler.Instance.OpenToTab(UtilityMenuHandler.UtilityTab.HISTORY);
     }
 
     public void Skip()
@@ -32,7 +33,8 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
 
     public void Hide()
     {
-        if (settingsUtilityMenu != null) settingsUtilityMenu.HideButtons();
+        // if (settingsUtilityMenu != null) settingsUtilityMenu.HideButtons();
+        UtilityMenuHandler.Instance.HideButtons();
         dialogueBoxUtilityMenu.alpha = 0;
         dialogueBoxUtilityMenu.interactable = false;
         dialogueBoxUtilityMenu.blocksRaycasts = false;
@@ -41,7 +43,8 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
 
     public void UnHide()
     {
-        if (settingsUtilityMenu != null) settingsUtilityMenu.ShowButtons();
+        // if (settingsUtilityMenu != null) settingsUtilityMenu.ShowButtons();
+        UtilityMenuHandler.Instance.ShowButtons();
         dialogueBoxUtilityMenu.alpha = 1;
         dialogueBoxUtilityMenu.interactable = true;
         dialogueBoxUtilityMenu.blocksRaycasts = true;
