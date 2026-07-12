@@ -97,6 +97,7 @@ public class ChapterSelect : MonoBehaviour
 
         switch (chapter)
         {
+            case 0:
             case 1:
                 break;
             case 2:
