@@ -6024,7 +6024,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: A visitor comes to call.
+      value: Hazel accepts Mary's love. Their happy ending begins here!
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
@@ -6266,7 +6266,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: A visitor comes to call.
+      value: The forbidden potion.
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
@@ -6508,7 +6508,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479145914778688802, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_text
-      value: A visitor comes to call.
+      value: Hazel escapes from Mary.
       objectReference: {fileID: 0}
     - target: {fileID: 1579106191579774419, guid: 44f94fbff912e934caf6173652a47057, type: 3}
       propertyPath: m_Name
