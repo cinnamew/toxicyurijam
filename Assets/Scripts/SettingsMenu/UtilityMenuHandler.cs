@@ -7,7 +7,8 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
     {
         SETTINGS = 0,
         CHAPTER_SELECT,
-        HISTORY
+        HISTORY,
+        ABOUT
     };
 
 
@@ -23,6 +24,7 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
     [SerializeField] private CanvasGroup settingsPanel;
     [SerializeField] private CanvasGroup chapterPanel;
     [SerializeField] private CanvasGroup historyPanel;
+    [SerializeField] private CanvasGroup aboutPanel;
     [SerializeField] private GameObject blocker;
     [SerializeField] private CanvasGroup narrativeLog;
     private CanvasGroup[] tabs;
@@ -31,7 +33,7 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
 
     private void Start()
     {
-        tabs = new CanvasGroup[3]{settingsPanel, chapterPanel, historyPanel};
+        tabs = new CanvasGroup[4]{settingsPanel, chapterPanel, historyPanel, aboutPanel};
         isOpenHash = Animator.StringToHash("IsOpen");
     }
 
@@ -107,18 +109,4 @@ public class UtilityMenuHandler : PersistentSingleton<UtilityMenuHandler>, IHove
         CloseSettings();
         SceneManager.LoadScene(MAINMENU_SCENEID);
     }
-
-    // public void OpenSettingsPanel()
-    // {
-    //     settingsPanel.alpha = 1;
-    //     settingsPanel.interactable = true;
-    //     settingsPanel.blocksRaycasts = true;
-    // }
-
-    // public void CloseSettingsPanel()
-    // {
-    //     settingsPanel.alpha = 0;
-    //     settingsPanel.interactable = false;
-    //     settingsPanel.blocksRaycasts = false;
-    // }
 }
