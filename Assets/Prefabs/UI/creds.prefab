@@ -1435,7 +1435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3909912837322521582, guid: ff72a021afd0540c28df9bc2812e9fa1, type: 3}
       propertyPath: m_text
-      value: philosophical git commits, attempted organization
+      value: philosophical git commits, running all over the place
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
