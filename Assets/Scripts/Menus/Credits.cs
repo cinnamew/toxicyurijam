@@ -7,6 +7,7 @@ public class Credits : MonoBehaviour
     [SerializeField] private VerticalLayoutGroup creditsContainer;
     [SerializeField] private GameObject returnToTitleButton;
     [SerializeField] private Flowchart flowchart;
+    [SerializeField] private Canvas fuckingCanvas;
 
     private int nextChildIndex;
     private bool finished;
@@ -43,7 +44,7 @@ public class Credits : MonoBehaviour
         if (returnToTitleButton != null) returnToTitleButton.SetActive(true);
         
         flowchart.ExecuteBlock("end of game");
-
+        fuckingCanvas.sortingOrder = 505;
         finished = true;
     }
 }
