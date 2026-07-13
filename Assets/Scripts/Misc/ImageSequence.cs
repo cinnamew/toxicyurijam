@@ -13,6 +13,7 @@ public class ImageSequence : MonoBehaviour
     [SerializeField] private float _startDelay;
     [SerializeField] private float _endDelay;
     [SerializeField] private CanvasGroup _menuButton;
+    [SerializeField] private CanvasGroup _credits;
     
     public void Play()
     {
@@ -21,6 +22,7 @@ public class ImageSequence : MonoBehaviour
 
     private IEnumerator SequenceCoroutine()
     {
+        _credits.DOFade(1, 1);
 
         foreach (var shot in _shots)
         {
@@ -38,10 +40,13 @@ public class ImageSequence : MonoBehaviour
             _shots[i].DOFade(1, duration);
             
             yield return new WaitForSeconds(_timeBetweenShots);
+            
+            if(i >= 1)
+                _credits.DOFade(0, 1);
         }
         yield return new WaitForSeconds(_endDelay);
         _menuButton.interactable = true;
         _menuButton.DOFade(1, 1);
-        
+        _credits.DOFade(0, 1);
     }
 }
