@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using DG.Tweening;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class TextHoverColorTween : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler 
@@ -8,6 +9,8 @@ public class TextHoverColorTween : MonoBehaviour, IPointerEnterHandler, IPointer
     [SerializeField] private Graphic originalText;
     [SerializeField] private Color targetColor;
     [SerializeField] private float timeToFill;
+    [SerializeField] private UnityEvent onHover;
+    
     private Color originalColor;
 
     private void Start()
@@ -18,6 +21,7 @@ public class TextHoverColorTween : MonoBehaviour, IPointerEnterHandler, IPointer
     public void OnPointerEnter(PointerEventData eventData)
     {
         originalText.DOColor(targetColor, timeToFill);
+        onHover?.Invoke();
     }
 
     public void OnPointerExit(PointerEventData eventData)

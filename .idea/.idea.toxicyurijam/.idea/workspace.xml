@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6cff267f-8f9d-468f-afc8-898f3f630956" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.toxicyurijam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.toxicyurijam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/Easter Egg/Secret Ending.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/Easter Egg/Secret Ending.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fungus/DefaultMenuDialog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fungus/DefaultMenuDialog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/6_Day 4 Post MInigame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/6_Day 4 Post MInigame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/9_Day 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/9_Day 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/TextHoverColorTween.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/TextHoverColorTween.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
