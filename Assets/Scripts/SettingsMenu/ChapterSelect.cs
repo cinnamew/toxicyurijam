@@ -17,7 +17,7 @@ public class ChapterSelect : MonoBehaviour
     {
         chaptersSeen = PlayerPrefs.GetInt(Globals.SCENE_SEEN, 0);
         endingsSeen = PlayerPrefs.GetInt(Globals.ENDING_SEEN, 0);
-        chaptersSeen = 15;
+        // chaptersSeen = 15;  // developer debug
     }
 
     private void Start()
