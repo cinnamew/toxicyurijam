@@ -6,19 +6,16 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
 {
     [SerializeField] private DialogInput dialogInput;
     [SerializeField] private CanvasGroup dialogueBoxUtilityMenu;
-    private UtilityMenuHandler settingsUtilityMenu;
 
     public bool isSkipping { get; set; }
 
     private void Start()
     {
-        settingsUtilityMenu = FindAnyObjectByType<UtilityMenuHandler>();
-        if (settingsUtilityMenu == null) Debug.LogWarning("[DialogueBoxUtilityHandler]: No Utility Menu found in scene");
+        if (UtilityMenuHandler.Instance == null) Debug.LogWarning("[DialogueBoxUtilityHandler]: No Utility Menu found in scene");
     }
 
     public void OpenLogs()
     {
-        // settingsUtilityMenu.OpenToTab(UtilityMenuHandler.UtilityTab.HISTORY);
         UtilityMenuHandler.Instance.OpenToTab(UtilityMenuHandler.UtilityTab.HISTORY);
     }
 
@@ -33,7 +30,6 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
 
     public void Hide()
     {
-        // if (settingsUtilityMenu != null) settingsUtilityMenu.HideButtons();
         UtilityMenuHandler.Instance.HideButtons();
         dialogueBoxUtilityMenu.alpha = 0;
         dialogueBoxUtilityMenu.interactable = false;
@@ -43,7 +39,6 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
 
     public void UnHide()
     {
-        // if (settingsUtilityMenu != null) settingsUtilityMenu.ShowButtons();
         UtilityMenuHandler.Instance.ShowButtons();
         dialogueBoxUtilityMenu.alpha = 1;
         dialogueBoxUtilityMenu.interactable = true;
