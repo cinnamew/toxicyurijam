@@ -7,7 +7,7 @@ public class DialogueItem : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private Flowchart flowchart;
     [SerializeField] private string blockToExecute;
-    [SerializeField] private AudioSource flowerPluckSFX;
+    [SerializeField] private UnityEvent onClick;
 
     private void Start()
     {
@@ -21,8 +21,8 @@ public class DialogueItem : MonoBehaviour, IPointerClickHandler
     {
         if (flowchart != null && !string.IsNullOrWhiteSpace(blockToExecute))
         {
-            flowerPluckSFX.Play();
             flowchart.ExecuteBlock(blockToExecute);
+            onClick?.Invoke();
         } 
     }
 }

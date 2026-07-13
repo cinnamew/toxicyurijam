@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6cff267f-8f9d-468f-afc8-898f3f630956" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.toxicyurijam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.toxicyurijam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/5_Day 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/ChapterScenes/5_Day 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Game/Easter Egg/Secret Ending.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Game/Easter Egg/Secret Ending.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Live2D/Models/Mary/Mary.expressionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Live2D/Models/Mary/Mary.expressionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/Types/DialogueItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Types/DialogueItem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <updated>1783759323642</updated>
       <workItem from="1783759325818" duration="10457000" />
       <workItem from="1783856881765" duration="306000" />
-      <workItem from="1783910942147" duration="1899000" />
+      <workItem from="1783910942147" duration="4707000" />
     </task>
     <servers />
   </component>
