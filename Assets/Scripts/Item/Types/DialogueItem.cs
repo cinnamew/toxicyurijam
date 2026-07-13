@@ -1,11 +1,13 @@
 using UnityEngine;
 using Fungus;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 public class DialogueItem : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private Flowchart flowchart;
     [SerializeField] private string blockToExecute;
+    [SerializeField] private AudioSource flowerPluckSFX;
 
     private void Start()
     {
@@ -17,7 +19,10 @@ public class DialogueItem : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (flowchart != null && !string.IsNullOrWhiteSpace(blockToExecute)) 
+        if (flowchart != null && !string.IsNullOrWhiteSpace(blockToExecute))
+        {
+            flowerPluckSFX.Play();
             flowchart.ExecuteBlock(blockToExecute);
+        } 
     }
 }

@@ -15,6 +15,7 @@ public class CollectionManager : MonoBehaviour
     private void Start()
     {
         uniqueCollections = new GameObject[totalCollections];
+        
     }
 
     public void AddCollection(GameObject obj)
