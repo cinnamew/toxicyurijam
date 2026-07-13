@@ -14,6 +14,11 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
         if (UtilityMenuHandler.Instance == null) Debug.LogWarning("[DialogueBoxUtilityHandler]: No Utility Menu found in scene");
     }
 
+    private void OnDisable()
+    {
+        isSkipping = false;
+    }
+
     public void OpenLogs()
     {
         UtilityMenuHandler.Instance.OpenToTab(UtilityMenuHandler.UtilityTab.HISTORY);
