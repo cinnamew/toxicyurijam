@@ -659,6 +659,7 @@ MonoBehaviour:
   creditsContainer: {fileID: 8439531476740503068}
   returnToTitleButton: {fileID: 4854695224526621388}
   flowchart: {fileID: 0}
+  fuckingCanvas: {fileID: 0}
 --- !u!82 &3161745348741255779
 AudioSource:
   m_ObjectHideFlags: 0
@@ -790,7 +791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.24625, y: 1}
   m_AnchorMax: {x: 0.24625, y: 1}
-  m_AnchoredPosition: {x: 0, y: -39}
+  m_AnchoredPosition: {x: 0, y: -41.059998}
   m_SizeDelta: {x: 200, y: 57.1321}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5837093277095029220
@@ -1071,7 +1072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.24625, y: 1}
   m_AnchorMax: {x: 0.24625, y: 1}
-  m_AnchoredPosition: {x: 5.1243896, y: -254.94}
+  m_AnchoredPosition: {x: 5.1243896, y: -257}
   m_SizeDelta: {x: 316.2397, y: 364.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8439531476740503068
