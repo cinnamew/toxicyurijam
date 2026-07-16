@@ -4,7 +4,7 @@ using UnityEngine;
 public class CheckDaffodil : MonoBehaviour
 {
     [SerializeField] private Flowchart flowchart;
-    private string[] playerPrefsInventory;
+    private string[] playerInv;
 
     private void Start()
     {
@@ -19,19 +19,25 @@ public class CheckDaffodil : MonoBehaviour
 
     public void HasFunnyFlower()
     {
-        playerPrefsInventory = PlayerPrefs.GetString(Globals.INVENTORY).Split(Globals.INV_SEPARATER);
+        playerInv = PlayerPrefs.GetString(Globals.INVENTORY).Split(Globals.INV_SEPARATER);
         
         // PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, playerPrefsInventory));
-        for (int i = 0; i < playerPrefsInventory.Length; i++)
+        for (int i = 0; i < playerInv.Length; i++)
         {
-            if (playerPrefsInventory[i] == "daffodil")
+            if (playerInv[i] == "daffodil")
             {
                 flowchart.SetBooleanVariable("HasDaffodil", true);
                 PlayerPrefs.SetInt("HadDaffy", 1);
+                PlayerPrefs.SetInt("GaveDaffy", 0);
                 RemoveFunnyFlower();
                 return;
             }
         }
+    }
+
+    public void GiveFunnyFlower()
+    {
+        PlayerPrefs.SetInt("GaveDaffy", 1);
     }
 
     public void HadFunnyFlower()
@@ -45,15 +51,21 @@ public class CheckDaffodil : MonoBehaviour
 
     public void RemoveFunnyFlower()
     {
-        for (int i = 0; i < playerPrefsInventory.Length; i++)
+        for (int i = 0; i < playerInv.Length; i++)
         {
-            if (playerPrefsInventory[i] == "daffodil")
+            if (playerInv[i] == "daffodil")
             {
-                playerPrefsInventory[i] = "nullobj";
-                PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, playerPrefsInventory));
+                playerInv[i] = "nullobj";
+                PlayerPrefs.SetString(Globals.INVENTORY, string.Join(Globals.INV_SEPARATER, playerInv));
+                GiveFunnyFlower();
                 return;
             }
         }
         Debug.Log("you have no funny flower.. what're u removing chief");
+    }
+
+    public void GaveFunnyFlower()
+    {
+        flowchart.SetBooleanVariable("gaveDaffodil", PlayerPrefs.GetInt("GaveDaffy") == 1);
     }
 }
