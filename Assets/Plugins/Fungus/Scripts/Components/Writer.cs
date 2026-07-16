@@ -107,6 +107,8 @@ namespace Fungus
         /// </summary>
         public bool HasWordsRemaining { get { return WordTokensProcessed < WordTokensFound; } }
 
+        public bool FinishedLine = false;
+
         protected List<IWriterListener> writerListeners = new List<IWriterListener>();
 
         protected StringBuilder openString = new StringBuilder(256);
@@ -318,6 +320,7 @@ namespace Fungus
                 {
                     case TokenType.Words:
                         yield return StartCoroutine(DoWords(token.paramList, previousTokenType));
+                        FinishedLine = true;
                         WordTokensProcessed++;
                         break;
 

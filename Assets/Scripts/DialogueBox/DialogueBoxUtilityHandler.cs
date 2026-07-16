@@ -5,13 +5,22 @@ using UnityEngine;
 public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
 {
     [SerializeField] private DialogInput dialogInput;
+    [SerializeField] private Writer writer;
     [SerializeField] private CanvasGroup dialogueBoxUtilityMenu;
 
-    public bool isSkipping { get; set; }
+    private readonly WaitForSeconds waitForSeconds = new(2.0f);
+    private bool isSkipping = false;
+    private bool isAuto = false;
+    private bool lineFinished = false;
 
     private void Start()
     {
         if (UtilityMenuHandler.Instance == null) Debug.LogWarning("[DialogueBoxUtilityHandler]: No Utility Menu found in scene");
+    }
+
+    private void OnEnable()
+    {
+        if (isAuto) StartCoroutine(nameof(AutoText));
     }
 
     private void OnDisable()
@@ -30,6 +39,21 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
         if (isSkipping)
         {
             StartCoroutine(nameof(SkipText));
+        }
+    }
+
+    public void Auto()
+    {
+        if (isSkipping)
+        {
+            isSkipping = false;
+            StopCoroutine(nameof(SkipText));
+        }
+
+        isAuto = !isAuto;
+        if (isAuto)
+        {
+            StartCoroutine(nameof(AutoText));
         }
     }
 
@@ -56,6 +80,21 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
         while (isSkipping)
         {
             dialogInput.SetNextLineFlag();
+            yield return new WaitForEndOfFrame();
+        }
+        yield return new WaitForEndOfFrame();
+    }
+
+    private IEnumerator AutoText()
+    {
+        while (isAuto)
+        {
+            if (writer.FinishedLine)
+            {
+                writer.FinishedLine = false;
+                yield return waitForSeconds;
+                dialogInput.SetNextLineFlag();
+            }
             yield return new WaitForEndOfFrame();
         }
         yield return new WaitForEndOfFrame();
