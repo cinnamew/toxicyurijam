@@ -11,21 +11,17 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
     private readonly WaitForSeconds waitForSeconds = new(2.0f);
     private bool isSkipping = false;
     private bool isAuto = false;
-    private bool lineFinished = false;
+
 
     private void Start()
     {
         if (UtilityMenuHandler.Instance == null) Debug.LogWarning("[DialogueBoxUtilityHandler]: No Utility Menu found in scene");
     }
 
-    private void OnEnable()
-    {
-        if (isAuto) StartCoroutine(nameof(AutoText));
-    }
-
     private void OnDisable()
     {
         isSkipping = false;
+        isAuto = false;
     }
 
     public void OpenLogs()
@@ -33,7 +29,7 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
         UtilityMenuHandler.Instance.OpenToTab(UtilityMenuHandler.UtilityTab.HISTORY);
     }
 
-    public void Skip()
+    public void SkipOn()
     {
         isSkipping = !isSkipping;
         if (isSkipping)
@@ -42,7 +38,12 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
         }
     }
 
-    public void Auto()
+    public void SkipOff()
+    {
+        isSkipping = false;
+    }
+
+    public void AutoOn()
     {
         if (isSkipping)
         {
@@ -50,11 +51,16 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
             StopCoroutine(nameof(SkipText));
         }
 
-        isAuto = !isAuto;
+        isAuto = true;
         if (isAuto)
         {
             StartCoroutine(nameof(AutoText));
         }
+    }
+
+    public void AutoOff()
+    {
+        isAuto = false;
     }
 
     public void Hide()

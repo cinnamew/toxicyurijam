@@ -185,6 +185,7 @@ MonoBehaviour:
   forceRichText: 1
   instantComplete: 1
   doReadAheadText: 1
+  FinishedLine: 0
 --- !u!114 &4838946103455482885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,8 +518,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286949833
-  m_fontColor: {r: 0.78823537, g: 0.6627451, b: 0.52156866, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -984,8 +985,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286949833
-  m_fontColor: {r: 0.78823537, g: 0.6627451, b: 0.52156866, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1500,8 +1501,7 @@ GameObject:
   - component: {fileID: 5163256559531431688}
   - component: {fileID: 7182251948155527729}
   - component: {fileID: 208778680330733465}
-  - component: {fileID: 1057081024792138857}
-  - component: {fileID: 2111960286309945025}
+  - component: {fileID: 5187115723061709815}
   m_Layer: 5
   m_Name: LogsButton
   m_TagString: Untagged
@@ -1586,11 +1586,11 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_NormalColor: {r: 0.7882353, g: 0.6627451, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1607,7 +1607,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 7182251948155527729}
+  m_TargetGraphic: {fileID: 6763922305294829446}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1635,25 +1635,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1057081024792138857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3419427195624873461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef48dbe395667b459da4ed80ae2ff5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
-  originalText: {fileID: 6763922305294829446}
-  targetColor: {r: 1, g: 1, b: 1, a: 1}
-  timeToFill: 0
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &2111960286309945025
+--- !u!114 &5187115723061709815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1740,8 +1722,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286949833
-  m_fontColor: {r: 0.78823537, g: 0.6627451, b: 0.52156866, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2058,7 +2040,6 @@ GameObject:
   - component: {fileID: 7890954819747934519}
   - component: {fileID: 8440428050844765725}
   - component: {fileID: 3875695313043439901}
-  - component: {fileID: 1682483387375150821}
   - component: {fileID: 5289879761203361502}
   m_Layer: 5
   m_Name: HideButton
@@ -2144,12 +2125,12 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.7882353, g: 0.6627451, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2165,7 +2146,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 8440428050844765725}
+  m_TargetGraphic: {fileID: 7302686490712760391}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2217,24 +2198,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1682483387375150821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4822599862909394002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef48dbe395667b459da4ed80ae2ff5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
-  originalText: {fileID: 7302686490712760391}
-  targetColor: {r: 1, g: 1, b: 1, a: 1}
-  timeToFill: 0
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &5289879761203361502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2680,8 +2643,8 @@ GameObject:
   - component: {fileID: 6453853520446433246}
   - component: {fileID: 3023003002521005227}
   - component: {fileID: 356965391467562678}
-  - component: {fileID: 8428592158333955800}
   - component: {fileID: 3582948238825136977}
+  - component: {fileID: 1681588582436906362}
   m_Layer: 5
   m_Name: SkipButton
   m_TagString: Untagged
@@ -2766,11 +2729,11 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_NormalColor: {r: 0.7882353, g: 0.6627451, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2787,22 +2750,10 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 3023003002521005227}
+  m_TargetGraphic: {fileID: 5428969796795285672}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7164698894944709075}
-        m_TargetAssemblyTypeName: DialogueBoxUtilityHandler, Assembly-CSharp
-        m_MethodName: Skip
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 4474181377179088372}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
@@ -2815,24 +2766,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8428592158333955800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6164982843632963462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef48dbe395667b459da4ed80ae2ff5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
-  originalText: {fileID: 5428969796795285672}
-  targetColor: {r: 1, g: 1, b: 1, a: 1}
-  timeToFill: 0
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &3582948238825136977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2846,6 +2779,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DisableClickOnButtonHover
   showLogs: 0
+--- !u!114 &1681588582436906362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6164982843632963462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9e0ebfbecdcee44b3f4cec744fec07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueBoxUtilityButtonHandler
+  turnOffOnDisable: 1
+  onSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7164698894944709075}
+        m_TargetAssemblyTypeName: DialogueBoxUtilityHandler, Assembly-CSharp
+        m_MethodName: SkipOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDeselect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7164698894944709075}
+        m_TargetAssemblyTypeName: DialogueBoxUtilityHandler, Assembly-CSharp
+        m_MethodName: SkipOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6569673268439916526
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,8 +3091,8 @@ GameObject:
   - component: {fileID: 244439968706114013}
   - component: {fileID: 5349514823503880723}
   - component: {fileID: 3999203652933150204}
-  - component: {fileID: 4413601837889932541}
   - component: {fileID: 608876406582281386}
+  - component: {fileID: 7768828594684711761}
   m_Layer: 5
   m_Name: AutoButton
   m_TagString: Untagged
@@ -3201,12 +3177,12 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.7882353, g: 0.6627451, b: 0.52156866, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3222,22 +3198,10 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 5349514823503880723}
+  m_TargetGraphic: {fileID: 6887294703093665780}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7164698894944709075}
-        m_TargetAssemblyTypeName: DialogueBoxUtilityHandler, Assembly-CSharp
-        m_MethodName: Auto
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 4474181377179088372}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
@@ -3250,24 +3214,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4413601837889932541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7737377241125900109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef48dbe395667b459da4ed80ae2ff5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TextHoverColorTween
-  originalText: {fileID: 6887294703093665780}
-  targetColor: {r: 1, g: 1, b: 1, a: 1}
-  timeToFill: 0
-  onHover:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &608876406582281386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3281,6 +3227,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DisableClickOnButtonHover
   showLogs: 0
+--- !u!114 &7768828594684711761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7737377241125900109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9e0ebfbecdcee44b3f4cec744fec07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AutoButton
+  turnOffOnDisable: 0
+  onSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7164698894944709075}
+        m_TargetAssemblyTypeName: DialogueBoxUtilityHandler, Assembly-CSharp
+        m_MethodName: AutoOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDeselect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7164698894944709075}
+        m_TargetAssemblyTypeName: DialogueBoxUtilityHandler, Assembly-CSharp
+        m_MethodName: AutoOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7828710379265790679
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,8 +3344,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286949833
-  m_fontColor: {r: 0.78823537, g: 0.6627451, b: 0.52156866, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
