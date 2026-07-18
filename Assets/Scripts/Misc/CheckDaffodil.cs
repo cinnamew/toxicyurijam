@@ -64,6 +64,12 @@ public class CheckDaffodil : MonoBehaviour
         Debug.Log("you have no funny flower.. what're u removing chief");
     }
 
+    public void BeMean()
+    {
+        // no flower
+        PlayerPrefs.SetInt("GaveDaffy", 0);
+    }
+
     public void GaveFunnyFlower()
     {
         flowchart.SetBooleanVariable("gaveDaffodil", PlayerPrefs.GetInt("GaveDaffy") == 1);
