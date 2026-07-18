@@ -8,7 +8,7 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
     [SerializeField] private Writer writer;
     [SerializeField] private CanvasGroup dialogueBoxUtilityMenu;
 
-    private readonly WaitForSeconds waitForSeconds = new(2.0f);
+    private float autoSpeed = 1.0f;
     private bool isSkipping = false;
     private bool isAuto = false;
 
@@ -98,11 +98,13 @@ public class DialogueBoxUtilityHandler : MonoBehaviour, IHoverClickState
             if (writer.FinishedLine)
             {
                 writer.FinishedLine = false;
-                yield return waitForSeconds;
+                yield return new WaitForSeconds(autoSpeed);
                 dialogInput.SetNextLineFlag();
             }
             yield return new WaitForEndOfFrame();
         }
         yield return new WaitForEndOfFrame();
     }
+
+    public void SetAutoSpeed(float newSpeed) => autoSpeed = newSpeed;
 }
