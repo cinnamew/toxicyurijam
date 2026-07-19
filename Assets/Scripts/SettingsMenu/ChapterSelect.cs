@@ -13,88 +13,43 @@ public class ChapterSelect : MonoBehaviour
     private int endingsSeen;  // Uses bitwise
 
 
-    private void Awake()
-    {
-        chaptersSeen = PlayerPrefs.GetInt(Globals.SCENE_SEEN, 0);
-        endingsSeen = PlayerPrefs.GetInt(Globals.ENDING_SEEN, 0);
-        // chaptersSeen = 15;  // developer debug
-    }
-
-    private void Start()
-    {
-        UpdateChapterLocks();
-    }
-
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
     private void OnSceneLoaded(Scene scene, LoadSceneMode load)
     {
+        chaptersSeen = PlayerPrefs.GetInt(Globals.SCENE_SEEN, 0);
+        endingsSeen = PlayerPrefs.GetInt(Globals.ENDING_SEEN, 0);
+
         if (scene.name == "MainMenu") ResetInventory();
 
-        if (scene.name == "1_Day 1")
-        {
-            if (chaptersSeen < 1)
-            {
-                chaptersSeen = 1;
-            }
-        }
-        else if (scene.name == "3_Day 2")
-        {
-            if (chaptersSeen < 2)
-            {
-                chaptersSeen = 2;
-            }
-        }
-        else if (scene.name == "5_Day 3")
-        {
-            if (chaptersSeen < 3)
-            {
-                chaptersSeen = 3;
-            }
-        }
-        else if (scene.name == "6_Day 4")
-        {
-            if (chaptersSeen < 4)
-            {
-                chaptersSeen = 4;
-            }
-        }
-        else if (scene.name == "6_Day 4 Post Minigame")
-        {
-            if (chaptersSeen < 5)
-            {
-                chaptersSeen = 5;
-            }
-        }
-        else if (scene.name == "7_Day 6")
-        {
-            if (chaptersSeen < 6)
-            {
-                chaptersSeen = 6;
-            }
-        }
-        else if (scene.name == "9_Day 7")
-        {
-            if (chaptersSeen < 7)
-            {
-                chaptersSeen = 7;
-            }
-        }
-        else if (scene.name == "Ending 1")
-        {
+        if (scene.name == "1_Day 1" && chaptersSeen < 1) 
+            chaptersSeen = 1;
+        else if (scene.name == "3_Day 2" && chaptersSeen < 2)   
+            chaptersSeen = 2;
+        else if (scene.name == "5_Day 3" && chaptersSeen < 3) 
+            chaptersSeen = 3;
+        else if (scene.name == "6_Day 4" && chaptersSeen < 4) 
+            chaptersSeen = 4;
+        else if (scene.name == "6_Day 4 Post Minigame" && chaptersSeen < 5) 
+            chaptersSeen = 5;
+        else if (scene.name == "7_Day 6" && chaptersSeen < 6) 
+            chaptersSeen = 6;
+        else if (scene.name == "9_Day 7" && chaptersSeen < 7) 
+            chaptersSeen = 7;
+        else if (scene.name == "Ending 1") 
             endingsSeen |= 1 << 0;
-        }
-        else if (scene.name == "Ending 2")
-        {
+        else if (scene.name == "Ending 2") 
             endingsSeen |= 1 << 1;
-        }
-        else if (scene.name == "Ending 3")
-        {
+        else if (scene.name == "Ending 3") 
             endingsSeen |= 1 << 2;
-        }
 
         PlayerPrefs.SetInt(Globals.SCENE_SEEN, chaptersSeen);
         PlayerPrefs.SetInt(Globals.ENDING_SEEN, endingsSeen);
@@ -143,6 +98,9 @@ public class ChapterSelect : MonoBehaviour
 
     public void UpdateChapterLocks()
     {
+        chaptersSeen = PlayerPrefs.GetInt(Globals.SCENE_SEEN, 0);
+        endingsSeen = PlayerPrefs.GetInt(Globals.ENDING_SEEN, 0);
+
         // Checks chapters
         for (int i = 0; i < chapterButtonContainer.childCount - ENDINGS_COUNT; i++)
         {
