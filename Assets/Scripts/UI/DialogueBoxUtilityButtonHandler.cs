@@ -21,7 +21,7 @@ public class DialogueBoxUtilityButtonHandler : MonoBehaviour, ISelectHandler, ID
 
     private void OnDisable()
     {
-        if (EventSystem.current.currentSelectedGameObject == gameObject)
+        if (EventSystem.current.currentSelectedGameObject != null && EventSystem.current.currentSelectedGameObject == gameObject)
         {
             EventSystem.current.SetSelectedGameObject(null);
             isSelected = false;
