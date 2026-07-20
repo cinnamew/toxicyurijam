@@ -69,5 +69,7 @@ EditorBuildSettings:
     path: Assets/Scenes/_Game/Easter Egg/Easter Egg.unity
     guid: d6707f6fcf689d545a1d2fb5196d519e
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: d14215ab0533349a7ba1e693c88d3dbe, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: a557c4e50b7bb4981abe2b757f5ef919, type: 2}
   m_UseUCBPForAssetBundles: 0
