@@ -31,6 +31,82 @@ MonoBehaviour:
     m_Key: Exit Game
     m_Metadata:
       m_Items: []
+  - m_Id: 3492243562496
+    m_Key: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3658619019264
+    m_Key: Astra title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3682732072960
+    m_Key: Astra description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3770464329728
+    m_Key: Jonathan title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3846716776448
+    m_Key: Jonathan description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3865112993792
+    m_Key: Cinna title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3877700100096
+    m_Key: Cinna description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4337676836864
+    m_Key: Destringe title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4445122322432
+    m_Key: Destringe description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3890492727296
+    m_Key: Sophia title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3908612120576
+    m_Key: Sophia description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3922855976960
+    m_Key: Nii title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3936168697856
+    m_Key: Nii description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3949141680128
+    m_Key: Yein title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3969714741248
+    m_Key: Yein description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3986542288896
+    m_Key: Special thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017877934080
+    m_Key: Pls rate & follow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4058877255680
+    m_Key: Return to title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6880964370432
+    m_Key: Locale
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
