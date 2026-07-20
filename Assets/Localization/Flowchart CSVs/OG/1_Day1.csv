@@ -1,0 +1,144 @@
+Key,Description,Standard
+SAY.cinna flowchart.289.,,"The warm light of the morning sun plays across my face, filtered through a dozen layers of dust and cobwebs.{wc}I sit up and blink a few times, making sure that I'm still alive. Then, the pain in my leg flares up, and my thoughts scatter."
+SAY.cinna flowchart.292.Mary,,Good morning.
+SAY.cinna flowchart.293.,,"The woman who saved me yesterday is sitting by the bed, her hands steepled. She looks like she's been sitting there for a long time."
+MENU.cinna flowchart.562,,Good morning.
+MENU.cinna flowchart.563,,Who are you?
+SAY.cinna flowchart.299.Hazel,,{i}Good... morning.{/i}
+SAY.cinna flowchart.300.,,"I croak out the words, my throat as dry as a desert."
+SAY.cinna flowchart.303.Mary,,"Oh, don't overexert yourself. Here."
+SAY.cinna flowchart.306.Hazel,,{i}Who... are you?{/i}
+SAY.cinna flowchart.307.,,"I croak out the words, my throat as dry as a desert."
+SAY.cinna flowchart.310.Mary,,"Oh, we can go through that later. For now, you just take it easy."
+SAY.cinna flowchart.312.Mary,,Here.
+SAY.cinna flowchart.314.,,"She picks up a clay bowl filled to the brim with pure, clear water, and hands it to me."
+SAY.cinna flowchart.594.,,"I gulp it down greedily, letting the water spill from the corner of my mouth and down my cheeks."
+SAY.cinna flowchart.316.Mary,,I was starting to worry you might never wake up.
+SAY.cinna flowchart.318.,,"I lean forwards to return the bowl, but as I shift my wounded leg, it erupts in red-hot pain."
+SAY.cinna flowchart.319.,,"In what feels like slow motion, I watch as my bowl tumbles from my hands and crashes against the floor, where it shatters into a thousand pieces."
+SAY.cinna flowchart.321.Hazel,,"I'm sorry! I'm so sorry, I didn't mean to..."
+SAY.cinna flowchart.322.,,But my words trail off. The woman had barely reacted to the noise. She hadn't even flinched.
+SAY.cinna flowchart.324.Mary,,"It's alright. I have more bowls. More importantly, how's your leg doing?"
+SAY.cinna flowchart.326.,,"I shift aside the flax sheet. Beneath it, my leg has been wrapped in several layers of bandages, stained slightly red by my blood.{wc}The sight is enough to make me feel queasy."
+SAY.cinna flowchart.328.Hazel,,Urgh.
+SAY.cinna flowchart.329.,,"The woman chuckles, her voice clear as crystal."
+SAY.cinna flowchart.331.Mary,,"I suppose it can't be that bad, then. I did my best to clean the wound, but it'll take some time to heal."
+SAY.cinna flowchart.333.Mary,,You should spend as much time as possible in bed for the next few days.
+SAY.cinna flowchart.335.Hazel,,Where... am I?
+SAY.cinna flowchart.337.Mary,,"In my guest bedroom. Don't worry, I don't have any use for it, as you can probably tell by the clutter."
+SAY.cinna flowchart.339.Mary,,Feel free to stay as long as you need.
+SAY.cinna flowchart.341.Hazel,,Thank you. I...
+SAY.cinna flowchart.342.,,"My mouth moves, but the words refuse to form. My head feels like its stuffed with cottons. Thoughts drift away from me."
+SAY.cinna flowchart.344.Mary,,"Oh, you're probably still very tired. I'll let you rest."
+SAY.cinna flowchart.346.Hazel,,Wait...
+SAY.cinna flowchart.349.Mary,,"We can talk more at noon, if you're awake then."
+SAY.cinna flowchart.350.,,"She stands up to leave, and I try to sit up, but my body feels as heavy as marble.{wc}With one hand, I clutch at her dress, and force my lips to move."
+SAY.cinna flowchart.352.Hazel,,What happened yesterday?
+SAY.cinna flowchart.354.Mary,,"Oh, you mean, what I did to scare those men away?"
+SAY.cinna flowchart.356.,,"She smiles at me, but there is something deeply sad in her eyes."
+SAY.cinna flowchart.358.Mary,,I threatened to curse them. That was all I did.
+SAY.cinna flowchart.360.Mary,,"Apparently, my reputation precedes me."
+SAY.cinna flowchart.362.Hazel,,Can you... curse someone?
+SAY.cinna flowchart.364.Mary,,"Don't be silly, dear. Curses aren't real. Now, you should get some sleep."
+SAY.cinna flowchart.366.,,"She deftly extricates herself from my grip and leaves the room, as I sink back into the bed."
+SAY.cinna flowchart.368.,,A stupor descends over me until the whole world is cloaked in fog. Sleep comes not long after.
+SAY.cinna flowchart.369.,,"When I do eventually wake, the sun is high in the sky overhead, and my stomach is growling."
+SAY.cinna flowchart.373.Hazel,,{i}Miss!{/i}
+SAY.cinna flowchart.375.,,"A few seconds after I call out, I hear her bustling through the house towards me."
+SAY.cinna flowchart.376.,,I prop myself up by one arm as she enters the room.
+SAY.cinna flowchart.379.Mary,,"What is it, dear?"
+SAY.cinna flowchart.381.Hazel,,"Um... you said, that when I woke up, um..."
+SAY.cinna flowchart.384.Mary,,"Oh, you must be terribly hungry. I'll go and set the table."
+SAY.cinna flowchart.386.,,"She leaves, then returns a few minutes later, carrying with her a chair. She sets it down by my bedside, then gestures to it."
+SAY.cinna flowchart.388.Mary,,"Go on, get on. I'll take you to the table."
+SAY.cinna flowchart.390.Hazel,,S- sure.
+SAY.cinna flowchart.392.,,"It takes some effort and some pain, but I manage to pull myself out of the bed and onto the chair."
+SAY.cinna flowchart.393.,,"Then, the woman reaches one arm around the back of the chair and one arm beneath it."
+SAY.cinna flowchart.394.,,"With a grunt of exertion, she picks the chair fully up off the ground, and me along with it."
+SAY.cinna flowchart.395.,,"As she carries me along, barely even slowing her stride, I am reminded of some of my earliest memories.{wc}I almost feel like a little girl again, being carried along by my mother.{wc}The experience is a bit uncomfortable, but at the same time, somewhat reassuring."
+SAY.cinna flowchart.396.,,"Eventually, she sets me down at the table, and takes her seat across from me."
+SAY.cinna flowchart.399.Mary,,Dig in.
+SAY.cinna flowchart.401.Hazel,,Thank you.
+SAY.cinna flowchart.402.,,"A simple meal has been set out on the table: a loaf of bread, a chunk of cheese and a pitcher of milk."
+SAY.cinna flowchart.404.Mary,,Do you have a name?
+SAY.cinna flowchart.406.Hazel,,Hazel.
+SAY.cinna flowchart.407.,,"I take a few bites of the cheese, savouring its sharp tang."
+SAY.cinna flowchart.410.Mary,,"It's lovely to meet you, Hazel. I'm Mary."
+SAY.cinna flowchart.412.Hazel,,"Um, i– if I may..."
+SAY.cinna flowchart.414.Mary,,"Please, go ahead. You don't have to watch your words around me."
+SAY.cinna flowchart.416.Hazel,,Why did you ask if I had a name?
+SAY.cinna flowchart.418.Mary,,I've treated a few girls in situations like yours before. Not all of them were given the luxury.
+SAY.cinna flowchart.419.,,"She settles back in her chair, and I swear I hear a faint click."
+SAY.cinna flowchart.421.Mary,,"That duke... if I {i}could{/i} curse people, he would be first on the list."
+SAY.cinna flowchart.423.,,"I feel myself seize up for a moment, and the knife falls from my grip, clattering against the table."
+SAY.cinna flowchart.426.Hazel,,I'm sorry!
+SAY.cinna flowchart.427.,,"I snatch the knife and return to my meal, eating carefully to make as little noise as possible.{wc}Mary watches me for a while, then lets out a tired sigh."
+SAY.cinna flowchart.430.Mary,,"You don't have anything to apologise for, girl. It hurts my heart to see you scared."
+SAY.cinna flowchart.433.Hazel,,"Well, e— even if you say that, I would still rather—"
+SAY.cinna flowchart.434.,,"Mary reaches out across the table and places her hand on mine. I recoil from her touch at first, but she doesn't take it any further.{wc}Her skin feels smooth, and cool to the touch, like glass or ceramic, only softer."
+SAY.cinna flowchart.436.Mary,,"I give you permission to be loud, to be rude, to be obstructive."
+SAY.cinna flowchart.438.Mary,,You don't have to be scared of being yourself around me. Okay?
+SAY.cinna flowchart.441.Hazel,,... Thank you.
+SAY.cinna flowchart.443.Mary,,Good.
+SAY.cinna flowchart.445.Mary,,"I do, however, have a few requests that I ask you to follow, during your time here."
+SAY.cinna flowchart.447.,,I unconsciously brace myself.
+SAY.cinna flowchart.449.Mary,,"Please, never enter my work room while I'm working. I spend a lot of time working with dangerous substances and sharp tools."
+SAY.cinna flowchart.451.Mary,,A small distraction from you could mean serious injury for me. Okay?
+SAY.cinna flowchart.452.,,I nod.
+SAY.cinna flowchart.454.Mary,,"Well, I always lock the door, so you don't have to worry too much about that."
+SAY.cinna flowchart.456.Mary,,"But, even if the door is unlocked, make sure to call out first, okay?"
+SAY.cinna flowchart.458.Hazel,,"Yes, miss."
+SAY.cinna flowchart.460.Mary,,"Please, you don't have to call me ""{i}miss{/i}"". I'm not that old."
+SAY.cinna flowchart.462.Hazel,,... Sorry.
+SAY.cinna flowchart.464.Mary,,"It's alright. Now, as to the other request..."
+SAY.cinna flowchart.465.,,"Her hand moves again, and our fingers interlink, clasped together."
+SAY.cinna flowchart.467.Mary,,"You're free to leave whenever you wish, of course, but please don't do so without telling me first."
+SAY.cinna flowchart.469.Mary,,I would be so worried that something had happened to you.
+SAY.cinna flowchart.471.Hazel,,Of course.
+SAY.cinna flowchart.473.,,"Mary pulls her hand from mine, and clasps her hands together."
+SAY.cinna flowchart.475.Mary,,Great! Isn't it nice to have that all sorted out?
+SAY.cinna flowchart.477.,,"Silence settles between us for a while as I return to my meal, Mary watching on happily."
+SAY.cinna flowchart.479.Hazel,,"Um, if you don't mind me asking, you mentioned your work. What sort of work is it?"
+SAY.cinna flowchart.482.Mary,,"Oh, it's nothing that impressive."
+SAY.cinna flowchart.484.Mary,,"I make medicines — remedies, poultices, that sort of thing. I usually go down to the village once a week to trade them for food and supplies."
+SAY.cinna flowchart.486.Mary,,That cheese you're eating now was a gift from Old Man Jenkins for curing his son's fever.
+SAY.cinna flowchart.488.Hazel,,"And that village... how far away is it, exactly?"
+SAY.cinna flowchart.570.,,"Mary smiles at me again, but it seems hollower this time."
+SAY.cinna flowchart.492.Mary,,"If you're worried about someone finding you here, don't be. I haven't had a single visitor in ten years."
+SAY.cinna flowchart.495.Hazel,,"I'm sorry, but you just don't {i}know{/i} the Duke like I do!"
+SAY.cinna flowchart.497.Hazel,,"If he wants to find me, then nothing will stop him. Not even the gates of hell."
+SAY.cinna flowchart.498.,,"Mary rests one hand on my shoulder, and stares straight into my eyes."
+SAY.cinna flowchart.501.Mary,,"If he does come here, I'll deal with him myself."
+SAY.cinna flowchart.503.Mary,,"After all, you saw how scared of me his men were. They wouldn’t dare come anywhere near this house, even if they knew you were here."
+SAY.cinna flowchart.505.Hazel,,I... I suppose.
+SAY.cinna flowchart.506.,,"Still not entirely convinced, I continue eating in silence, until I hear a noise coming from underneath the table.{wc}I crane my neck to peer at the floor, and see a furry black silhouette brush past my legs, purring softly."
+SAY.cinna flowchart.508.Hazel,,You have a cat?
+SAY.cinna flowchart.510.Mary,,"Oh, no. I don't have Helena. She just likes this house."
+SAY.cinna flowchart.512.Mary,,She's a proper wild cat.
+SAY.cinna flowchart.514.,,"Mary reaches under the table, and I hear a happy purr."
+SAY.cinna flowchart.516.Mary,,See?
+SAY.cinna flowchart.517.,,"I chuckle, and continue eating, until I've finished my meal."
+SAY.cinna flowchart.518.,,"A few times, I wonder why Mary hasn't eaten a single bite in the entire time she's been sitting with me.{wc}The question seems too rude to ask out loud."
+SAY.cinna flowchart.519.,,"Once I'm done, Mary stands up, her dress billowing around her rigid form."
+SAY.cinna flowchart.521.Mary,,So? How was the meal?
+MENU.cinna flowchart.571,,It was good.
+MENU.cinna flowchart.572,,It was incredible.
+SAY.cinna flowchart.527.Hazel,,It was good.
+SAY.cinna flowchart.529.Mary,,Thank you!
+SAY.cinna flowchart.530.,,"Once again, her face had barely moved, but her voice is clearly overjoyed."
+SAY.cinna flowchart.533.Hazel,,I've never had such a wonderful meal before.
+SAY.cinna flowchart.535.Mary,,You...
+SAY.cinna flowchart.537.,,Mary looks away bashfully.
+SAY.cinna flowchart.539.Mary,,"You don't have to pretend for my sake, you know..."
+SAY.cinna flowchart.541.Hazel,,I meant it.
+SAY.cinna flowchart.544.Mary,,"Oh, you."
+SAY.cinna flowchart.547.Mary,,"Unfortunately, I do have an appointment I need to attend to today."
+SAY.cinna flowchart.548.,,"I'll only be gone a few hours, though, so don't worry. Do you want me to move you back to your bedroom?"
+SAY.cinna flowchart.550.Hazel,,"Oh, no, I'm alright here."
+SAY.cinna flowchart.552.Mary,,"Alright. Your leg should be mostly healed by now, but don't overdo it, okay?"
+SAY.cinna flowchart.555.,,"Mary bustles through the house for a while, gathering up items into a satchel, then she steps out of the door, and I am completely alone."
+SAY.cinna flowchart.556.,,"For some time, I sit at the table, enjoying the feeling of the sun on my face, taking occasional sips of the leftover milk.{wc}Eventually, though, I grow tired of waiting for something to happen, and ease myself slowly onto my feet.{wc}I have to lean on furniture to keep myself steady, but I am able to move on my own."
+SAY.cinna flowchart.557.,,"The house only has a few rooms. The main room, a small kitchen, my bedroom and another bedroom, presumably Mary's.{wc}I resist the urge to collapse onto her plush double bed.{wc}At the back of the main room is a thick wooden door, cut from the gnarled wood of an aged tree.{wc}It's an imposing sight."
+SAY.cinna flowchart.558.,,"I push the door open and step into the room, curiosity overtaking me. Surrounded by so many fascinating sights, how could I resist?"
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel

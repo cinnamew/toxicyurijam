@@ -1,0 +1,59 @@
+Key,Description,Standard
+SAY.cinna flowchart.193.,,"My hands clutch the grass. Early morning dew slides between my fingers as I curl up against the dirt, my vision swimming.{wc}Birds wheel far overhead, calling in the morning sun, as my leg burns in agony."
+SAY.cinna flowchart.194.,,"I can feel blood - thick, warm blood - dripping down my legs. I try to pull myself up, and my head almost splits in two.{wc}Gritting my teeth, I look down at my leg. The sight almost makes me faint on the spot."
+SAY.cinna flowchart.195.,,"The arrow's shaft sticks out of my thigh, blood pouring from the wound, which has already started to fester. The skin around it is turning grey.{wc}I collapse backwards and stare up at the bright blue sky, my head swirling with half-formed thoughts and painful memories."
+SAY.cinna flowchart.199.Butler,,Hazel. Hazel!
+SAY.cinna flowchart.202.Hazel,,"Yes, sir."
+SAY.cinna flowchart.203.,,"I had been polishing the silverware in the dining room. It was almost evening, and my duty was to make sure that every last piece shone with a beauty that befitted the Duke of March.{wc}I had seen him many times, staring at his own face in the reflection of his spoon, tweaking his moustache or his hair."
+SAY.cinna flowchart.204.Butler,,"Make sure you finish early today. The, ah, Master wants to see you tonight."
+SAY.cinna flowchart.206.Hazel,,"... Yes, sir."
+SAY.cinna flowchart.208.,,"I continued to polish, almost oblivious to the world, when I overheard some gossip between two of the other maids."
+SAY.cinna flowchart.210.Maid,,Did you hear? There's a witch living in the nearby woods!
+SAY.cinna flowchart.211.Maid,,A witch? Really?
+SAY.cinna flowchart.212.Maid,,"It's true. Last I went round to the village, they were all talking about her. Seems she's been up to some nasty business recently."
+SAY.cinna flowchart.213.Maid,,"Well, I never. A witch, in our neck of the woods?"
+SAY.cinna flowchart.214.Maid,,"They say that she gives you three impossible tasks — and if you fail even one, she curses you to live forever as a toad."
+SAY.cinna flowchart.215.Maid,,And what if you succeed?
+SAY.cinna flowchart.216.Maid,,"Well... and this is only a rumour, mind you, but they say she can grant you any wish your heart desires."
+SAY.cinna flowchart.217.,,... I suppose that's how this all started.
+SAY.cinna flowchart.222.,,"I cough, and my whole body shudders. In the distance, I can hear the baying of hounds."
+SAY.cinna flowchart.224.,,"Then, a rustling nearby, and a familiar silhouette appears in view. The man leans over me, flanked by two guards wielding crossbows."
+SAY.cinna flowchart.225.Duke,,"Hazel, dear, what did I tell you? You'll never get away from me."
+SAY.cinna flowchart.226.,,"I ignore him, trying to look past his head and at the bright blue sky. I can see sparrows, perched on the branches overhead, chirping restlessly."
+SAY.cinna flowchart.227.Duke,,"Now, if you just agree to come back quietly, I won't have to kill you. I can call for a doctor back at the castle. You might never walk again, but you'll live. What do you say?"
+SAY.cinna flowchart.229.Hazel,,{i}... Damn you.{/i}
+SAY.cinna flowchart.231.,,"The words are too much of an exertion, and I start to cough and sputter, my whole body shuddering in pain."
+SAY.cinna flowchart.232.Duke,,"Now, that's no way to treat your master, is it?"
+SAY.cinna flowchart.233.,,"I say nothing. I can almost feel my skin melting away, melding with the dirt, my bones sinking beneath it."
+SAY.cinna flowchart.234.,,Today is a good day to die.
+SAY.cinna flowchart.235.Duke,,You leave me no choice. Reginald?
+SAY.cinna flowchart.237.,,"One of the guards perks up, excitement clear on his face. Young, fresh-faced, decently muscled.{wc}I had fancied him once, when I first arrived at the castle. Now, that feels like a lifetime ago."
+SAY.cinna flowchart.238.Reginald,,"Yes, sir?"
+SAY.cinna flowchart.239.Duke,,"Make it a clean shot through the neck, alright? I don't want her to suffer too much. She did me good service, after all."
+SAY.cinna flowchart.241.,,"A branch snaps, somewhere in the distance, and he suddenly turns around."
+SAY.cinna flowchart.242.Duke,,Halt! Who goes there?
+SAY.cinna flowchart.244.Mary,,"Sir, I could ask the same of you. These are {i}my{/i} woods."
+SAY.cinna flowchart.245.Reginald,,Sir.
+SAY.cinna flowchart.246.Duke,,"I do apologise if we have intruded on your land. As you can see, I was hunting an escaped servant with my men. Now that we've caught her, we'll be on our way."
+SAY.cinna flowchart.248.Mary,,An escaped servant? Not a prisoner? What right do you have to take her life?
+SAY.cinna flowchart.249.Reginald,,Sir!
+SAY.cinna flowchart.250.Duke,,"Not now, boy."
+SAY.cinna flowchart.251.Duke,,"As to you, who exactly do you think you are? This may be your land, but I am Duke of this province. Why should I have to—"
+SAY.cinna flowchart.252.Reginald,,SIR!
+SAY.cinna flowchart.253.Duke,,What?
+SAY.cinna flowchart.254.Reginald,,That's— that's the {i}witch{/i}!
+SAY.cinna flowchart.258.,,"I can faintly hear screams, and running, but I pay it little mind. My vision starts to blur and my ears start to ring as the world fades away around me.{wc}I wonder idly if I will be reborn as a sparrow. Perhaps a worm would be more befitting of my station."
+SAY.cinna flowchart.259.,,"Then, a silhouette, an unfamiliar one, leans down before me."
+SAY.cinna flowchart.263.Mary,,"Oh, you poor, poor thing."
+SAY.cinna flowchart.265.,,The last thing I hear as the world fades away is her voice.
+SAY.cinna flowchart.267.Mary,,Don't worry. You're safe now.
+SAY.cinna flowchart.269.Mary,,I won't let anyone hurt you again.
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel
+CHARACTER.Old Man,,Old Man
+CHARACTER.Adrianne,,Adrianne
+CHARACTER.???,,???
+CHARACTER.Duke,,Duke
+CHARACTER.Reginald,,Reginald
+CHARACTER.Butler,,Butler
+CHARACTER.Maid,,Maid
