@@ -2155,7 +2155,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1612484246142931536, guid: ff72a021afd0540c28df9bc2812e9fa1, type: 3}
       propertyPath: m_text
-      value: <b>cinnamew</b> - Producer, Programmer
+      value: <b>cinnamew</b> - Director, Programmer
       objectReference: {fileID: 0}
     - target: {fileID: 2604288997815177950, guid: ff72a021afd0540c28df9bc2812e9fa1, type: 3}
       propertyPath: m_Pivot.x
