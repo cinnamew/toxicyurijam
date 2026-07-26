@@ -1,0 +1,90 @@
+Key,Description,Standard
+SAY.cinna flowchart.1014.,,"Come morning, I am awoken by the sound of knocking, and by a familiar voice."
+SAY.cinna flowchart.1016.Mary,,Hazel... can you open the door?
+SAY.cinna flowchart.1017.,,"I get out of bed, unlatch the door, and open it."
+SAY.cinna flowchart.1020.Mary,,Why did you lock the door? You never used to do that.
+SAY.cinna flowchart.1022.Hazel,,Your eye...
+SAY.cinna flowchart.1024.Mary,,"Oh, this?"
+SAY.cinna flowchart.1025.,,"She taps the bandage a few times, like the thought of it worrying me had never even crossed her mind."
+SAY.cinna flowchart.1027.Mary,,"I just had a bit of a nasty fall, that's all. It'll be healed up in a few days, I'm sure."
+SAY.cinna flowchart.1029.Hazel,,Are you sure? It looks bad.
+SAY.cinna flowchart.1031.Mary,,"I told you, it's fine. More importantly..."
+SAY.cinna flowchart.1033.Mary,,I need something from you.
+SAY.cinna flowchart.1035.Hazel,,What is it?
+SAY.cinna flowchart.1037.Mary,,I need your blood.
+SAY.cinna flowchart.1038.,,"I laugh, and I expect her to laugh along with me. She doesn't. The look in her eyes is serious — no, more than that."
+SAY.cinna flowchart.1039.,,"I only now realise just how disturbed she looks. Her only unharmed eye has gone wide, its pupil a tiny black dot in a sea of white.{wc}Her arms are shaking slightly, her hands curling and uncurling. Her eye keeps darting around the room.{wc}She looks nothing like she did yesterday."
+SAY.cinna flowchart.1041.Hazel,,What's wrong?
+SAY.cinna flowchart.1043.Mary,,"No, no, no. I told you, nothing's wrong!"
+SAY.cinna flowchart.1045.,,"She slams her fist into the wall, and the wood buckles from the impact."
+SAY.cinna flowchart.1047.Mary,,"Hazel. If you love me, you'll do this for me."
+SAY.cinna flowchart.1049.Hazel,,O-okay.
+SAY.cinna flowchart.1051.Mary,,Great.
+SAY.cinna flowchart.1052.,,"She opens her mouth wide to smile, and for the first time, I see how much she is salivating."
+SAY.cinna flowchart.1054.,,"She grabs me by the shoulder and drags me over to the bed, throwing me against it.{wc}I whimper in pain as my body hits the mattress, but I don't dare move."
+SAY.cinna flowchart.1056.,,"So I lie there, completely still, as she crawls up onto the bed, kneeling over me."
+SAY.cinna flowchart.1057.,,"She leans forwards until her face is only a few inches from mine, her arms and legs against the bed, standing all fours like some savage beast.{wc}She opens her mouth wide, revealing an impossibly sharp pair of canines, and I brace myself. Then she stops."
+SAY.cinna flowchart.1058.,,"Mary closes her mouth, and smiles at me."
+SAY.cinna flowchart.1163.Mary,,"Sorry. This will hurt a bit. Just bear with it, okay?"
+SAY.cinna flowchart.1065.,,Then she leans forward and bites my neck.
+SAY.cinna flowchart.1066.,,"The pain is unimaginable, like a red-hot brand being driven into my shoulder."
+SAY.cinna flowchart.1067.,,"Worse is the feeling of my blood leaving my body, like my insides are spilling out."
+SAY.cinna flowchart.1068.,,"But the worst are the sounds. Mary snarling, growling, my screams filling the room from wall to wall."
+SAY.cinna flowchart.1069.,,"And the loudest, a hideous slurping, gulping sound."
+SAY.cinna flowchart.1070.,,"I watch in disbelief as her body thrashes, and her skin almost starts to glow, its colour slowly returning.{wc}I see small hairline cracks across her body, ones that I had never noticed before, binding before my eyes."
+SAY.cinna flowchart.1071.,,"Her hands find mine and our fingers lock together.{wc}She presses me down against the bed, and I can feel myself being almost crushed under her weight."
+SAY.cinna flowchart.1072.,,My vision is blurring. Sound is receding from the world. My breath is coming up short. And then...
+SAY.cinna flowchart.1073.,,"Then, Mary lets go of me. The pain fades somewhat."
+SAY.cinna flowchart.1168.,,"She sits up, and wipes my blood from her mouth with one hand."
+SAY.cinna flowchart.1079.Mary,,"Thanks, honey. You have no idea how much I needed that."
+SAY.cinna flowchart.1081.,,"Then she clambers off the bed, and leaves me there, my arms and chest sore, my clothes a mess, my shoulder still slowly bleeding."
+SAY.cinna flowchart.1082.,,"As quietly as I can, I start to cry."
+SAY.cinna flowchart.1083.,,...
+SAY.cinna flowchart.1085.,,"Some time passes, and Mary returns. She applies a poultice to the wound on my shoulder, and bandages it up.{wc}She apologises profusely the entire time. I barely hear her words."
+SAY.cinna flowchart.1086.,,"I only find the strength to leave my bed hours later, as noon approaches.{wc}When I step out into the hall, I find it empty."
+SAY.cinna flowchart.1203.,,"The door to the workroom is closed, and, from the sound of it, Mary is in there now, working away."
+SAY.cinna flowchart.1088.,,"Suddenly struck by the desire to be anywhere but here, I find myself wandering out of the house and down that familiar dirt road.{wc}My legs almost move on their own.{wc}As I near the edge of the forest, I notice something in the distance, faintly visible between the trees."
+SAY.cinna flowchart.1089.,,"As I get closer, I make out what remains of a house, burned almost to the ground.{wc}Support beams stick out of the dirt like the ribcage of some great beast, charred as black as coal.{wc}I walk towards it, overcome by curiosity, but as I near the ruin, I suddenly hear a voice."
+SAY.cinna flowchart.1092.Priest,,"Are you lost, dear?"
+SAY.cinna flowchart.1093.,,"An unfamiliar man in priestly garb is standing to my right. From his tranquil posture, he looks to have been standing there for a while."
+SAY.cinna flowchart.1096.Hazel,,No. I'm fine.
+SAY.cinna flowchart.1097.,,He is clearly unconvinced.
+SAY.cinna flowchart.1103.Priest,,"Are you alright, child? You look shaken."
+SAY.cinna flowchart.1101.Hazel,,"I said, I'm {i}fine{/i}. And I'm not a child."
+SAY.cinna flowchart.1171.Priest,,I apologise. I did not mean to demean you.
+SAY.cinna flowchart.1105.Priest,,"It is simply that, before the majesty of God, we are all children, each and every one of us."
+SAY.cinna flowchart.1107.Priest,,"Here, I have something for you."
+SAY.cinna flowchart.1109.,,"He reaches into his pocket and pulls out a sprig of lavender, pressing it into my palm."
+SAY.cinna flowchart.1111.Priest,,The smell should calm your nerves. And it does wonders when mixed into a tea.
+SAY.cinna flowchart.1113.,,"I lift the lavender to my nose and inhale. It helps to distract me, at least."
+SAY.cinna flowchart.1117.Hazel,,Thanks.
+SAY.cinna flowchart.1119.Hazel,,What are you doing out here?
+SAY.cinna flowchart.1121.Priest,,I could ask the same of you.
+SAY.cinna flowchart.1123.Hazel,,I— I don't really know. There's just something about this house...
+SAY.cinna flowchart.1125.Priest,,"Yes, this place was once home to a grievous tragedy."
+SAY.cinna flowchart.1127.Priest,,I try to visit at least once a year to pay my respects.
+SAY.cinna flowchart.1129.Hazel,,What tragedy?
+SAY.cinna flowchart.1132.Priest,,The fear of witchcraft is an all-too-common malady in recent times.
+SAY.cinna flowchart.1134.Priest,,"Even a decade ago, fear had these people in an iron grip."
+SAY.cinna flowchart.1136.Priest,,"Two women used to live here, kind souls both of them. They were happy to provide food and shelter for travelers who needed it."
+SAY.cinna flowchart.1138.Priest,,I found myself enjoying their hospitality on several occasions.
+SAY.cinna flowchart.1140.Priest,,"Of the two women, one of them... Eleanor, I think she was called."
+SAY.cinna flowchart.1142.Priest,,"She worked in the nearby village, at her family's tailor shop."
+SAY.cinna flowchart.1144.Priest,,"The other woman worked as a doctor, producing and developing cures and remedies."
+SAY.cinna flowchart.1146.Priest,,I suppose that was the problem.
+SAY.cinna flowchart.1148.Priest,,"Eleanor told me once that her father could never get out of his mind the thought that she was being stolen away, every time she left the village."
+SAY.cinna flowchart.1150.Priest,,"I heard several that even though the other woman was quite the talented doctor, many of the villagers didn't trust her skills."
+SAY.cinna flowchart.1152.Priest,,"The idea that someone other than God could have such power over life and death, over {i}their{/i} life and death..., to them, it was terrifying."
+SAY.cinna flowchart.1154.Priest,,Hatred requires but a small seed to bloom.
+SAY.cinna flowchart.1155.,,I look back at the house and shiver. What happened here? And why does it sound so familiar?
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel
+CHARACTER.Old Man,,Old Man
+CHARACTER.Adrianne,,Adrianne
+CHARACTER.???,,???
+CHARACTER.Duke,,Duke
+CHARACTER.Priest,,Priest
+CHARACTER.Reginald,,Reginald
+CHARACTER.Note,,Note
+CHARACTER.Vendor,,Vendor
+CHARACTER.Crier,,Crier

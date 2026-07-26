@@ -1,0 +1,66 @@
+Key,Description,Standard
+SAY.cinna flowchart.660.,,"I wake up to the sound of birdsong, and to the reassuring presence of a hand resting upon my shoulder."
+SAY.cinna flowchart.663.Mary,,Hazel. Did you sleep well?
+MENU.cinna flowchart.758,,Not really.
+MENU.cinna flowchart.759,,Nod.
+SAY.cinna flowchart.669.Hazel,,Um... not really.
+SAY.cinna flowchart.670.,,"I sit up in bed, brushing her hand aside gently."
+SAY.cinna flowchart.672.Hazel,,Did you... want something?
+SAY.cinna flowchart.675.,,"I nod, and Mary smiles back at me."
+SAY.cinna flowchart.678.Mary,,That's lovely.
+SAY.cinna flowchart.679.,,"I sit up in bed, brushing her hand aside gently."
+SAY.cinna flowchart.681.Hazel,,Did you... want something?
+SAY.cinna flowchart.684.Mary,,"Well, I just thought that your hair is getting a little untidy. If you want, I could cut it for you?"
+SAY.cinna flowchart.686.Hazel,,Sure.
+SAY.cinna flowchart.688.Mary,,Wonderful! Just sit over here and I'll get started.
+SAY.cinna flowchart.689.,,"Mary pulls a pair of delicate silver scissors from her bag as I drag myself out of bed and into the chair.{wc}I take another, closer look at Mary. She looks tired, and her skin somewhat pallid.{wc}She looks a lot less healthy than she did yesterday."
+SAY.cinna flowchart.691.Hazel,,Did you get any sleep?
+SAY.cinna flowchart.693.Mary,,"I slept just fine. Thank you for worrying about me, though."
+SAY.cinna flowchart.695.Hazel,,I wasn't...
+SAY.cinna flowchart.696.,,"Well, maybe I was."
+SAY.cinna flowchart.697.,,"Mary starts on my hair, snipping and shearing away at loose ends, humming a pleasant tune as she works.{wc}I wince occasionally as her scissors part a tangled clump of hair."
+SAY.cinna flowchart.698.,,"Finally, she stops, and takes a small handheld mirror from its place on the desk, handing it to me."
+SAY.cinna flowchart.700.Mary,,What do you think?
+SAY.cinna flowchart.701.,,"I stare for a moment at my reflection. It's been a while since I've seen it last.{wc}I am given the distinct impression that I am staring at a small beast, a rabbit or a shrew, caught in a hunter's trap.{wc}I look dishevelled, and unkempt, but at least my hair is now perfectly neat and tidy."
+SAY.cinna flowchart.703.Hazel,,It's great.
+SAY.cinna flowchart.705.Mary,,"Thank you! Oh, you don't know how happy that makes me."
+SAY.cinna flowchart.706.,,"I stand up, and she pushes aside the chair, picking up the small rug beneath, now covered in my hair."
+SAY.cinna flowchart.709.Mary,,"I'll get rid of these hairs for you, okay?"
+SAY.cinna flowchart.711.Hazel,,Right.
+SAY.cinna flowchart.713.,,"The day passes peacefully for a while. I had borrowed a few books on alchemy from Mary's workroom, and I pass the time with reading.{wc}I eat mutton for lunch, while Mary watches on like she always does.{wc}And then, late in the day, as evening approaches, I suddenly hear a noise."
+SAY.cinna flowchart.715.,,"I'm returning to my room, when, just as I pass by Mary's bedroom door, I hear the sound of something scraping.{wc}It is rough, and harsh, like metal scraping against metal.{wc}After a few seconds, I hear the sound again, and then again."
+SAY.cinna flowchart.717.,,"I take a few careful steps towards the door, and press my ear up against it.{wc}As I do, I began to notice other sounds, quieter ones, accompanying the scraping.{wc}I can hear deep, heavy breathing, the faint sound of gagging, and a strange bubbling noise, the quietest of them all."
+SAY.cinna flowchart.718.,,"I take another step, careful not to make any noise, and press my eye up against the edge of the door, which is slightly ajar.{wc}That's when I see it."
+SAY.cinna flowchart.720.,,"Mary, sitting on her bed, hunched over, clutching in one hand a clump of hair."
+SAY.cinna flowchart.722.,,A clump of {i}my{/i} hair.
+SAY.cinna flowchart.723.,,"Slowly, she picks a few hairs from the clump, drops them into her open mouth, and swallows, her face twisting in revulsion.{wc}Then she reaches for another few hairs, and swallows them too."
+SAY.cinna flowchart.724.,,"I must have let out a gasp or a whimper involuntarily, because her eyes suddenly flicker to the door, and I almost collapse in fear."
+SAY.cinna flowchart.727.Mary,,Hazel?
+SAY.cinna flowchart.728.,,I back away from the door as quickly as I can without making any noise. I'm halfway down the corridor when I hear the door open behind me.
+SAY.cinna flowchart.731.Mary,,Hazel. Did you...
+SAY.cinna flowchart.733.Mary,,What did you see?
+SAY.cinna flowchart.736.Hazel,,"Oh. Sorry, did something happen?"
+SAY.cinna flowchart.737.,,"I give her my most placid smile, praying that she doesn't notice my shaking hands."
+SAY.cinna flowchart.739.Hazel,,"I was just going back to my room. I, uh, returned one of the books I borrowed from your workroom."
+SAY.cinna flowchart.741.Mary,,"Oh. That's good, then. You, uh..."
+SAY.cinna flowchart.742.,,She looks for a moment both embarrassed and confused. Then she collects herself.
+SAY.cinna flowchart.745.Mary,,"Good night, Hazel. Sleep well."
+SAY.cinna flowchart.747.,,"I return to my room, close the door behind me slowly and carefully, then slam shut the latch."
+SAY.cinna flowchart.749.,,"I can feel the discordance in my body. My nerves are frayed, my skin feels sensitive and raw.{wc}My heart is beating, faster and faster and faster."
+SAY.cinna flowchart.750.,,"I walk over to the desk and pick up the hand mirror, staring at my own reflection."
+SAY.cinna flowchart.751.,,My hair. Did she really take my hair... to {i}eat{/i} it?
+SAY.cinna flowchart.752.,,"That's when I see a thin scar on the side of my neck, faded but clearly recent."
+SAY.cinna flowchart.753.,,That must have been...
+SAY.cinna flowchart.754.,,... must have been left by {i}him{/i}.
+SAY.cinna flowchart.755.,,"{i}Oh, God.{/i}"
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel
+CHARACTER.Old Man,,Old Man
+CHARACTER.Adrianne,,Adrianne
+CHARACTER.???,,???
+CHARACTER.Duke,,Duke
+CHARACTER.Priest,,Priest
+CHARACTER.Reginald,,Reginald
+CHARACTER.Note,,Note
+CHARACTER.Vendor,,Vendor
+CHARACTER.Crier,,Crier

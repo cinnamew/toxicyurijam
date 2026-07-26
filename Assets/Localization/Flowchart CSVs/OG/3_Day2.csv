@@ -1,0 +1,41 @@
+Key,Description,Standard
+SAY.cinna flowchart.592.,,"Not long after I woke up, Mary dragged me out on a walk through the forest, saying she needed ""help gathering ingredients""."
+SAY.cinna flowchart.593.,,"My leg still feels weak, but beneath the shining sun, between the rustling trees..."
+SAY.cinna flowchart.594.,,The events of last night are starting to feel like nothing more than a bad dream.
+SAY.cinna flowchart.597.Mary,,Not much further now!
+SAY.cinna flowchart.598.,,"A fly buzzes past my face and I flinch reflexively. It drifts lazily onto Mary's shoulder, where it perches. She pays it no mind."
+SAY.cinna flowchart.600.Mary,,"Sometimes traders do stop by the village, but I get most of my potion ingredients from this forest."
+SAY.cinna flowchart.602.Mary,,"Nature is amazing, isn’t it?"
+SAY.cinna flowchart.605.Mary,,"That being said, this area is home to more than a dozen lethally poisonous species of mushroom."
+SAY.cinna flowchart.607.Mary,,Don't touch anything suspicious without checking with me first. Got it?
+SAY.cinna flowchart.609.Hazel,,"Yes, Ma’am."
+SAY.cinna flowchart.612.Mary,,I thought I told you to stop with that.
+SAY.cinna flowchart.614.Mary,,"Ah, here we are!"
+SAY.cinna flowchart.615.,,"She steps forwards into a clearing, and I follow a step behind. "
+SAY.cinna flowchart.665.,,"Patchwork beams of sunlight shine down, filtered through a thick layer of trees. The grass is bright and soft."
+SAY.cinna flowchart.617.,,"Birds flutter overhead, hopping between branches."
+SAY.cinna flowchart.618.,,"A small brook snakes around the edge of the clearing, bubbling with clear, fresh water."
+SAY.cinna flowchart.620.Hazel,,It's beautiful.
+SAY.cinna flowchart.623.Mary,,I'm glad to see you appreciate it. I... I wanted to apologise. For yesterday.
+SAY.cinna flowchart.625.Mary,,I have a unique skin condition that can affect me very suddenly. I've been told that I look quite monstrous when it flares up.
+SAY.cinna flowchart.627.Mary,,"I didn't want you to think less of me, so I tried to hide myself from you."
+SAY.cinna flowchart.629.Mary,,"But, as you can see, I'm alright now! It's a very temporary thing."
+SAY.cinna flowchart.630.,,"I do look at her, properly. Her skin is clear and healthy, her eyes full of life."
+SAY.cinna flowchart.631.,,"If anything, she looks much healthier than she did yesterday."
+SAY.cinna flowchart.633.Mary,,"Anyway, none of that really matters. I shouldn't have shouted at you. I'm sorry."
+SAY.cinna flowchart.634.,,"I let myself collapse onto the grass, succumbing to the exhaustion in my legs, and look up at Mary."
+SAY.cinna flowchart.636.Hazel,,It's alright. I forgive you.
+SAY.cinna flowchart.638.Mary,,You do? Really?
+SAY.cinna flowchart.640.Hazel,,"It's like you said, right?"
+SAY.cinna flowchart.642.Hazel,,"""You don't have to be scared of being yourself around me."""
+SAY.cinna flowchart.644.Hazel,,It's not fair if I'm the only one who gets a free pass. I'm sure you have your own struggles.
+SAY.cinna flowchart.647.Mary,,"Oh, {i}Hazel{/i}..."
+SAY.cinna flowchart.648.,,"She kneels down beside me and suddenly wraps me in an embrace. I freeze at first, then settle into her touch."
+SAY.cinna flowchart.650.Hazel,,"Don't do it again, okay?"
+SAY.cinna flowchart.652.Mary,,I won't.
+SAY.cinna flowchart.653.,,"She untangles herself from me, and stands up, clapping her hands together."
+SAY.cinna flowchart.656.Mary,,Now!
+SAY.cinna flowchart.657.,,She pulls a small pair of scissors and a pair of cloth gloves from her bag.
+SAY.cinna flowchart.659.Mary,,"Let's get to work, shall we?"
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel

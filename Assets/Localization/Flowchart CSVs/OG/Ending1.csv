@@ -1,0 +1,43 @@
+Key,Description,Standard
+SAY.cinna flowchart.4.,,"I turn back and walk through the door, out into the forest beyond."
+SAY.cinna flowchart.6.Mary,,"Hazel, come back here!"
+SAY.cinna flowchart.7.,,I ignore Mary. She has no power over me any more.
+SAY.cinna flowchart.8.,,"From here, my future is uncertain.{wc}I don't have anywhere to go, but with the Duke dead, I don't have anyone hunting me either.{wc}And, if I ever do need it, I'll have the perfect getaway tool hidden in my pocket."
+SAY.cinna flowchart.10.Mary,,Hazel! {i}HAZEL!{/i}
+SAY.cinna flowchart.11.,,"I suppose the first place to head is the village.{wc}No one is waiting for me there, but there might be opportunities for work and lodging.{wc}I could even find that priest. I'm sure he would be willing to help.{wc}And from there... well, I could go anywhere."
+SAY.cinna flowchart.12.,,"I pick up my pace. Behind me, Mary's house is almost out of view."
+SAY.cinna flowchart.15.,,"Then, something heavy crashes into my back. As I fall to the ground, I turn around. Mary kneels over me, her face twisted into a vicious snarl."
+SAY.cinna flowchart.18.Mary,,You think you're so much better than me? You think you have the right to toy with me like this!?
+SAY.cinna flowchart.20.Mary,,"You were planning to tell the villagers all about me, weren't you?"
+SAY.cinna flowchart.22.Mary,,I'm not going to let you get me killed!
+SAY.cinna flowchart.23.,,I try to sit up.
+SAY.cinna flowchart.25.Hazel,,"No, I—"
+SAY.cinna flowchart.27.Mary,,Shut up. {i}Shut up!{/i}
+SAY.cinna flowchart.29.,,"She pushes me back down, and as her palm slams into my chest, the air leaves my lungs.{wc}As I crash onto the ground again, I hear a crack, and I think for a moment that one of my ribs has broken.{wc}Then I feel it, a cold liquid seeping through my clothes and into my skin. The vial."
+SAY.cinna flowchart.30.,,"My body starts to shake, racked by convulsions, as an unimaginable pain blooms in my chest like a bright red flower.{wc}I can't move, can't speak, can't think.{wc}I can feel my bones twisting, my skin tearing, my muscles coiling around themselves, then breaking apart."
+SAY.cinna flowchart.33.Mary,,Oh no! I—I didn't mean to...
+SAY.cinna flowchart.34.,,"I try to focus, to picture my body, intact and whole, but the convulsions continue."
+SAY.cinna flowchart.36.Mary,,"It's... it's alright. I'll put you out of your misery, okay?"
+SAY.cinna flowchart.37.,,"I try to open my mouth, to speak, to tell her that it'll be alright. But all that comes out of my mouth is a pathetic whine."
+SAY.cinna flowchart.41.Mary,,{i}Shh.{/i} It's alright.
+SAY.cinna flowchart.43.Mary,,I love you.
+SAY.cinna flowchart.44.,,"She plants a kiss on my forehead, then places one hand around my neck.{wc}I reach out one hand, trying to grab hers, to move it away, but my fingers only brush uselessly against her wrist."
+SAY.cinna flowchart.46.,,"She clenches her grip, and with the sound of flesh tearing, my life comes to an end."
+SAY.cinna flowchart.53.Mary,,Don't cry.
+SAY.cinna flowchart.55.Mary,,"You'll be part of me, now, see?"
+SAY.cinna flowchart.57.Mary,,We'll be together forever.
+SAY.cinna flowchart.59.Mary,,We'll never be apart.
+SAY.cinna flowchart.61.Mary,,We'll…
+SAY.cinna flowchart.63.Mary,,…
+SAY.cinna flowchart.65.Mary,,I'm sorry.
+SAY.cinna flowchart.67.Mary,,I'm sorry.
+SAY.cinna flowchart.70.Mary,,"I'm so, so sorry."
+SAY.cinna flowchart.151.,,Notes from cinna:{wc}Thank you so much for playing our little labor of love!
+SAY.cinna flowchart.152.,,"One dislocated leg (please send well wishes to Nii), one concussion (please send well wishes to me lmao), one insane fever (get well soon Astra), and a team of tired souls later, this game finally exists :){wc}Please be kind, write a nice comment if you'd like (we live for them!), play through the game again and again if you want, unlock all the endings and maybe an easter egg...?"
+SAY.cinna flowchart.154.,,Stay tuned for more toxic yuri horror games (and check out our others if you haven't yet). The world will never have enough :P
+SAY.cinna flowchart.157.,,The secret ending is now unlocked! See if you can find it...
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel
+CHARACTER.Note,,Note
+CHARACTER.Vendor,,Vendor
+CHARACTER.Crier,,Crier

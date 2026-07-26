@@ -1,0 +1,20 @@
+Key,Description,Standard
+SAY.cinna flowchart.1177.,,"At first, I intend to head back home immediately. Then, I remember what's waiting for me there, and I pause."
+SAY.cinna flowchart.1178.,,"An image of Adrianne flashes through my mind. I need someone to talk to, someone who won't hurt me.{wc}I turn around, and head towards the village. I break out of the forest, and my pace quickens."
+SAY.cinna flowchart.1180.,,"When I finally reach the village, I'm almost running. I come to a halt in the town centre, and look around, when—"
+SAY.cinna flowchart.1182.Crier,,Hear ye! Hear ye!
+SAY.cinna flowchart.1183.Crier,,"Justice has been served. Another fallen soul has been purged from this world! Witness her fate, and repent your sins! Repent!"
+SAY.cinna flowchart.1185.,,I don't hear a word he says.
+SAY.cinna flowchart.1186.,,In the centre of the town square is a makeshift gallows.
+SAY.cinna flowchart.1187.,,"Hanging in that gallows, swinging slowly in the faint wind, is a lump of flesh; grey, rotten, and lifeless..."
+SAY.cinna flowchart.1190.,,My blood runs cold.
+SAY.cinna flowchart.1191.,,I collapse to my knees. What happened? What in god's name could have happened here?
+SAY.cinna flowchart.1192.,,"Just three days ago, Adrianne had been so full of life. Why..."
+SAY.cinna flowchart.1193.,,"Why not Mary? She's the one they were hunting for, right? She's the damned witch! She's the one who... deserves... to..."
+SAY.cinna flowchart.1195.,,"I can't afford any more attention, and I can't bear to stay here even a second longer, so I run."
+SAY.cinna flowchart.1197.,,"Without any thought of where I'm running to, my feet pick up speed until the world around me seems to fade into the distance."
+SAY.cinna flowchart.1194.,,I bite my lip to fight back the tears. I'm already getting some stares from the crowd.
+SAY.cinna flowchart.1198.,,"I only stop, and collapse onto the dirt, gasping for breath, when the village is no longer in sight."
+CHARACTER.Hazel,,Hazel
+CHARACTER.Note,,Note
+CHARACTER.Crier,,Crier

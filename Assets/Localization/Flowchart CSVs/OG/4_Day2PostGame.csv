@@ -1,0 +1,15 @@
+Key,Description,Standard
+SAY.cinna flowchart.6.Mary,,That should be enough work for one day. Should we start heading home?
+SAY.cinna flowchart.9.Hazel,,Sure.
+SAY.cinna flowchart.10.,,"The rest of the day passes in peaceful tranquility. I eat lunch with Mary, and then supper."
+SAY.cinna flowchart.11.,,"We talk for a while, about the weather, about the forest, about the village."
+SAY.cinna flowchart.12.,,"I end the day with a cup of bitter tea and a calm, restful sleep, unplagued by nightmares."
+SAY.cinna flowchart.14.,,"For a moment, I feel at peace. But only for a moment."
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel
+CHARACTER.Old Man,,Old Man
+CHARACTER.Adrianne,,Adrianne
+CHARACTER.???,,???
+CHARACTER.Duke,,Duke
+CHARACTER.Priest,,Priest
+CHARACTER.Reginald,,Reginald

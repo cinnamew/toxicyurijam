@@ -1,0 +1,201 @@
+Key,Description,Standard
+SAY.cinna flowchart.661.,,"When I wake, the sun is already high in the sky. When I finally gather the energy to leave my bedroom, I find the house completely empty."
+SAY.cinna flowchart.662.,,"A note has been left on the table, written in careful, elegant handwriting."
+SAY.cinna flowchart.980.Note,,"{i}Sorry, but I'll be gone for most of the day. I've left some bread and cheese out on the table if you get hungry.{/i}{wc}{i}I'll be back by the evening. — M{/i}"
+SAY.cinna flowchart.666.,,I decide to take the opportunity to explore some of the area around Mary's house.
+SAY.cinna flowchart.667.,,"The house is surrounded by a thick forest, and seems to be hidden far from civilisation."
+SAY.cinna flowchart.668.,,"Despite that, it doesn't take long until I find a coarse dirt road, snaking through the trees."
+SAY.cinna flowchart.669.,,"I pick a direction on a whim, and start to walk."
+SAY.cinna flowchart.670.,,"After a while, I spot chimney smoke curling above the treetops, and soon after that I come to the edge of the forest."
+SAY.cinna flowchart.671.,,"Vast fields of yellow wheat stretch out before me, the road cutting right through them.{wc}And, along that road is the village, dozens of houses clustered around a large open town square.{wc}I continue on, passing by several farmers working away at the fields, until I reach it."
+SAY.cinna flowchart.676.Crier,,"I'm telling you, danger has afflicted this region! A perverse wickedness that hides its fangs and claws!"
+SAY.cinna flowchart.677.Crier,,A wickedness that whispers sweet promises in your ear! That threatens to tarnish this kingdom's very soul!
+SAY.cinna flowchart.678.,,"A man stands at the edge of the town square, a lion coat-of-arms emblazoned on his armour, holding up a poster and occasionally gesturing to it."
+SAY.cinna flowchart.679.,,A small crowd has gathered around him and is listening intently.
+SAY.cinna flowchart.680.Crier,,"Yes, this corruption's name is witchcraft!"
+SAY.cinna flowchart.681.Crier,,"Beware its sinful appeal, beware those who practice it, those who would see the natural order overtaken!"
+SAY.cinna flowchart.682.,,"I step closer to get a proper look at the poster in his hand, and freeze."
+SAY.cinna flowchart.684.,,"The drawing on it is sketchy, but it's clearly a depiction of Mary. I shudder and turn away."
+SAY.cinna flowchart.685.Crier,,The venerable and magnanimous Duke of Hart is offering a reward of up to thirty silvers for this individual!
+SAY.cinna flowchart.686.Crier,,"Any individual who can provide information leading to their capture will earn this prize. Yes, I repeat, up to thirty silvers!"
+SAY.cinna flowchart.689.,,I tune him out.
+SAY.cinna flowchart.690.,,"Various stalls have been set up throughout the square. I meander over to one selling pies, my stomach rumbling."
+SAY.cinna flowchart.692.Vendor,,"What'll it be, dearie?"
+SAY.cinna flowchart.694.Hazel,,"One of the small ones, please."
+SAY.cinna flowchart.695.Vendor,,Here you go.
+SAY.cinna flowchart.696.,,"I take the offered pie and take an eager bite out of it, savouring the sour meat filling. The lady attending the stall holds out one hand."
+SAY.cinna flowchart.697.Vendor,,"That'll be ten coppers, miss."
+SAY.cinna flowchart.699.Hazel,,"Oh, uh—"
+SAY.cinna flowchart.700.,,"I suddenly realise I don't have a single coin to my name.{wc}Should I have tried to find some in Mary's room? But if I had, it would have felt like stealing."
+SAY.cinna flowchart.701.Vendor,,"Do you have something to barter, then?"
+SAY.cinna flowchart.703.Hazel,,"Um, I—"
+SAY.cinna flowchart.707.Adrianne,,"I'll pay for it! And one for me too, please."
+SAY.cinna flowchart.708.,,"An unfamiliar girl barges past, grabs the lady's hand, and shakes it vigorously."
+SAY.cinna flowchart.709.Vendor,,Are you sure?
+SAY.cinna flowchart.711.Adrianne,,"I've got the money, don't I?"
+SAY.cinna flowchart.712.Vendor,,"Go on, then."
+SAY.cinna flowchart.713.,,"Money changes hands, and the two of us walk away from the stall, pies in hand."
+SAY.cinna flowchart.715.Hazel,,Thank you. You didn't have to do that.
+SAY.cinna flowchart.1067.Adrianne,,I know.
+SAY.cinna flowchart.1040.Hazel,,I don't even have any way to pay you back.
+SAY.cinna flowchart.718.Adrianne,,That's okay! Your presence is enough.
+SAY.cinna flowchart.722.,,That's when I realise — it's still in my pocket.
+MENU.cinna flowchart.1064,,Give daffodil
+MENU.cinna flowchart.1065,,Don't give anything
+SAY.cinna flowchart.741.Hazel,,I just...
+SAY.cinna flowchart.742.,,The girl chuckles.
+SAY.cinna flowchart.745.Adrianne,,"It's alright, I'm only teasing. Let's find somewhere to eat."
+SAY.cinna flowchart.749.Hazel,,What do you mean?
+SAY.cinna flowchart.750.,,The girl looks disappointed.
+SAY.cinna flowchart.752.Adrianne,,You're no fun.
+SAY.cinna flowchart.754.Adrianne,,"Come on, let's find somewhere to eat."
+SAY.cinna flowchart.756.,,"We walk through the town for a while, looking for somewhere in the shade to sit and eat. Eventually, we find it, and sit down together."
+SAY.cinna flowchart.760.,,"Despite that, I almost expect her to run off again, but the strange girl follows me as I wander around on the search for somewhere to eat.{wc}Eventually, I find a spot in the shade, and she sits down beside me."
+SAY.cinna flowchart.763.Hazel,,What's your name?
+SAY.cinna flowchart.766.Adrianne,,Adrianne.
+SAY.cinna flowchart.768.Hazel,,That's a lovely name.
+SAY.cinna flowchart.1001.,,She makes a sour face.
+SAY.cinna flowchart.772.Adrianne,,It's an awful name. It's so old-fashioned.
+SAY.cinna flowchart.774.Adrianne,,"Makes me sound like I should be locked up in a glass case, slowly gathering dust."
+SAY.cinna flowchart.776.Adrianne,,What about you?
+SAY.cinna flowchart.778.Hazel,,Hazel.
+SAY.cinna flowchart.780.Adrianne,,"Hazel, Hazel, Hazel..."
+SAY.cinna flowchart.781.,,"She repeats my name a few times, as if trying out how it feels, then shrugs."
+SAY.cinna flowchart.783.Adrianne,,It'll do.
+SAY.cinna flowchart.785.Adrianne,,"You're new around here, aren't you, Hazel?"
+SAY.cinna flowchart.786.,,She takes a large bite out of her pie.
+SAY.cinna flowchart.788.Hazel,,I suppose.
+SAY.cinna flowchart.791.Adrianne,,"I thought so! I haven't seen you around before, and I know I'd remember your face."
+SAY.cinna flowchart.793.Hazel,,You would?
+SAY.cinna flowchart.795.Adrianne,,"So what, are you looking for work? Because I might be able to find something for you, if you're interested."
+SAY.cinna flowchart.797.Hazel,,... I moved in with a relative who lives here.
+SAY.cinna flowchart.799.Adrianne,,"Ah, right, right. Are you going to be here long term?"
+SAY.cinna flowchart.801.Hazel,,Maybe.
+SAY.cinna flowchart.803.Hazel,,That man in the town square... what was he talking about?
+SAY.cinna flowchart.806.Adrianne,,Why? Do you want to join the witch hunt?
+SAY.cinna flowchart.808.Hazel,,"No, no! I was just wondering if you knew more about him."
+SAY.cinna flowchart.810.Adrianne,,"One of the Duke's men, shouting about witchcraft as always."
+SAY.cinna flowchart.812.Adrianne,,The whole town's up in arms about it now.
+SAY.cinna flowchart.814.Adrianne,,"'Course, we've known about the witch for ages, but we always thought she was harmless."
+SAY.cinna flowchart.815.Adrianne,,Until the troubles began.
+SAY.cinna flowchart.817.Hazel,,What troubles?
+SAY.cinna flowchart.819.Adrianne,,"There's been a blight on the crops this year, and Billy, two doors down, got his leg taken off by a wild boar."
+SAY.cinna flowchart.821.Adrianne,,"Nancy lost her baby to a miscarriage, and ol' Ted lost two of his goats to a wolf attack. That's just the start of it, though."
+SAY.cinna flowchart.823.Adrianne,,"There's been so much bad luck in the air recently, people have been drowning in it."
+SAY.cinna flowchart.825.Hazel,,What?
+SAY.cinna flowchart.827.Adrianne,,"I've seen it. People in good health, dying in their beds, choking to death on the very air. It's frightful."
+SAY.cinna flowchart.829.Hazel,,Oh.
+SAY.cinna flowchart.830.,,"A calm silence settles over us as we eat. As soon as she's done, Adrianne jumps up suddenly."
+SAY.cinna flowchart.833.Adrianne,,"It was nice to meet you, Hazel, but I do have to get going."
+SAY.cinna flowchart.835.Hazel,,"Oh, okay."
+SAY.cinna flowchart.837.Adrianne,,Will I see you again?
+SAY.cinna flowchart.839.Hazel,,Sure.
+SAY.cinna flowchart.841.Adrianne,,Great!
+SAY.cinna flowchart.843.,,"Adrianne runs off, leaving me to finish my pie in silence."
+SAY.cinna flowchart.844.,,"Eventually, I finish eating, and stand, wiping crumbs off my clothes. I try to retrace my steps to the village's entrance.{wc}I must have gotten turned around at some point, because I take a wrong turn into an alley, and then another, and end up completely lost."
+SAY.cinna flowchart.846.,,"I keep walking, but the further I walk, the more alien my surroundings seem.{wc}The alleyways get thinner, and slowly darker, as the light is more constrained. The buildings become wood, then stone."
+SAY.cinna flowchart.847.,,"I leave behind the rows of clothing lines, and the alleyways instead become cold, empty places, no windows or doors looking down on them.{wc}The noise of the world drops away, leaving only a dense silence, the only sound my footsteps on the soft dirt."
+SAY.cinna flowchart.848.,,"Then, I reach a dead end. The point where all the paths converge, a small ring of old-looking, worn-down stone houses."
+SAY.cinna flowchart.849.,,"Standing at what must be the edge of the village, I am boxed in by stone walls, almost entirely deprived of sunlight."
+SAY.cinna flowchart.850.,,The oldest and largest of the houses stands before me.
+SAY.cinna flowchart.851.,,"The house is two stories tall, and must at some point have been beautiful to behold, made of polished, luxuriously engraved oak.{wc}Now though, it is rotting.{wc}Even if I had a reason to, I would not dare step one foot into it, out of fear that the ceiling would collapse."
+SAY.cinna flowchart.852.,,"I spot an old man in a wooden rocking chair, sitting outside the door of one of the house, staring into the middle distance.{wc}His skin is so withered, his eyes so sullen, his fingernails so gnarled, that he looks almost made of wood himself."
+SAY.cinna flowchart.854.Old Man,,You there!
+SAY.cinna flowchart.855.,,His eyes suddenly blaze to life.
+SAY.cinna flowchart.856.Old Man,,What are you doing here?
+SAY.cinna flowchart.858.Hazel,,Me?
+SAY.cinna flowchart.859.Old Man,,"Yes, you!"
+SAY.cinna flowchart.861.Hazel,,I was looking at...
+MENU.cinna flowchart.975,,... this house.
+MENU.cinna flowchart.976,,... the sky.
+SAY.cinna flowchart.867.Hazel,,I was just... admiring this house. It's beautiful.
+SAY.cinna flowchart.868.Old Man,,I {i}suppose{/i} that's fine.
+SAY.cinna flowchart.869.Old Man,,Was worried you were coming to steal from me...
+SAY.cinna flowchart.872.Hazel,,I was just... looking at the sky.
+SAY.cinna flowchart.873.Old Man,,"The sky? Are you daft, girl?"
+SAY.cinna flowchart.874.Old Man,,There a thousand better places to see the sky...
+SAY.cinna flowchart.876.,,"He mumbles a few more words as he settles back into his chair, but they don't reach my ears."
+SAY.cinna flowchart.878.Hazel,,Do you know why no one lives in this house any more?
+SAY.cinna flowchart.880.Hazel,,It's a shame to see it rotting away.
+SAY.cinna flowchart.881.Old Man,,Eh?
+SAY.cinna flowchart.883.Hazel,,"I said, do you—"
+SAY.cinna flowchart.884.Old Man,,"Well, why do you think!?"
+SAY.cinna flowchart.885.Old Man,,Do you really think anyone would want to live in this walled-off prison?
+SAY.cinna flowchart.886.Old Man,,"Me, I couldn't move. My family's been here, ten generations. This is our family home, and I wouldn't abandon it, come hell or high water."
+SAY.cinna flowchart.887.Old Man,,"But even then, if'n I didn't have my niece, making deliveries every so often, even I would'a moved."
+SAY.cinna flowchart.888.Old Man,,"Ain't nothing to be done about it, really. This part of town is long dead."
+SAY.cinna flowchart.890.Hazel,,"But someone must have lived here once, right? What happened?"
+SAY.cinna flowchart.891.,,A serious look suddenly settles over the old man's face.
+SAY.cinna flowchart.892.Old Man,,"Are you sure you want to hear the story? Because if I'm starting, I ain't stopping 'till it's done."
+SAY.cinna flowchart.893.Old Man,,"It's an important story, and I don't get many chances to tell it these days."
+SAY.cinna flowchart.895.Hazel,,Go on.
+SAY.cinna flowchart.896.Old Man,,"Aye, this story is old, almost as old as I am. It happened in my youth, back when this area still breathed."
+SAY.cinna flowchart.897.,,"A strange expression comes over him, a look of distant reverence, as if he's staring at a painting I can't quite see."
+SAY.cinna flowchart.899.Old Man,,"See, this village seems young, but its bones are old."
+SAY.cinna flowchart.900.Old Man,,"There've been houses on these hills for centuries, getting built, getting abandoned, rotting away."
+SAY.cinna flowchart.901.Old Man,,Their timber sinks beneath the dirt and becomes foundation for the next. 'S why we've got such good ground for building on.
+SAY.cinna flowchart.902.Old Man,,"Once, when the main road was long, and winding, the heart of the village was here, and everything flowed through this point."
+SAY.cinna flowchart.903.Old Man,,"'Course, that couldn't last forever. Eventually, the road moved, and people built away, and this place became lost, and forgotten."
+SAY.cinna flowchart.904.Old Man,,"I remember hearing of some town, far down the road, being destroyed in the war."
+SAY.cinna flowchart.905.Old Man,,"I heard that over time, that changed the very shape of the road, and that changed where people built."
+SAY.cinna flowchart.906.Old Man,,"But, you know, I never really believed that. The people changed 'afore the road did."
+SAY.cinna flowchart.907.Old Man,,That house you see there was built for a strange couple.
+SAY.cinna flowchart.908.Old Man,,"Pale as ghosts, barely ever talked, but the money flowing outta' their pockets seemed to have no end."
+SAY.cinna flowchart.909.Old Man,,"People said that they were half-royal, but no one could ever agree on which half."
+SAY.cinna flowchart.910.Old Man,,And their son...
+SAY.cinna flowchart.911.,,He shuddered.
+SAY.cinna flowchart.912.Old Man,,It was like you could see the devil in his eyes.
+SAY.cinna flowchart.913.Old Man,,"You would swear you could see him communing with them, staring off into space at nothing at all for minutes or hours at a time, or when he talked to his dolls."
+SAY.cinna flowchart.914.Old Man,,"There was one he always dragged around with him, everywhere he went."
+SAY.cinna flowchart.915.Old Man,,"It was a creepy little thing, too, with its empty little smile, covered in cracks and fractures from being dragged across the cobbles."
+SAY.cinna flowchart.916.Old Man,,One day I found one of the thing's black glass eyes in my morning porridge.
+SAY.cinna flowchart.991.,,He shudders.
+SAY.cinna flowchart.918.Old Man,,I don't even want to imagine how it got there.
+SAY.cinna flowchart.919.Old Man,,"One day, I heard a strange noise in the middle of the night, and I looked out the window."
+SAY.cinna flowchart.920.Old Man,,"I saw that boy, wandering aimlessly through the village, wailing. ""{i}I killed them, I killed them...{/i}"""
+SAY.cinna flowchart.921.Old Man,,He was holding a bloody knife in his hands.
+SAY.cinna flowchart.922.Old Man,,"That was the last anyone saw of the parents, too. They must be buried, out there, somewhere in the fields."
+SAY.cinna flowchart.924.Hazel,,What happened to the boy?
+SAY.cinna flowchart.925.Old Man,,"See, that's where things get messy. Nobody wanted to hang the kid, and nobody could bring themselves to let him starve, either."
+SAY.cinna flowchart.926.Old Man,,"Nobody wanted to take him in, though. He must have gone through a dozen or more foster parents."
+SAY.cinna flowchart.927.Old Man,,"And because he never stopped being trouble, I always saw him battered and bruised."
+SAY.cinna flowchart.928.Old Man,,"I began to feel sorry for 'im, in all honesty. You can hardly blame a child for succumbing to devilment, can you?"
+SAY.cinna flowchart.929.Old Man,,"There were a few more deaths too, always in suspicious circumstances, but never suspicious enough that the boy could take the blame."
+SAY.cinna flowchart.930.Old Man,,"I suppose he'd gotten cleverer by then, because the town almost tore itself apart trying to find the killer."
+SAY.cinna flowchart.931.Old Man,,"And then, one day, the boy was gone."
+SAY.cinna flowchart.932.Old Man,,"He left a note behind, saying that he'd gone to study in the city."
+SAY.cinna flowchart.933.Old Man,,"""{i}I've gone to change my fortune{/i},"" he said. And that was the last I ever saw of him."
+SAY.cinna flowchart.934.Old Man,,"You can tell, can't you? There's no windows looking down on these back streets."
+SAY.cinna flowchart.935.Old Man,,"Even the houses have turned their back on this place, on its curse, on the blood that was spilled here."
+SAY.cinna flowchart.936.Old Man,,Of course no one wanted to build here after that.
+SAY.cinna flowchart.937.Old Man,,"But these are good fields, and good farming, so people just moved a bit down the road and called that ""{i}good enough{/i}."""
+SAY.cinna flowchart.938.Old Man,,So? What did you think of my story?
+SAY.cinna flowchart.940.Hazel,,Is it true?
+SAY.cinna flowchart.942.,,"The old man laughs, settling back in his chair."
+SAY.cinna flowchart.943.Old Man,,"Aye, it's as true as I remember it."
+SAY.cinna flowchart.944.Old Man,,"'Course, it's hard to say how much that means these days..."
+SAY.cinna flowchart.946.,,"His voice drifts off as his eyelids flicker, and he soon starts to snore.{wc}On my own again, and unsure what to think, I quickly pace back the way I came. "
+SAY.cinna flowchart.1036.,,"Thankfully, it isn't long before I find myself in the village square, and from there I just follow the road."
+SAY.cinna flowchart.948.,,"It takes a few tries, but I eventually retrace my path through the forest, and find myself outside of Mary's hut again.{wc}However, when I push open the front door, I see her, sitting at the table."
+SAY.cinna flowchart.951.Mary,,Hazel? Where were you?
+SAY.cinna flowchart.953.Hazel,,"Oh, I was just looking at the garden."
+SAY.cinna flowchart.955.Hazel,,It's really pretty! You've got some beautiful flowers growing in it.
+SAY.cinna flowchart.958.Mary,,"It is, isn't it? I can show you around in more detail if you'd like."
+SAY.cinna flowchart.960.Hazel,,Maybe another time. I'm pretty tired.
+SAY.cinna flowchart.962.,,"Mary smiles at me, and I return to my room, shaking slightly."
+SAY.cinna flowchart.963.,,"That night, I have fitful dreams of fire, and gallows, and bloody hands."
+SAY.cinna flowchart.1046.Hazel,,"It's not much, but how about this?"
+SAY.cinna flowchart.1068.,,"I pull out the daffodil stalk, careful not to crush it. The girl visibly lights up."
+SAY.cinna flowchart.1051.Adrianne,,"Oh, thank you!"
+SAY.cinna flowchart.1053.,,"She holds the flower up to her nose, and breathes it in, then gives me a coy smile."
+SAY.cinna flowchart.1056.Adrianne,,This flower...
+SAY.cinna flowchart.1058.Adrianne,,Should I take it to mean something?
+MENU.cinna flowchart.1059,,Um...
+MENU.cinna flowchart.1060,,What do you mean?
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel
+CHARACTER.Old Man,,Old Man
+CHARACTER.Adrianne,,Adrianne
+CHARACTER.Note,,Note
+CHARACTER.Vendor,,Vendor
+CHARACTER.Crier,,Crier
