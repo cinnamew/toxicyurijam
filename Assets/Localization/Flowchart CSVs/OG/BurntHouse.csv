@@ -1,0 +1,43 @@
+Key,Description,Standard
+SAY.Flowchart.4.Hazel,,How did the fire start?
+SAY.Flowchart.8.Priest,,"I did not witness it myself, so I cannot be certain."
+SAY.Flowchart.7.Priest,,"But from what I've heard, it was a group of villagers, several of them nursing a grudge. They must have blocked or barricaded the front door so that neither of the women could escape."
+SAY.Flowchart.12.Priest,,"I did hear that one of the women survived, though only barely, and that she was horribly disfigured. I can only imagine the suffering she's going through now, if she's even still alive."
+SAY.Flowchart.13.Priest,,"What I heard after that, though, caused me to doubt my own ears."
+SAY.Flowchart.14.Priest,,"One of the villagers responsible for the fire recounted to me how that same survivor, covered in severe burns, dashed off into the forest, faster than any of them could follow, whimpering like a mad dog."
+SAY.Flowchart.15.Priest,,"A chilling image, if true."
+SAY.Flowchart.20.,,"{i}Scattered around the area are what looks like the remains of glass bottles, vials, and wooden boxes; torn, shattered and broken to pieces.{/i}"
+SAY.Flowchart.21.Hazel,,What are these?
+SAY.Flowchart.25.Priest,,"The doctor I told you about, she had quite the collection of ingredients and equipment."
+SAY.Flowchart.26.Priest,,"I've heard that once the fire had burned itself out, a few of the villagers tore through the house, looking for ""evidence of witchcraft"". This would appear to be the result of their search."
+SAY.Flowchart.38.,,"{i}I lean down and pick up the large rock with both arms, straining from the exertion.{/i}"
+SAY.Flowchart.39.Priest,,What... are you doing?
+SAY.Flowchart.41.Hazel,,... You'll ... see.
+SAY.Flowchart.43.,,"{i}Just a rock. It looks like it has a good weight to it, but I don't have any use for it now.{/i}"
+SAY.Flowchart.34.,,"{i}I can see something, behind the glass. It looks familiar, almost.{/i}"
+SAY.Flowchart.52.,,"{i}I step closer and carefully press one hand against the glass, but it doesn't budge.{/i}"
+SAY.Flowchart.35.,,"{i}That window is the one part of the building that’s still fully intact, and whatever's behind it is blocked by rubble on the other side.{wc}I'm going to need something heavy if I want to get through it.{/i}"
+SAY.Flowchart.46.,,"{i}I walk over to the makeshift charm and flick it with one finger, watching it swing lazily back and forth in the light breeze.{/i}"
+SAY.Flowchart.48.Priest,,"That's a charm meant to repel evil, put up by one of the villagers. It was actually here long before the fire. I passed under it during many of my visits."
+SAY.Flowchart.49.Priest,,"I don't know why neither of the women ever removed it, but I suspect it was that very wilfulness which many of the villagers feared."
+SAY.Flowchart.55.,,"{i}I heave the rock with all my might, and flinch as I hear it crash into the window, shattering it to pieces.{wc}A few birds fly out of the trees overhead, cawing and cooing in surprise at the sudden noise.{/i}"
+SAY.Flowchart.57.,,"{i}As carefully as I can, I step through the broken window, avoiding the sharp panes of shattered glass.{wc}On the other side, almost buried under the rubble, are a few scattered ingredients and a cracked clay bowl.{/i}"
+SAY.Flowchart.58.,,"{i}The ingredients look random at first, but I know better. A sprig of Lavender, a branch of Hemlock. And, in the centre of the bowl... a bezoar stone.{/i}"
+SAY.Flowchart.59.,,"{i}I clamber back out of the wreckage, and look back at the priest, who is staring at me in shock.{/i}"
+SAY.Flowchart.61.Hazel,,Sorry. I needed this.
+SAY.Flowchart.62.,,"{i}I give him a short nod, then turn around and leave.{/i}"
+SAY.Flowchart.65.Hazel,,This isn't what I need...
+SAY.Flowchart.75.,,"{i}I reach down and pick up what looks like a scrap of paper, sticking out of the rubble. When I pull it out, however, I see that it is actually a painting, charred by smoke and fire.{/i}"
+SAY.Flowchart.71.,,"{i}I lift it up to my face to get a closer look, but as I do, a gust of wind picks up, and the painting crumbles away, scattering in the wind.{/i}"
+SAY.Flowchart.74.,,{i}All I am left with is the faint impression that the painting's style seemed familiar...{/i}
+SAY.Flowchart.96.,,{i}I try to hurl the rock at the window and miss spectacularly.{wc} The rock finds itself flying across to the other side of the house.{/i}
+SAY.Flowchart.84.,,{i}I walk around to the other side of the burnt house to retrieve the rock.{/i}
+SAY.Flowchart.85.,,"{i}Before I pick up the rock, I come across something interesting sitting on the windowsill.{/i}"
+SAY.Flowchart.86.Hazel,,What is this?
+SAY.Flowchart.87.Priest,,Looks to be a trinket of some sort.{wc} Can I have a look at it?
+SAY.Flowchart.88.,,{i}I hand it to the priest.{/i}
+SAY.Flowchart.89.Priest,,The back seems to have some engravings.{wc} I'll read them aloud.
+SAY.Flowchart.90.Priest,,"""Team CatFish!"""
+SAY.Flowchart.82.,,"{i}We look at each other, both confused as to the meaning behind the engraving.{wc} We leave the trinket where we found it. Perhaps someone will understand its meaning.{/i}"
+CHARACTER.Hazel,,Hazel
+CHARACTER.Priest,,Priest
