@@ -111,6 +111,30 @@ MonoBehaviour:
     m_Key: Language
     m_Metadata:
       m_Items: []
+  - m_Id: 5158066772238336
+    m_Key: Location ???
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158380933996544
+    m_Key: Location Mary's House
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158505576128512
+    m_Key: Location Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158534235807744
+    m_Key: Location Village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158564002783232
+    m_Key: Location Burnt House
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158593656512512
+    m_Key: Location Forest Clearing
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
