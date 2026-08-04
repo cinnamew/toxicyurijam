@@ -15,6 +15,10 @@ MonoBehaviour:
   m_TableCollectionName: NonDialogueText
   m_TableCollectionNameGuidString: 3a520dc0921cd48feb78bc46ecab420b
   m_Entries:
+  - m_Id: 6880964370432
+    m_Key: locale
+    m_Metadata:
+      m_Items: []
   - m_Id: 814125932544
     m_Key: New Game
     m_Metadata:
@@ -103,8 +107,8 @@ MonoBehaviour:
     m_Key: Return to title
     m_Metadata:
       m_Items: []
-  - m_Id: 6880964370432
-    m_Key: Locale
+  - m_Id: 5157345322590208
+    m_Key: Language
     m_Metadata:
       m_Items: []
   m_Metadata:

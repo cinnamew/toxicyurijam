@@ -112,6 +112,10 @@ MonoBehaviour:
     m_Localized: en
     m_Metadata:
       m_Items: []
+  - m_Id: 5157345322590208
+    m_Localized: 'Language: English'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
