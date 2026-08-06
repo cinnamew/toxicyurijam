@@ -25,6 +25,7 @@ public class DisplaySettings : MonoBehaviour
 
     private void Start()
     {
+        if (Screen.fullScreen) fullscreenToggle.isOn = true;
         if (PlayerPrefs.HasKey(Globals.FULLSCREEN)) LoadResolutionSave();
         else CreateResolutionSave();
     }

@@ -7284,6 +7284,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6040090337433730996, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040090337433730996, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040090337433730996, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1641384809782623038}
+    - target: {fileID: 6040090337433730996, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040090337433730996, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleFullscreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040090337433730996, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DisplaySettings, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040090337433730996, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6509616809780132310, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
       propertyPath: m_Name
       value: ResolutionSelector
@@ -7298,6 +7326,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1775241589401438742, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
   m_PrefabInstance: {fileID: 817437357970348652}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1641384809782623038 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2134495372912124242, guid: 5a721b6208028894c8dee6a5f08fc5ec, type: 3}
+  m_PrefabInstance: {fileID: 817437357970348652}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2747390d241ba9845aeb4566e86829bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1165993955785116781
 PrefabInstance:
   m_ObjectHideFlags: 0
