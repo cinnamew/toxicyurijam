@@ -140,6 +140,11 @@ MonoBehaviour:
     m_Localized: Forest Clearing
     m_Metadata:
       m_Items: []
+  - m_Id: 6092615622582272
+    m_Localized: put anything here. this key is to check if the language is supported
+      or not
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

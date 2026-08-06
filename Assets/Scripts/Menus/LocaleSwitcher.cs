@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 using Fungus;
+using UnityEngine.Localization.Tables;
 
+// this is copied from mimco, needs to change
 public class LocaleSwitcher : MonoBehaviour
 {
     [SerializeField] int currLocaleID = 0;
@@ -21,35 +23,11 @@ public class LocaleSwitcher : MonoBehaviour
         currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
         ChangeLocale(0);
 
+        // assume the locale must exist
+
         if (f != null)
         {
-            //0 = english, 1 = ptbr, 2 = uk, 3 = ru, 4 = zh-TW, 5 = fr
-            switch (currLocaleID)
-            {
-                case 1:
-                    f.ExecuteBlock("ptbr");
-                    break;
-                case 2:
-                    f.ExecuteBlock("uk");
-                    break;
-                case 3:
-                    f.ExecuteBlock("ru");
-                    break;
-                case 4:
-                    f.ExecuteBlock("zh-TW");
-                    break;
-                case 5:
-                    f.ExecuteBlock("fr");
-                    break;
-                case 6:
-                    f.ExecuteBlock("pl");
-                    break;
-                case 7:
-                    f.ExecuteBlock("es");
-                    break;
-                default:
-                    break;
-            }
+            f.ExecuteBlock(LocalizationSettings.StringDatabase.GetLocalizedString("NonDialogueText", "locale"));
 
         }
     }
@@ -68,6 +46,20 @@ public class LocaleSwitcher : MonoBehaviour
         //ids: en 0, pt-br 1, uk 2, ru 3, zh-TW 4, fr 5
         active = true;
         yield return LocalizationSettings.InitializationOperation;
+
+        //change this
+        var tableOperation = LocalizationSettings.StringDatabase.GetTableAsync("NonDialogueText");
+        yield return tableOperation;
+
+        StringTable table = tableOperation.Result;
+        StringTableEntry entry = table.GetEntry("exists");
+        
+        if (string.IsNullOrEmpty(entry.Value))
+        {
+            Debug.Log("language " + localeID + " doesn't exist :(((");
+            yield break;
+        }
+
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
         PlayerPrefs.SetInt("LocaleKey", currLocaleID);
         active = false;

@@ -135,6 +135,10 @@ MonoBehaviour:
     m_Key: Location Forest Clearing
     m_Metadata:
       m_Items: []
+  - m_Id: 6092615622582272
+    m_Key: exists
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
