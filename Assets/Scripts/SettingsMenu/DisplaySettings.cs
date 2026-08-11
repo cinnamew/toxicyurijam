@@ -1,13 +1,17 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DisplaySettings : MonoBehaviour
 {
     [SerializeField] private Toggle fullscreenToggle;
-    [SerializeField] private TMPro.TMP_Dropdown resolutionDropdown;
+    [SerializeField] private TMP_Dropdown resolutionDropdown;
+    [SerializeField] private TMP_Dropdown fpsDropdown;
     private List<Resolution> supportedResolutions;
+    private readonly int[] fpsSelections = { 30, 60, 90, -1 };
+
 
     private void Awake()
     {
@@ -21,13 +25,25 @@ public class DisplaySettings : MonoBehaviour
                 resolutionDropdown.options.Add(new(res.width + " x " + res.height + " @" + Math.Round(res.refreshRateRatio.value) + "Hz"));
             }
         }
+        
+        fpsDropdown.ClearOptions();
+        foreach (int fps in fpsSelections)
+        {
+            if (fps == -1) fpsDropdown.options.Add(new("Unlimited FPS"));
+            else fpsDropdown.options.Add(new(fps.ToString() + " FPS"));
+        }
     }
 
     private void Start()
     {
+        QualitySettings.vSyncCount = 0;
         if (Screen.fullScreen) fullscreenToggle.isOn = true;
+
         if (PlayerPrefs.HasKey(Globals.FULLSCREEN)) LoadResolutionSave();
         else CreateResolutionSave();
+
+        if (PlayerPrefs.HasKey(Globals.FPS)) LoadFpsSave();
+        else CreateFpsSave();
     }
 
     public void ChangeResolution()
@@ -38,10 +54,26 @@ public class DisplaySettings : MonoBehaviour
         PlayerPrefs.SetFloat(Globals.REFRESH_RATE, (float)Math.Round(supportedResolutions[resolutionDropdown.value].refreshRateRatio.value, 2));
     }
 
+    public void ChangeFps()
+    {
+        Application.targetFrameRate = fpsSelections[fpsDropdown.value];
+        PlayerPrefs.SetInt(Globals.FPS, fpsDropdown.value);
+    }
+
     public void ToggleFullscreen()
     {
         Screen.fullScreen = fullscreenToggle.isOn;
         PlayerPrefs.SetInt(Globals.FULLSCREEN, fullscreenToggle.isOn ? 1 : 0);
+    }
+
+    private void CreateFpsSave()
+    {
+        fpsDropdown.value = fpsSelections.Length - 1;
+    }
+
+    private void LoadFpsSave()
+    {
+        fpsDropdown.value = PlayerPrefs.GetInt(Globals.FPS);
     }
 
     private void CreateResolutionSave()

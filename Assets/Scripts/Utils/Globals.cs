@@ -9,6 +9,7 @@ public static class Globals
         public const string RES_WIDTH = "Resolution Width";
         public const string RES_HEIGHT = "Resolution Height";
         public const string REFRESH_RATE = "Refresh Rate";
+        public const string FPS = "FPS";
         public const string FULLSCREEN = "Fullscreen";
 
         public const string INVENTORY = "Inventory";
