@@ -22,6 +22,10 @@ MonoBehaviour:
     m_Localized: fr
     m_Metadata:
       m_Items: []
+  - m_Id: 6092615622582272
+    m_Localized: im fwench
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

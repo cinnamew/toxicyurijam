@@ -5,7 +5,6 @@ using UnityEngine.Localization.Settings;
 using Fungus;
 using UnityEngine.Localization.Tables;
 
-// this is copied from mimco, needs to change
 public class LocaleSwitcher : MonoBehaviour
 {
     [SerializeField] int currLocaleID = 0;
@@ -19,7 +18,8 @@ public class LocaleSwitcher : MonoBehaviour
     {
         yield return LocalizationSettings.InitializationOperation;
         MAX_LOCALE = LocalizationSettings.AvailableLocales.Locales.Count;
-        //print(MAX_LOCALE);
+        Debug.Log("your max locale is " + MAX_LOCALE);
+
         currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
         ChangeLocale(0);
 
@@ -32,36 +32,65 @@ public class LocaleSwitcher : MonoBehaviour
         }
     }
 
+    public void NextLocale()
+    {
+        ChangeLocale(1);
+    }
+
+    public void PrevLocale()
+    {
+        ChangeLocale(-1);
+    }
+
     public void ChangeLocale(int add)
     {
         if (active) return;
+        int prev = currLocaleID;
         currLocaleID += add;
-        if (currLocaleID < 0) currLocaleID = MAX_LOCALE;
         if (currLocaleID > MAX_LOCALE - 1) currLocaleID = 0;
-        StartCoroutine(SetLocale(currLocaleID));
-    }
+        if (currLocaleID < 0) currLocaleID = MAX_LOCALE - 1;
+        //Debug.Log("going to try switching to locale " + currLocaleID);
+        StartCoroutine(SetLocale(currLocaleID, prev));
 
-    IEnumerator SetLocale(int localeID)
-    {
-        //ids: en 0, pt-br 1, uk 2, ru 3, zh-TW 4, fr 5
-        active = true;
-        yield return LocalizationSettings.InitializationOperation;
 
-        //change this
-        var tableOperation = LocalizationSettings.StringDatabase.GetTableAsync("NonDialogueText");
-        yield return tableOperation;
-
-        StringTable table = tableOperation.Result;
-        StringTableEntry entry = table.GetEntry("exists");
-        
-        if (string.IsNullOrEmpty(entry.Value))
+        IEnumerator SetLocale(int localeID, int prevLocaleID)
         {
-            Debug.Log("language " + localeID + " doesn't exist :(((");
-            yield break;
+            active = true;
+            yield return LocalizationSettings.InitializationOperation;
+
+            //check
+            var newLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
+            var tableOperation = LocalizationSettings.StringDatabase.GetTableAsync("NonDialogueText", newLocale);
+            yield return tableOperation;
+
+            StringTable table = tableOperation.Result;
+            if (table == null)
+            {
+                Debug.Log("language " + localeID + " table doesn't exist :(((");
+                active = false;
+                ChangeLocale(add);
+                yield break;
+            }
+            StringTableEntry entry = table.GetEntry("exists");
+
+            if (entry == null || string.IsNullOrEmpty(entry.Value))
+            {
+                Debug.Log("language " + localeID + " exists entry doesn't exist :(((");
+                active = false;
+                ChangeLocale(add);
+                yield break;
+            }
+
+            //Debug.Log(entry.Value);
+
+            LocalizationSettings.SelectedLocale = newLocale;
+            PlayerPrefs.SetInt("LocaleKey", currLocaleID);
+
+            Debug.Log("hello i've switched to " + LocalizationSettings.StringDatabase.GetLocalizedString("NonDialogueText", "locale"));
+            active = false;
         }
 
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
-        PlayerPrefs.SetInt("LocaleKey", currLocaleID);
-        active = false;
     }
+
+
 }
