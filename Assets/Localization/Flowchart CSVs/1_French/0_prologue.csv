@@ -1,0 +1,59 @@
+Key,Description,Standard,fr
+SAY.cinna flowchart.193.,,"My hands clutch the grass. Early morning dew slides between my fingers as I curl up against the dirt, my vision swimming.{wc}Birds wheel far overhead, calling in the morning sun, as my leg burns in agony.","Mes mains s’agrippent à l'herbe. La rosée du petit matin glisse entre mes doigts tandis que je me recroqueville contra la terre, la vue trouble.{wc}Les oiseaux volent au loin, chantant sous le soleil matinal, tandis que ma jambe me brûle de douleur."
+SAY.cinna flowchart.194.,,"I can feel blood - thick, warm blood - dripping down my legs. I try to pull myself up, and my head almost splits in two.{wc}Gritting my teeth, I look down at my leg. The sight almost makes me faint on the spot.","Je peux sentir le sang – épais et chaud – qui coule le long de mes jambes. J’essaie de me relever, mais mon crâne se fend presque en deux.{wc}Je regarde mes jambes en serrant les dents. Cette vision me fait presque m’évanouir sur place."
+SAY.cinna flowchart.195.,,"The arrow's shaft sticks out of my thigh, blood pouring from the wound, which has already started to fester. The skin around it is turning grey.{wc}I collapse backwards and stare up at the bright blue sky, my head swirling with half-formed thoughts and painful memories.","La pointe de la flèche ressort par ma cuisse, le sang coule abondamment de la blessure qui a déjà commencé à s’infecter. La peau qui l’entoure devient grise.{wc}Je tombe en arrière et regarde fixement ce ciel d'un bleu éclatant, alors que des pensées confuses et des souvenirs douloureux tournent dans ma tête."
+SAY.cinna flowchart.199.Butler,,Hazel. Hazel!,Hazel. Hazel !
+SAY.cinna flowchart.202.Hazel,,"Yes, sir.","Oui, monsieur."
+SAY.cinna flowchart.203.,,"I had been polishing the silverware in the dining room. It was almost evening, and my duty was to make sure that every last piece shone with a beauty that befitted the Duke of March.{wc}I had seen him many times, staring at his own face in the reflection of his spoon, tweaking his moustache or his hair.","J’étais en train de polir l’argenterie dans la salle à manger. Le soir approchait, mon devoir était de veiller à ce que chaque couvert reluise d’une beauté digne du Duc de March.{wc}Je l’ai vu à plusieurs reprises regarder sa propre réflexion dans sa cuillère, en jouant avec les poils de sa moustache."
+SAY.cinna flowchart.204.Butler,,"Make sure you finish early today. The, ah, Master wants to see you tonight.",Assure-toi de finir plus tôt aujourd’hui. Le... euh… le Maître veut te voir ce soir.
+SAY.cinna flowchart.206.Hazel,,"... Yes, sir.","…Oui, monsieur."
+SAY.cinna flowchart.208.,,"I continued to polish, almost oblivious to the world, when I overheard some gossip between two of the other maids.","Je continuais de polir l’argenterie, presque coupée du monde, lorsque j'ai surpris une conversation entre deux autres domestiques."
+SAY.cinna flowchart.210.Maid,,Did you hear? There's a witch living in the nearby woods!,"Tu as entendu la nouvelle ? Il y aurait une sorcière qui vit dans les bois, tout près d'ici !"
+SAY.cinna flowchart.211.Maid,,A witch? Really?,Une sorcière ? Vraiment ?
+SAY.cinna flowchart.212.Maid,,"It's true. Last I went round to the village, they were all talking about her. Seems she's been up to some nasty business recently.","C'est vrai ! La dernière fois que j'ai été dans le village, tout le monde parlait d'elle. On dirait qu'elle prépare un mauvais coup."
+SAY.cinna flowchart.213.Maid,,"Well, I never. A witch, in our neck of the woods?","Ça alors ! Une sorcière, par chez nous ?"
+SAY.cinna flowchart.214.Maid,,"They say that she gives you three impossible tasks — and if you fail even one, she curses you to live forever as a toad.","Il parait qu’elle vous confie trois taches impossibles à réaliser, et que si vous en échouez ne serait-ce qu’une d’elles, elle vous maudit à vivre éternellement sous la forme d’un crapaud."
+SAY.cinna flowchart.215.Maid,,And what if you succeed?,Et que se passe-t-il si on les réussit ?
+SAY.cinna flowchart.216.Maid,,"Well... and this is only a rumour, mind you, but they say she can grant you any wish your heart desires.","Et bien… ce n'est qu'une rumeur, cela dit, il parait qu'elle peut réaliser votre souhait le plus cher."
+SAY.cinna flowchart.217.,,... I suppose that's how this all started.,... Je suppose que c'est ainsi que tout a commencé.
+SAY.cinna flowchart.222.,,"I cough, and my whole body shudders. In the distance, I can hear the baying of hounds.","Je tousse, tout mon corps tressaille. J'arrive à entendre les aboiements des chiens au loin."
+SAY.cinna flowchart.224.,,"Then, a rustling nearby, and a familiar silhouette appears in view. The man leans over me, flanked by two guards wielding crossbows.","J’entends un bruissement, puis une silhouette familière apparaît. L'homme se penche sur moi, flanqué de deux gardes armés d'arbalètes."
+SAY.cinna flowchart.225.Duke,,"Hazel, dear, what did I tell you? You'll never get away from me.","Ma chère Hazel, que t'avais-je dit ? Tu ne m'échapperas jamais."
+SAY.cinna flowchart.226.,,"I ignore him, trying to look past his head and at the bright blue sky. I can see sparrows, perched on the branches overhead, chirping restlessly.","Je l’ignore, essayant de regarder outre son visage, ce ciel d’un bleu éclatant. J'aperçois des moineaux perchés sur les branches au-dessus de moi, qui gazouillent sans interruption."
+SAY.cinna flowchart.227.Duke,,"Now, if you just agree to come back quietly, I won't have to kill you. I can call for a doctor back at the castle. You might never walk again, but you'll live. What do you say?","Bien. Si tu acceptes de rentrer sagement, je n’aurais pas à te tuer. Je pourrai appeler un médecin une fois de retour au château. Tu ne pourras peut-être plus jamais marcher, mais au moins tu seras en vie. Qu’en dis-tu ?"
+SAY.cinna flowchart.229.Hazel,,{i}... Damn you.{/i},{i}... Va te faire voir.{/i}
+SAY.cinna flowchart.231.,,"The words are too much of an exertion, and I start to cough and sputter, my whole body shuddering in pain.","Ces mots me demandent un effort trop intense, et je me mets à tousser et à cracher, tout mon corps tremblant de douleur."
+SAY.cinna flowchart.232.Duke,,"Now, that's no way to treat your master, is it?","C'est comme ça que tu parles à ton maître, hein ?"
+SAY.cinna flowchart.233.,,"I say nothing. I can almost feel my skin melting away, melding with the dirt, my bones sinking beneath it.","Je ne dis rien. J’ai l’impression de sentir ma peau se décomposer, se mélanger à la terre, et que mes os s’enfoncent en dessous."
+SAY.cinna flowchart.234.,,Today is a good day to die.,Quelle belle journée pour mourir.
+SAY.cinna flowchart.235.Duke,,You leave me no choice. Reginald?,Tu ne me laisses pas le choix. Reginald ?
+SAY.cinna flowchart.237.,,"One of the guards perks up, excitement clear on his face. Young, fresh-faced, decently muscled.{wc}I had fancied him once, when I first arrived at the castle. Now, that feels like a lifetime ago.","L'un des gardes redresse la tête, l'excitation se lisant clairement sur son visage. Jeune, au teint frais, assez musclé.{wc}Il m'avait plu à une époque, quand je suis arrivée au château. Aujourd'hui, j'ai l'impression que c'était il y a une éternité."
+SAY.cinna flowchart.238.Reginald,,"Yes, sir?","Oui, monsieur ?"
+SAY.cinna flowchart.239.Duke,,"Make it a clean shot through the neck, alright? I don't want her to suffer too much. She did me good service, after all.","Assure-toi de lui tirer une balle nette dans la nuque, d'accord ? Je ne veux pas qu'elle souffre trop. Elle m'a bien rendu service, après tout."
+SAY.cinna flowchart.241.,,"A branch snaps, somewhere in the distance, and he suddenly turns around.","Une branche craque, quelque part au loin. Il se retourne brusquement."
+SAY.cinna flowchart.242.Duke,,Halt! Who goes there?,Halte ! Qui va là ?
+SAY.cinna flowchart.244.Mary,,"Sir, I could ask the same of you. These are {i}my{/i} woods.","Monsieur, je pourrais vous retourner la question. Ce sont {i}mes{/i} bois."
+SAY.cinna flowchart.245.Reginald,,Sir.,Monsieur.
+SAY.cinna flowchart.246.Duke,,"I do apologise if we have intruded on your land. As you can see, I was hunting an escaped servant with my men. Now that we've caught her, we'll be on our way.","Je vous prie de m'excuser si nous avons empiété sur vos terres. Comme vous pouvez le constater, je poursuivais avec mes hommes, une servante en fuite. Maintenant que nous l'avons rattrapée, nous allons reprendre la route."
+SAY.cinna flowchart.248.Mary,,An escaped servant? Not a prisoner? What right do you have to take her life?,Une servante en fuite ? Pas une prisonnière ? De quel droit décidez-vous de son sort ?
+SAY.cinna flowchart.249.Reginald,,Sir!,Monsieur !
+SAY.cinna flowchart.250.Duke,,"Not now, boy.","Pas maintenant, garçon."
+SAY.cinna flowchart.251.Duke,,"As to you, who exactly do you think you are? This may be your land, but I am Duke of this province. Why should I have to—","Quant à vous, pour qui vous prenez-vous exactement ? Nous sommes peut-être sur vos terres, mais c'est moi le duc de cette province. Pourquoi devrais-je…"
+SAY.cinna flowchart.252.Reginald,,SIR!,MONSIEUR !
+SAY.cinna flowchart.253.Duke,,What?,Quoi ?
+SAY.cinna flowchart.254.Reginald,,That's— that's the {i}witch{/i}!,C'est… c'est la {i}sorcière{/i} !
+SAY.cinna flowchart.258.,,"I can faintly hear screams, and running, but I pay it little mind. My vision starts to blur and my ears start to ring as the world fades away around me.{wc}I wonder idly if I will be reborn as a sparrow. Perhaps a worm would be more befitting of my station.","J'entends vaguement des cris et des bruits de pas, mais je n'y prête guère attention. Ma vue commence à se brouiller et mes oreilles se mettent à bourdonner tandis que le monde s'estompe autour de moi.{wc}Je me demande si je renaîtrai sous la forme d'un moineau. Peut-être qu'un ver conviendrait mieux à ma condition."
+SAY.cinna flowchart.259.,,"Then, a silhouette, an unfamiliar one, leans down before me.","Puis, une silhouette, une qui m’est inconnue, se penche vers moi."
+SAY.cinna flowchart.263.Mary,,"Oh, you poor, poor thing.","Oh, ma pauvre, pauvre petite."
+SAY.cinna flowchart.265.,,The last thing I hear as the world fades away is her voice.,Sa voix est la dernière chose que j’entends alors que le monde s’efface.
+SAY.cinna flowchart.267.Mary,,Don't worry. You're safe now.,Ne t'inquiète pas. Tu es en sécurité à présent.
+SAY.cinna flowchart.269.Mary,,I won't let anyone hurt you again.,Je ne laisserai personne te faire du mal à nouveau.
+CHARACTER.Mary,,Mary,Mary
+CHARACTER.Hazel,,Hazel,Hazel
+CHARACTER.Old Man,,Old Man,Vieil homme
+CHARACTER.Adrianne,,Adrianne,Adrianne
+CHARACTER.???,,???,???
+CHARACTER.Duke,,Duke,Duc
+CHARACTER.Reginald,,Reginald,Reginald
+CHARACTER.Butler,,Butler,Majordome
+CHARACTER.Maid,,Maid,Domestique

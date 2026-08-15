@@ -135,8 +135,188 @@ MonoBehaviour:
     m_Key: Location Forest Clearing
     m_Metadata:
       m_Items: []
+  - m_Id: 9173218161057792
+    m_Key: Prologue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9173260179595264
+    m_Key: 'bottom toolbar: hide'
+    m_Metadata:
+      m_Items: []
   - m_Id: 6092615622582272
     m_Key: exists
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174273091428352
+    m_Key: 'bottom toolbar: skip'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174288400637952
+    m_Key: 'bottom toolbar: auto'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174301474283520
+    m_Key: 'bottom toolbar: logs'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174492562579456
+    m_Key: 'Settings: Music Volume'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174537429049344
+    m_Key: 'Settings: SFX vol'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174563714752512
+    m_Key: 'Settings: Resolution'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174588272402432
+    m_Key: 'Settings: Fullscreen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174611164913664
+    m_Key: 'Settings: Text Speed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174644941643776
+    m_Key: 'Settings: Auto Speed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174667637022720
+    m_Key: 'Settings: Title'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174735446335488
+    m_Key: 'Settings: subheading'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174769965457408
+    m_Key: 'Settings: Exit game'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174812218875904
+    m_Key: 'History: title'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174883723370496
+    m_Key: 'History: subheading'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174933325209600
+    m_Key: 'About: title'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174972315459584
+    m_Key: 'About: subheading'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9175010018058240
+    m_Key: 'About: credits'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176085613764608
+    m_Key: 'About: playtesters'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176110230134784
+    m_Key: 'About: content warnings'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176288794238976
+    m_Key: 'Chap Select: title'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176330506592256
+    m_Key: 'Chap Select: subheading'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176370859991040
+    m_Key: 'Chap Select: Prologue'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176400589217792
+    m_Key: 'Chap Select: prologue desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176432549814272
+    m_Key: 'Chap Select: Chap 1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176451424182272
+    m_Key: 'Chap Select: c1 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176470332104704
+    m_Key: 'Chap Select: c2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176486220128256
+    m_Key: 'Chap Select: c2 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176496668139520
+    m_Key: 'Chap Select: c3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176514162581504
+    m_Key: 'Chap Select: c3 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176685130801152
+    m_Key: 'Chap Select: c4'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176708463714304
+    m_Key: 'Chap Select: c4 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176723944890368
+    m_Key: 'Chap Select: c5'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176743398072320
+    m_Key: 'Chap Select: c5 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176758623395840
+    m_Key: 'Chap Select: c6'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176783285903360
+    m_Key: 'Chap Select: c6 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176794862182400
+    m_Key: 'Chap Select: c7'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176814420221952
+    m_Key: 'Chap Select: c7 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176824624963584
+    m_Key: 'Chap Select: end 1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177722994548736
+    m_Key: 'Chap Select: end 1 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177740761620480
+    m_Key: 'Chap Select: end 2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177750416908288
+    m_Key: 'Chap Select: end 2 desc'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177758952316928
+    m_Key: 'Chap Select: end 3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177766787276800
+    m_Key: 'Chap Select: end 3 desc'
     m_Metadata:
       m_Items: []
   m_Metadata:

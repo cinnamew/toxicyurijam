@@ -1,0 +1,118 @@
+Key,Description,Standard,fr
+SAY.cinna flowchart.772.,,"When I come to, I'm lying on the floor in a puddle of my own vomit.","Quand je reviens à moi, je suis allongée par terre, dans une flaque de mon propre vomi."
+SAY.cinna flowchart.773.,,"Slowly, I stand up, wipe the bile from my clothes, undress, and lie down in bed.","Je me relève lentement, j'essuie la bile sur mes vêtements, je me déshabille et je m'allonge dans mon lit."
+SAY.cinna flowchart.774.,,"That night, I don't sleep.","Cette nuit-là, je n'ai pas fermé l'œil."
+SAY.cinna flowchart.785.Hazel,,Where are we going this time?,Où allons-nous cette fois ?
+SAY.cinna flowchart.786.,,"I trail behind Mary as she makes her way through the forest, brushing aside branches and stepping over rocks.","Je marche derrière Mary tandis qu'elle s'enfonce dans la forêt, écartant les branches et enjambant les rochers."
+SAY.cinna flowchart.788.Mary,,"It's been a while since the last time you bathed, hasn't it?","Ça fait un moment que tu n'as pas pris de bain, n'est-ce pas ?"
+MENU.cinna flowchart.1008,,Is it that obvious?,C'est si évident que ça ?
+MENU.cinna flowchart.1009,,What do you mean?,Qu'est-ce que tu veux dire ?
+SAY.cinna flowchart.794.Hazel,,Is it that obvious?,C'est si évident que ça ?
+SAY.cinna flowchart.795.,,Mary chuckles.,Mary sourit.
+SAY.cinna flowchart.797.Mary,,"Sorry, that was a rude question.","Désolée, c'était une question déplacée."
+SAY.cinna flowchart.801.Hazel,,What are you getting at?,Où veux-tu en venir ?
+SAY.cinna flowchart.803.Mary,,"Nothing, nothing.","Non, rien."
+SAY.cinna flowchart.805.Mary,,You smell fine.,Tu sens bon.
+SAY.cinna flowchart.808.Hazel,,"Fine, whatever.","Bon, d'accord."
+SAY.cinna flowchart.810.Hazel,,It has been a while.,"Effectivement, ça fait un moment."
+SAY.cinna flowchart.813.Mary,,"I know a good stream nearby, and I thought I would show you the way.","Je connais un joli ruisseau pas loin d'ici, et je me suis dit que je pourrais t'y emmener."
+SAY.cinna flowchart.815.Mary,,"You're free to go back home after that, if you want.","Après ça, tu es libre de rentrer à la maison si tu le souhaites."
+SAY.cinna flowchart.817.Hazel,,"No, you were right.","Non, tu as raison."
+SAY.cinna flowchart.819.Mary,,"Ah, here we are.","Ah, nous y sommes."
+SAY.cinna flowchart.822.,,"A large basin lies before us, a shimmering pool of clear blue water fed by a flowing stream.{wc}I step forward and dip my hand beneath the water's surface, feeling it run through my fingers.{wc}When I turn back around, Mary is in the process of pulling her dress over her head.","Un grand bassin s'étend devant nous. Un étang scintillant aux eaux bleues et limpides, alimenté par un ruisseau.{wc}Je m'avance et plonge ma main sous la surface de l'eau, la sentant couler entre mes doigts.{wc}Lorsque je me retourne, Mary est en train d'enlever sa robe en la passant par sa tête."
+SAY.cinna flowchart.824.Hazel,,H-hey!,H-hé !
+SAY.cinna flowchart.825.,,I feel my cheeks burning with embarrassment.,Je sens mes joues devenir écarlates.
+SAY.cinna flowchart.828.Mary,,What?,Quoi ?
+SAY.cinna flowchart.830.Hazel,,You're getting... naked.,Tu es en train de… te déshabiller.
+SAY.cinna flowchart.831.,,"The moment the words come out of my mouth, I feel stupid and childish for saying them.","Dès que ces mots sortent de ma bouche, je me sens bête et puérile de les avoir prononcés."
+SAY.cinna flowchart.833.Mary,,Of course I am. I need a bath.,Bien sûr que oui. J'ai besoin d'un bain.
+SAY.cinna flowchart.835.Hazel,,But I'm still here.,Mais je suis toujours là.
+SAY.cinna flowchart.837.Mary,,"Oh, it's fine. It's just us girls here, after all.","Oh, ce n'est rien. Après tout, on est entre filles ici."
+SAY.cinna flowchart.840.,,I screw my eyes shut.,Je ferme les yeux.
+SAY.cinna flowchart.842.,,"When I open them again, Mary is drifting through the water, a look of sheer bliss on her face. She lets out a deep sigh.","Quand je les rouvre, Mary flotte dans l'eau, le visage rayonnant de bonheur. Elle pousse un profond soupir."
+SAY.cinna flowchart.844.Mary,,This is wonderful.,C'est merveilleux.
+SAY.cinna flowchart.846.Mary,,Are you not coming in?,Tu ne viens pas ?
+SAY.cinna flowchart.848.Hazel,,"No, I...","Non, je..."
+SAY.cinna flowchart.849.,,"I kneel by the water's edge, overcome with frustration.","Je m'agenouille au bord de l'eau, submergée par la gêne."
+SAY.cinna flowchart.852.Hazel,,This is why I didn't want you undressing.,C'est pour ça que je ne voulais pas que tu te déshabilles.
+SAY.cinna flowchart.854.Hazel,,"I knew you'd expect me to do the same. I can't do it, okay? I just can't.","Je savais bien que tu t'attendrais à ce que je fasse pareil. Je ne peux pas, d'accord ? Je n'y arrive tout simplement pas."
+SAY.cinna flowchart.856.Mary,,I don't mind.,Ça ne me dérange pas.
+SAY.cinna flowchart.859.Hazel,,That's not what this is about.,Ce n'est pas de ça qu'il s'agit.
+SAY.cinna flowchart.861.Mary,,Oh.,Oh.
+SAY.cinna flowchart.863.Hazel,,"It's fine. I'll just wait until you're done, then you can go on ahead.",Ce n'est pas grave. Je vais simplement attendre que tu aies fini.
+SAY.cinna flowchart.865.Mary,,Well...,Eh bien…
+SAY.cinna flowchart.866.,,"She kicks over to the water's edge, looking up into my eyes.",Elle s'avance jusqu'au bord de l'eau en levant les yeux vers moi.
+SAY.cinna flowchart.868.Mary,,You don't {i}have{/i} to undress to go swimming. It's not like those clothes don't also need a wash.,Tu n'es pas {i}obligée{/i} de te déshabiller pour aller nager. Ce n'est pas comme si ces vêtements n'avaient pas besoin d'être lavés eux aussi.
+SAY.cinna flowchart.870.Mary,,"The walk back to the house will be a pain, but it's not far, and you can undress once we're back home.","Le retour à la maison va être pénible, mais ce n'est pas loin, et tu pourras te déshabiller une fois qu'on sera rentrées."
+SAY.cinna flowchart.872.Hazel,,I... I suppose.,Je… je suppose.
+SAY.cinna flowchart.874.,,"I kick off my shoes and lower myself into the pool feet first.{wc}The water is cold, but refreshing, and I soon find my tension wearing away as I float along.","J'enlève mes chaussures et me laisse glisser dans l'eau, les pieds les premiers.{wc}L'eau est froide, mais vivifiante. Je sens rapidement ma tension s'estomper tandis que je me laisse flotter."
+SAY.cinna flowchart.876.Mary,,"I'm sorry, you know? About what you've gone through.","Je suis désolée, tu sais ? Pour tout ce que tu as dû endurer."
+SAY.cinna flowchart.878.Hazel,,You don't have to be. It wasn't your fault.,Tu n'as pas à l'être. Ce n'était pas ta faute.
+SAY.cinna flowchart.880.,,"Mary stands up and stretches, her back turned to me, and my breath is taken away. A web of scars adorns her back, carved into her skin.","Mary se lève et s'étire, me tournant le dos. J'en ai le souffle coupé. Un entrelacement de cicatrices orne son dos, gravées dans sa peau."
+SAY.cinna flowchart.882.Hazel,,Your scars...,Tes cicatrices...
+SAY.cinna flowchart.884.,,"I reach out one hand and brush it across her back, feeling its ridges, its contours.","Je tends la main et la passe sur son dos, sentant ses reliefs, ses contours."
+SAY.cinna flowchart.886.Mary,,You like them?,Tu les aimes ?
+SAY.cinna flowchart.888.Hazel,,"What? No, it's horrible.","Quoi ? Non, c'est horrible."
+SAY.cinna flowchart.890.Hazel,,You must have gone through so much...,Tu as dû traverser tant d'épreuves...
+SAY.cinna flowchart.892.Mary,,"Honey, you're looking at the proof of a life worth living.","Chérie, tu as sous les yeux la preuve d'une vie qui vaut la peine d'être vécue."
+SAY.cinna flowchart.894.Hazel,,Really?,Vraiment ?
+SAY.cinna flowchart.896.Mary,,"Well, it must have been. Just look at how many people have tried to take it away from me.","Eh bien, ça doit être le cas. Il suffit de voir combien de personnes ont essayé de me la prendre."
+SAY.cinna flowchart.897.,,"She laughs, but there's something hollow at the edge of her voice. I wrap my arms around her torso, feeling her cold, smooth skin.","Elle rit, mais il y a quelque chose de vide dans le timbre de sa voix. Je l'enlace, sentant sa peau froide et lisse."
+SAY.cinna flowchart.899.Hazel,,It's still not right. No one should have to endure so much suffering.,Ce n'est pas normal. Personne ne devrait avoir à endurer autant de souffrances.
+SAY.cinna flowchart.901.Hazel,,"You, least of all.","Toi, encore moins que quiconque."
+SAY.cinna flowchart.907.,,"Mary suddenly spins around and pulls me into a tight hug. Then, she lets go and crouches down, cradling my face in her hands.","Mary se retourne brusquement et me serre très fort dans ses bras. Puis, elle me lâche et s'accroupit, prenant mon visage entre ses mains."
+SAY.cinna flowchart.909.Mary,,"Hazel. I love you so, so much.","Hazel. Je t'aime tellement, tellement fort."
+SAY.cinna flowchart.911.Hazel,,Oh.,Ah.
+SAY.cinna flowchart.913.Hazel,,Okay.,D'accord.
+SAY.cinna flowchart.915.Mary,,I'm sorry.,Je suis désolée.
+SAY.cinna flowchart.917.Mary,,"It's probably an awful thing to say, after everything you've been through, but I couldn't hold it in any longer.","C'est sans doute horrible à dire, après tout ce que tu as traversé, mais je ne pouvais plus me retenir."
+SAY.cinna flowchart.919.Mary,,I love you.,Je t'aime.
+SAY.cinna flowchart.920.,,"Unsure of what to say, I stare at her face, taking it all in. Her skin is cold and pale.{wc}She looks more unhealthy now than she did yesterday. Her breathing is faint, and her fingers feel stiff, almost lifeless.{wc}And yet, behind her eyes is a fire more intense than any I have seen.","Ne sachant pas vraiment quoi dire, je fixe son visage, m’imprégnant de chaque détail. Sa peau est froide et pâle.{wc}Elle a encore plus mauvaise mine qu’hier. Sa respiration est faible, et ses doigts sont raides, presque sans vie.{wc}Et pourtant, dans son regard brûle un feu plus intense que tous ceux que j'ai pu voir.
+"
+SAY.cinna flowchart.921.,,She sighs and lets me go. I sink back into the water.,Elle soupire et me lâche. Je m'enfonce à nouveau dans l'eau.
+SAY.cinna flowchart.923.Mary,,I'm sorry about that.,Excuse-moi.
+SAY.cinna flowchart.925.Hazel,,It's alright.,Ce n'est rien.
+SAY.cinna flowchart.926.,,"I pull myself to my feet, shaking the water out of my ears.",Je sors de l'eau et secoue la tête pour faire sortir l'eau de mes oreilles.
+SAY.cinna flowchart.928.Hazel,,"Next time you want to randomly hug me, can you put some clothes on first?","La prochaine fois que tu auras envie de me faire un câlin à l'improviste, tu pourrais t'habiller d'abord ?"
+SAY.cinna flowchart.930.Mary,,"Hey, you were the one who—","Hé, c'est toi qui…"
+SAY.cinna flowchart.933.Mary,,Next time? So I can keep hugging you?,"La prochaine fois ? Donc, je peux continuer à t'enlacer ?"
+SAY.cinna flowchart.936.Hazel,,"If... If it'll make you happy, then fine.","Si… Si ça te fais plaisir, alors d'accord."
+SAY.cinna flowchart.938.Mary,,"Oh, Hazel!","Oh, Hazel !"
+SAY.cinna flowchart.939.,,"She pulls me into another hug, and I fall back into the water under her weight.","Elle m'enlace à nouveau, et je retombe dans l'eau sous son poids."
+SAY.cinna flowchart.942.Hazel,,Hey!,Hé !
+SAY.cinna flowchart.945.Mary,,Sorry.,Désolée.
+SAY.cinna flowchart.947.Mary,,"Should we start heading back, then?",On devrait peut-être commencer à rentrer ?
+SAY.cinna flowchart.950.Hazel,,Sure.,D'accord.
+SAY.cinna flowchart.955.,,"A while passes without much of note happening - another meal, another conversation, some more reading.{wc}After lunch, Mary offers to show me around her workroom, and I oblige.{wc}The tour, and her eager explanations, are enjoyable — but there is one question I ask that provokes a strange response.","Un moment s'écoule sans qu'il ne se passe grand-chose de particulier : un autre repas, une autre conversation, un peu plus de lecture.{wc}Après le déjeuner, Mary me propose de me faire visiter son atelier, et j'accepte.{wc}La visite, ainsi que ses explications enthousiastes, sont agréables — mais l'une de mes questions suscite une réponse étrange."
+SAY.cinna flowchart.960.Mary,,... and this piece of glassware is incredibly handy.,... et cet instrument en verre est incroyablement pratique.
+SAY.cinna flowchart.962.Mary,,"It allows me to evaporate liquids, and then recollect them through condensation, so nothing goes to waste.","Il me permet de faire évaporer des liquides, puis de les récupérer par condensation, de sorte que rien ne soit perdu."
+SAY.cinna flowchart.964.Mary,,I'll show you how it works some time.,Je te montrerai comment ça marche un de ces jours.
+SAY.cinna flowchart.966.Hazel,,Where did you get all of this?,Où as-tu trouvé tout ça ?
+SAY.cinna flowchart.968.Mary,,Sorry?,Pardon ?
+SAY.cinna flowchart.970.Hazel,,"Oh, um... I was just wondering, because a lot of this equipment seems really rare and expensive.","Oh, euh… Je me posais juste la question, parce que beaucoup de ce matériel a l'air vraiment rare et coûteux."
+SAY.cinna flowchart.972.Hazel,,And I've never heard of most of these ingredients before.,Et je n'avais jamais entendu parler de la plupart de ces ingrédients auparavant.
+SAY.cinna flowchart.973.,,"Mary opens her mouth, then pauses for a moment, as if she's thinking of what to say.","Mary ouvre la bouche, puis marque une pause, comme si elle réfléchissait à ce qu'elle allait dire."
+SAY.cinna flowchart.976.Mary,,I suppose there's no harm in telling you. I used to be an alchemist in the capital.,Je suppose qu'il n'y a pas de mal à te le dire. J'étais autrefois alchimiste dans la capitale.
+SAY.cinna flowchart.978.Mary,,"In fact, I used to study at the Royal College of Alchemy.","En fait, j'ai fait mes études à l'École Royale d'Alchimie."
+SAY.cinna flowchart.980.Hazel,,Really?,Vraiment ?
+SAY.cinna flowchart.981.,,Mary chuckles.,Mary sourit.
+SAY.cinna flowchart.984.Mary,,A decent pedigree was the one gift my parents left me when they passed.,"Un bon pedigree, c'est le seul héritage que mes parents m'ont laissé à leur décès."
+SAY.cinna flowchart.986.,,"That and the money, of course.","Ça, et l'argent, bien sûr."
+SAY.cinna flowchart.988.Hazel,,"But then, what happened to make you leave the capital?","Mais alors, que s'est-il passé pour que tu quittes la capitale ?"
+SAY.cinna flowchart.990.Mary,,"Well, I didn't leave by choice. The academy kicked me out.","En fait, je ne suis pas partie de mon plein gré. L'académie m'a renvoyée."
+SAY.cinna flowchart.993.Mary,,Those stuffy old men...,Ces vieux rustres...
+SAY.cinna flowchart.996.Mary,,"They didn't like how I changed, I suppose.",Je suppose qu'ils n'ont pas apprécié que je change.
+SAY.cinna flowchart.998.Mary,,"Anyway, enough about me. Don't you want to see the garden?","Bon, assez parlé de moi. Tu ne veux pas voir le jardin ?"
+SAY.cinna flowchart.999.,,"The rest of my tour passes without issue, and I start to think that what I saw on Mary's face might have been nothing more than my imagination.","Le reste de la visite se déroule sans encombre, et je commence à me dire que ce que j'ai cru lire sur le visage de Mary n'était peut-être rien d'autre que le fruit de mon imagination."
+SAY.cinna flowchart.1000.,,"When she mentioned her parents, I could have sworn I saw, for just the briefest of moments, a twisted grin forming on her lips.","Quand elle a évoqué ses parents, j'aurais juré avoir vu, l'espace d'un instant à peine, un sourire narquois se dessiner sur ses lèvres."
+CHARACTER.Mary,,Mary,Mary
+CHARACTER.Hazel,,Hazel,Hazel
+CHARACTER.Old Man,,Old Man,Vieil homme
+CHARACTER.Adrianne,,Adrianne,Adrianne
+CHARACTER.???,,???,???
+CHARACTER.Duke,,Duke,Duc
+CHARACTER.Priest,,Priest,Prêtre
+CHARACTER.Reginald,,Reginald,Reginald
+CHARACTER.Note,,Note,Mot
+CHARACTER.Vendor,,Vendor,Vendeuse
+CHARACTER.Crier,,Crier,Crieur

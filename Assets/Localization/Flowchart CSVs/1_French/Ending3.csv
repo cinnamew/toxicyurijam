@@ -1,0 +1,34 @@
+Key,Description,Standard,fr
+SAY.cinna flowchart.7.Hazel,,"A while ago, you said that you had ""a unique skin condition."" I'm guessing it's a bit more than that?","Il y a quelque temps, tu as dit que tu souffrais d'une « maladie cutanée assez rare ». Je suppose que c'est un peu plus grave que ça ?"
+SAY.cinna flowchart.9.Mary,,"Well, yes, but—","Et bien, oui, mais—"
+SAY.cinna flowchart.11.Hazel,,"And you got it from drinking that potion, didn't you?","Et c'est en buvant cette potion que tu l'as attrapée, n'est-ce pas ?"
+SAY.cinna flowchart.13.Mary,,You—how did you know?,Tu… comment l’as-tu su ?
+SAY.cinna flowchart.15.Hazel,,I thought so.,C'est bien ce que je pensais.
+SAY.cinna flowchart.16.,,"I had suspected it for a while now. Would Mary really have devoted so much to creating this potion, if she had no interest in drinking it herself?{wc}And could such an incredible potion really come with no side effects?",Je m'en doutais depuis un certain temps déjà. Mary se serait-elle vraiment autant investie dans la création de cette potion si elle n'avait aucune envie de la boire elle-même ?{wc}Et comment une potion aussi incroyable ne pourrait-elle pas présenter d'effet secondaire ?
+SAY.cinna flowchart.17.,,"I pull the small vial out of my pocket, and stare at it. It looks like a muddy-green liquid, nothing more.{wc}To think that so much power could be contained in something so unremarkable.","Je sors la petite potion de ma poche et la regarde fixement. Ça a juste l'air d'un liquide verdâtre, rien de plus.{wc}Quand on pense qu’une telle puissance puisse être contenue dans quelque chose d’aussi banal."
+SAY.cinna flowchart.19.Mary,,Is that...,Est-ce...
+SAY.cinna flowchart.22.Mary,,Hazel! Put that down! It's dangerous!,Hazel ! Pose ça ! C'est dangereux !
+SAY.cinna flowchart.24.Hazel,,I know.,Je sais.
+SAY.cinna flowchart.26.Hazel,,"It's all your body's fault, right? Your cursed body.","C'est entièrement la faute de ton corps, n'est-ce pas ? Ton corps maudit."
+SAY.cinna flowchart.28.Hazel,,That's what makes you hurt people.,C'est lui qui te fait faire du mal aux gens.
+SAY.cinna flowchart.30.Hazel,,No one could ever really stay by your side. No one could ever understand your pain.,Personne n'a jamais vraiment pu rester à tes côtés. Personne n'a jamais pu comprendre ta souffrance.
+SAY.cinna flowchart.32.Hazel,,Because no one else has been through what you have.,Parce que personne d'autre n'a vécu ce que tu as vécu.
+SAY.cinna flowchart.35.Mary,,What are you doing?,Qu'est-ce que tu fais ?
+SAY.cinna flowchart.38.Hazel,,Giving you a second chance.,Je t'offre une seconde chance.
+SAY.cinna flowchart.39.,,"I raise the vial to my lips, and drink deep of it, feeling its bitter tang fill my mouth, feeling its power fill my veins.","Je porte la potion à mes lèvres et en bois une grande gorgée, sentant son goût amer envahir ma bouche, sentant sa puissance envahir mes veines."
+SAY.cinna flowchart.40.,,"I am unmade in an instant, and I... I...","Je m'effondre en un instant, et je… je…"
+SAY.cinna flowchart.42.,,I...,Je...
+SAY.cinna flowchart.45.Mary,,"... You saved me, you know?","... Tu m'as sauvée, tu sais ?"
+SAY.cinna flowchart.47.Mary,,Giving me that chance.,En m'offrant cette chance.
+SAY.cinna flowchart.49.Mary,,When nobody else ever would.,Alors que personne d'autre ne l'aurait fait.
+SAY.cinna flowchart.51.Mary,,"When everybody else had abandoned me, you were the only one who stood by my side.","Alors que tout le monde m'avait abandonnée, tu es la seule à être restée à mes côtés."
+SAY.cinna flowchart.53.Mary,,Thank you.,Merci.
+SAY.cinna flowchart.55.Mary,,I just wish...,J'aurai juste voulu...
+SAY.cinna flowchart.58.Mary,,"I wish I could have saved you, too.","J'aurai juste voulu pouvoir te sauver, toi aussi."
+SAY.cinna flowchart.63.Mary,,Thank you.,Merci.
+SAY.cinna flowchart.151.,,Notes from cinna:{wc}Thank you so much for playing our little labor of love!,Notes de cinna : {wc}Un grand merci pour avoir joué à notre petit projet d'amour !
+SAY.cinna flowchart.152.,,"One dislocated leg (please send well wishes to Nii), one concussion (please send well wishes to me lmao), one insane fever (get well soon Astra), and a team of tired souls later, this game finally exists :){wc}Please be kind, write a nice comment if you'd like (we live for them!), play through the game again and again if you want, unlock all the endings and maybe an easter egg...?","Une jambe luxée (envoyez vos vœux de bon rétablissement à Nii), une commotion cérébrale (envoyez-moi vos vœux de bon rétablissement lol), une fièvre de dingue (bon rétablissement Astra), et après tout ça, avec une équipe d'âmes épuisées, ce jeu est enfin là :){wc}Soyez sympas, laissez un petit commentaire si vous le souhaitez (on n'attend que ça !), rejouez au jeu autant de fois que vous voulez, débloquez toutes les fins, et peut-être même un easter egg… ?"
+SAY.cinna flowchart.154.,,Stay tuned for more toxic yuri horror games (and check out our others if you haven't yet). The world will never have enough :P,Restez à l'écoute pour découvrir d'autres jeux d'horreur toxic yuri (et jetez un œil à nos autres jeux si vous ne l'avez pas encore fait). On n'en aura jamais assez :P
+SAY.cinna flowchart.157.,,The secret ending is now unlocked! See if you can find it...,Vous avez débloqué la fin secrète ! Voyez si vous arrivez à la trouver...
+CHARACTER.Mary,,Mary,Mary
+CHARACTER.Hazel,,Hazel,Hazel

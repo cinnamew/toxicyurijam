@@ -1,0 +1,145 @@
+Key,Description,Standard,fr
+SAY.cinna flowchart.1218.,,"When I wake up, the sun is bright, the sky is blue, and the birds are singing. It's a beautiful day.{wc}I groggily pull myself out of bed and stumble into the hall. Once again, I find the house empty.","Quand je me réveille, le soleil brille, le ciel est bleu et les oiseaux chantent. C'est une magnifique journée.{wc}Je sors du lit, encore à moitié endormie, et je titube jusqu'au couloir. Une fois de plus, je constate que la maison est vide."
+SAY.cinna flowchart.1219.,,"There is a note left on the table, in shaky, unconfident handwriting, next to a loaf of bread and a few apples.","Il y a un mot posé sur la table, écrit d'une écriture tremblante et hésitante. Une miche de pain et quelques pommes ont été posées à côté."
+SAY.cinna flowchart.1488.Note,,I don't think I should be around you any more. I don't know when I'll be back. I'm so sorry. —M,Je pense avoir besoin de m'éloigner de toi. Je ne sais pas quand je reviendrai. Je suis vraiment désolée. —M
+SAY.cinna flowchart.1221.,,"I take a bite out of one of the apples, savouring its bitter taste. Then I get to work.","Je croque dans l'une des pommes, savourant son goût amer. Après ça, je me mets au travail."
+SAY.cinna flowchart.1222.,,"Mary was in the workroom all of last night, so I couldn't use it, but last night was a half-moon.{wc}Today will be my only chance to prepare the potion for the next month.","Hier, Mary est restée dans l'atelier toute la nuit, je n'ai donc pas pu y entrer. Mais hier soir, c'était la demi-lune.{wc}Aujourd'hui sera ma seule occasion de préparer la potion pour le mois prochain."
+SAY.cinna flowchart.1223.,,"I enter the workroom and retrieve the bezoar from its hiding place, then lay out all of my ingredients.{wc}Hemlock, Arum Lily, St John's Wort, and Lavender. Mixing the paste takes a while, as does preparing the water.","J'entre dans l'atelier, je sors le bézoard de sa cachette, puis je dispose tous mes ingrédients.{wc}Ciguë, arum, millepertuis et lavande. La préparation de la pâte prend un certain temps, tout comme celle de l'eau."
+SAY.cinna flowchart.1224.,,"It takes some searching through the kitchen to find a bowl, and then I have to trace my path back to the stream.{wc}Then, I use a tinderbox to get the fireplace going, and hold the bowl at arm's length over it until it feels warm enough.","Il me faut fouiller un peu dans la cuisine pour trouver un bol, puis je dois revenir sur mes pas jusqu'au ruisseau.{wc}Ensuite, j'utilise une boîte à amadou pour allumer le feu dans la cheminée. Je tiens le bol à bout de bras au-dessus, jusqu'à ce qu'il soit suffisamment chaud."
+SAY.cinna flowchart.1225.,,"From there, I follow the instructions to the letter — apply the paste to the bezoar, let it soak in the water for a few minutes, and collect the sediment.{wc}I scrape it up into a small glass vial, no bigger than my pinky finger, cork the vial, and tuck it into my pocket.","À partir de là, je suis les instructions à la lettre : j'applique la pâte sur le bézoard, je le laisse tremper dans l'eau pendant quelques minutes, puis je récupère le sédiment.{wc}Je le racle pour le mettre dans un petit flacon en verre, pas plus gros que mon petit doigt. Je le scelle et le glisse dans ma poche."
+SAY.cinna flowchart.1226.,,"I am suddenly overcome with hesitation. That's it, right?{wc}All I have to do now is drink the potion, and no one from my past life — or my current one — will ever be able to find me again.{wc}I will be free at last.","Je suis soudain envahie par l'hésitation. C'est ça, n'est-ce pas ?{wc}Il ne me reste plus qu'à boire la potion, et personne de ma vie passée — ni de ma vie actuelle — ne pourra plus jamais me retrouver.{wc}Je serai enfin libre."
+SAY.cinna flowchart.1227.,,"Shaking slightly, I raise the potion to my lips and steel myself, when I suddenly hear a noise, outside the door.{wc}Panicking, I quickly cork the vial and stuff it back in my pocket, when the door bursts open.","Tremblant légèrement, je porte la potion à mes lèvres, quand j'entends soudain un bruit derrière la porte.{wc}Prise de panique, je rebouche rapidement le flacon et le fourre dans ma poche. La porte s'ouvre brusquement."
+SAY.cinna flowchart.1232.Mary,,Hazel!,Hazel !
+SAY.cinna flowchart.1233.,,"I realise for the first time that she isn't wearing her eyepatch. In fact, her eye is completely healed.{wc}For a moment, my neck twinges with a dull pain.","Je remarque qu'elle ne porte plus son cache-œil. En fait, son œil à l'air complètement guéri.{wc}L'espace d'un instant, je ressens une douleur dans la nuque."
+SAY.cinna flowchart.1236.Hazel,,Yes?,Oui ?
+SAY.cinna flowchart.1239.Mary,,I'm sorry!,Excuse-moi !
+SAY.cinna flowchart.1240.,,"She reaches out and takes my hand, but when I recoil from her touch, she shrinks back.","Elle tend la main pour prendre la mienne, mais lorsque je me dérobe à son contact, elle recule à son tour."
+SAY.cinna flowchart.1242.Mary,,"... I mean it, I really do.","... Je le pense tu sais, je le pense sincèrement."
+SAY.cinna flowchart.1244.Mary,,"I thought I needed some time to think, but I was just trying to avoid this conversation. I don't want you to hate me.","Je pensais avoir besoin d'un peu de temps pour réfléchir, mais en réalité, j'essayais simplement d'éviter cette conversation. Je ne veux pas que tu me détestes."
+SAY.cinna flowchart.1246.Mary,,"But maybe you should. The things I've done, the people I've hurt, the people I've abandoned. I don't deserve forgiveness any more.","Mais peut-être que tu devrais. Tout ce que j'ai fait, les gens que j'ai blessés, ceux que j'ai abandonnés… Je ne mérite plus qu'on me pardonne."
+SAY.cinna flowchart.1248.Mary,,"And here I am, trying to run away again. Like I've done so many times before.","Et me voilà, en train d'essayer de m'enfuir encore une fois. Comme je l'ai déjà fait tant de fois auparavant."
+SAY.cinna flowchart.1250.Mary,,"If you give me a chance, just one more chance, then I'll do everything I can to make it up to you. I swear I'll never hurt you again.","Si tu me donnes une chance, juste une dernière chance, je ferai tout ce qui est en mon pouvoir pour me racheter auprès de toi. Je te jure que je ne te ferai plus jamais de mal."
+SAY.cinna flowchart.1252.Mary,,Can you do that? Give me one more chance?,Tu peux faire ça ? Tu veux bien me donner une autre chance ?
+SAY.cinna flowchart.1254.,,"I open my mouth to give her my answer, when I suddenly hear the distinctive sound of someone knocking the house's front door.{wc}We both freeze.",Je m'apprête à lui répondre quand j'entends soudain le bruit caractéristique de quelqu'un qui frappe à la porte.{wc}Nous restons toutes les deux figées sur place.
+SAY.cinna flowchart.1257.Hazel,,Who is that?,Qui est-ce ?
+SAY.cinna flowchart.1259.Mary,,I don't know!,Je ne sais pas !
+SAY.cinna flowchart.1265.,,"The knocking repeats, louder now. I move closer to the front door, my nerves on edge.","Les coups se répètent, plus forts cette fois. Je m'approche de la porte d'entrée, les nerfs à fleur de peau."
+SAY.cinna flowchart.1266.Duke,,Haaazel! I know you're in there! Come out now and we can settle this peacefully!,Haaazel ! Je sais que tu es là-dedans ! Sors tout de suite qu'on puisse régler ça à l'amiable !
+SAY.cinna flowchart.1267.,,My blood freezes. I know that voice.,Je me fige. Je reconnais cette voix.
+SAY.cinna flowchart.1268.Duke,,"Alright, I didn't want to do this, but you leave me no choice. Reginald!","Très bien, je ne voulais pas en arriver là, mais tu ne me laisses pas le choix. Reginald !"
+SAY.cinna flowchart.1270.,,"There is a crash, and a shower of splinters as an axe tears into the door, breaking through the latch. The door swings open.","On entend un fracas, suivi d'une pluie d'éclats de bois, tandis qu'une hache s'enfonce dans la porte, brisant le loquet. La porte s'ouvre en grand."
+SAY.cinna flowchart.1273.Duke,,"Good man, Reginald. Keep this up, and you'll earn that knighthood any day now.","Bravo, Reginald. Continue comme ça, et tu seras fait chevalier d'un jour à l'autre."
+SAY.cinna flowchart.1274.,,"The Duke of Hart barges his way into the room, flanked by two tough-looking guards, each armed with a crossbow. My blood curdles.","Le duc de Hart fait irruption dans la pièce, entouré de deux gardes à l'air redoutable, chacun armé d'une arbalète. J'en ai le sang glacé."
+SAY.cinna flowchart.1276.,,"Mary steps in front of me, and rises to her full height, her hands clenched into fists, her eyes full of fire and brimstone.","Mary se place devant moi et se redresse de toute sa hauteur, les poings serrés et le regard ardent."
+SAY.cinna flowchart.1278.Mary,,And just what the hell do you think you're doing?,"Mais qu'est-ce que vous croyez faire, hein ?"
+SAY.cinna flowchart.1279.Duke,,"Why, reclaiming my property, of course. As is my god-given right.","Et bien, je récupère ce qui m'appartient, bien sûr. C'est un droit que Dieu m'a donné."
+SAY.cinna flowchart.1280.Duke,,"Don't make too much of a fuss about it. This is my land, after all. I was bound to find her eventually.","N'en faites pas tout un plat. Après tout, c'est mon territoire. J'aurai bien fini par la retrouver."
+SAY.cinna flowchart.1285.,,"He reaches into his pocket, and pulls out a daffodil, staring at it with some tenderness.","Il plonge sa main dans sa poche, en sort une jonquille et la contemple avec une certaine tendresse."
+SAY.cinna flowchart.1286.Duke,,"That girl, Adrianne. She was quite the talker, once I put her under the knife.","Cette fille, Adrianne. Elle s'est révélée être une vraie pipelette une fois le couteau sous la gorge."
+SAY.cinna flowchart.1287.Duke,,Not that it did her any good.,Mais ça ne lui a pas servi à grand-chose.
+SAY.cinna flowchart.1289.Mary,,You're sick.,Vous êtes fou.
+SAY.cinna flowchart.1292.Mary,,"Get out of here now, if you want to keep your life!","Fichez le camp tout de suite, si vous tenez à rester en vie !"
+SAY.cinna flowchart.1294.,,"The Duke sighs, carefully tucking the daffodil back into his pocket.","Le duc soupire, en remettant soigneusement la jonquille dans sa poche."
+SAY.cinna flowchart.1296.,,The Duke sighs.,Le duc soupire.
+SAY.cinna flowchart.1298.Duke,,"Can we do this like adults, please? Without the namecalling and stupid threats.","Est-ce qu'on pourrait régler ça comme des adultes, s'il vous plaît ? Sans insultes ni menaces ridicules."
+SAY.cinna flowchart.1299.Duke,,Your threats aren't going to work. I've taught my men a lesson or two about fearing anyone other than me.,Vos menaces ne marcheront pas. J'ai bien fait comprendre à mes hommes qu'ils ne devaient craindre personne d'autre que moi.
+SAY.cinna flowchart.1300.,,I notice whip scars and bruises across the men's arms and faces. I shiver.,Je remarque des marques de coups de fouet et des ecchymoses sur les bras et le visage de ces hommes. J'en frissonne.
+SAY.cinna flowchart.1302.Duke,,"Hand over my Hazel, or I will order my man Reginald here—","Rendez-moi ma Hazel, ou j'ordonne à Reginald de..."
+SAY.cinna flowchart.1303.,,"He claps Reginald on the shoulder, who looks uncomfortable with the attention.","Il tape sur l'épaule de Reginald, qui semble mal à l'aise face à cette situation."
+SAY.cinna flowchart.1304.Duke,,"—to shoot an arrow right through your head. Your death will be painful, and ugly, and then I'll take her anyway. It's your choice.","... de vous transpercer la tête avec une flèche. Votre mort sera lente et douloureuse. Mais après, je la prendrai quand même. À vous de choisir."
+SAY.cinna flowchart.1306.Mary,,Hazel isn't {i}yours{/i}. She never was.,Hazel n'est pas {i}à vous{/i}. Elle ne l'a jamais été.
+SAY.cinna flowchart.1308.Duke,,"You just aren't getting it, are you?","Vous ne voulez juste pas comprendre, hein ?"
+SAY.cinna flowchart.1309.Duke,,I am the {i}Duke{/i} of this province!,Je suis le {i}duc{/i} de cette province !
+SAY.cinna flowchart.1310.Duke,,"I own the floorboards you're standing on, and the ground beneath it. I own this house, and I own this forest, and I own Hazel!","Les planches sur lesquelles vous vous tenez, le sol qui se trouve en dessous, tout ça m'appartient. Je suis le propriétaire de cette maison, de cette forêt, et de Hazel !"
+SAY.cinna flowchart.1311.Duke,,"She is, in fact, one of my most treasured possessions, and I just cannot stand the thought of anyone else {i}touching{/i} her.","Elle est, en effet, l'un de mes biens les plus précieux, et je ne supporte tout simplement pas l'idée que quelqu'un d'autre ne la {i}touche{/i}."
+SAY.cinna flowchart.1312.,,"Mary bristles at his words, and the Duke's features light up in sadistic glee.","Mary s'indigne à ces mots, et le visage du duc s'illumine d'un sourire sadique."
+SAY.cinna flowchart.1314.Duke,,"Oh, yes. I've heard of you before. The way you take in poor, broken young girls, then leave them homeless when they reject your advances.","Ah oui. J'ai déjà entendu parler de vous. La façon dont vous recueillez de pauvres jeunes filles brisées, puis les laissez à la rue lorsqu'elles refusent vos avances."
+SAY.cinna flowchart.1315.Duke,,Several of my current maids came to {i}me{/i} because they had nowhere left to go after you abandoned them.,Plusieurs de mes servantes actuelles sont venues {i}chez moi{/i} parce qu'elles n'avaient plus nulle part où aller après que vous les ayez abandonnées.
+SAY.cinna flowchart.1316.,,"He nods towards me, and I shrink back behind Mary.",Il me fait un signe de tête. Je me réfugie derrière Mary.
+SAY.cinna flowchart.1317.Duke,,"Does she know? Have you tried to touch her already? Oh, look at her eyes. Of course she knows!","Est-ce qu'elle est au courant ? Vous avez déjà essayé de la toucher ? Oh, regardez ses yeux. Bien sûr qu'elle est au courant !"
+SAY.cinna flowchart.1318.Duke,,And have you apologised yet? Have you begged her to give you another chance? To never leave you behind?,"Et, vous êtes-vous déjà excusée ? L'avez-vous suppliée de vous donner une seconde chance ? De ne jamais vous quitter ?"
+SAY.cinna flowchart.1320.Duke,,At least {i}I{/i} am honest in my intentions.,"Au moins, {i}moi{/i}, je suis honnête quant à mes intentions."
+SAY.cinna flowchart.1322.,,"When Mary finally speaks, her voice is cold and quiet.","Lorsque Mary prend enfin la parole, sa voix est froide et brusque."
+SAY.cinna flowchart.1324.Mary,,Shut up.,La ferme.
+SAY.cinna flowchart.1325.,,She turns back to face me.,Elle se retourne pour me faire face.
+SAY.cinna flowchart.1327.Mary,,"It—it's not true, I—","Ce… ce n'est pas vrai, je…"
+SAY.cinna flowchart.1328.,,"But she sees something in my eyes. Some hint of doubt, or fear.","Mais elle perçoit quelque chose dans mon regard. Une lueur de doute, ou de peur."
+SAY.cinna flowchart.1329.,,"Her expression barely shifts, but I see tears budding in her eyes before she wipes them away and turns back around to face the Duke.","Son expression ne change pratiquement pas, mais je vois des larmes perler dans ses yeux avant qu'elle ne les essuie et ne se retourne pour faire face au duc."
+SAY.cinna flowchart.1330.,,"She closes her eyes, takes a deep long breath, and for a moment she is the picture of calm.","Elle ferme les yeux, prend une longue et profonde inspiration, et l'espace d'un instant, elle incarne le calme absolu."
+SAY.cinna flowchart.1331.,,"Then her eyes snap open, and her fists unfurl, her fingers curved like claws.","Puis, elle ouvre brusquement les yeux. Ses poings se déploient, ses doigts recourbés comme des griffes."
+SAY.cinna flowchart.1332.,,"She leans forwards, crouching almost like a tiger before its prey.","Elle se penche en avant, accroupie, presque comme un tigre face à sa proie."
+SAY.cinna flowchart.1333.,,"When she speaks, her voice betrays no emotion.","Quand elle parle, sa voix ne trahit aucune émotion."
+SAY.cinna flowchart.1335.Mary,,{i}This is your last chance.{/i},{i}C'est votre dernière chance.{/i}
+SAY.cinna flowchart.1337.Mary,,"Leave now, or I will tear you limb from limb.","Partez tout de suite, ou je vous réduit en pièces."
+SAY.cinna flowchart.1338.Duke,,Reginald. Ready your bow.,Reginald. Prépare ton arc.
+SAY.cinna flowchart.1339.Reginald,,"Yes, sir.","Oui, monsieur."
+SAY.cinna flowchart.1342.Mary,,Hazel! Close your eyes!,Hazel ! Ferme les yeux !
+SAY.cinna flowchart.1350.,,"I screw my eyes shut tight, and the world goes dark.","Je ferme les yeux très fort, et tout devient noir."
+SAY.cinna flowchart.1600.,,"I hear the twang of an arrow being loosed, and the dull thud of it hitting the wall.","J'entends le sifflement d'une flèche qui est tirée, puis le bruit sourd qu'elle fait en heurtant le mur."
+SAY.cinna flowchart.1351.,,"I hear running, and growling, and then screaming, deep and guttural.","J'entends des bruits de pas, des grognements, puis des cris, graves et gutturaux."
+SAY.cinna flowchart.1352.,,I only open my eyes again once the room is silent.,Je ne rouvre les yeux que lorsque le silence s'installe dans la pièce.
+SAY.cinna flowchart.1355.,,"I find the room completely empty, and completely still. Behind me, the workroom door creaks open and Mary pokes her head out.","Je découvre une pièce complètement vide et immobile. Derrière moi, la porte de l'atelier s'ouvre en grinçant et Mary y passe la tête."
+SAY.cinna flowchart.1358.Mary,,Are you okay?,Est-ce que ça va ?
+SAY.cinna flowchart.1361.Hazel,,Y—yes.,O-oui.
+SAY.cinna flowchart.1363.Mary,,Great.,Bien.
+MENU.cinna flowchart.1500,,What happened?,Que s'est-il passé ?
+MENU.cinna flowchart.1501,,Are you okay?,Est-ce que ça va ?
+SAY.cinna flowchart.1369.Hazel,,What happened?,Que s'est-il passé ?
+SAY.cinna flowchart.1371.Mary,,I dealt with them.,Je me suis occupée d'eux.
+SAY.cinna flowchart.1373.Hazel,,But—,Mais—
+SAY.cinna flowchart.1375.Mary,,"You don't really want to know any more than that, do you?","Tu ne veux pas vraiment en savoir plus que ça, n'est-ce pas ?"
+SAY.cinna flowchart.1378.Hazel,,Are you okay? Did they hurt you?,Ça va ? Est-ce qu'ils t'ont fait mal ?
+SAY.cinna flowchart.1381.Mary,,Hazel...,Hazel...
+SAY.cinna flowchart.1383.Mary,,You've known me for a while now.,"Ça fait déjà un moment que tu me connais, maintenant."
+SAY.cinna flowchart.1385.Mary,,Don't ask stupid questions.,Ne pose pas de questions stupides.
+SAY.cinna flowchart.1389.Mary,,You should get some sleep. We'll talk in the morning.,Tu devrais aller dormir. On en reparlera demain matin.
+SAY.cinna flowchart.1391.Hazel,,But... it's only noon...,Mais… il n'est que midi…
+SAY.cinna flowchart.1394.Mary,,I'll be busy for some time.,Je vais être occupée pendant un certain temps.
+SAY.cinna flowchart.1505.,,"With that, she leaves the doorway, and slams the door shut behind her. I watch it bounce off its hinges, then settle, slightly ajar.","Sur ces mots, elle quitte le seuil et claque la porte derrière elle. Je la regarde rebondir sur ses gonds, puis se stabiliser, légèrement entrouverte."
+SAY.cinna flowchart.1397.,,"As I'm standing there, I suddenly hear a loud noise. A horrible tearing noise, and then a loud crack.","Alors que je me tiens là, j'entends soudain un bruit assourdissant. Un horrible bruit de déchirure, puis un grand craquement."
+SAY.cinna flowchart.1398.,,I inch closer to the door. I have to know.,Je m'approche petit à petit de la porte. Je dois savoir.
+SAY.cinna flowchart.1399.,,"I press my eye up against the opening, and I see it.","Je colle mon œil contre l'ouverture, et je la vois."
+SAY.cinna flowchart.1405.,,"Mary, crouching over a pile of body parts.","Mary, accroupie sur un tas de morceaux de corps."
+SAY.cinna flowchart.1406.,,"It's almost hard to believe that so much flesh, and so much blood, could come from just three bodies.",J'ai presque du mal à croire qu’autant de chair et autant de sang puissent provenir de seulement trois corps.
+SAY.cinna flowchart.1408.,,"She reaches down and, with delicate force, tears a chunk out of one of the corpses.","Elle se penche et, avec une force délicate, arrache un morceau de l'un des cadavres."
+SAY.cinna flowchart.1410.,,"She raises the chunk of meat to her lips and takes a bite, and, just as she swallows it, the look on her face... it's sheer bliss.","Elle porte le morceau de viande à ses lèvres et en prend une bouchée. Au moment même où elle l'avale, l'expression sur son visage… on y voit le bonheur à l'état pur."
+SAY.cinna flowchart.1412.,,"She must have heard me gasp in shock, because her eyes dart to the door and she jumps to her feet.","Elle a dû m'entendre haleter de surprise, car son regard se porte aussitôt vers la porte et elle se lève d'un bond."
+SAY.cinna flowchart.1414.,,"I try to back away, but I only make it a few steps before the door crashes open and Mary steps out in front of me, knife still in her hand.","J'essaie de reculer, mais je ne fais que quelques pas avant que la porte ne s'ouvre brusquement et que Mary ne se plante devant moi, le couteau toujours à la main."
+SAY.cinna flowchart.1419.Mary,,I knew it! I knew you were spying on me!,Je le savais ! Je savais que tu m'espionnais !
+SAY.cinna flowchart.1420.,,"I back away further, my hands shaking.","Je recule encore, les mains tremblantes."
+SAY.cinna flowchart.1423.Hazel,,Y-you—,T-tu...
+SAY.cinna flowchart.1424.,,"I can no longer control myself. The words spill from my mouth, unbidden.","Je n'arrive plus à me contrôler. Les mots jaillissent de ma bouche, sans que je puisse les retenir."
+SAY.cinna flowchart.1426.Hazel,,The Duke was right! You're a monster!,Le duc avait raison ! Tu es un monstre !
+SAY.cinna flowchart.1428.,,"Mary lets out a scream of frustration, and I wince and cover my ears.",Mary pousse un cri de frustration. Je grimace et me couvre les oreilles.
+SAY.cinna flowchart.1586.,,She grips the doorframe so tightly that she tears through the wood like it was butter.,Elle s'agrippe si fort au cadre de la porte qu'elle déchire le bois comme s'il s'agissait de beurre.
+SAY.cinna flowchart.1430.Mary,,"You have no idea—I have been {i}so{/i} hungry, for so long now! I've been starving myself all week, just for you!","Tu ne peux pas comprendre… J'avais {i}tellement{/i} faim, et ça depuis longtemps déjà ! Je me suis privée de nourriture toute la semaine, rien que pour toi !"
+SAY.cinna flowchart.1433.Hazel,,Why? So you could build up an appetite? Am I next on your plate?,Pourquoi ? Pour que tu te mettes en appétit ? Est-ce que je suis la prochaine sur ta liste ?
+SAY.cinna flowchart.1436.Mary,,No.,Non.
+SAY.cinna flowchart.1438.Mary,,It was because I wanted to be someone you could love. I was trying to change.,C'était parce que je voulais devenir quelqu'un que tu pourrais aimer. J'essayais de changer.
+SAY.cinna flowchart.1440.Mary,,"I—I just lost control for a second, that's all.","J'ai...J'ai juste perdu le contrôle pendant une seconde, c'est tout."
+SAY.cinna flowchart.1442.,,"I shrink back further, and I see panic creep across her features.","Je recule encore un peu, et je vois la panique se dessiner sur son visage."
+SAY.cinna flowchart.1444.Mary,,Please! You have to understand—everything the Duke said—it was all lies!,"Je t'en prie ! Tu dois comprendre : tout ce que le duc a dit, ce n'étaient que des mensonges !"
+SAY.cinna flowchart.1446.Mary,,"Well, there have been other girls, yes, before you, but they were the ones who left me. I've never hurt anyone, I swear!","Bon, il y a eu d'autres filles, c'est vrai, avant toi, mais ce sont elles qui m'ont quitté. Je n'ai jamais fait de mal à personne, je te le jure !"
+SAY.cinna flowchart.1447.,,"My neck twinges with dull pain. My hands find the front door behind me, and I grip the doorknob tight.",Je ressens une douleur dans la nuque. Mes mains trouvent la porte d'entrée derrière moi. Je serre fermement la poignée.
+SAY.cinna flowchart.1449.Mary,,"Hazel, please. I still love you. Won't you give me one more chance?","Hazel, s'il te plaît. Je t'aime toujours. Tu ne veux pas me donner une dernière chance ?"
+SAY.cinna flowchart.1450.,,"She holds out one hand towards me, in a gesture of reconciliation. Looking at her delicate fingers, her carefully trimmed nails, it's hard to think of her as a monster.{wc}Then I remember the feeling of those nails digging into my back.","Elle me tend la main, dans un geste de réconciliation. En regardant ses doigts délicats et ses ongles soigneusement manucurés, j’ai du mal à la considérer comme un monstre.{wc}Puis je me souviens de la sensation de ces ongles qui s’enfonçaient dans mon dos."
+SAY.cinna flowchart.1451.,,"I pull the door open, and turn around.",J'ouvre la porte et me retourne.
+SAY.cinna flowchart.1453.Mary,,Hazel! Was everything we've done together meaningless? Was it all really worth nothing to you?,Hazel ! Est-ce que tout ce qu'on a fait ensemble n'avait aucun sens ? Est-ce que tout ça ne valait vraiment rien à tes yeux ?
+SAY.cinna flowchart.1454.,,"I turn back, and stare into her eyes, full of genuine sorrow. Tears stream down her cheeks.","Je me retourne et je plonge mon regard dans ses yeux, empreints d'une profonde tristesse. Des larmes coulent sur ses joues."
+SAY.cinna flowchart.1456.Mary,,"Hazel, please. I can change.","Hazel, s'il te plaît. Je peux changer."
+SAY.cinna flowchart.1458.Mary,,Just {i}take my hand{/i}.,{i}Prends-moi la main{/i}.
+MENU.cinna flowchart.1478,,Leave.,Partir.
+MENU.cinna flowchart.1483,,Take her hand.,Prendre sa main.
+MENU.cinna flowchart.1484,,Ask about the potion.,Questionner sur la potion.
+SAY.cinna flowchart.1496.Mary,,"Get out of here now, if you want to keep your life!","Fichez le camp tout de suite, si vous tenez à rester en vie !"
+CHARACTER.Mary,,Mary,Mary
+CHARACTER.Hazel,,Hazel,Hazel
+CHARACTER.Old Man,,Old Man,Vieil homme
+CHARACTER.Adrianne,,Adrianne,Adrianne
+CHARACTER.???,,???,???
+CHARACTER.Duke,,Duke,Duc
+CHARACTER.Priest,,Priest,Prêtre
+CHARACTER.Reginald,,Reginald,Reginald
+CHARACTER.Note,,Note,Mot
+CHARACTER.Vendor,,Vendor,Vendeuse
+CHARACTER.Crier,,Crier,Crieur

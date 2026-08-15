@@ -1,0 +1,86 @@
+Key,Description,Standard,fr
+SAY.cinna flowchart.584.Mary,,Enjoying yourself?,Tu t’amuses bien ?
+SAY.cinna flowchart.587.Hazel,,I-  I'm sorry! I didn't mean to-,J... je suis désolée ! Je ne voulais pas…
+SAY.cinna flowchart.588.,,"I stammer out an apology, but she brushes it aside with a loose wave of her hand.","Je balbutie des excuses, mais elle les balaye d'un geste de la main."
+SAY.cinna flowchart.591.Mary,,"No, it's fine. I just wasn't expecting you to be so interested in the alchemical arts.",Ce n’est rien. Je ne m'attendais simplement pas à ce que tu t'intéresses autant à l’alchimie.
+SAY.cinna flowchart.593.Mary,,"Tell you what, why don't I show you around properly sometime?","Tu sais quoi ? Et si je te faisais visiter, un de ces jours ?"
+SAY.cinna flowchart.595.Hazel,,"Well, I... don't want to be a bother.","Eh bien, je… je ne veux pas vous déranger."
+SAY.cinna flowchart.597.Mary,,"No, I'd be happy to do it. But, for now, I'd like to get some work done, if that's alright.","Ne t’inquiète pas, je serai ravie pas de le faire. Mais, pour l'instant, j'aimerais bien avancer un peu dans mon travail, si ça ne te dérange pas."
+SAY.cinna flowchart.598.,,Mary strides across the room towards me. It's only now that I really notice how tall she is.,Mary traverse la pièce pour venir vers moi. Ce n'est qu'à ce moment-là que je me rends vraiment compte d’à quel point elle est grande.
+SAY.cinna flowchart.600.Hazel,,I'm sorry. I should have asked for permission first.,Je suis désolée. J'aurais dû demander la permission avant.
+SAY.cinna flowchart.602.Mary,,"Please, don't be. I don't mind.","Mais non, ne t'en fais pas. Ça ne me dérange pas."
+SAY.cinna flowchart.721.,,She reaches out and pushes the cupboard door shut.,Elle tend la main et referme la porte du placard.
+SAY.cinna flowchart.606.Mary,,"Now, do you need any help getting back to your room?",As-tu besoin d'aide pour retourner dans ta chambre ?
+SAY.cinna flowchart.608.Hazel,,"No, I can manage on my own.","Non merci, je peux me débrouiller. "
+SAY.cinna flowchart.611.Mary,,That's wonderful!,C’est merveilleux !
+SAY.cinna flowchart.613.,,"I give her a hurried nod, and pace out of the room.","Je lui adresse un hochement de tête rapide, puis je sors de la pièce à grands pas."
+SAY.cinna flowchart.614.,,"I move as carefully as I can, to make sure she doesn't see the small grey book I have held by my side.","Je me déplace aussi discrètement que possible, pour m'assurer qu'elle ne remarque pas le petit livre gris que je cache dans mon dos."
+SAY.cinna flowchart.615.,,"For some reason, I just couldn't bring myself to let go of it.","Pour une raison que j'ignore, je n'arrivais tout simplement pas à m'en détacher."
+SAY.cinna flowchart.625.,,The small grey book I took from Mary's cupboard turns out to be far more engrossing than I had expected.,Ce petit livre gris que j'ai pris dans le placard de Mary s'avère bien plus captivant que je ne l'aurais imaginé.
+SAY.cinna flowchart.626.,,I stay up reading through it until the sky outside starts getting dark.,Je reste éveillée à le lire jusqu'à ce que le temps commence à s'assombrir dehors.
+SAY.cinna flowchart.627.,,"According to the signature on the first page, this book is a collection of Mary's own notes.","D'après la signature figurant sur la première page, il s'agit d'un recueil des notes personnelles de Mary."
+SAY.cinna flowchart.628.,,"A lot of it is completely indecipherable to me — notes written in shorthand or in code, elaborate recipes with no mention as to what they create.","Une grande partie du texte m'est totalement incompréhensible : des notes rédigées en sténographie ou en code, des recettes élaborées sans aucune indication sur ce qu'elles permettent de réaliser…"
+SAY.cinna flowchart.629.,,"All the same, I find myself eagerly flicking through detailed diagrams of flowers, and descriptions of strange and fascinating ingredients.","Malgré tout, je me retrouve à feuilleter avec enthousiasme des schémas détaillés de fleurs et des descriptions d'ingrédients aussi étranges que fascinants."
+SAY.cinna flowchart.630.,,"Several of the passages are written in diary format, and one section that catches my attention in particular begins about halfway through the notebook.","Plusieurs passages sont rédigés comme dans un journal intime, et une partie qui retient particulièrement mon attention commence à peu près à la moitié du carnet."
+SAY.cinna flowchart.631.Notebook,,"As Marquis Elerra once wrote, ""despite the seemingly endless advance of alchemical principles, a strong heart invariably trumps best practices.""","Comme l'a écrit un jour le marquis Elerra : « Malgré les progrès apparemment infinis des principes alchimiques, un cœur fort l'emporte toujours sur les meilleures pratiques. »"
+SAY.cinna flowchart.633.Notebook,,It is something I have observed several times during my work as a doctor.,C'est quelque chose que j'ai constaté à plusieurs reprises dans le cadre de mon métier de médecin.
+SAY.cinna flowchart.634.Notebook,,"Patients who strongly wish to recover, and have a clear picture of what recovery will look like for them, will often recover twice as fast as those who don't.",Les patients qui souhaitent ardemment se rétablir et qui ont une idée précise de ce à quoi ressemblera leur rétablissement se rétablissent souvent deux fois plus vite que ceux qui ne le font pas.
+SAY.cinna flowchart.635.Notebook,,I have even seen people slip from this mortal coil with no cause other than emotional fatigue. The heart has power over the body's shell.,J'ai même vu des gens perdre la vie pour la simple raison d'une fatigue émotionnelle. Le cœur a bien un pouvoir sur l'enveloppe charnelle.
+SAY.cinna flowchart.637.Notebook,,"All potions and rituals that I have discovered have a specific, targeted effect, usually based on the properties of the ingredients.","Toutes les potions et tous les rituels que j'ai découverts ont un effet spécifique et ciblé, qui repose généralement sur les propriétés des ingrédients."
+SAY.cinna flowchart.638.Notebook,,What if I were to develop a concoction that could properly harness the potential of the mind's power over the body?,Et si je mettais au point une potion capable d'exploiter pleinement le potentiel du pouvoir de l'esprit sur le corps ?
+SAY.cinna flowchart.639.Notebook,,That could allow someone to reshape their form as they wished?,Cela permettrait-il à quelqu'un de modifier son propre corps à sa guise ?
+SAY.cinna flowchart.640.Notebook,,It would be akin to the discovery of an organic philosopher's stone!,Ce serait semblable à la découverte d'une pierre philosophale organique !
+SAY.cinna flowchart.641.Notebook,,"It sounds absurd, I know. But I stand at the precipice of centuries of discovery in the alchemical arts!","Ça peut paraître absurde, je le sais. Mais je me tiens à la frontière de plusieurs siècles de découvertes dans les arts alchimiques !"
+SAY.cinna flowchart.643.Notebook,,The sages in their gleaming towers have made their voices clear - biological alchemy is the realm of madmen.,"Les sages, du haut de leurs tours étincelantes, ont été catégoriques : l'alchimie biologique est le domaine des fous."
+SAY.cinna flowchart.644.Notebook,,"The practice is meant for ""transmutation"" and ""industry"", and nothing more.","Cette pratique est destinée à la « transmutation » et à l'« industrie », rien de plus."
+SAY.cinna flowchart.645.Notebook,,But they have no eyes on the ground. What they don't know won't hurt them.,Mais ils ne sont pas sur le terrain. Ce qu'ils ignorent ne leur fera pas de mal.
+SAY.cinna flowchart.647.,,"I turn the page, and see what looks like a recipe, a dozen ingredients measured to exact amounts.","Je tourne la page et tombe sur ce qui ressemble à une recette, avec une douzaine d'ingrédients, tous dosés avec précision."
+SAY.cinna flowchart.648.,,"Beneath them all, three words are written, in calm, forceful handwriting.","En dessous, trois mots sont écrits d'une écriture calme et assurée."
+SAY.cinna flowchart.649.Notebook,,Result — Nausea. Failure.,Résultat — Nausée. Échec.
+SAY.cinna flowchart.651.,,"I turn the page again, and find another recipe, even longer, and another result.","Je tourne à nouveau la page et découvre une autre recette, encore plus longue, et un autre résultat."
+SAY.cinna flowchart.652.Notebook,,Reddening of eyes. Failure.,Irritation oculaire. Échec.
+SAY.cinna flowchart.653.,,"I flip through the notebook, past dozens of recipes, each more complicated than the last.","Je feuillette le carnet, passant devant des dizaines de recettes, toutes plus compliquées les unes que les autres."
+SAY.cinna flowchart.655.Notebook,,Heartburn. Failure.,Brûlures d'estomac. Échec.
+SAY.cinna flowchart.657.Notebook,,Temporary Paralyis. Failure.,Paralysie temporaire. Échec.
+SAY.cinna flowchart.659.Notebook,,Mental Degradation. Failure.,Dégradation mentale. Échec.
+SAY.cinna flowchart.661.Notebook,,Loss of eyesight. Failure.,Perte de la vue. Échec.
+SAY.cinna flowchart.663.Notebook,,Loss of motor control. Failure.,Perte du contrôle moteur. Échec.
+SAY.cinna flowchart.664.,,"As I continue, the recipes start to get shorter again, less precise, the handwriting shakier.","Au fur et à mesure que j'avance, les recettes redeviennent plus courtes, moins précises, et l'écriture plus tremblante."
+SAY.cinna flowchart.665.,,"Entire pages have been dedicated to elaborate rants, or covered in ink, or ripped right out of the notebook.","Des pages entières ont été consacrées à de longues tirades, recouvertes d'encre ou tout simplement arrachées du carnet."
+SAY.cinna flowchart.666.,,"Eventually, I find it. The last recipe.","Finalement, je la trouve. La dernière recette."
+SAY.cinna flowchart.668.Notebook,,All following procedure must be done during the night of a half-moon or the day directly following it. ,Toutes les étapes qui suivent doivent être effectuées pendant la nuit de la demi-lune ou le jour qui la suit.
+SAY.cinna flowchart.669.Notebook,,"Use a mortar and pestle to mix together a paste of Hemlock, Arum Lily, St John's Wort, and Lavender.","À l'aide d'un mortier et d'un pilon, mélangez la ciguë, l'arum, le millepertuis et la lavande jusqu'à obtenir une pâte."
+SAY.cinna flowchart.670.Notebook,,"The exact quantity doesn't matter, but the proportions should be roughly even. Apply that paste evenly to the surface of a bezoar.","La quantité exacte n'a pas d'importance, mais les proportions doivent être à peu près égales. Appliquez cette pâte uniformément sur la surface d'un bézoard."
+SAY.cinna flowchart.671.Notebook,,"Allow the bezoar to soak for a few minutes in a bowl of warm water, then remove it.","Laissez le bézoard tremper quelques minutes dans un bol d'eau tiède, puis retirez-le."
+SAY.cinna flowchart.672.Notebook,,"A small amount of sediment should have formed at the bottom of the bowl. This is your mixture, ready for consumption.","Une petite quantité de sédiments devrait s'être déposée au fond du bol. Voilà votre préparation, prête à être consommée."
+SAY.cinna flowchart.673.Notebook,,Result — Success.,Résultat — Succès.
+SAY.cinna flowchart.674.,,"I close the book, my heart pounding. Could it really work? A potion that lets you change your body to whatever your heart desires?","Je ferme le carnet, mon cœur bat à tout rompre. Est-ce que ça pourrait vraiment marcher ? Une potion qui permet de transformer son corps en tout ce que l'on désire ?"
+SAY.cinna flowchart.675.,,Could it change my face? Would it be permanent?,Est-ce que cela pourrait modifier mon visage ? Est-ce que ce serait définitif ?
+SAY.cinna flowchart.676.,,"For a while, my mind runs wild with the possibilities. I could change my face and my name.","Pendant un moment, mon imagination s'emballe à l'idée de toutes les possibilités. Je pourrais changer de visage et de nom."
+SAY.cinna flowchart.677.,,"I could move to another country, to the other side of the world. I could escape, from the Duke, and even from Mary.","Je pourrais partir m'installer dans un autre pays, à l'autre bout du monde. Je pourrais m'enfuir, loin du duc, et même loin de Mary."
+SAY.cinna flowchart.678.,,"She hasn't done anything to hurt me yet, but I know deep down that it's only a matter of time.","Elle ne m'a encore rien fait de mal, mais je sais au fond de moi que ce n'est qu'une question de temps."
+SAY.cinna flowchart.679.,,Even my parents abandoned me. She won't be any different.,Même mes parents m'ont abandonné. Elle ne fera pas exception.
+SAY.cinna flowchart.681.,,My thoughts are interrupted by what sounds like a crash coming from the other room.,Mes pensées sont interrompues par ce qui ressemble à un bruit de choc provenant de l'autre pièce.
+SAY.cinna flowchart.682.,,"Gingerly, I ease myself onto my wounded leg and pace over the door. I open it a crack and peer through.",Je m'appuie tout doucement sur ma jambe blessée et j'avance jusqu'à la porte. Je l'entrouvre légèrement et jette un coup d'œil à l'intérieur.
+SAY.cinna flowchart.685.Hazel,,Mary? Are you alright?,Mary ? Tout va bien ?
+SAY.cinna flowchart.686.,,"The room is dark, the only illumination coming from a single log burning away in the fireplace.","La pièce est plongée dans l'obscurité, la seule source de lumière provient d'une bûche qui brûle dans la cheminée."
+SAY.cinna flowchart.687.,,"I can see Mary's silhouette, huddled at the very edge of the darkness, completely still.","Je distingue la silhouette de Mary, recroquevillée dans le noir, parfaitement immobile."
+SAY.cinna flowchart.689.Hazel,,Mary?,Mary ?
+SAY.cinna flowchart.692.Mary,,"I'm alright, dear. You should go back to bed.","Je vais bien, ma chère. Tu devrais retourner te coucher."
+SAY.cinna flowchart.693.,,Her voice sounds dry and raspy. I take a step forward.,Sa voix est sèche et rauque. Je fais un pas en avant.
+SAY.cinna flowchart.695.Hazel,,Are you sure? I thought I heard a crash.,Vous êtes sûre ? j’ai cru entendre un « boum ».
+SAY.cinna flowchart.697.Mary,,"Please, don't worry about me.","Je t’en prie, ne t’inquiète pas pour moi."
+SAY.cinna flowchart.699.,,"She moves backwards slightly, dragging herself along the floor, further into the shadows.","Elle recule légèrement, se traînant sur le sol, pour s'enfoncer davantage dans l'ombre."
+SAY.cinna flowchart.700.,,"My eyes are starting to adjust to the darkness, though, and I can almost make out her face...","Mes yeux commencent à s'habituer à l'obscurité, et j'arrive presque à distinguer son visage..."
+SAY.cinna flowchart.702.Hazel,,I actually had something I wanted to ask you. It was...,"En fait, j'avais une question à vous poser. C'était…"
+SAY.cinna flowchart.705.Mary,,GET OUT OF HERE!,SORS DE LÀ !
+SAY.cinna flowchart.707.,,I jolt backwards.,Je sursaute.
+SAY.cinna flowchart.709.Mary,,"I— I'm sorry, dear, I've had a very tiring day. Can we talk about it in the morning?","Je… Je suis désolée, ma chère, j'ai eu une journée très fatigante. On pourrait en reparler demain matin ?"
+SAY.cinna flowchart.712.,,"I nod furtively, and hurry back to my bedroom, closing the door behind me as firmly as I can.","J'acquiesce discrètement d'un signe de tête, puis je me dépêche de regagner ma chambre en fermant la porte derrière moi aussi fermement que possible."
+SAY.cinna flowchart.713.,,"That night, I don't get much sleep. I can't stop thinking about what I saw in the darkness.","Cette nuit-là, je n'ai pas beaucoup dormi. Je n'arrête pas de repenser à ce que j'ai vu dans l'obscurité."
+SAY.cinna flowchart.714.,,Mary's face hadn't moved an inch. She hadn't even looked like she was breathing.,Le visage de Mary n'avait pas bougé d'un pouce. On aurait même dit qu'elle ne respirait pas.
+SAY.cinna flowchart.715.,,"Her skin, pale as marble, was covered in hairline cracks. Her lips were painted cherry-red, smooth as stone.","Sa peau, pâle comme du marbre, était parcourue de fines fissures. Ses lèvres, d'un rouge sang, étaient lisses comme de la pierre."
+SAY.cinna flowchart.716.,,"And her eyes were empty, gaping holes.","Et ses yeux étaient complètement vides, des trous béants."
+CHARACTER.Mary,,Mary,Mary
+CHARACTER.Hazel,,Hazel,Hazel
+CHARACTER.Notebook,,Notebook,Carnet

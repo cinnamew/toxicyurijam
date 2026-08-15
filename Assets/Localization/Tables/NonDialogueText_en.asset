@@ -141,8 +141,204 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6092615622582272
-    m_Localized: put anything here. this key is to check if the language is supported
-      or not
+    m_Localized: put anything here AFTER everything else is done :) be silly with
+      it if you want!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9173218161057792
+    m_Localized: Prologue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9173260179595264
+    m_Localized: hide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174273091428352
+    m_Localized: skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174288400637952
+    m_Localized: auto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174301474283520
+    m_Localized: logs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174492562579456
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174537429049344
+    m_Localized: SFX Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174563714752512
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174588272402432
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174611164913664
+    m_Localized: Text Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174644941643776
+    m_Localized: Auto Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174667637022720
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174735446335488
+    m_Localized: Choose your preferences
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174769965457408
+    m_Localized: Exit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174812218875904
+    m_Localized: History
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174883723370496
+    m_Localized: View previous dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174933325209600
+    m_Localized: About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9174972315459584
+    m_Localized: Trigger warnings, credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9175010018058240
+    m_Localized: '<b><u>Credits:</b></u>
+
+      <b>Art: </b>PocketNii (Art Director),
+      Destringe, Yein
+
+      <b>Code:</b> BallisticBear703 (Lead Programmer), cinnamew
+      (Producer/Project Lead), FullyRendered
+
+      <b>Sound:</b> LAVAGXRL
+
+      <b>Writing:
+      </b>Astra'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176085613764608
+    m_Localized: "<b>Playtesters:</b> Ommtdh, appletofu12, Caribou, \u200Bhideokinoshita,
+      Simone,\u200B soup"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176110230134784
+    m_Localized: '<b><u>Content Warnings:</b></u>
+
+      violence, light gore/blood,
+      death, abuse, implied sexual trauma, exploitation, profanity, brief mentions
+      of nudity.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176288794238976
+    m_Localized: Chapter Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176330506592256
+    m_Localized: Go back to different points of the story.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176370859991040
+    m_Localized: Prologue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176432549814272
+    m_Localized: Chapter 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176470332104704
+    m_Localized: Chapter 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176496668139520
+    m_Localized: Chapter 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176685130801152
+    m_Localized: Chapter 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176723944890368
+    m_Localized: Chapter 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176758623395840
+    m_Localized: Chapter 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176794862182400
+    m_Localized: Chapter 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176400589217792
+    m_Localized: Hazel resolves to die, and Mary intervenes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176451424182272
+    m_Localized: Hazel learns a thing or two about outward appearances.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176486220128256
+    m_Localized: "Hazel picks flowers, to Mary\u2019s delight."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176514162581504
+    m_Localized: Hazel visits town, makes a new friend, and hears a horror story.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176708463714304
+    m_Localized: Hazel gets a haircut and finds an old scar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176743398072320
+    m_Localized: "Hazel takes a bath and admires Mary\u2019s form."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176783285903360
+    m_Localized: Hazel gets eaten, gets lavender, and gets stared at by strangers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176814420221952
+    m_Localized: A visitor comes to call.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9176824624963584
+    m_Localized: Ending 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177740761620480
+    m_Localized: Ending 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177758952316928
+    m_Localized: Ending 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177722994548736
+    m_Localized: Hazel escapes from Mary.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177750416908288
+    m_Localized: Hazel accepts Mary's love. Their happy ending begins here!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9177766787276800
+    m_Localized: The forbidden potion.
     m_Metadata:
       m_Items: []
   references:

@@ -26,6 +26,127 @@ MonoBehaviour:
     m_Localized: im fwench
     m_Metadata:
       m_Items: []
+  - m_Id: 814125932544
+    m_Localized: Nouvelle Partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 937048399872
+    m_Localized: Chapitres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1293631348736
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1307996839936
+    m_Localized: Quitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3492243562496
+    m_Localized: "Cr\xE9dits"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3658619019264
+    m_Localized: "<b>Astra</b> - \xC9criture"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3682732072960
+    m_Localized: "pr\xE9sidente du club des admiratrices des femmes violentes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3770464329728
+    m_Localized: <b>BallisticBear703</b> - Programmeur en chef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3846716776448
+    m_Localized: "Jonathan \xAB le saint \xBB et ses corrections de bugs \xE0 2 heures
+      du matin"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3865112993792
+    m_Localized: <b>cinnamew</b> - Directrice, programmatrice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3877700100096
+    m_Localized: "des commits git philosophiques qui s'\xE9parpillent un peu partout"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4337676836864
+    m_Localized: <b>Destringe</b> - Artiste polyvalent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4445122322432
+    m_Localized: "illustrations conceptuelles, conception de mini-jeux et d'arri\xE8re-plans,
+      sc\xE9nario"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3890492727296
+    m_Localized: <b>LAVAGXRL</b> - Compositrice, conceptrice sonore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3908612120576
+    m_Localized: bip-bip, mutilation de mandarine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3922855976960
+    m_Localized: <b>PocketNii</b> - Directrice artistique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3936168697856
+    m_Localized: "conception et design des personnages, CGs, UI design, animation
+      Live2D, rendu final des arri\xE8re-plans, sc\xE9nario"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3949141680128
+    m_Localized: <b>Yein</b> - Artiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3969714741248
+    m_Localized: "assistante lineart, arri\xE8re-plan de mini-jeu + portraits"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3986542288896
+    m_Localized: "Remerciements : Fully Rendered, Ommtdh, tous nos adorables testeurs,
+      et vous qui avez jou\xE9 :)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017877934080
+    m_Localized: "N'h\xE9sitez pas \xE0 noter et \xE0 nous suivre si \xE7a vous a
+      plu !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4058877255680
+    m_Localized: Menu Principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5157345322590208
+    m_Localized: "Langue : Fran\xE7ais"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158066772238336
+    m_Localized: ???
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158380933996544
+    m_Localized: Maison de Mary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158505576128512
+    m_Localized: "For\xEAt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158534235807744
+    m_Localized: Village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158564002783232
+    m_Localized: "Maison incendi\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5158593656512512
+    m_Localized: "Clairi\xE8re"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

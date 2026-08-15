@@ -1,0 +1,20 @@
+Key,Description,Standard,fr
+SAY.cinna flowchart.1177.,,"At first, I intend to head back home immediately. Then, I remember what's waiting for me there, and I pause.","Au début, je comptais rentrer à la maison sans tarder. Puis, je repense à ce qui m'y attend, et je me fige."
+SAY.cinna flowchart.1178.,,"An image of Adrianne flashes through my mind. I need someone to talk to, someone who won't hurt me.{wc}I turn around, and head towards the village. I break out of the forest, and my pace quickens.","L'image d'Adrianne me traverse l'esprit. J'ai besoin de quelqu'un à qui parler, quelqu'un qui ne me fera pas de mal.{wc}Je fais demi-tour et me dirige vers le village. Une fois sortie de la forêt, j'accélère le pas."
+SAY.cinna flowchart.1180.,,"When I finally reach the village, I'm almost running. I come to a halt in the town centre, and look around, when—","Quand j'arrive enfin au village, je me retrouve presque à courir. Je m'arrête sur la place et je regarde autour de moi, quand soudain…"
+SAY.cinna flowchart.1182.Crier,,Hear ye! Hear ye!,"Oyez, oyez !"
+SAY.cinna flowchart.1183.Crier,,"Justice has been served. Another fallen soul has been purged from this world! Witness her fate, and repent your sins! Repent!",Justice a été faite. Une autre âme perdue a été bannie de ce monde ! Soyez témoins de son sort et repentez-vous de vos péchés ! Repentez-vous !
+SAY.cinna flowchart.1185.,,I don't hear a word he says.,Je n'entends pas un mot de ce qu'il dit.
+SAY.cinna flowchart.1186.,,In the centre of the town square is a makeshift gallows.,Au centre de la place du village se dresse une potence de fortune.
+SAY.cinna flowchart.1187.,,"Hanging in that gallows, swinging slowly in the faint wind, is a lump of flesh; grey, rotten, and lifeless...","Accroché à cette potence, se balançant lentement dans la brise légère, se trouve un morceau de chair : gris, pourri et sans vie…"
+SAY.cinna flowchart.1190.,,My blood runs cold.,Mon sang ne fait qu'un tour.
+SAY.cinna flowchart.1191.,,I collapse to my knees. What happened? What in god's name could have happened here?,"Je m'effondre sur place. Que s'est-il passé ? Mais qu'est-ce qui a bien pu se passer ici, bon sang ?"
+SAY.cinna flowchart.1192.,,"Just three days ago, Adrianne had been so full of life. Why...","Il y a à peine trois jours, Adrianne était encore si joyeuse. Pourquoi…"
+SAY.cinna flowchart.1193.,,"Why not Mary? She's the one they were hunting for, right? She's the damned witch! She's the one who... deserves... to...","Pourquoi pas Mary ? C'est elle qu'ils recherchaient, non ? C'est elle, la maudite sorcière ! C'est elle qui… mérite… d'être…"
+SAY.cinna flowchart.1195.,,"I can't afford any more attention, and I can't bear to stay here even a second longer, so I run.","Je ne peux plus supporter le regard des gens. Je ne peux pas rester ici une seconde de plus, alors je m'enfuis."
+SAY.cinna flowchart.1197.,,"Without any thought of where I'm running to, my feet pick up speed until the world around me seems to fade into the distance.","Sans même réfléchir à l'endroit où je vais, je me mets à courir de plus en plus vite, jusqu'à ce que le monde qui m'entoure semble s'effacer peu à peu."
+SAY.cinna flowchart.1194.,,I bite my lip to fight back the tears. I'm already getting some stares from the crowd.,Je me mords la lèvre pour retenir mes larmes. Je sens déjà que des gens me regardent dans la foule.
+SAY.cinna flowchart.1198.,,"I only stop, and collapse onto the dirt, gasping for breath, when the village is no longer in sight.","Je m'arrête et m'effondre au sol, à bout de souffle, une fois que le village a disparu de ma vue."
+CHARACTER.Hazel,,Hazel,Hazel
+CHARACTER.Note,,Note,Mot
+CHARACTER.Crier,,Crier,Crieur
