@@ -341,6 +341,54 @@ MonoBehaviour:
     m_Localized: The forbidden potion.
     m_Metadata:
       m_Items: []
+  - m_Id: 9473145013526528
+    m_Localized: Secret Ending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9476902107471872
+    m_Localized: Music powered by BreakingCopyright
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477216722214912
+    m_Localized: Prologue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477392815874048
+    m_Localized: 'Day One '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477581505028096
+    m_Localized: That Night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477695963389952
+    m_Localized: Day Two
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477831691067392
+    m_Localized: Day Three
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478020380221440
+    m_Localized: Day Four
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478094820728832
+    m_Localized: Day Five
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478167306690560
+    m_Localized: Day Six
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478271962963968
+    m_Localized: Day Seven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478351025594368
+    m_Localized: Several Months Later
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

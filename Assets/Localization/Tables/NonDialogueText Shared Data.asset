@@ -319,6 +319,54 @@ MonoBehaviour:
     m_Key: 'Chap Select: end 3 desc'
     m_Metadata:
       m_Items: []
+  - m_Id: 9473145013526528
+    m_Key: Secret Ending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9476902107471872
+    m_Key: secret end music credit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477216722214912
+    m_Key: prologue title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477392815874048
+    m_Key: day 1 title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477581505028096
+    m_Key: that night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477695963389952
+    m_Key: day 2 title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9477831691067392
+    m_Key: d3 title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478020380221440
+    m_Key: d4 title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478094820728832
+    m_Key: d5 title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478167306690560
+    m_Key: d6 title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478271962963968
+    m_Key: d7 title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9478351025594368
+    m_Key: Several Months Later title
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
