@@ -1,0 +1,100 @@
+Key,Description,Standard
+SAY.Flowchart.3.Hazel,,"{i}Mary did say a lot of the substances she worked with were dangerous, so I probably shouldn't go any closer.{/i}"
+SAY.Flowchart.56.Hazel,,"{i}They are such wonderful colours, though.{/i}"
+SAY.Flowchart.9.,,"{i}The bizarre creature floats in its saline solution, twitching occasionally. I make sure to stay far away. The thing looks like it could be carrying any number of hideous diseases.{/i}"
+SAY.Flowchart.13.Hazel,,"Here, kitty, kitty."
+SAY.Flowchart.32.,,"{i}Helena looks down at me with a distinct dispassion. She yawns, closes her eyes, and returns to dozing.{/i}"
+SAY.Flowchart.17.Hazel,,"{i}I wonder if Mary has a garden? If she does, I'd quite like to see it.{/i}"
+SAY.Flowchart.21.,,"{i}Leaning against the table is a rolled-up canvas, covered in several layers of dust. I pull it out, and unfurl it, to reveal a painting, worn and cracked with age.{/i}"
+SAY.Flowchart.38.,,"{i}The painting is a portrait of a young woman, sitting in a field of daffodils, a flower crown woven around her head.{/i}"
+SAY.Flowchart.33.,,"{i}Between the bright sun, the intricate detail in the flowers, the joyful expression on the woman's face - it's obvious that this was painted with a love that bordered on reverence. It's beautiful.{/i}"
+SAY.Flowchart.25.,,"{i}The inside is empty, except for a single lone book, its cover delicately embroidered.{/i}"
+SAY.Flowchart.34.,,"{i}I flip through it quickly, and am shocked to find intricately detailed illustrations of all kinds of plants and flowers.{/i}"
+SAY.Flowchart.35.,,{i}Did Mary draw all these? How long did it take? How long must she have studied...?{/i}
+SAY.Flowchart.37.,,"{i}Something about it draws me in, and I find myself unable to resist.{/i}"
+SAY.Flowchart.36.,,{i}I tuck the small book into my pocket.{/i}
+SAY.Flowchart.54.,,"{i}I hear a noise behind me, and spin around.{/i}"
+SAY.Flowchart.770.,,The small grey book I took from Mary's cupboard turns out to be far more engrossing than I had expected.
+SAY.Flowchart.771.,,I stay up reading through it until the sky outside starts getting dark.
+SAY.Flowchart.772.,,"According to the signature on the first page, this book is a collection of Mary's own notes."
+SAY.Flowchart.773.,,"A lot of it is completely indecipherable to me - notes written in shorthand or in code, elaborate recipes with no mention as to what they create."
+SAY.Flowchart.774.,,"All the same, I find myself eagerly flicking through detailed diagrams of flowers, and descriptions of strange and fascinating ingredients."
+SAY.Flowchart.775.,,"Several of the passages are written in diary format, and one section that catches my attention in particular begins about halfway through the notebook."
+SAY.Flowchart.776.Notebook,,"As Marquis Elerra once wrote, ""despite the seemingly endless advance of alchemical principles, a strong heart invariably trumps best practices."""
+SAY.Flowchart.778.Notebook,,It is something I have observed several times during my work as a doctor.
+SAY.Flowchart.779.Notebook,,"Patients who strongly wish to recover, and have a clear picture of what recovery will look like for them, will often recover twice as fast as those who don't."
+SAY.Flowchart.780.Notebook,,I have even seen people slip from this mortal coil with no cause other than emotional fatigue. The heart has power over the body's shell.
+SAY.Flowchart.782.Notebook,,"All potions and rituals that I have discovered have a specific, targeted effect, usually based on the properties of the ingredients."
+SAY.Flowchart.783.Notebook,,What if I were to develop a concoction that could properly harness the potential of the mind's power over the body?
+SAY.Flowchart.784.Notebook,,That could allow someone to reshape their form as they wished?
+SAY.Flowchart.785.Notebook,,It would be akin to the discovery of an organic philosopher's stone!
+SAY.Flowchart.786.Notebook,,"It sounds absurd, I know. But I stand at the precipice of centuries of discovery in the alchemical arts!"
+SAY.Flowchart.788.Notebook,,The sages in their gleaming towers have made their voices clear - biological alchemy is the realm of madmen.
+SAY.Flowchart.789.Notebook,,"The practice is meant for ""transmutation"" and ""industry"", and nothing more."
+SAY.Flowchart.790.Notebook,,But they have no eyes on the ground. What they don't know won't hurt them.
+SAY.Flowchart.792.,,"I turn the page, and see what looks like a recipe, a dozen ingredients measured to exact amounts."""
+SAY.Flowchart.793.,,"Beneath them all, three words are written, in calm, forceful handwriting."""
+SAY.Flowchart.794.Notebook,,"Result -Nausea. Failure."""
+SAY.Flowchart.796.,,"I turn the page again, and find another recipe, even longer, and another result."""
+SAY.Flowchart.797.Notebook,,"Reddening of eyes. Failure."""
+SAY.Flowchart.798.,,"I flip through the notebook, past dozens of recipes, each more complicated than the last."""
+SAY.Flowchart.800.Notebook,,"Heartburn. Failure."""
+SAY.Flowchart.802.Notebook,,"Temporary Paralyis. Failure."""
+SAY.Flowchart.804.Notebook,,"Mental Degradation. Failure."""
+SAY.Flowchart.806.Notebook,,"Loss of eyesight. Failure."""
+SAY.Flowchart.808.Notebook,,"Loss of motor control. Failure."""
+SAY.Flowchart.809.,,"As I continue, the recipes start to get shorter again, less precise, the handwriting shakier."""
+SAY.Flowchart.810.,,"Entire pages have been dedicated to elaborate rants, or covered in ink, or ripped right out of the notebook."""
+SAY.Flowchart.811.,,"Eventually, I find it. The last recipe."""
+SAY.Flowchart.813.Notebook,,"All following procedure must be done during the night of a half-moon or the day directly following it. """
+SAY.Flowchart.814.Notebook,,"Use a mortar and pestle to mix together a paste of Hemlock, Arum Lily, St John's Wort, and Lavender."""
+SAY.Flowchart.815.Notebook,,"The exact quantity doesn't matter, but the proportions should be roughly even. Apply that paste evenly to the surface of a bezoar."""
+SAY.Flowchart.816.Notebook,,"Allow the bezoar to soak for a few minutes in a bowl of warm water, then remove it."""
+SAY.Flowchart.817.Notebook,,"A small amount of sediment should have formed at the bottom of the bowl. This is your mixture, ready for consumption."""
+SAY.Flowchart.818.Notebook,,"Result - Success."""
+SAY.Flowchart.819.,,"I close the book, my heart pounding. Could it really work? A potion that lets you change your body to whatever your heart desires?"""
+SAY.Flowchart.820.,,"Could it change my face? Would it be permanent?"""
+SAY.Flowchart.821.,,"For a while, my mind runs wild with the possibilities. I could change my face and my name."""
+SAY.Flowchart.822.,,"I could move to another country, to the other side of the world. I could escape, from the Duke, and even from Mary."""
+SAY.Flowchart.823.,,"She hasn't done anything to hurt me yet, but I know deep down that it's only a matter of time."""
+SAY.Flowchart.824.,,"Even my parents abandoned me. She won't be any different."""
+SAY.Flowchart.826.,,"My thoughts are interrupted by what sounds like a crash coming from the other room."""
+SAY.Flowchart.827.,,"Gingerly, I ease myself onto my wounded leg and pace over the door. I open it a crack and peer through."""
+SAY.Flowchart.830.Hazel,,"Mary? Are you alright?"""
+SAY.Flowchart.831.,,"The room is dark, the only illumination coming from a single log burning away in the fireplace."""
+SAY.Flowchart.832.,,"I can see Mary's silhouette, huddled at the very edge of the darkness, completely still."""
+SAY.Flowchart.834.Hazel,,"Mary?"""
+SAY.Flowchart.837.Mary,,"I'm alright, dear. You should go back to bed."""
+SAY.Flowchart.838.,,"Her voice sounds dry and raspy. I take a step forward."""
+SAY.Flowchart.840.Hazel,,"Are you sure? I thought I heard a crash."""
+SAY.Flowchart.842.Mary,,"Please, don't worry about me."""
+SAY.Flowchart.844.,,"She moves backwards slightly, dragging herself along the floor, further into the shadows."""
+SAY.Flowchart.845.,,"My eyes are starting to adjust to the darkness, though, and I can almost make out her face..."""
+SAY.Flowchart.847.Hazel,,"I actually had something I wanted to ask you. It was..."""
+SAY.Flowchart.850.Mary,,"GET OUT OF HERE!"""
+SAY.Flowchart.852.,,"I jolt backwards."""
+SAY.Flowchart.854.Mary,,"I- I'm sorry, dear, I've had a very tiring day. Can we talk about it in the morning?"""
+SAY.Flowchart.857.,,"I nod furtively, and hurry back to my bedroom, closing the door behind me as firmly as I can."""
+SAY.Flowchart.858.,,"That night, I don't get much sleep. I can't stop thinking about what I saw in the darkness."""
+SAY.Flowchart.859.,,"Mary's face hadn't moved an inch. She hadn't even looked like she was breathing."""
+SAY.Flowchart.860.,,"Her skin, pale as marble, was covered in hairline cracks. Her lips were painted cherry-red, smooth as stone."""
+SAY.Flowchart.861.,,"And her eyes were empty, gaping holes."""
+SAY.Flowchart.869.Mary,,Enjoying yourself?
+SAY.Flowchart.872.Hazel,,"I— I'm sorry! I didn't mean to—"""
+SAY.Flowchart.873.,,"I stammer out an apology, but she brushes it aside with a loose wave of her hand."
+SAY.Flowchart.876.Mary,,"No, it's fine. I just wasn't expecting you to be so interested in the alchemical arts."
+SAY.Flowchart.878.Mary,,"Tell you what, why don't I show you around properly sometime?"
+SAY.Flowchart.880.Hazel,,"Well, I... don't want to be a bother."
+SAY.Flowchart.882.Mary,,"No, I'd be happy to do it. But, for now, I'd like to get some work done, if that's alright."
+SAY.Flowchart.883.,,Mary strides across the room towards me. It's only now that I really notice how tall she is.
+SAY.Flowchart.885.Hazel,,I'm sorry. I should have asked for permission first.
+SAY.Flowchart.887.Mary,,"Please, don't be. I don't mind."
+SAY.Flowchart.891.Mary,,"Now, do you need any help getting back to your room?"
+SAY.Flowchart.893.Hazel,,"No, I can manage on my own."
+SAY.Flowchart.896.Mary,,That's wonderful!
+SAY.Flowchart.897.,,"I give her a hurried nod, and pace out of the room."
+SAY.Flowchart.898.,,"I move as carefully as I can, to make sure she doesn't see the small grey book I have held by my side."
+SAY.Flowchart.899.,,"For some reason, I just couldn't bring myself to let go of it."
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel
+CHARACTER.Notebook,,Notebook

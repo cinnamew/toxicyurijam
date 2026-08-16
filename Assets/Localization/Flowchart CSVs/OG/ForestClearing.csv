@@ -1,0 +1,61 @@
+Key,Description,Standard
+SAY.Flowchart.46.Hazel,,What about that plant?
+SAY.Flowchart.47.Mary,,"Ah. That's Hemlock, a highly poisonous plant. It should be fine to touch, but you should never eat it. Even a single flower would be enough to kill you."
+SAY.Flowchart.48.,,"{i}She leans forwards with her scissors, and cuts off a single stalk, tucking it into a small pouch.{/i}"
+SAY.Flowchart.49.Mary,,"If diluted properly, the poison loses its lethality, making for a very strong paralytic agent."
+SAY.Flowchart.50.Mary,,"It's quite a relaxing experience, actually. Do you want a try?"
+SAY.Flowchart.52.Hazel,,I-I'm alright.
+SAY.Flowchart.59.Hazel,,What about this one?
+SAY.Flowchart.61.Mary,,The Arum Lily. It's a common ingredient in several remedies.
+SAY.Flowchart.62.Mary,,"Here, hold my bag."
+SAY.Flowchart.60.,,"{i}She hands me the bag, and my arms almost give out from the sudden weight. It feels like it's stuffed with metal plates. What does she keep in it?{/i}"
+SAY.Flowchart.67.,,"{i}Still, I'm able to hold the bag open on the ground as Mary works her way through the patch of lilies, handing me the stalks to pack away.{/i}"
+SAY.Flowchart.102.,,"{i}Eventually, I pack away the last of the stalks, and she takes the bag back from me, swinging over her shoulder with one arm.{/i}"
+SAY.Flowchart.68.,,"{i}I notice a patch of yellow flowers, and move over to take a closer look, fascinated by the flower's intricate array of petals and stamens.{/i}"
+SAY.Flowchart.69.Hazel,,These are pretty.
+SAY.Flowchart.71.Mary,,"They're useful, too. Saint John's Wort."
+SAY.Flowchart.70.Mary,,"And that's {i}""Wort""{/i} with an {i}""O""{/i}, mind you."
+SAY.Flowchart.72.Mary,,"If you ever want to take up alchemy yourself, knowing the proper spellings will be essential."
+SAY.Flowchart.73.Hazel,,I—
+SAY.Flowchart.74.,,"{i}For a moment, I am unsure what to say. For so long now, my future has been a bleak, intangible thing. For her to say such an incredibly hopeful statement, so casually...{/i}"
+SAY.Flowchart.76.Hazel,,Do you really mean it?
+SAY.Flowchart.75.Mary,,Mean what?
+SAY.Flowchart.81.Hazel,,That I could become an alchemist?
+SAY.Flowchart.78.Mary,,"Of course. As long as you have the passion for it, the rest is just learning. Anyone can do that."
+SAY.Flowchart.83.Mary,,"If you want, I could even... teach you."
+SAY.Flowchart.84.,,{i}Saying the words out loud feels like some sort of sacrilege. My voice barely raises above a whisper.{/i}
+SAY.Flowchart.85.Hazel,,I'd like that.
+SAY.Flowchart.86.,,"{i}Mary gives me a warm smile, then stands, and hands me the last stalk.{/i}"
+SAY.Flowchart.87.Mary,,"As I was saying, Saint John's Wort is a common remedy for grief. The petals can be crushed into fine powder, or the oils can be extracted and mixed into tea."
+SAY.Flowchart.88.Mary,,I'll brew you a cup later. It should help you get to sleep.
+SAY.Flowchart.8.Mary,,"Don’t mind me, dear. I’m just… taking a break."
+SAY.Flowchart.9.Mary,,"The flowers are lovely this time of year, aren’t they?"
+SAY.Flowchart.11.Hazel,,What about that mushroom? It looks poisonous.
+SAY.Flowchart.12.Mary,,"Oh, it is. Just one touch, and your entrails will crawl up your windpipe and out of your mouth."
+SAY.Flowchart.14.Mary,,I've seen it happen only twice before. It's quite the sight.
+SAY.Flowchart.13.Hazel,,Oh.
+SAY.Flowchart.15.,,"I shudder, my mind filling up with gruesome images."
+SAY.Flowchart.16.Hazel,,"You could have just said ""yes"", you know?"
+SAY.Flowchart.17.Mary,,Sorry.
+SAY.Flowchart.18.,,"{i}I run my hand along the carving, feeling its rough ridge.{/i}"
+SAY.Flowchart.20.Hazel,,I wonder who carved this? It's very romantic.
+SAY.Flowchart.22.Mary,,I’m sure it is. Are you enjoying this?
+SAY.Flowchart.21.Hazel,,I... I suppose I am.
+SAY.Flowchart.23.Mary,,"That's great. We can go on more walks through the forest like this, when I can find the time."
+SAY.Flowchart.19.Mary,,I still have many other places I'd like to show you.
+SAY.Flowchart.24.Hazel,,"Oh, a Daffodil."
+SAY.Flowchart.26.Mary,,Only one flower. I won't be able to do much with this.
+SAY.Flowchart.25.Hazel,,Can I have it?
+SAY.Flowchart.27.Mary,,Why?
+SAY.Flowchart.28.Hazel,,It's just so pretty...
+SAY.Flowchart.29.Mary,,Sure. Here you go.
+SAY.Flowchart.30.,,"{i}She hands me the stalk, and I tuck it into my pocket.{/i}"
+SAY.Flowchart.91.Hazel,,"Oh, what's that flower called?"
+SAY.Flowchart.94.Mary,,There you are. That's the one I was looking for.
+SAY.Flowchart.95.,,"{i}She clips off a few stalks, tucking them into her bag.{/i}"
+SAY.Flowchart.97.Hazel,,"But, what's its name?"
+SAY.Flowchart.98.,,"{i}Mary brushes a hand through her hair, and chuckles sheepishly.{/i}"
+SAY.Flowchart.99.Mary,,"Oh, you don't have to worry about that."
+SAY.Flowchart.101.Mary,,"This one's... for me, alright?"
+CHARACTER.Mary,,Mary
+CHARACTER.Hazel,,Hazel

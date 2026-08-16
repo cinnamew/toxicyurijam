@@ -959,6 +959,8 @@ GameObject:
   - component: {fileID: 414045190}
   - component: {fileID: 414045197}
   - component: {fileID: 414045196}
+  - component: {fileID: 414045199}
+  - component: {fileID: 414045198}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -991,9 +993,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 414045170}
+  - {fileID: 414045199}
   selectedCommands:
-  - {fileID: 414045181}
+  - {fileID: 414045198}
   variables: []
   description: 
   stepPause: 0
@@ -1021,7 +1023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 49
     y: 64
-    width: 117.368
+    width: 117.37
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1715,7 +1717,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 208
     y: 211
-    width: 77.496
+    width: 77.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1748,7 +1750,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 147
     y: 131
-    width: 93.592
+    width: 93.59
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1779,7 +1781,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78
     y: 186
-    width: 86.392
+    width: 86.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1811,7 +1813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33
     y: 138
-    width: 72.968
+    width: 72.97
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1845,7 +1847,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77
     y: 246.82835
-    width: 75.591995
+    width: 75.59
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2651,6 +2653,51 @@ MonoBehaviour:
   fadeDuration: 0
   waitUntilFinished: 0
   audioSourceOLD: {fileID: 0}
+--- !u!114 &414045198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414045149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.SetLanguage
+  itemId: 46
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: fr
+  languageCodeOLD: 
+--- !u!114 &414045199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414045149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.Block
+  nodeRect:
+    serializedVersion: 2
+    x: 195.1232
+    y: 383.1237
+    width: 60
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 45
+  blockName: fr
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 414045198}
+  suppressAllAutoSelections: 0
 --- !u!1 &419754599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,6 +2788,52 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 166837901}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &420902417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420902419}
+  - component: {fileID: 420902418}
+  m_Layer: 0
+  m_Name: Localization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &420902418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420902417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeLanguage: 
+  localizationFile: {fileID: 0}
+--- !u!4 &420902419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420902417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &449460787 stripped
 GameObject:
@@ -5532,3 +5625,4 @@ SceneRoots:
   - {fileID: 312882969}
   - {fileID: 1129362129}
   - {fileID: 1626324924}
+  - {fileID: 420902419}
